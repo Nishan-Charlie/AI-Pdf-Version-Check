@@ -1,114 +1,119 @@
 """
-Text Cleaning & Normalization Module
-─────────────────────────────────────
-Removes noise from extracted PDF text and standardizes characters
-for consistent NLP processing.
+Text Cleaning & Normalisation
+─────────────────────────────
+Strips the furniture out of PDF-extracted regulation text — contents pages,
+running headers, page numbers — and standardises characters so that two
+documents typeset by different regulators compare on their words rather than
+on their punctuation.
 """
+
+from __future__ import annotations
 
 import re
 import unicodedata
+from collections import Counter
+
+# A contents line: any text trailed by dot leaders and a page number.
+# Regulators all typeset contents this way, and left in place these become
+# hundreds of phantom clauses that swamp a comparison.
+_CONTENTS_LINE = re.compile(r"^.{0,120}?[.․‧]{4,}\s*\d{1,4}\s*$")
+
+# The same idea without leaders: a short heading ending in a bare page number.
+_CONTENTS_BARE = re.compile(r"^[A-Z][^.!?]{3,70}\s{2,}\d{1,4}\s*$")
+
+_PAGE_NUMBER = re.compile(r"^[-—]?\s*\d{1,4}\s*[-—]?$")
+_PAGE_LABEL = re.compile(r"^[Pp]age\s+\d+(\s+of\s+\d+)?$", re.IGNORECASE)
+_PAGE_OF = re.compile(r"^\d+\s+of\s+\d+$", re.IGNORECASE)
+
+# A running header repeats on most pages. Anything shorter than this that
+# recurs this often is furniture, not content.
+_HEADER_MAX_CHARS = 90
+_HEADER_MIN_REPEATS = 8
+
+_REPLACEMENTS = {
+    "‘": "'", "’": "'",       # curly single quotes
+    "“": '"', "”": '"',       # curly double quotes
+    "–": "-", "—": "-",       # en / em dash
+    "…": "...",                     # ellipsis
+    " ": " ",                       # non-breaking space
+    "​": "", "‌": "", "‍": "", "﻿": "",  # zero-width
+    "­": "",                        # soft hyphen
+    "•": "- ", "●": "- ", "○": "- ",           # bullets
+    "▪": "- ", "·": "- ",
+    "×": "x",                       # multiplication sign in dimensions
+}
 
 
 def clean_text(raw_text: str) -> str:
     """
-    Full cleaning pipeline for raw PDF-extracted text.
-
-    Steps:
-        1. Unicode normalization (NFKD → NFC)
-        2. Standardize special characters (smart quotes, dashes, etc.)
-        3. Remove non-printable / control characters
-        4. Strip common headers, footers, and page numbers
-        5. Collapse excessive whitespace and blank lines
+    Full cleaning pipeline for raw PDF text.
 
     Args:
-        raw_text: The raw text extracted from a PDF.
+        raw_text: Text as it came out of the extractor.
 
     Returns:
-        Cleaned, normalized text ready for clause parsing.
+        Text ready for clause parsing.
     """
-    text = raw_text
-
-    # 1. Unicode normalization
-    text = unicodedata.normalize("NFKD", text)
-    text = unicodedata.normalize("NFC", text)
-
-    # 2. Standardize special characters
+    text = unicodedata.normalize("NFC", unicodedata.normalize("NFKD", raw_text))
     text = _standardize_characters(text)
 
-    # 3. Remove non-printable / control characters (keep newlines and tabs)
-    text = re.sub(r"[^\S\n\t]", " ", text)  # normalize whitespace chars to space
+    # Normalise exotic whitespace to plain spaces, then drop control characters.
+    text = re.sub(r"[^\S\n\t]", " ", text)
     text = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f]", "", text)
 
-    # 4. Strip headers, footers, page numbers
-    text = _strip_headers_footers(text)
+    lines = text.split("\n")
+    lines = _drop_running_headers(lines)
+    lines = [line for line in lines if not _is_furniture(line.strip())]
 
-    # 5. Collapse whitespace
-    text = _collapse_whitespace(text)
-
-    return text.strip()
+    return _collapse_whitespace("\n".join(lines)).strip()
 
 
 def _standardize_characters(text: str) -> str:
-    """Replace typographic characters with their plain-text equivalents."""
-    replacements = {
-        "\u2018": "'",   # Left single quotation mark
-        "\u2019": "'",   # Right single quotation mark
-        "\u201c": '"',   # Left double quotation mark
-        "\u201d": '"',   # Right double quotation mark
-        "\u2013": "-",   # En dash
-        "\u2014": "-",   # Em dash
-        "\u2026": "...", # Horizontal ellipsis
-        "\u00a0": " ",   # Non-breaking space
-        "\u200b": "",    # Zero-width space
-        "\u200c": "",    # Zero-width non-joiner
-        "\u200d": "",    # Zero-width joiner
-        "\ufeff": "",    # BOM / zero-width no-break space
-        "\u00ad": "",    # Soft hyphen
-        "\u2022": "- ",  # Bullet point → dash
-        "\u25cf": "- ",  # Black circle → dash
-        "\u25cb": "- ",  # White circle → dash
-        "\u25aa": "- ",  # Black small square → dash
-        "\u00b7": "- ",  # Middle dot → dash
-    }
-    for old, new in replacements.items():
+    for old, new in _REPLACEMENTS.items():
         text = text.replace(old, new)
     return text
 
 
-def _strip_headers_footers(text: str) -> str:
+def _is_furniture(line: str) -> bool:
+    """True for page numbers, contents entries, and other non-content lines."""
+    if not line:
+        return False
+    if _PAGE_NUMBER.match(line) or _PAGE_LABEL.match(line) or _PAGE_OF.match(line):
+        return True
+    if _CONTENTS_LINE.match(line) or _CONTENTS_BARE.match(line):
+        return True
+    # Stray punctuation left behind by column splitting.
+    if len(line) < 3 and not any(c.isalpha() for c in line):
+        return True
+    return False
+
+
+def _drop_running_headers(lines: list[str]) -> list[str]:
     """
-    Remove common header/footer patterns found in Fire Safety documents.
-    These include page numbers, document IDs, and repetitive header lines.
+    Remove the header or footer printed on every page.
+
+    Identified by repetition rather than by a per-publisher pattern list, which
+    is what lets the pipeline take a PDF from a jurisdiction it has never seen.
+    Lines that open a clause are never removed, however often they repeat.
     """
-    lines = text.split("\n")
-    cleaned_lines = []
+    counts = Counter(
+        stripped for line in lines
+        if 3 < len(stripped := line.strip()) <= _HEADER_MAX_CHARS
+    )
 
-    for line in lines:
-        stripped = line.strip()
+    repeated = {
+        line for line, count in counts.items()
+        if count >= _HEADER_MIN_REPEATS and not line[0].isdigit()
+    }
 
-        # Skip standalone page numbers: "Page 5", "- 12 -", "5 of 20", just a number
-        if re.match(r"^[-—]?\s*\d+\s*[-—]?$", stripped):
-            continue
-        if re.match(r"^[Pp]age\s+\d+(\s+of\s+\d+)?$", stripped):
-            continue
-        if re.match(r"^\d+\s+of\s+\d+$", stripped, re.IGNORECASE):
-            continue
+    if not repeated:
+        return lines
 
-        # Skip very short lines that look like headers/footers (< 5 chars, no alpha)
-        if len(stripped) < 3 and not any(c.isalpha() for c in stripped):
-            continue
-
-        cleaned_lines.append(line)
-
-    return "\n".join(cleaned_lines)
+    return [line for line in lines if line.strip() not in repeated]
 
 
 def _collapse_whitespace(text: str) -> str:
-    """Collapse multiple blank lines and excessive spaces."""
-    # Collapse multiple spaces (but not newlines) into single space
+    """Squeeze runs of spaces and blank lines, and trim every line."""
     text = re.sub(r"[^\S\n]+", " ", text)
-    # Collapse 3+ consecutive newlines into 2
     text = re.sub(r"\n{3,}", "\n\n", text)
-    # Strip trailing whitespace on each line
-    text = "\n".join(line.rstrip() for line in text.split("\n"))
-    return text
+    return "\n".join(line.rstrip() for line in text.split("\n"))

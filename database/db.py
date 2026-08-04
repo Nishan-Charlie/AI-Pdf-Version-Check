@@ -35,13 +35,18 @@ def get_session() -> Session:
     return _SessionFactory()
 
 
-def init_db():
+def init_db() -> list[str]:
     """
-    Create all database tables if they don't already exist.
-    Call this once at application startup.
+    Create missing tables and bring existing ones up to the current schema.
+
+    Safe to call on every start. Returns the migration statements that ran.
     """
+    from database.migrate import migrate
+
     engine = get_engine()
-    Base.metadata.create_all(engine)
+    applied = migrate(engine)      # additive ALTERs first, on live tables
+    Base.metadata.create_all(engine)  # then anything missing outright
+    return applied
 
 
 def reset_db():

@@ -1,9 +1,14 @@
 """
-Comparison Report Data Structures
-──────────────────────────────────
-Dataclasses for representing clause-level semantic diffs between
-two document versions.
+Comparison Report
+─────────────────
+The shape of a finished comparison.
+
+A row holds both sides independently, because in a cross-country comparison
+the two clauses being shown do not share a number, a title, or a section — only
+a subject.
 """
+
+from __future__ import annotations
 
 from dataclasses import dataclass, field
 from enum import Enum
@@ -11,7 +16,8 @@ from typing import Optional
 
 
 class ChangeType(Enum):
-    """Classification of change between two clause versions."""
+    """How a clause differs between the two versions."""
+
     UNCHANGED = "Unchanged"
     MINOR_EDIT = "Minor Edit"
     SIGNIFICANT_CHANGE = "Significant Change"
@@ -19,100 +25,201 @@ class ChangeType(Enum):
     REMOVED = "Removed"
 
 
-# Color mapping for the Streamlit UI
-CHANGE_TYPE_COLORS = {
-    ChangeType.UNCHANGED: "#2ecc71",          # Green
-    ChangeType.MINOR_EDIT: "#f39c12",         # Amber
-    ChangeType.SIGNIFICANT_CHANGE: "#e74c3c", # Red
-    ChangeType.ADDED: "#3498db",              # Blue
-    ChangeType.REMOVED: "#9b59b6",            # Purple
-}
+# Ordered for display: the types an auditor acts on come first.
+CHANGE_TYPE_ORDER = [
+    ChangeType.SIGNIFICANT_CHANGE,
+    ChangeType.ADDED,
+    ChangeType.REMOVED,
+    ChangeType.MINOR_EDIT,
+    ChangeType.UNCHANGED,
+]
 
-CHANGE_TYPE_BG_COLORS = {
-    ChangeType.UNCHANGED: "rgba(46, 204, 113, 0.1)",
-    ChangeType.MINOR_EDIT: "rgba(243, 156, 18, 0.15)",
-    ChangeType.SIGNIFICANT_CHANGE: "rgba(231, 76, 60, 0.15)",
-    ChangeType.ADDED: "rgba(52, 152, 219, 0.15)",
-    ChangeType.REMOVED: "rgba(155, 89, 182, 0.15)",
-}
+
+@dataclass
+class ClauseSide:
+    """One version's half of a comparison row."""
+
+    clause_number: str
+    title: Optional[str]
+    section: Optional[str]
+    content: str
+    ordinal: int
+
+    def as_dict(self) -> dict:
+        return {
+            "clause_number": self.clause_number,
+            "title": self.title,
+            "section": self.section,
+            "content": self.content,
+            "ordinal": self.ordinal,
+        }
 
 
 @dataclass
 class ClauseComparison:
-    """Result of comparing a single clause across two versions."""
-    clause_number: str
-    title: Optional[str]
-    content_v1: Optional[str]  # None if clause was ADDED in v2
-    content_v2: Optional[str]  # None if clause was REMOVED in v2
-    similarity_score: Optional[float]  # None for ADDED/REMOVED
+    """One aligned clause pair, with its redline already rendered."""
+
+    index: int
     change_type: ChangeType
+    v1: Optional[ClauseSide]
+    v2: Optional[ClauseSide]
+    redline: dict
+    similarity_score: Optional[float] = None   # embedding cosine
+    match_score: Optional[float] = None        # alignment confidence
+    match_method: str = "identifier"
 
     @property
-    def color(self) -> str:
-        return CHANGE_TYPE_COLORS[self.change_type]
+    def label(self) -> str:
+        """What to call this row: both numbers when they differ."""
+        left = self.v1.clause_number if self.v1 else None
+        right = self.v2.clause_number if self.v2 else None
+        if left and right and left != right:
+            return f"{left} → {right}"
+        return left or right or "—"
 
-    @property
-    def bg_color(self) -> str:
-        return CHANGE_TYPE_BG_COLORS[self.change_type]
+    def as_dict(self) -> dict:
+        return {
+            "index": self.index,
+            "label": self.label,
+            "change_type": self.change_type.value,
+            "similarity_score": self.similarity_score,
+            "match_score": self.match_score,
+            "match_method": self.match_method,
+            "v1": self.v1.as_dict() if self.v1 else None,
+            "v2": self.v2.as_dict() if self.v2 else None,
+            "redline": self.redline,
+        }
 
 
 @dataclass
 class ComparisonSummary:
-    """Aggregate statistics for a comparison report."""
+    """Aggregate counts for a comparison."""
+
     total_clauses: int = 0
     unchanged: int = 0
     minor_edits: int = 0
     significant_changes: int = 0
     added: int = 0
     removed: int = 0
+    words_added: int = 0
+    words_removed: int = 0
+
+    @property
+    def changed(self) -> int:
+        return self.minor_edits + self.significant_changes + self.added + self.removed
 
     @property
     def change_rate(self) -> float:
-        """Percentage of clauses with any change."""
+        """Percentage of clauses that differ in any way."""
         if self.total_clauses == 0:
             return 0.0
-        changed = self.minor_edits + self.significant_changes + self.added + self.removed
-        return (changed / self.total_clauses) * 100
+        return (self.changed / self.total_clauses) * 100
+
+    def as_dict(self) -> dict:
+        return {
+            "total_clauses": self.total_clauses,
+            "unchanged": self.unchanged,
+            "minor_edits": self.minor_edits,
+            "significant_changes": self.significant_changes,
+            "added": self.added,
+            "removed": self.removed,
+            "words_added": self.words_added,
+            "words_removed": self.words_removed,
+            "changed": self.changed,
+            "change_rate": round(self.change_rate, 2),
+        }
+
+
+@dataclass
+class VersionRef:
+    """Which document edition a side of the comparison came from."""
+
+    version_id: Optional[int]
+    document_name: str
+    version_label: str
+    country_code: str
+    country_name: str
+
+    def as_dict(self) -> dict:
+        return {
+            "version_id": self.version_id,
+            "document_name": self.document_name,
+            "version_label": self.version_label,
+            "country_code": self.country_code,
+            "country_name": self.country_name,
+        }
 
 
 @dataclass
 class ComparisonReport:
-    """Full comparison report between two document versions."""
-    document_name: str
-    version_v1_label: str
-    version_v2_label: str
+    """A finished comparison between two document versions."""
+
+    v1: VersionRef
+    v2: VersionRef
+    alignment_method: str
     comparisons: list[ClauseComparison] = field(default_factory=list)
     summary: ComparisonSummary = field(default_factory=ComparisonSummary)
+    identifier_overlap: float = 0.0
+    duration_seconds: float = 0.0
 
-    def compute_summary(self):
-        """Recalculate summary stats from the comparisons list."""
-        self.summary = ComparisonSummary()
+    @property
+    def is_cross_country(self) -> bool:
+        return self.v1.country_code != self.v2.country_code
 
-        # Total unique clauses = all compared
-        self.summary.total_clauses = len(self.comparisons)
+    def compute_summary(self) -> None:
+        """Recalculate counts from the comparison rows."""
+        summary = ComparisonSummary(total_clauses=len(self.comparisons))
 
-        for comp in self.comparisons:
-            if comp.change_type == ChangeType.UNCHANGED:
-                self.summary.unchanged += 1
-            elif comp.change_type == ChangeType.MINOR_EDIT:
-                self.summary.minor_edits += 1
-            elif comp.change_type == ChangeType.SIGNIFICANT_CHANGE:
-                self.summary.significant_changes += 1
-            elif comp.change_type == ChangeType.ADDED:
-                self.summary.added += 1
-            elif comp.change_type == ChangeType.REMOVED:
-                self.summary.removed += 1
+        tally = {
+            ChangeType.UNCHANGED: "unchanged",
+            ChangeType.MINOR_EDIT: "minor_edits",
+            ChangeType.SIGNIFICANT_CHANGE: "significant_changes",
+            ChangeType.ADDED: "added",
+            ChangeType.REMOVED: "removed",
+        }
 
-    def to_dataframe_rows(self) -> list[dict]:
-        """Convert comparisons to a list of flat dicts for DataFrame/CSV export."""
+        for comparison in self.comparisons:
+            attribute = tally[comparison.change_type]
+            setattr(summary, attribute, getattr(summary, attribute) + 1)
+            summary.words_added += comparison.redline.get("words_added", 0)
+            summary.words_removed += comparison.redline.get("words_removed", 0)
+
+        self.summary = summary
+
+    def as_dict(self) -> dict:
+        return {
+            "v1": self.v1.as_dict(),
+            "v2": self.v2.as_dict(),
+            "alignment_method": self.alignment_method,
+            "identifier_overlap": round(self.identifier_overlap, 3),
+            "is_cross_country": self.is_cross_country,
+            "duration_seconds": round(self.duration_seconds, 2),
+            "summary": self.summary.as_dict(),
+            "comparisons": [c.as_dict() for c in self.comparisons],
+        }
+
+    def to_rows(self) -> list[dict]:
+        """Flat rows for CSV export."""
         rows = []
-        for c in self.comparisons:
+        for comparison in self.comparisons:
+            left, right = comparison.v1, comparison.v2
             rows.append({
-                "Clause #": c.clause_number,
-                "Title": c.title or "",
-                "Version 1 Content": c.content_v1 or "(not present)",
-                "Version 2 Content": c.content_v2 or "(not present)",
-                "Similarity": f"{c.similarity_score:.4f}" if c.similarity_score is not None else "N/A",
-                "Change Type": c.change_type.value,
+                "Change Type": comparison.change_type.value,
+                f"{self.v1.version_label} Clause": left.clause_number if left else "",
+                f"{self.v1.version_label} Section": (left.section or "") if left else "",
+                f"{self.v1.version_label} Text": left.content if left else "(not present)",
+                f"{self.v2.version_label} Clause": right.clause_number if right else "",
+                f"{self.v2.version_label} Section": (right.section or "") if right else "",
+                f"{self.v2.version_label} Text": right.content if right else "(not present)",
+                "Similarity": (
+                    f"{comparison.similarity_score:.4f}"
+                    if comparison.similarity_score is not None else "N/A"
+                ),
+                "Match Confidence": (
+                    f"{comparison.match_score:.4f}"
+                    if comparison.match_score is not None else "N/A"
+                ),
+                "Words Added": comparison.redline.get("words_added", 0),
+                "Words Removed": comparison.redline.get("words_removed", 0),
             })
         return rows

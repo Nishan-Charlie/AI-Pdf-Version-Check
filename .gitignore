@@ -132,3 +132,16 @@ SUPERVISOR_MEETING_PLAN.md
 INTERIM_REPORT.tex
 meetings/
 meetings.zip
+
+# ─── Project ─────────────────────────────────────────────────────────
+# Downloaded reference standards and the extracted text corpus. Rebuild
+# with `python -m corpus.fetch --extract` rather than committing ~110 MB
+# of third-party PDFs.
+corpus/raw/
+corpus/text/
+
+# Next.js dashboard
+web/node_modules/
+web/.next/
+web/out/
+web/next-env.d.ts

@@ -1,236 +1,273 @@
-# 🔥 Fire Fighter Document Version Check
+# Regulation Diff — Fire Safety Standards
 
-An AI-powered system designed for tracking, parsing, and comparing revisions of Fire Safety documents and building codes. By leveraging **Sentence-Transformers**, this tool goes beyond simple text-diffs to detect semantic changes across editions—even when the clauses have been completely rephrased.
+Clause-level comparison of fire safety regulations, across editions **and across
+jurisdictions**. Upload two PDFs — or pick two from the reference collection —
+and the system aligns their clauses, marks every word that changed, and lets an
+auditor jump straight to the ones that mention a given term.
 
----
-
-## 📋 Table of Contents
-
-- [✨ Key Features](#-key-features)
-- [🏗 System Architecture](#-system-architecture)
-- [🛠 Tech Stack](#-tech-stack)
-- [📦 Prerequisites](#-prerequisites)
-- [🚀 Installation & Setup](#-installation--setup)
-- [⚡ Quick Start](#-quick-start)
-- [📖 Operating Manual](#-operating-manual)
-  - [1. Uploading & Ingesting Documents](#1-uploading--ingesting-documents)
-  - [2. Comparing Versions](#2-comparing-versions)
-  - [3. Reading the Results](#3-reading-the-results)
-  - [4. Exporting Reports](#4-exporting-reports)
-- [📁 Project Structure](#-project-structure)
-- [⚙ Configuration & Customization](#-configuration--customization)
-- [🔧 Troubleshooting](#-troubleshooting)
-- [📄 License](#-license)
+Built for England & Wales, Scotland, Northern Ireland, and the Republic of
+Ireland, with a parsing profile per publishing tradition. Adding another
+jurisdiction is a data change, not a code change.
 
 ---
 
-## ✨ Key Features
+## What it does
 
-| Feature | Description |
+| | |
 | :--- | :--- |
-| **Robust PDF Ingestion** | Extracts clean text from complex Fire Safety PDFs, handling multi-column layouts and headers/footers. |
-| **Smart Text Cleaning** | Performs Unicode normalization, whitespace standardization, and pattern-based header/footer removal. |
-| **Automated Clause Parsing** | Automatically identifies and partitions text into separate clauses using hierarchical section numbering patterns. |
-| **Relational Version Tracking** | Utilizes an SQLite database managed with SQLAlchemy ORM to track Documents, Versions, and Clauses. |
-| **AI-Powered Semantic Diff** | Uses sentence embeddings to detect meaning-preserving rewrites (e.g., *"Must have 2 exits"* matches *"Two exits are mandatory"*). |
-| **Interactive Dashboard** | A fully responsive, modern Streamlit UI with side-by-side color-coded clause diffs and similarity badges. |
-| **Granular Change Filtering** | Filter view by *Unchanged*, *Minor Edit*, *Significant Change*, *Added*, or *Removed* clauses. |
-| **CSV Export** | Generate and download comprehensive comparison spreadsheets for offline review or compliance reporting. |
+| **Word-level redline** | Every clause pair is diffed word by word. Text the new edition removed is struck through in red; text it added is underlined in green — the way an amendment is marked up on paper. |
+| **Multi-jurisdiction** | Documents are scoped to a jurisdiction, and the clause parser switches grammar to match: `2.14` in an Approved Document, `Standard 2.9` in a Scottish handbook, `E1` in a Technical Booklet, `Annex A` in a British Standard. The jurisdiction is detected from the document's own text when the uploader does not state it. |
+| **Cross-country comparison** | Compare an English Approved Document against a Scottish Technical Handbook. Where the numbering schemes are unrelated, clauses are matched on meaning, technical vocabulary, and reading position instead of on their numbers. |
+| **Instant keyword search** | Type `door` and the comparison filters to the clause pairs that mention it, with every hit highlighted in both panes. A second scope searches every stored edition at once. |
+| **The change spine** | A minimap of the whole comparison down the left edge, coloured by what happened where. Click any segment to jump to it. |
+| **Reference collection** | A checklist of the official standards this project validates against, with a fetcher that downloads every openly published one. |
+| **CSV export** | The full comparison as a spreadsheet, including word counts and match confidence. |
 
 ---
 
-## 🏗 System Architecture
-
-The following diagram illustrates the ingestion pipeline and comparison workflow:
+## Architecture
 
 ```mermaid
-graph TD
-    A[Upload Fire Safety PDF] --> B[PyMuPDF Extractor]
-    B --> C[Text Cleaning Pipeline]
-    C --> D[Clause Boundary Parser]
-    D --> E[SQLAlchemy ORM]
-    E --> F[(SQLite Database)]
-    F --> G[Streamlit UI Engine]
-    G --> H[Sentence-Transformers Encoder]
-    H --> I[Cosine Similarity Comparator]
-    I --> J[Side-by-Side Diff Visualizer]
-    J --> K[CSV Report Export]
+graph LR
+    A[PDF upload] --> B[PyMuPDF extractor]
+    B --> C[Cleaner<br/>headers, contents pages]
+    C --> D{Jurisdiction<br/>detector}
+    D --> E[Clause parser<br/>per-country grammar]
+    E --> F[(SQLite)]
+    F --> G{Alignment}
+    G -->|same instrument| H[By clause number]
+    G -->|different countries| I[Embeddings + vocabulary<br/>+ position]
+    H --> J[Word-level redline]
+    I --> J
+    J --> K[FastAPI]
+    K --> L[Next.js dashboard]
 ```
 
----
-
-## 🛠 Tech Stack
-
-- **Python 3.10+** — Core development language
-- **Streamlit** — Web dashboard and user interface
-- **PyMuPDF (fitz)** — High-performance PDF parser
-- **SQLAlchemy** — ORM for robust database interactions
-- **SQLite** — Local persistent database
-- **Sentence-Transformers** (`all-MiniLM-L6-v2`) — Multi-sentence semantic embeddings
-- **scikit-learn** — Cosine similarity metrics
-- **pandas** — Data structure manipulation and CSV exportation
+**Python service** — ingestion, storage, comparison, served over HTTP by FastAPI.
+**Next.js dashboard** — the interface, proxying `/api/*` to the Python service so
+the browser sees one origin.
 
 ---
 
-## 📦 Prerequisites
+## Setup
 
-- **Python 3.10 or higher** installed on your system.
-- **pip** (Python package installer).
-- **Internet connection** for the first run (only) to download the pre-trained Sentence-Transformer model (~90 MB).
-- Approximately **500 MB** of free disk space.
+### 1. Python service
 
----
-
-## 🚀 Installation & Setup
-
-### 1. Clone or Navigate to Project Directory
-Ensure you are in the project folder:
-```bash
-cd "Fire Fighter Document Version Check"
-```
-
-### 2. Set Up a Virtual Environment (Recommended)
-Creating a virtual environment isolates dependencies:
-
-*On Windows:*
 ```bash
 python -m venv venv
-venv\Scripts\activate
-```
-
-*On macOS / Linux:*
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-Install all required packages from `requirements.txt`:
-```bash
+venv\Scripts\activate          # macOS/Linux: source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> **Note:** On your first run, the system will automatically download the `all-MiniLM-L6-v2` model from Hugging Face. This will be cached locally for future use.
+The sentence-transformer model (~90 MB) downloads on the first comparison.
 
----
+### 2. Reference corpus (optional but recommended)
 
-## ⚡ Quick Start
-
-Launch the Streamlit interactive dashboard:
 ```bash
-streamlit run app.py
+python -m corpus.fetch --extract   # download the standards, extract text
+python -m corpus.load              # parse them into the database
 ```
 
-The application will launch and open in your default browser at **`http://localhost:8501`**.
+This collects 19 openly published documents (~110 MB) across four jurisdictions
+and loads roughly 7,000 clauses, so the dashboard has real material on first
+run. See [Reference collection](#reference-collection) for what is included.
 
----
+### 3. Run both halves
 
-## 📖 Operating Manual
+```bash
+# Terminal 1 — API on :8000
+uvicorn api.main:app --reload --port 8000
 
-### 1. Uploading & Ingesting Documents
-Use the **sidebar** to ingest documents and build your local library.
-
-1. Click **Browse files** under **"Choose a Fire Safety PDF"** and upload your document.
-2. Enter a **Document Name** (e.g., `National Building Code`). This serves as the root name grouping different revisions.
-3. Enter a **Version Label** (e.g., `2016 Edition` or `2024 Revision`).
-4. (Optional) Provide a brief **Description** for reference.
-5. Click **🚀 Ingest Document**. The system extracts, parses, cleans, and stores the clauses.
-
-> **💡 Pro-Tip:** Upload at least **two versions** of the same document using the **exact same Document Name** but different version labels before attempting a comparison.
-
----
-
-### 2. Comparing Versions
-1. Select the target **Document** from the dropdown menu in the main panel.
-2. Select **Version 1 (Baseline)** (usually the older revision).
-3. Select **Version 2 (Updated)** (usually the newer revision).
-4. Click **⚡ Run Semantic Comparison**. The AI model will calculate semantic similarity scores between all clauses.
-
----
-
-### 3. Reading the Results
-
-#### Summary Cards
-* **Total Clauses:** The unique union of all clause designations.
-* **Unchanged:** Similarity score $\ge 0.95$.
-* **Minor Edit:** Similarity score between $0.80$ and $0.94$.
-* **Significant Change:** Similarity score $< 0.80$.
-* **Added:** Clauses introduced in Version 2.
-* **Removed:** Clauses deleted from Version 1.
-
-#### Visual Indicators
-The comparison display features color-coded cards and badges for quick inspection:
-* 🟢 **Green** — Unchanged
-* 🟡 **Amber** — Minor Edit
-* 🔴 **Red** — Significant Change
-* 🔵 **Blue** — Added Clause
-* 🟣 **Purple** — Removed Clause
-
----
-
-### 4. Exporting Reports
-Scroll to the bottom of the comparison dashboard to:
-1. Preview the comparison matrix in standard tabular format.
-2. Click **📥 Download CSV Report** to export the structured results for offline sharing, spreadsheets, or archiving.
-
----
-
-## 📁 Project Structure
-
-```
-Fire Fighter Document Version Check/
-│
-├── app.py                      # Main entrypoint; handles Streamlit UI and dashboard logic
-├── config.py                   # Global configurations, thresholds, and AI model choices
-├── requirements.txt            # Package dependencies
-├── fire_safety.db              # Local SQLite database (auto-generated)
-│
-├── ingestion/                  # Extraction and cleaning pipeline
-│   ├── extractor.py            #   PyMuPDF wrapper for text extraction
-│   ├── cleaner.py              #   Text normalization, header/footer filters
-│   └── clause_parser.py        #   Regex-based parser for hierarchical section boundaries
-│
-├── database/                   # Database models and operations
-│   ├── models.py               #   SQLAlchemy ORM models (Document, Version, Clause)
-│   ├── db.py                   #   Database connection initialization and session engine
-│   └── operations.py           #   Database operations (inserts, lookups, exists checks)
-│
-└── comparison/                 # AI Similarity engine
-    ├── engine.py               #   Sentence-Transformer comparator with cosine similarity
-    └── report.py               #   Data models representing semantic change reports
+# Terminal 2 — dashboard on :3000
+cd web
+npm install
+npm run dev
 ```
 
+Open **http://localhost:3000**.
+
 ---
 
-## ⚙ Configuration & Customization
+## Using it
 
-You can adjust hyperparameters in `config.py`:
+### Comparing two editions
+
+Pick a baseline and a revision, then **Compare**. Clauses that share a number
+are paired on their number; the summary reports how many are unchanged, lightly
+edited, significantly changed, added, or removed. Click a tally to isolate that
+category.
+
+### Comparing two countries
+
+Pick editions from different jurisdictions. The engine switches to semantic
+alignment automatically, and the summary reframes itself: *aligned*, *diverging*,
+and *only in EW* / *only in SC*, because "unchanged" is not a meaningful reading
+when the two documents were never the same text.
+
+Each matched row shows both clause numbers (`Requirement B5 → 2.0.5`) plus a
+match confidence, so a questionable pairing is visible rather than implied.
+
+Force a strategy with **Clause matching** if you disagree with the automatic
+choice.
+
+### Searching
+
+Press <kbd>/</kbd> or click the search box.
+
+- **This comparison** filters the clause pairs on screen as you type and
+  highlights every hit in both panes.
+- **Whole library** searches all stored clauses in every edition, filtered by
+  jurisdiction if one is selected.
+
+### Adding documents
+
+**Add documents** takes any PDF. Leave the jurisdiction on *Detect from the
+document* unless you know better. Give two uploads the same document name to
+group them as editions of one instrument — though any two stored editions can be
+compared regardless.
+
+---
+
+## Reference collection
+
+Run `python -m corpus.fetch --status` for the current checklist.
+
+**England & Wales** — Approved Document B, Volumes 1 and 2: the 2019 edition as
+first published, the 2019+2020+2022 consolidation, and the current
+2019+2020+2022+2025 text collated with the 2026 and 2029 amendments. All six
+amendment booklets (2020, 2022, 2024, 2025, 2026, 2029) and Circular 01/2025.
+
+**Northern Ireland** — Technical Booklet E, Fire safety, October 2012 (with a
+mirror copy).
+
+**Republic of Ireland** — Technical Guidance Document B: the 2006 edition as
+amended 2020, Volume 2 (dwelling houses) 2020 reprint, and the 2024 Volume 1.
+
+**Scotland** — Building Standards Technical Handbooks 2022, domestic and
+non-domestic. Section 2 of each is the fire section.
+
+**British Standards** — BS 9999:2017, BS 9991:2024, and BS 7974:2019 are listed
+in the registry but **cannot be downloaded**: BSI sells them under copyright and
+the registry links to the publisher rather than to a file. Buy or license a copy,
+save it into `corpus/raw/` under the filename shown in the checklist, and it will
+register as held and can be ingested like any other PDF.
+
+---
+
+## Project structure
+
+```
+├── api/                    FastAPI service
+│   ├── main.py               endpoints: meta, versions, ingest, compare, search
+│   └── schemas.py
+│
+├── ingestion/              PDF → clauses
+│   ├── extractor.py          PyMuPDF, column-aware block ordering
+│   ├── cleaner.py            headers, contents pages, page numbers
+│   ├── profiles.py           per-jurisdiction clause grammars + detection
+│   ├── clause_parser.py      line-by-line splitting into clause records
+│   └── pipeline.py           one call from bytes to stored-ready clauses
+│
+├── comparison/             the diff engine
+│   ├── alignment.py          identifier and semantic clause matching
+│   ├── diff.py               word-level redline, HTML-escaped
+│   ├── engine.py             orchestration and change classification
+│   └── report.py             report shape and CSV rows
+│
+├── database/               SQLite via SQLAlchemy
+│   ├── models.py             Document → Version → Clause
+│   ├── migrate.py            additive migrations, run on every start
+│   └── operations.py         reads, writes, corpus search
+│
+├── corpus/                 the reference collection
+│   ├── registry.py           the standards and where they come from
+│   ├── fetch.py              downloader and extractor
+│   └── load.py               parse the corpus into the database
+│
+├── web/                    Next.js dashboard
+│   ├── app/                  layout, page, design system
+│   ├── components/           masthead, pickers, spine, clause records
+│   └── lib/                  API client, types, sanitisation, change styling
+│
+└── config.py               jurisdictions, thresholds, alignment weights
+```
+
+---
+
+## How clauses are matched
+
+Two editions of one instrument share a numbering scheme, so matching on the
+clause number is exact and free. Two countries' regulations share nothing but
+subject matter, so those are matched on a composite score:
 
 ```python
-# Model choice (compromise between performance and speed)
-MODEL_NAME = "all-MiniLM-L6-v2"       # Fast, lightweight model (~90 MB)
-# MODEL_NAME = "all-mpnet-base-v2"     # Higher quality, heavier model (~420 MB)
-
-# Semantic similarity thresholds
-UNCHANGED_THRESHOLD = 0.95    # Scores above this are marked Green
-MINOR_EDIT_THRESHOLD = 0.80   # Scores between 0.80 and 0.94 are marked Amber
-                              # Scores below 0.80 are marked Red
+score = 0.72 * embedding_similarity     # what the clause means
+      + 0.18 * vocabulary_overlap       # "door", "sprinkler", "600mm"
+      + 0.10 * relative_position        # regulations follow similar order
 ```
 
+Vocabulary overlap is there because an encoder will happily rate *600mm* and
+*750mm* as near-identical; position is there because both documents work through
+escape, then spread, then access, in roughly that order.
+
+Only the top 12 candidates per clause are scored, then resolved into a one-to-one
+assignment — optimally where the problem is small enough, greedily where it is
+not. A pair scoring below `ALIGN_ACCEPT_THRESHOLD` is reported as two unmatched
+clauses rather than a bad pairing.
+
+A cross-jurisdiction comparison always uses semantic alignment, however well the
+numbers happen to coincide: `2.1` means different things in Edinburgh and London.
+
+Tune any of this in `config.py`.
+
 ---
 
-## 🔧 Troubleshooting
+## Notes on the redline
 
-| Problem | Explanation / Solution |
+The comparison service escapes clause text before marking it up, so the HTML it
+returns contains only the `<del>` and `<ins>` tags it wrote itself. The client
+re-checks that with an allowlist before injecting anything, dropping any tag that
+is not one of the three the interface uses. Clause text comes from arbitrary
+uploaded PDFs, so both gates have to fail for markup to reach the page.
+
+---
+
+## Configuration
+
+`config.py` holds everything worth changing:
+
+```python
+MODEL_NAME = "all-MiniLM-L6-v2"     # or "all-mpnet-base-v2" for accuracy over speed
+
+UNCHANGED_THRESHOLD = 0.95          # at or above this → Unchanged
+MINOR_EDIT_THRESHOLD = 0.80         # 0.80–0.94 → Minor Edit, below → Significant
+
+MIN_CLAUSE_CHARS = 60               # shorter fragments fold into the clause above
+ALIGN_ACCEPT_THRESHOLD = 0.42       # below this, clauses stay unmatched
+```
+
+Adding a jurisdiction means adding an entry to `JURISDICTIONS` and a
+`ParserProfile` in `ingestion/profiles.py`. Nothing else needs to know.
+
+---
+
+## Troubleshooting
+
+| Problem | Fix |
 | :--- | :--- |
-| **`ModuleNotFoundError: No module named 'fitz'`** | Install the PyMuPDF library using `pip install PyMuPDF` (the library name differs from the import statement). |
-| **Model download is taking too long** | The Sentence-Transformers model downloads during the first comparison step. Ensure a stable network connection. |
-| **No clauses found/parsed** | Confirm your document contains numbered clauses (e.g. `1.1`, `Section 5.3`, etc.). The parser relies on structured text headings to identify clause boundaries. |
-| **Comparison is slow** | Typical for documents containing hundreds of clauses. The model is cached in memory, so subsequent comparisons will be faster. |
-| **Database is corrupted / locked** | Delete `fire_safety.db` and restart the application; the schema will automatically rebuild. |
+| Dashboard says it can't reach the service | Start the API: `uvicorn api.main:app --port 8000`. |
+| `ModuleNotFoundError: No module named 'fitz'` | `pip install PyMuPDF` — the import name differs from the package name. |
+| "No text could be read from …" | The PDF is a scan. Run OCR over it first; the extractor reads text layers, not images. |
+| Very few clauses parsed | The document may not use numbered clauses, or the wrong jurisdiction was selected. Re-upload with the jurisdiction set explicitly, or leave it on *Detect*. |
+| First comparison is slow | The embedding model downloads and loads once. Later comparisons reuse it. |
+| Cross-country comparison shows nothing unchanged | Expected. No two national regulations are word-identical; read the *aligned* and *diverging* counts instead. |
+| A downloaded standard fails to fetch | Regulators move files. `corpus/registry.py` holds the URL for each one — update it there. |
 
 ---
 
-## 📄 License
+## Licence
 
-This software is provided for research, verification, and academic use. Feel free to modify and adapt it for specific regulatory frameworks.
+Provided for research, verification, and academic use. The documents it fetches
+remain under their publishers' terms: UK and Irish government guidance is
+published under the Open Government Licence or its Irish equivalent; British
+Standards are copyright BSI and are not redistributed here.
