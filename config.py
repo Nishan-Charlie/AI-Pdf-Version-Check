@@ -23,6 +23,20 @@ UNCHANGED_THRESHOLD = 0.95      # >= 0.95 → Unchanged
 MINOR_EDIT_THRESHOLD = 0.80     # 0.80 – 0.94 → Minor Edit
                                 # < 0.80 → Significant Change
 
+# ─── Word-Evidence Guard ────────────────────────────────────────────
+# The encoder reads at most 256 word pieces, roughly 180 words. Beyond that
+# a clause is truncated, so two clauses sharing an opening can differ by any
+# amount afterwards and still embed identically — measured at 16.8% of the
+# corpus, with real cases scoring 1.0000 similarity across a 1,077-word
+# addition. The redline is not truncated and counts those words correctly.
+#
+# So where the two disagree, the words win: a clause whose text demonstrably
+# differs by more than this is never reported Unchanged, whatever the
+# embedding says. The thresholds are set above typographic noise
+# (hyphenation, spacing) and below any edit of substance.
+MAX_UNCHANGED_WORD_RATIO = 0.05   # share of words touched
+MAX_UNCHANGED_WORD_DELTA = 20     # absolute words added or removed
+
 # ─── Jurisdictions ──────────────────────────────────────────────────
 # `parser_profile` selects the clause-numbering grammar used at ingest time.
 # `sigil` is the two-letter mark the UI prints next to a document.

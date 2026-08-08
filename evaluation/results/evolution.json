@@ -1,0 +1,377 @@
+{
+  "study": "Patterns in regulation evolution",
+  "series": [
+    {
+      "edition": "2019 edition",
+      "clauses": 541,
+      "words": 52581,
+      "mean_clause_words": 97.2,
+      "clauses_over_180_words": 62
+    },
+    {
+      "edition": "2022 amendments",
+      "clauses": 562,
+      "words": 55118,
+      "mean_clause_words": 98.1,
+      "clauses_over_180_words": 63
+    },
+    {
+      "edition": "2025 amendments",
+      "clauses": 600,
+      "words": 64537,
+      "mean_clause_words": 107.6,
+      "clauses_over_180_words": 82
+    }
+  ],
+  "transitions": [
+    {
+      "from": "2019 edition",
+      "to": "2022 amendments",
+      "clauses_compared": 566,
+      "unchanged": 429,
+      "minor_edits": 76,
+      "significant_changes": 32,
+      "added": 25,
+      "removed": 4,
+      "change_rate_percent": 24.2,
+      "words_added": 13351,
+      "words_removed": 10176,
+      "net_words": 3175,
+      "most_changed_sections": [
+        {
+          "section": "Diagram",
+          "changed_clauses": 29
+        },
+        {
+          "section": "Table",
+          "changed_clauses": 24
+        },
+        {
+          "section": "Section 10",
+          "changed_clauses": 17
+        },
+        {
+          "section": "Section 15",
+          "changed_clauses": 12
+        },
+        {
+          "section": "Requirements",
+          "changed_clauses": 11
+        },
+        {
+          "section": "Section 3",
+          "changed_clauses": 10
+        },
+        {
+          "section": "Appendix",
+          "changed_clauses": 8
+        },
+        {
+          "section": "Section 7",
+          "changed_clauses": 7
+        }
+      ]
+    },
+    {
+      "from": "2022 amendments",
+      "to": "2025 amendments",
+      "clauses_compared": 618,
+      "unchanged": 383,
+      "minor_edits": 116,
+      "significant_changes": 45,
+      "added": 56,
+      "removed": 18,
+      "change_rate_percent": 38.0,
+      "words_added": 26899,
+      "words_removed": 15679,
+      "net_words": 11220,
+      "most_changed_sections": [
+        {
+          "section": "Table",
+          "changed_clauses": 52
+        },
+        {
+          "section": "Diagram",
+          "changed_clauses": 51
+        },
+        {
+          "section": "Section 3",
+          "changed_clauses": 49
+        },
+        {
+          "section": "Requirements",
+          "changed_clauses": 16
+        },
+        {
+          "section": "Section 10",
+          "changed_clauses": 12
+        },
+        {
+          "section": "Appendix",
+          "changed_clauses": 10
+        },
+        {
+          "section": "Section 11",
+          "changed_clauses": 7
+        },
+        {
+          "section": "Section 17",
+          "changed_clauses": 7
+        }
+      ]
+    }
+  ],
+  "register_attention": {
+    "per_register": [
+      {
+        "register": "May 2020",
+        "amendments": 7,
+        "sections_touched": 6,
+        "top_sections": [
+          {
+            "section": "Diagram",
+            "amendments": 2
+          },
+          {
+            "section": "Section 7",
+            "amendments": 1
+          },
+          {
+            "section": "Appendix",
+            "amendments": 1
+          },
+          {
+            "section": "Section 11",
+            "amendments": 1
+          }
+        ]
+      },
+      {
+        "register": "June 2022",
+        "amendments": 58,
+        "sections_touched": 14,
+        "top_sections": [
+          {
+            "section": "Diagram",
+            "amendments": 17
+          },
+          {
+            "section": "Section 3",
+            "amendments": 10
+          },
+          {
+            "section": "Table",
+            "amendments": 5
+          },
+          {
+            "section": "Section 1",
+            "amendments": 4
+          }
+        ]
+      },
+      {
+        "register": "March 2024",
+        "amendments": 15,
+        "sections_touched": 4,
+        "top_sections": [
+          {
+            "section": "Section 3",
+            "amendments": 9
+          },
+          {
+            "section": "Diagram",
+            "amendments": 3
+          },
+          {
+            "section": "Table",
+            "amendments": 2
+          },
+          {
+            "section": "Section 17",
+            "amendments": 1
+          }
+        ]
+      },
+      {
+        "register": "2025",
+        "amendments": 12,
+        "sections_touched": 5,
+        "top_sections": [
+          {
+            "section": "Requirements",
+            "amendments": 8
+          },
+          {
+            "section": "Section 10",
+            "amendments": 1
+          },
+          {
+            "section": "Other",
+            "amendments": 1
+          },
+          {
+            "section": "Section 17",
+            "amendments": 1
+          }
+        ]
+      },
+      {
+        "register": "2026",
+        "amendments": 14,
+        "sections_touched": 3,
+        "top_sections": [
+          {
+            "section": "Section 3",
+            "amendments": 9
+          },
+          {
+            "section": "Diagram",
+            "amendments": 3
+          },
+          {
+            "section": "Table",
+            "amendments": 2
+          }
+        ]
+      },
+      {
+        "register": "2029",
+        "amendments": 2,
+        "sections_touched": 1,
+        "top_sections": [
+          {
+            "section": "Appendix",
+            "amendments": 2
+          }
+        ]
+      }
+    ],
+    "sections_by_total_amendments": [
+      {
+        "section": "Section 3",
+        "amendments": 28
+      },
+      {
+        "section": "Diagram",
+        "amendments": 25
+      },
+      {
+        "section": "Table",
+        "amendments": 11
+      },
+      {
+        "section": "Requirements",
+        "amendments": 10
+      },
+      {
+        "section": "Appendix",
+        "amendments": 5
+      },
+      {
+        "section": "Section 11",
+        "amendments": 4
+      },
+      {
+        "section": "Section 1",
+        "amendments": 4
+      },
+      {
+        "section": "Section 15",
+        "amendments": 3
+      },
+      {
+        "section": "Section 5",
+        "amendments": 3
+      },
+      {
+        "section": "Section 9",
+        "amendments": 3
+      }
+    ],
+    "operations": {
+      "replace": 104,
+      "insert": 2,
+      "delete": 2
+    },
+    "clauses_amended_in_multiple_rounds": [
+      {
+        "reference": "Diagram 3.7",
+        "rounds": 3
+      },
+      {
+        "reference": "Diagram 3.8",
+        "rounds": 3
+      },
+      {
+        "reference": "Diagram 3.9",
+        "rounds": 3
+      },
+      {
+        "reference": "Table B4",
+        "rounds": 2
+      },
+      {
+        "reference": "Appendix B",
+        "rounds": 2
+      },
+      {
+        "reference": "B4",
+        "rounds": 2
+      },
+      {
+        "reference": "3.60",
+        "rounds": 2
+      },
+      {
+        "reference": "3.102",
+        "rounds": 2
+      },
+      {
+        "reference": "3.33",
+        "rounds": 2
+      },
+      {
+        "reference": "3.99",
+        "rounds": 2
+      },
+      {
+        "reference": "Table 3.1",
+        "rounds": 2
+      },
+      {
+        "reference": "3.49",
+        "rounds": 2
+      }
+    ]
+  },
+  "jurisdiction_sizes": [
+    {
+      "country_code": "SC",
+      "country_name": "Scotland",
+      "editions": 2,
+      "clauses": 1817,
+      "words": 364157
+    },
+    {
+      "country_code": "EW",
+      "country_name": "England & Wales",
+      "editions": 11,
+      "clauses": 3235,
+      "words": 346385
+    },
+    {
+      "country_code": "IE",
+      "country_name": "Republic of Ireland",
+      "editions": 3,
+      "clauses": 1434,
+      "words": 191111
+    },
+    {
+      "country_code": "NI",
+      "country_name": "Northern Ireland",
+      "editions": 1,
+      "clauses": 379,
+      "words": 50180
+    }
+  ]
+}

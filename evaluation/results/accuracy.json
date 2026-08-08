@@ -1,0 +1,1457 @@
+{
+  "register_scan": [
+    {
+      "experiment": "E1 change localisation vs published amendment register",
+      "register": "2025 only (as incorporated by the title)",
+      "baseline": "Approved Document B — Volume 1: Dwellings — 2022 amendments",
+      "revision": "Approved Document B — Volume 1: Dwellings — 2025 amendments",
+      "booklets": [
+        "adb-amd-2025"
+      ],
+      "volume": 1,
+      "gold_clauses_named": 12,
+      "gold_present_in_corpus": 19,
+      "clauses_under_comparison": 492,
+      "amendment_recall": 1.0,
+      "amendments_scored": 8,
+      "amendments_found": 8,
+      "amendment_status": [
+        {
+          "reference": "10.14",
+          "operation": "delete",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "Section 17",
+          "operation": "replace",
+          "clauses_in_corpus": 8,
+          "found": true
+        },
+        {
+          "reference": "B1",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "B2",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "B3",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "B4",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "B5",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "Table B2",
+          "operation": "delete",
+          "clauses_in_corpus": 2,
+          "found": true
+        }
+      ],
+      "silent_misses": [
+        {
+          "clause": "Requirement B2",
+          "similarity": 0.9981,
+          "word_change_ratio": 0.01,
+          "words_added": 1,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B2",
+          "similarity": 0.9966,
+          "word_change_ratio": 0.0417,
+          "words_added": 0,
+          "words_removed": 2
+        },
+        {
+          "clause": "Requirement B2",
+          "similarity": 0.9981,
+          "word_change_ratio": 0.01,
+          "words_added": 1,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B4",
+          "similarity": 0.9968,
+          "word_change_ratio": 0.002,
+          "words_added": 1,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B5",
+          "similarity": 0.9927,
+          "word_change_ratio": 0.0354,
+          "words_added": 10,
+          "words_removed": 1
+        }
+      ],
+      "sweep": [
+        {
+          "min_word_change_ratio": 0.0,
+          "flagged": 153,
+          "true_positives": 18,
+          "false_positives": 135,
+          "false_negatives": 1,
+          "true_negatives": 338,
+          "precision": 0.1176,
+          "recall": 0.9474,
+          "f1": 0.2093
+        },
+        {
+          "min_word_change_ratio": 0.01,
+          "flagged": 153,
+          "true_positives": 18,
+          "false_positives": 135,
+          "false_negatives": 1,
+          "true_negatives": 338,
+          "precision": 0.1176,
+          "recall": 0.9474,
+          "f1": 0.2093
+        },
+        {
+          "min_word_change_ratio": 0.02,
+          "flagged": 152,
+          "true_positives": 18,
+          "false_positives": 134,
+          "false_negatives": 1,
+          "true_negatives": 339,
+          "precision": 0.1184,
+          "recall": 0.9474,
+          "f1": 0.2105
+        },
+        {
+          "min_word_change_ratio": 0.05,
+          "flagged": 149,
+          "true_positives": 18,
+          "false_positives": 131,
+          "false_negatives": 1,
+          "true_negatives": 342,
+          "precision": 0.1208,
+          "recall": 0.9474,
+          "f1": 0.2143
+        },
+        {
+          "min_word_change_ratio": 0.1,
+          "flagged": 119,
+          "true_positives": 17,
+          "false_positives": 102,
+          "false_negatives": 2,
+          "true_negatives": 371,
+          "precision": 0.1429,
+          "recall": 0.8947,
+          "f1": 0.2464
+        },
+        {
+          "min_word_change_ratio": 0.2,
+          "flagged": 100,
+          "true_positives": 16,
+          "false_positives": 84,
+          "false_negatives": 3,
+          "true_negatives": 389,
+          "precision": 0.16,
+          "recall": 0.8421,
+          "f1": 0.2689
+        },
+        {
+          "min_word_change_ratio": 0.3,
+          "flagged": 89,
+          "true_positives": 15,
+          "false_positives": 74,
+          "false_negatives": 4,
+          "true_negatives": 399,
+          "precision": 0.1685,
+          "recall": 0.7895,
+          "f1": 0.2778
+        },
+        {
+          "min_word_change_ratio": 0.5,
+          "flagged": 77,
+          "true_positives": 13,
+          "false_positives": 64,
+          "false_negatives": 6,
+          "true_negatives": 409,
+          "precision": 0.1688,
+          "recall": 0.6842,
+          "f1": 0.2708
+        }
+      ],
+      "best_recall": {
+        "min_word_change_ratio": 0.0,
+        "flagged": 153,
+        "true_positives": 18,
+        "false_positives": 135,
+        "false_negatives": 1,
+        "true_negatives": 338,
+        "precision": 0.1176,
+        "recall": 0.9474,
+        "f1": 0.2093
+      },
+      "references_absent_from_corpus": [
+        "38",
+        "B13",
+        "B18",
+        "B8"
+      ],
+      "amendments_the_system_missed": [
+        "17.0"
+      ],
+      "unlisted_differences": {
+        "count": 204,
+        "edited_both_sides": 142,
+        "one_sided_added_or_removed": 62,
+        "word_change_ratio_of_edited": {
+          "count": 142,
+          "mean": 0.4048,
+          "min": 0.0169,
+          "p25": 0.095,
+          "median": 0.2642,
+          "p75": 0.7139,
+          "max": 0.9828
+        },
+        "edited_under_2_percent_of_words": 1,
+        "edited_over_20_percent_of_words": 80,
+        "reading": "One-sided rows have a word-change ratio of 1.0 by construction and are counted separately; they mostly reflect clause-boundary differences between two parses rather than amendments."
+      },
+      "how_to_read": "`amendment_recall` is the headline accuracy figure: the share of published amendments the auditor is pointed at. `sweep` recall is stricter — it requires every clause an instruction covers to be flagged, including paragraphs a section-wide replacement left identical. Precision is not an error rate: the register lists substantive amendments, while the system reports every textual difference between two separately typeset PDFs, so it measures review burden. `silent_misses` is the failure that matters — clauses the regulator amended, whose text does differ, that the similarity threshold classified Unchanged."
+    },
+    {
+      "experiment": "E1 change localisation vs published amendment register",
+      "register": "2024 + 2025",
+      "baseline": "Approved Document B — Volume 1: Dwellings — 2022 amendments",
+      "revision": "Approved Document B — Volume 1: Dwellings — 2025 amendments",
+      "booklets": [
+        "adb-amd-2024",
+        "adb-amd-2025"
+      ],
+      "volume": 1,
+      "gold_clauses_named": 27,
+      "gold_present_in_corpus": 37,
+      "clauses_under_comparison": 492,
+      "amendment_recall": 0.8261,
+      "amendments_scored": 23,
+      "amendments_found": 19,
+      "amendment_status": [
+        {
+          "reference": "Table 3.1",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "Diagram 3.7",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "Diagram 3.8",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "3.33",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": false
+        },
+        {
+          "reference": "3.35",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "3.49",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": false
+        },
+        {
+          "reference": "3.50",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "Diagram 3.9",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": false
+        },
+        {
+          "reference": "3.56",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "3.60",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "3.99",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "3.101",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": false
+        },
+        {
+          "reference": "3.102",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "17.6",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "Table C1",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "10.14",
+          "operation": "delete",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "Section 17",
+          "operation": "replace",
+          "clauses_in_corpus": 8,
+          "found": true
+        },
+        {
+          "reference": "B1",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "B2",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "B3",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "B4",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "B5",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "Table B2",
+          "operation": "delete",
+          "clauses_in_corpus": 2,
+          "found": true
+        }
+      ],
+      "silent_misses": [
+        {
+          "clause": "Requirement B2",
+          "similarity": 0.9981,
+          "word_change_ratio": 0.01,
+          "words_added": 1,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B2",
+          "similarity": 0.9966,
+          "word_change_ratio": 0.0417,
+          "words_added": 0,
+          "words_removed": 2
+        },
+        {
+          "clause": "Table 3.1",
+          "similarity": 0.9695,
+          "word_change_ratio": 0.0365,
+          "words_added": 12,
+          "words_removed": 0
+        },
+        {
+          "clause": "3.49",
+          "similarity": 0.9994,
+          "word_change_ratio": 0.0089,
+          "words_added": 0,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B2",
+          "similarity": 0.9981,
+          "word_change_ratio": 0.01,
+          "words_added": 1,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B4",
+          "similarity": 0.9968,
+          "word_change_ratio": 0.002,
+          "words_added": 1,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B5",
+          "similarity": 0.9927,
+          "word_change_ratio": 0.0354,
+          "words_added": 10,
+          "words_removed": 1
+        }
+      ],
+      "sweep": [
+        {
+          "min_word_change_ratio": 0.0,
+          "flagged": 153,
+          "true_positives": 28,
+          "false_positives": 125,
+          "false_negatives": 9,
+          "true_negatives": 330,
+          "precision": 0.183,
+          "recall": 0.7568,
+          "f1": 0.2947
+        },
+        {
+          "min_word_change_ratio": 0.01,
+          "flagged": 153,
+          "true_positives": 28,
+          "false_positives": 125,
+          "false_negatives": 9,
+          "true_negatives": 330,
+          "precision": 0.183,
+          "recall": 0.7568,
+          "f1": 0.2947
+        },
+        {
+          "min_word_change_ratio": 0.02,
+          "flagged": 152,
+          "true_positives": 28,
+          "false_positives": 124,
+          "false_negatives": 9,
+          "true_negatives": 331,
+          "precision": 0.1842,
+          "recall": 0.7568,
+          "f1": 0.2963
+        },
+        {
+          "min_word_change_ratio": 0.05,
+          "flagged": 149,
+          "true_positives": 28,
+          "false_positives": 121,
+          "false_negatives": 9,
+          "true_negatives": 334,
+          "precision": 0.1879,
+          "recall": 0.7568,
+          "f1": 0.3011
+        },
+        {
+          "min_word_change_ratio": 0.1,
+          "flagged": 119,
+          "true_positives": 27,
+          "false_positives": 92,
+          "false_negatives": 10,
+          "true_negatives": 363,
+          "precision": 0.2269,
+          "recall": 0.7297,
+          "f1": 0.3462
+        },
+        {
+          "min_word_change_ratio": 0.2,
+          "flagged": 100,
+          "true_positives": 23,
+          "false_positives": 77,
+          "false_negatives": 14,
+          "true_negatives": 378,
+          "precision": 0.23,
+          "recall": 0.6216,
+          "f1": 0.3358
+        },
+        {
+          "min_word_change_ratio": 0.3,
+          "flagged": 89,
+          "true_positives": 21,
+          "false_positives": 68,
+          "false_negatives": 16,
+          "true_negatives": 387,
+          "precision": 0.236,
+          "recall": 0.5676,
+          "f1": 0.3333
+        },
+        {
+          "min_word_change_ratio": 0.5,
+          "flagged": 77,
+          "true_positives": 19,
+          "false_positives": 58,
+          "false_negatives": 18,
+          "true_negatives": 397,
+          "precision": 0.2468,
+          "recall": 0.5135,
+          "f1": 0.3333
+        }
+      ],
+      "best_recall": {
+        "min_word_change_ratio": 0.0,
+        "flagged": 153,
+        "true_positives": 28,
+        "false_positives": 125,
+        "false_negatives": 9,
+        "true_negatives": 330,
+        "precision": 0.183,
+        "recall": 0.7568,
+        "f1": 0.2947
+      },
+      "references_absent_from_corpus": [
+        "38",
+        "B13",
+        "B18",
+        "B8"
+      ],
+      "amendments_the_system_missed": [
+        "17.0",
+        "3.1",
+        "3.101",
+        "3.33",
+        "3.49",
+        "3.7",
+        "3.8",
+        "3.9",
+        "Diagram 3.9"
+      ],
+      "unlisted_differences": {
+        "count": 186,
+        "edited_both_sides": 131,
+        "one_sided_added_or_removed": 55,
+        "word_change_ratio_of_edited": {
+          "count": 131,
+          "mean": 0.4111,
+          "min": 0.0169,
+          "p25": 0.0907,
+          "median": 0.2727,
+          "p75": 0.7841,
+          "max": 0.9828
+        },
+        "edited_under_2_percent_of_words": 1,
+        "edited_over_20_percent_of_words": 75,
+        "reading": "One-sided rows have a word-change ratio of 1.0 by construction and are counted separately; they mostly reflect clause-boundary differences between two parses rather than amendments."
+      },
+      "how_to_read": "`amendment_recall` is the headline accuracy figure: the share of published amendments the auditor is pointed at. `sweep` recall is stricter — it requires every clause an instruction covers to be flagged, including paragraphs a section-wide replacement left identical. Precision is not an error rate: the register lists substantive amendments, while the system reports every textual difference between two separately typeset PDFs, so it measures review burden. `silent_misses` is the failure that matters — clauses the regulator amended, whose text does differ, that the similarity threshold classified Unchanged."
+    },
+    {
+      "experiment": "E1 change localisation vs published amendment register",
+      "register": "2025 + 2026 + 2029 (as collated by the title)",
+      "baseline": "Approved Document B — Volume 1: Dwellings — 2022 amendments",
+      "revision": "Approved Document B — Volume 1: Dwellings — 2025 amendments",
+      "booklets": [
+        "adb-amd-2025",
+        "adb-amd-2026",
+        "adb-amd-2029"
+      ],
+      "volume": 1,
+      "gold_clauses_named": 28,
+      "gold_present_in_corpus": 43,
+      "clauses_under_comparison": 492,
+      "amendment_recall": 0.8333,
+      "amendments_scored": 24,
+      "amendments_found": 20,
+      "amendment_status": [
+        {
+          "reference": "10.14",
+          "operation": "delete",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "Section 17",
+          "operation": "replace",
+          "clauses_in_corpus": 8,
+          "found": true
+        },
+        {
+          "reference": "B1",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "B2",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "B3",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "B4",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "B5",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "Table B2",
+          "operation": "delete",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "Table 3.1",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "Diagram 3.7",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "Diagram 3.8",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        },
+        {
+          "reference": "3.33",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": false
+        },
+        {
+          "reference": "3.35",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "3.49",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": false
+        },
+        {
+          "reference": "3.50",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "Diagram 3.9",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": false
+        },
+        {
+          "reference": "3.56",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "3.60",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "3.99",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "3.101",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": false
+        },
+        {
+          "reference": "3.102",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "Table C1",
+          "operation": "replace",
+          "clauses_in_corpus": 1,
+          "found": true
+        },
+        {
+          "reference": "Appendix B",
+          "operation": "replace",
+          "clauses_in_corpus": 10,
+          "found": true
+        },
+        {
+          "reference": "Appendix C",
+          "operation": "replace",
+          "clauses_in_corpus": 2,
+          "found": true
+        }
+      ],
+      "silent_misses": [
+        {
+          "clause": "Requirement B2",
+          "similarity": 0.9981,
+          "word_change_ratio": 0.01,
+          "words_added": 1,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B2",
+          "similarity": 0.9966,
+          "word_change_ratio": 0.0417,
+          "words_added": 0,
+          "words_removed": 2
+        },
+        {
+          "clause": "Table 3.1",
+          "similarity": 0.9695,
+          "word_change_ratio": 0.0365,
+          "words_added": 12,
+          "words_removed": 0
+        },
+        {
+          "clause": "3.49",
+          "similarity": 0.9994,
+          "word_change_ratio": 0.0089,
+          "words_added": 0,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B2",
+          "similarity": 0.9981,
+          "word_change_ratio": 0.01,
+          "words_added": 1,
+          "words_removed": 1
+        },
+        {
+          "clause": "Appendix C",
+          "similarity": 0.9936,
+          "word_change_ratio": 0.0222,
+          "words_added": 0,
+          "words_removed": 2
+        },
+        {
+          "clause": "Requirement B4",
+          "similarity": 0.9968,
+          "word_change_ratio": 0.002,
+          "words_added": 1,
+          "words_removed": 1
+        },
+        {
+          "clause": "Requirement B5",
+          "similarity": 0.9927,
+          "word_change_ratio": 0.0354,
+          "words_added": 10,
+          "words_removed": 1
+        },
+        {
+          "clause": "Appendix B",
+          "similarity": 0.9962,
+          "word_change_ratio": 0.0204,
+          "words_added": 3,
+          "words_removed": 1
+        }
+      ],
+      "sweep": [
+        {
+          "min_word_change_ratio": 0.0,
+          "flagged": 153,
+          "true_positives": 34,
+          "false_positives": 119,
+          "false_negatives": 9,
+          "true_negatives": 330,
+          "precision": 0.2222,
+          "recall": 0.7907,
+          "f1": 0.3469
+        },
+        {
+          "min_word_change_ratio": 0.01,
+          "flagged": 153,
+          "true_positives": 34,
+          "false_positives": 119,
+          "false_negatives": 9,
+          "true_negatives": 330,
+          "precision": 0.2222,
+          "recall": 0.7907,
+          "f1": 0.3469
+        },
+        {
+          "min_word_change_ratio": 0.02,
+          "flagged": 152,
+          "true_positives": 34,
+          "false_positives": 118,
+          "false_negatives": 9,
+          "true_negatives": 331,
+          "precision": 0.2237,
+          "recall": 0.7907,
+          "f1": 0.3487
+        },
+        {
+          "min_word_change_ratio": 0.05,
+          "flagged": 149,
+          "true_positives": 34,
+          "false_positives": 115,
+          "false_negatives": 9,
+          "true_negatives": 334,
+          "precision": 0.2282,
+          "recall": 0.7907,
+          "f1": 0.3542
+        },
+        {
+          "min_word_change_ratio": 0.1,
+          "flagged": 119,
+          "true_positives": 33,
+          "false_positives": 86,
+          "false_negatives": 10,
+          "true_negatives": 363,
+          "precision": 0.2773,
+          "recall": 0.7674,
+          "f1": 0.4074
+        },
+        {
+          "min_word_change_ratio": 0.2,
+          "flagged": 100,
+          "true_positives": 29,
+          "false_positives": 71,
+          "false_negatives": 14,
+          "true_negatives": 378,
+          "precision": 0.29,
+          "recall": 0.6744,
+          "f1": 0.4056
+        },
+        {
+          "min_word_change_ratio": 0.3,
+          "flagged": 89,
+          "true_positives": 27,
+          "false_positives": 62,
+          "false_negatives": 16,
+          "true_negatives": 387,
+          "precision": 0.3034,
+          "recall": 0.6279,
+          "f1": 0.4091
+        },
+        {
+          "min_word_change_ratio": 0.5,
+          "flagged": 77,
+          "true_positives": 25,
+          "false_positives": 52,
+          "false_negatives": 18,
+          "true_negatives": 397,
+          "precision": 0.3247,
+          "recall": 0.5814,
+          "f1": 0.4167
+        }
+      ],
+      "best_recall": {
+        "min_word_change_ratio": 0.0,
+        "flagged": 153,
+        "true_positives": 34,
+        "false_positives": 119,
+        "false_negatives": 9,
+        "true_negatives": 330,
+        "precision": 0.2222,
+        "recall": 0.7907,
+        "f1": 0.3469
+      },
+      "references_absent_from_corpus": [
+        "38",
+        "B13",
+        "B18",
+        "B8"
+      ],
+      "amendments_the_system_missed": [
+        "17.0",
+        "3.1",
+        "3.101",
+        "3.33",
+        "3.49",
+        "3.7",
+        "3.8",
+        "3.9",
+        "Diagram 3.9"
+      ],
+      "unlisted_differences": {
+        "count": 154,
+        "edited_both_sides": 119,
+        "one_sided_added_or_removed": 35,
+        "word_change_ratio_of_edited": {
+          "count": 119,
+          "mean": 0.3793,
+          "min": 0.0169,
+          "p25": 0.0855,
+          "median": 0.25,
+          "p75": 0.6138,
+          "max": 0.9828
+        },
+        "edited_under_2_percent_of_words": 1,
+        "edited_over_20_percent_of_words": 65,
+        "reading": "One-sided rows have a word-change ratio of 1.0 by construction and are counted separately; they mostly reflect clause-boundary differences between two parses rather than amendments."
+      },
+      "how_to_read": "`amendment_recall` is the headline accuracy figure: the share of published amendments the auditor is pointed at. `sweep` recall is stricter — it requires every clause an instruction covers to be flagged, including paragraphs a section-wide replacement left identical. Precision is not an error rate: the register lists substantive amendments, while the system reports every textual difference between two separately typeset PDFs, so it measures review burden. `silent_misses` is the failure that matters — clauses the regulator amended, whose text does differ, that the similarity threshold classified Unchanged."
+    }
+  ],
+  "truncation": {
+    "experiment": "E3b encoder truncation",
+    "model": "all-MiniLM-L6-v2",
+    "window_word_pieces": 256,
+    "base_clause_word_pieces": 2350,
+    "clauses_exceeding_window": 1517,
+    "clauses_total": 9050,
+    "share_exceeding_window": 0.1676,
+    "append_curve": [
+      {
+        "words_appended": 0,
+        "similarity": 1.0
+      },
+      {
+        "words_appended": 20,
+        "similarity": 1.0
+      },
+      {
+        "words_appended": 40,
+        "similarity": 1.0
+      },
+      {
+        "words_appended": 100,
+        "similarity": 1.0
+      },
+      {
+        "words_appended": 200,
+        "similarity": 1.0
+      },
+      {
+        "words_appended": 400,
+        "similarity": 1.0
+      },
+      {
+        "words_appended": 800,
+        "similarity": 1.0
+      }
+    ],
+    "reading": "Similarity does not move as text is appended past the window. Any amendment beyond the first ~180 words of a clause is invisible to the embedding. The word-level redline is not truncated and does count those words, which is why classification takes the redline into account (see MAX_UNCHANGED_WORD_* in config)."
+  },
+  "localisation": {
+    "experiment": "E1 change localisation vs published amendment register",
+    "register": "2025 only (as incorporated by the title)",
+    "baseline": "Approved Document B — Volume 1: Dwellings — 2022 amendments",
+    "revision": "Approved Document B — Volume 1: Dwellings — 2025 amendments",
+    "booklets": [
+      "adb-amd-2025"
+    ],
+    "volume": 1,
+    "gold_clauses_named": 12,
+    "gold_present_in_corpus": 19,
+    "clauses_under_comparison": 492,
+    "amendment_recall": 1.0,
+    "amendments_scored": 8,
+    "amendments_found": 8,
+    "amendment_status": [
+      {
+        "reference": "10.14",
+        "operation": "delete",
+        "clauses_in_corpus": 1,
+        "found": true
+      },
+      {
+        "reference": "Section 17",
+        "operation": "replace",
+        "clauses_in_corpus": 8,
+        "found": true
+      },
+      {
+        "reference": "B1",
+        "operation": "replace",
+        "clauses_in_corpus": 1,
+        "found": true
+      },
+      {
+        "reference": "B2",
+        "operation": "replace",
+        "clauses_in_corpus": 2,
+        "found": true
+      },
+      {
+        "reference": "B3",
+        "operation": "replace",
+        "clauses_in_corpus": 2,
+        "found": true
+      },
+      {
+        "reference": "B4",
+        "operation": "replace",
+        "clauses_in_corpus": 2,
+        "found": true
+      },
+      {
+        "reference": "B5",
+        "operation": "replace",
+        "clauses_in_corpus": 2,
+        "found": true
+      },
+      {
+        "reference": "Table B2",
+        "operation": "delete",
+        "clauses_in_corpus": 2,
+        "found": true
+      }
+    ],
+    "silent_misses": [
+      {
+        "clause": "Requirement B2",
+        "similarity": 0.9981,
+        "word_change_ratio": 0.01,
+        "words_added": 1,
+        "words_removed": 1
+      },
+      {
+        "clause": "Requirement B2",
+        "similarity": 0.9966,
+        "word_change_ratio": 0.0417,
+        "words_added": 0,
+        "words_removed": 2
+      },
+      {
+        "clause": "Requirement B2",
+        "similarity": 0.9981,
+        "word_change_ratio": 0.01,
+        "words_added": 1,
+        "words_removed": 1
+      },
+      {
+        "clause": "Requirement B4",
+        "similarity": 0.9968,
+        "word_change_ratio": 0.002,
+        "words_added": 1,
+        "words_removed": 1
+      },
+      {
+        "clause": "Requirement B5",
+        "similarity": 0.9927,
+        "word_change_ratio": 0.0354,
+        "words_added": 10,
+        "words_removed": 1
+      }
+    ],
+    "sweep": [
+      {
+        "min_word_change_ratio": 0.0,
+        "flagged": 153,
+        "true_positives": 18,
+        "false_positives": 135,
+        "false_negatives": 1,
+        "true_negatives": 338,
+        "precision": 0.1176,
+        "recall": 0.9474,
+        "f1": 0.2093
+      },
+      {
+        "min_word_change_ratio": 0.01,
+        "flagged": 153,
+        "true_positives": 18,
+        "false_positives": 135,
+        "false_negatives": 1,
+        "true_negatives": 338,
+        "precision": 0.1176,
+        "recall": 0.9474,
+        "f1": 0.2093
+      },
+      {
+        "min_word_change_ratio": 0.02,
+        "flagged": 152,
+        "true_positives": 18,
+        "false_positives": 134,
+        "false_negatives": 1,
+        "true_negatives": 339,
+        "precision": 0.1184,
+        "recall": 0.9474,
+        "f1": 0.2105
+      },
+      {
+        "min_word_change_ratio": 0.05,
+        "flagged": 149,
+        "true_positives": 18,
+        "false_positives": 131,
+        "false_negatives": 1,
+        "true_negatives": 342,
+        "precision": 0.1208,
+        "recall": 0.9474,
+        "f1": 0.2143
+      },
+      {
+        "min_word_change_ratio": 0.1,
+        "flagged": 119,
+        "true_positives": 17,
+        "false_positives": 102,
+        "false_negatives": 2,
+        "true_negatives": 371,
+        "precision": 0.1429,
+        "recall": 0.8947,
+        "f1": 0.2464
+      },
+      {
+        "min_word_change_ratio": 0.2,
+        "flagged": 100,
+        "true_positives": 16,
+        "false_positives": 84,
+        "false_negatives": 3,
+        "true_negatives": 389,
+        "precision": 0.16,
+        "recall": 0.8421,
+        "f1": 0.2689
+      },
+      {
+        "min_word_change_ratio": 0.3,
+        "flagged": 89,
+        "true_positives": 15,
+        "false_positives": 74,
+        "false_negatives": 4,
+        "true_negatives": 399,
+        "precision": 0.1685,
+        "recall": 0.7895,
+        "f1": 0.2778
+      },
+      {
+        "min_word_change_ratio": 0.5,
+        "flagged": 77,
+        "true_positives": 13,
+        "false_positives": 64,
+        "false_negatives": 6,
+        "true_negatives": 409,
+        "precision": 0.1688,
+        "recall": 0.6842,
+        "f1": 0.2708
+      }
+    ],
+    "best_recall": {
+      "min_word_change_ratio": 0.0,
+      "flagged": 153,
+      "true_positives": 18,
+      "false_positives": 135,
+      "false_negatives": 1,
+      "true_negatives": 338,
+      "precision": 0.1176,
+      "recall": 0.9474,
+      "f1": 0.2093
+    },
+    "references_absent_from_corpus": [
+      "38",
+      "B13",
+      "B18",
+      "B8"
+    ],
+    "amendments_the_system_missed": [
+      "17.0"
+    ],
+    "unlisted_differences": {
+      "count": 204,
+      "edited_both_sides": 142,
+      "one_sided_added_or_removed": 62,
+      "word_change_ratio_of_edited": {
+        "count": 142,
+        "mean": 0.4048,
+        "min": 0.0169,
+        "p25": 0.095,
+        "median": 0.2642,
+        "p75": 0.7139,
+        "max": 0.9828
+      },
+      "edited_under_2_percent_of_words": 1,
+      "edited_over_20_percent_of_words": 80,
+      "reading": "One-sided rows have a word-change ratio of 1.0 by construction and are counted separately; they mostly reflect clause-boundary differences between two parses rather than amendments."
+    },
+    "how_to_read": "`amendment_recall` is the headline accuracy figure: the share of published amendments the auditor is pointed at. `sweep` recall is stricter — it requires every clause an instruction covers to be flagged, including paragraphs a section-wide replacement left identical. Precision is not an error rate: the register lists substantive amendments, while the system reports every textual difference between two separately typeset PDFs, so it measures review burden. `silent_misses` is the failure that matters — clauses the regulator amended, whose text does differ, that the similarity threshold classified Unchanged."
+  },
+  "alignment_recovery": {
+    "experiment": "E2 semantic alignment recovery vs clause-number ground truth",
+    "baseline": "Approved Document B — Volume 1: Dwellings — 2019 edition",
+    "revision": "Approved Document B — Volume 1: Dwellings — 2025 amendments",
+    "identifier_pairs": 524,
+    "semantic_pairs": 536,
+    "recovered": 455,
+    "disagreed": 66,
+    "missed": 3,
+    "score": {
+      "true_positives": 455,
+      "false_positives": 81,
+      "false_negatives": 69,
+      "true_negatives": 0,
+      "precision": 0.8489,
+      "recall": 0.8683,
+      "f1": 0.8585
+    },
+    "match_score_when_correct": {
+      "count": 455,
+      "mean": 0.9768,
+      "min": 0.6878,
+      "p25": 0.9793,
+      "median": 0.9964,
+      "p75": 0.999,
+      "max": 1.0
+    },
+    "match_score_when_wrong": {
+      "count": 81,
+      "mean": 0.8699,
+      "min": 0.5193,
+      "p25": 0.7915,
+      "median": 0.9185,
+      "p75": 0.9741,
+      "max": 0.9999
+    }
+  },
+  "perturbation": {
+    "experiment": "E3 controlled perturbation (behavioural characterisation)",
+    "sample_size": 120,
+    "by_perturbation": [
+      {
+        "perturbation": "identity",
+        "pairs": 120,
+        "expected": "Unchanged",
+        "truth_unambiguous": true,
+        "similarity": {
+          "count": 120,
+          "mean": 1.0,
+          "min": 1.0,
+          "p25": 1.0,
+          "median": 1.0,
+          "p75": 1.0,
+          "max": 1.0
+        },
+        "word_change_ratio": {
+          "count": 120,
+          "mean": 0.0,
+          "min": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "max": 0.0
+        },
+        "classified_as": {
+          "Unchanged": 120
+        }
+      },
+      {
+        "perturbation": "numeric_values",
+        "pairs": 47,
+        "expected": "not specified",
+        "truth_unambiguous": false,
+        "similarity": {
+          "count": 47,
+          "mean": 0.9967,
+          "min": 0.9811,
+          "p25": 0.9963,
+          "median": 0.9978,
+          "p75": 0.9992,
+          "max": 1.0
+        },
+        "word_change_ratio": {
+          "count": 47,
+          "mean": 0.0546,
+          "min": 0.0048,
+          "p25": 0.0209,
+          "median": 0.0414,
+          "p75": 0.0646,
+          "max": 0.3462
+        },
+        "classified_as": {
+          "Unchanged": 47
+        }
+      },
+      {
+        "perturbation": "sentence_removed",
+        "pairs": 101,
+        "expected": "not specified",
+        "truth_unambiguous": false,
+        "similarity": {
+          "count": 101,
+          "mean": 0.9742,
+          "min": 0.7847,
+          "p25": 0.9694,
+          "median": 0.9852,
+          "p75": 0.9979,
+          "max": 1.0
+        },
+        "word_change_ratio": {
+          "count": 101,
+          "mean": 0.1366,
+          "min": 0.0012,
+          "p25": 0.0357,
+          "median": 0.0845,
+          "p75": 0.1712,
+          "max": 0.6923
+        },
+        "classified_as": {
+          "Unchanged": 86,
+          "Minor Edit": 14,
+          "Significant Change": 1
+        }
+      },
+      {
+        "perturbation": "sentence_reordered",
+        "pairs": 101,
+        "expected": "Unchanged",
+        "truth_unambiguous": false,
+        "similarity": {
+          "count": 101,
+          "mean": 0.9431,
+          "min": 0.6332,
+          "p25": 0.9292,
+          "median": 0.9555,
+          "p75": 0.9722,
+          "max": 0.9936
+        },
+        "word_change_ratio": {
+          "count": 101,
+          "mean": 0.4329,
+          "min": 0.0173,
+          "p25": 0.2769,
+          "median": 0.4384,
+          "p75": 0.6078,
+          "max": 0.8
+        },
+        "classified_as": {
+          "Unchanged": 58,
+          "Minor Edit": 42,
+          "Significant Change": 1
+        }
+      }
+    ],
+    "confusion": {
+      "labels": [
+        "Unchanged",
+        "Minor Edit",
+        "Significant Change",
+        "Added",
+        "Removed"
+      ],
+      "matrix": {
+        "Unchanged|Minor Edit": 42,
+        "Unchanged|Significant Change": 1,
+        "Unchanged|Unchanged": 178
+      },
+      "accuracy": 0.8054,
+      "macro_f1": 0.8922,
+      "weighted_f1": 0.8922,
+      "per_label": {
+        "Unchanged": {
+          "true_positives": 178,
+          "false_positives": 0,
+          "false_negatives": 43,
+          "true_negatives": 0,
+          "precision": 1.0,
+          "recall": 0.8054,
+          "f1": 0.8922
+        },
+        "Minor Edit": {
+          "true_positives": 0,
+          "false_positives": 42,
+          "false_negatives": 0,
+          "true_negatives": 179,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Significant Change": {
+          "true_positives": 0,
+          "false_positives": 1,
+          "false_negatives": 0,
+          "true_negatives": 220,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Added": {
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0,
+          "true_negatives": 221,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Removed": {
+          "true_positives": 0,
+          "false_positives": 0,
+          "false_negatives": 0,
+          "true_negatives": 221,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "numeric_sensitivity": {
+      "pairs": 47,
+      "similarity": {
+        "count": 47,
+        "mean": 0.9967,
+        "min": 0.9811,
+        "p25": 0.9963,
+        "median": 0.9978,
+        "p75": 0.9992,
+        "max": 1.0
+      },
+      "word_change_ratio": {
+        "count": 47,
+        "mean": 0.0546,
+        "min": 0.0048,
+        "p25": 0.0209,
+        "median": 0.0414,
+        "p75": 0.0646,
+        "max": 0.3462
+      },
+      "classified_unchanged_share": 1.0,
+      "reading": "Every one of these pairs differs in at least one measurement. The share classified Unchanged is the rate at which a similarity-only pipeline would hide a changed dimension."
+    }
+  }
+}

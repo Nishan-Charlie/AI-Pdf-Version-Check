@@ -22,7 +22,7 @@ from comparison.alignment import (
     choose_strategy,
     identifier_overlap,
 )
-from comparison.diff import redline
+from comparison.diff import Redline, redline
 from comparison.report import (
     ChangeType,
     ClauseComparison,
@@ -33,6 +33,8 @@ from comparison.report import (
 from config import (
     ALIGNMENT_AUTO,
     ALIGNMENT_SEMANTIC,
+    MAX_UNCHANGED_WORD_DELTA,
+    MAX_UNCHANGED_WORD_RATIO,
     MINOR_EDIT_THRESHOLD,
     MODEL_NAME,
     UNCHANGED_THRESHOLD,
@@ -87,9 +89,19 @@ class SemanticComparator:
         return float(np.dot(embeddings[0], embeddings[1]))
 
     @staticmethod
-    def classify(similarity: float) -> ChangeType:
-        """Bucket a similarity score into a change type."""
+    def classify(similarity: float, marks: Optional[Redline] = None) -> ChangeType:
+        """
+        Bucket a comparison into a change type.
+
+        Embedding similarity decides, except where the redline contradicts it.
+        The encoder truncates long clauses, so it can report two clauses as
+        identical while hundreds of words differ past the cut-off; the word
+        counts are exact, so when they show a substantial edit they override a
+        verdict of Unchanged. See MAX_UNCHANGED_WORD_* in config.
+        """
         if similarity >= UNCHANGED_THRESHOLD:
+            if marks is not None and _substantially_edited(marks):
+                return ChangeType.MINOR_EDIT
             return ChangeType.UNCHANGED
         if similarity >= MINOR_EDIT_THRESHOLD:
             return ChangeType.MINOR_EDIT
@@ -167,9 +179,11 @@ class SemanticComparator:
             content_v1 = left["content"] if left else None
             content_v2 = right["content"] if right else None
 
+            marks = redline(content_v1, content_v2)
+
             if left and right:
                 similarity = similarities.get(index, 0.0)
-                change_type = self.classify(similarity)
+                change_type = self.classify(similarity, marks)
             else:
                 similarity = None
                 change_type = ChangeType.REMOVED if left else ChangeType.ADDED
@@ -179,7 +193,7 @@ class SemanticComparator:
                 change_type=change_type,
                 v1=_side(left),
                 v2=_side(right),
-                redline=redline(content_v1, content_v2).as_dict(),
+                redline=marks.as_dict(),
                 similarity_score=round(similarity, 4) if similarity is not None else None,
                 match_score=pair.match_score,
                 match_method=pair.method,
@@ -223,6 +237,20 @@ class SemanticComparator:
             index: float(np.dot(embeddings[2 * position], embeddings[2 * position + 1]))
             for position, (index, _) in enumerate(matched)
         }
+
+
+def _substantially_edited(marks: Redline) -> bool:
+    """
+    Whether the redline shows more than typographic drift.
+
+    Either measure is enough on its own: the ratio catches short clauses where
+    twenty words is the whole thing, the absolute count catches long ones where
+    a thousand added words are still a small share of the text.
+    """
+    return (
+        marks.word_change_ratio > MAX_UNCHANGED_WORD_RATIO
+        or (marks.words_added + marks.words_removed) > MAX_UNCHANGED_WORD_DELTA
+    )
 
 
 def _side(clause: Optional[dict]) -> Optional[ClauseSide]:

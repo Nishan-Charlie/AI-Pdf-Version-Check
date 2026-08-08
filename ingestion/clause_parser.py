@@ -71,6 +71,7 @@ def parse_clauses(
         clauses = [_record("1", None, cleaned_text.strip(), None, 1)]
 
     clauses = _merge_fragments(clauses)
+    clauses = _drop_navigational(clauses)
     clauses = clauses[:MAX_CLAUSES_PER_VERSION]
 
     for index, clause in enumerate(clauses):
@@ -244,3 +245,44 @@ def _merge_fragments(clauses: list[dict]) -> list[dict]:
         merged.append(clause)
 
     return [c for c in merged if c["content"].strip() or c["level"] <= 1]
+
+
+# A clause body with no sentence-ending punctuation anywhere.
+_NO_SENTENCE = re.compile(r"[.!?](?:\s|$)")
+
+# Longest run of words a heading-only body may have and still be navigation.
+_MAX_NAVIGATION_WORDS = 40
+
+
+def _drop_navigational(clauses: list[dict]) -> list[dict]:
+    """
+    Remove contents listings that parsed as clauses.
+
+    Regulations print a contents page, and several reprint a summary of
+    headings at the start of each section. Where those pages have no dot
+    leaders the cleaner cannot recognise them, so they arrive here as
+    section-level clauses whose body is a run of headings rather than prose —
+    "Appendix D / Methods of measurement Occupant number Travel distance".
+
+    Left in, they pair against their own counterpart in the other edition and
+    report large differences whenever the contents were re-flowed, which
+    inflates the change count with entries that carry no requirement.
+
+    The test is deliberately narrow: only section-level clauses, only when the
+    body contains no sentence at all, and only when it is short. A clause that
+    states a requirement ends its sentences with a full stop.
+    """
+    kept: list[dict] = []
+
+    for clause in clauses:
+        body = clause["content"].strip()
+        is_heading = clause["level"] <= 1
+        has_sentence = bool(_NO_SENTENCE.search(body))
+        short = len(body.split()) <= _MAX_NAVIGATION_WORDS
+
+        if is_heading and not has_sentence and short:
+            continue
+
+        kept.append(clause)
+
+    return kept

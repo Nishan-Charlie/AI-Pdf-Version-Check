@@ -154,6 +154,48 @@ register as held and can be ingested like any other PDF.
 
 ---
 
+## Evaluation
+
+The comparison engine is measured against ground truth it cannot influence, not
+against its own output.
+
+```bash
+python -m evaluation.run all           # accuracy, evolution, cross-country
+python -m evaluation.run accuracy      # just the accuracy studies
+```
+
+Results land in `evaluation/results/*.json`; the write-up is in
+[RESEARCH_FINDINGS.md](RESEARCH_FINDINGS.md).
+
+**Where the ground truth comes from.** MHCLG publishes an amendment booklet for
+every revision of Approved Document B, naming the paragraphs it changed
+(*"Paragraph 10.14, delete the second note"*). `evaluation/amendment_key.py`
+parses those registers into clause references, giving an authoritative record
+of what changed, written by the body that changed it. Within one instrument,
+clause numbers give a second reference: a correct pairing, free. Constructed
+edits on real clauses give a third.
+
+Headline results: **8/8 published amendments detected**; semantic alignment
+recovers clause-number pairings at **F1 0.859**; **16.8%** of corpus clauses
+exceed the encoder's 256-token window, a blind spot the evaluation found and
+the word-evidence guard now covers.
+
+**Manual annotation.** Severity — whether an edit is minor or significant — is a
+judgement no document settles, so it needs a person:
+
+```bash
+python -m evaluation.run annotate --size 150
+# label evaluation/annotations/*.csv by hand, following PROTOCOL.md
+python -m evaluation.run score-annotations --sheet evaluation/annotations/adb_v1_2019_vs_2025.csv
+```
+
+The sheet is blind: it holds the clause texts and empty label columns, while
+the system's predictions go to a separate key joined after labelling. Scoring
+reports per-class precision and recall, Cohen's κ, and an itemised disagreement
+list.
+
+---
+
 ## Project structure
 
 ```
@@ -183,6 +225,15 @@ register as held and can be ingested like any other PDF.
 │   ├── registry.py           the standards and where they come from
 │   ├── fetch.py              downloader and extractor
 │   └── load.py               parse the corpus into the database
+│
+├── evaluation/             measuring the engine against external ground truth
+│   ├── amendment_key.py      parse MHCLG amendment registers into clause refs
+│   ├── metrics.py            precision, recall, F1, confusion, Cohen's kappa
+│   ├── experiments.py        accuracy studies E1–E3b
+│   ├── evolution.py          patterns in regulation evolution
+│   ├── cross_country.py      cross-jurisdiction comparison challenges
+│   ├── annotation.py         blind sampling + scoring for manual annotation
+│   └── run.py                CLI
 │
 ├── web/                    Next.js dashboard
 │   ├── app/                  layout, page, design system

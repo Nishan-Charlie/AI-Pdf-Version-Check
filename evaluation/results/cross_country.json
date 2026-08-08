@@ -1,0 +1,589 @@
+{
+  "study": "Challenges in cross-country comparison",
+  "pairs": [
+    {
+      "label": "control: England & Wales, two editions",
+      "left": "EW Approved Document B — Volume 1: Dwellings — 2019 edition",
+      "right": "EW Approved Document B — Volume 1: Dwellings — 2025 amendments",
+      "cross_country": false,
+      "identifier_overlap": 0.9872,
+      "clauses_left": 541,
+      "clauses_right": 600,
+      "matched": 536,
+      "unmatched_left": 5,
+      "unmatched_right": 64,
+      "match_rate": 0.9908,
+      "match_score": {
+        "count": 536,
+        "mean": 0.9607,
+        "min": 0.5193,
+        "p25": 0.962,
+        "median": 0.9959,
+        "p75": 0.9989,
+        "max": 1.0
+      },
+      "similarity": {
+        "count": 536,
+        "mean": 0.9699,
+        "min": 0.5686,
+        "p25": 0.9747,
+        "median": 0.9997,
+        "p75": 1.0,
+        "max": 1.0
+      },
+      "duration_seconds": 15.0
+    },
+    {
+      "label": "England & Wales vs Scotland",
+      "left": "EW Approved Document B — Volume 1: Dwellings — 2025 amendments",
+      "right": "SC Building Standards Technical Handbook — Domestic — 2022 edition",
+      "cross_country": true,
+      "identifier_overlap": 0.0538,
+      "clauses_left": 600,
+      "clauses_right": 872,
+      "matched": 330,
+      "unmatched_left": 270,
+      "unmatched_right": 542,
+      "match_rate": 0.55,
+      "match_score": {
+        "count": 330,
+        "mean": 0.5594,
+        "min": 0.4267,
+        "p25": 0.4949,
+        "median": 0.5558,
+        "p75": 0.6141,
+        "max": 0.7556
+      },
+      "similarity": {
+        "count": 330,
+        "mean": 0.6327,
+        "min": 0.4316,
+        "p25": 0.5526,
+        "median": 0.6282,
+        "p75": 0.7088,
+        "max": 0.8716
+      },
+      "duration_seconds": 13.7
+    },
+    {
+      "label": "England & Wales vs Northern Ireland",
+      "left": "EW Approved Document B — Volume 1: Dwellings — 2025 amendments",
+      "right": "NI Technical Booklet E — Fire safety — October 2012",
+      "cross_country": true,
+      "identifier_overlap": 0.4035,
+      "clauses_left": 600,
+      "clauses_right": 379,
+      "matched": 366,
+      "unmatched_left": 234,
+      "unmatched_right": 13,
+      "match_rate": 0.9657,
+      "match_score": {
+        "count": 366,
+        "mean": 0.6412,
+        "min": 0.429,
+        "p25": 0.5899,
+        "median": 0.642,
+        "p75": 0.6988,
+        "max": 0.8903
+      },
+      "similarity": {
+        "count": 366,
+        "mean": 0.7152,
+        "min": 0.4285,
+        "p25": 0.6592,
+        "median": 0.7218,
+        "p75": 0.7781,
+        "max": 0.9393
+      },
+      "duration_seconds": 8.7
+    },
+    {
+      "label": "Northern Ireland vs Republic of Ireland",
+      "left": "NI Technical Booklet E — Fire safety — October 2012",
+      "right": "IE Technical Guidance Document B — Volume 1 — 2024 edition",
+      "cross_country": true,
+      "identifier_overlap": 0.0819,
+      "clauses_left": 379,
+      "clauses_right": 708,
+      "matched": 369,
+      "unmatched_left": 10,
+      "unmatched_right": 339,
+      "match_rate": 0.9736,
+      "match_score": {
+        "count": 369,
+        "mean": 0.6586,
+        "min": 0.441,
+        "p25": 0.5924,
+        "median": 0.665,
+        "p75": 0.7266,
+        "max": 0.8435
+      },
+      "similarity": {
+        "count": 369,
+        "mean": 0.7317,
+        "min": 0.4619,
+        "p25": 0.6624,
+        "median": 0.7433,
+        "p75": 0.8079,
+        "max": 0.9248
+      },
+      "duration_seconds": 10.3
+    }
+  ],
+  "numbering": [
+    {
+      "country_code": "EW",
+      "document": "Approved Document B — Volume 1: Dwellings",
+      "clauses": 600,
+      "distinct_shapes": 20,
+      "top_shapes": [
+        [
+          "N.N",
+          417
+        ],
+        [
+          "Diagram N.N",
+          65
+        ],
+        [
+          "Table BN",
+          25
+        ],
+        [
+          "Requirement BN",
+          20
+        ],
+        [
+          "Table N.N",
+          18
+        ]
+      ],
+      "mean_depth": 1.83
+    },
+    {
+      "country_code": "SC",
+      "document": "Building Standards Technical Handbook — Domestic",
+      "clauses": 872,
+      "distinct_shapes": 18,
+      "top_shapes": [
+        [
+          "N.N.N",
+          572
+        ],
+        [
+          "Standard N.N",
+          90
+        ],
+        [
+          "Table N.N",
+          76
+        ],
+        [
+          "Figure N.N",
+          60
+        ],
+        [
+          "N.N",
+          39
+        ]
+      ],
+      "mean_depth": 2.63
+    },
+    {
+      "country_code": "NI",
+      "document": "Technical Booklet E — Fire safety",
+      "clauses": 379,
+      "distinct_shapes": 8,
+      "top_shapes": [
+        [
+          "N.N",
+          264
+        ],
+        [
+          "Table N.N",
+          48
+        ],
+        [
+          "Diagram N.N",
+          42
+        ],
+        [
+          "Section N",
+          8
+        ],
+        [
+          "Part E",
+          7
+        ]
+      ],
+      "mean_depth": 1.96
+    },
+    {
+      "country_code": "IE",
+      "document": "Technical Guidance Document B — Volume 1",
+      "clauses": 708,
+      "distinct_shapes": 16,
+      "top_shapes": [
+        [
+          "N.N.N.N",
+          223
+        ],
+        [
+          "N.N.N",
+          194
+        ],
+        [
+          "Diagram N",
+          87
+        ],
+        [
+          "N.N.N.N.N",
+          68
+        ],
+        [
+          "Table N",
+          59
+        ]
+      ],
+      "mean_depth": 2.94
+    }
+  ],
+  "vocabulary": {
+    "per_jurisdiction": {
+      "EW": {
+        "document": "Approved Document B — Volume 1: Dwellings",
+        "words": 64537,
+        "rates_per_10k_words": {
+          "dwelling": {
+            "dwellinghouse": 17.2,
+            "dwelling house": 0.0,
+            "dwelling": 22.93
+          },
+          "escape distance": {
+            "travel distance": 4.49,
+            "escape route": 26.19,
+            "means of escape": 9.92
+          },
+          "protected stair": {
+            "protected stairway": 18.44,
+            "protected zone": 0.0,
+            "protected shaft": 12.24,
+            "protected corridor": 4.65
+          },
+          "fire door": {
+            "fire doorset": 13.33,
+            "fire door": 16.42,
+            "self-closing device": 2.48
+          },
+          "suppression": {
+            "sprinkler": 10.85,
+            "suppression system": 0.15,
+            "residential sprinkler": 0.46
+          },
+          "compartment": {
+            "compartment wall": 21.07,
+            "compartment floor": 3.87,
+            "compartmentation": 3.1
+          },
+          "external wall": {
+            "external wall": 16.58,
+            "cladding": 1.7,
+            "combustible material": 0.31
+          },
+          "alarm": {
+            "fire detection": 4.8,
+            "smoke alarm": 1.55,
+            "fire alarm": 2.48
+          }
+        }
+      },
+      "SC": {
+        "document": "Building Standards Technical Handbook — Domestic",
+        "words": 170551,
+        "rates_per_10k_words": {
+          "dwelling": {
+            "dwellinghouse": 0.0,
+            "dwelling house": 0.0,
+            "dwelling": 44.8
+          },
+          "escape distance": {
+            "travel distance": 0.7,
+            "escape route": 5.75,
+            "means of escape": 0.29
+          },
+          "protected stair": {
+            "protected stairway": 0.0,
+            "protected zone": 3.81,
+            "protected shaft": 0.0,
+            "protected corridor": 0.59
+          },
+          "fire door": {
+            "fire doorset": 0.0,
+            "fire door": 1.99,
+            "self-closing device": 0.06
+          },
+          "suppression": {
+            "sprinkler": 1.06,
+            "suppression system": 1.88,
+            "residential sprinkler": 0.06
+          },
+          "compartment": {
+            "compartment wall": 0.29,
+            "compartment floor": 0.23,
+            "compartmentation": 0.29
+          },
+          "external wall": {
+            "external wall": 9.32,
+            "cladding": 5.57,
+            "combustible material": 3.34
+          },
+          "alarm": {
+            "fire detection": 1.11,
+            "smoke alarm": 2.81,
+            "fire alarm": 1.29
+          }
+        }
+      },
+      "NI": {
+        "document": "Technical Booklet E — Fire safety",
+        "words": 50180,
+        "rates_per_10k_words": {
+          "dwelling": {
+            "dwellinghouse": 14.35,
+            "dwelling house": 0.0,
+            "dwelling": 20.13
+          },
+          "escape distance": {
+            "travel distance": 6.18,
+            "escape route": 28.5,
+            "means of escape": 9.96
+          },
+          "protected stair": {
+            "protected stairway": 13.15,
+            "protected zone": 0.0,
+            "protected shaft": 6.38,
+            "protected corridor": 4.98
+          },
+          "fire door": {
+            "fire doorset": 0.0,
+            "fire door": 6.18,
+            "self-closing device": 0.0
+          },
+          "suppression": {
+            "sprinkler": 5.78,
+            "suppression system": 0.4,
+            "residential sprinkler": 0.0
+          },
+          "compartment": {
+            "compartment wall": 14.35,
+            "compartment floor": 5.78,
+            "compartmentation": 2.59
+          },
+          "external wall": {
+            "external wall": 11.76,
+            "cladding": 1.99,
+            "combustible material": 3.39
+          },
+          "alarm": {
+            "fire detection": 6.38,
+            "smoke alarm": 4.58,
+            "fire alarm": 5.78
+          }
+        }
+      },
+      "IE": {
+        "document": "Technical Guidance Document B — Volume 1",
+        "words": 91027,
+        "rates_per_10k_words": {
+          "dwelling": {
+            "dwellinghouse": 0.0,
+            "dwelling house": 1.43,
+            "dwelling": 3.74
+          },
+          "escape distance": {
+            "travel distance": 7.58,
+            "escape route": 30.54,
+            "means of escape": 13.29
+          },
+          "protected stair": {
+            "protected stairway": 11.43,
+            "protected zone": 0.0,
+            "protected shaft": 4.83,
+            "protected corridor": 9.01
+          },
+          "fire door": {
+            "fire doorset": 0.44,
+            "fire door": 11.21,
+            "self-closing device": 0.99
+          },
+          "suppression": {
+            "sprinkler": 17.36,
+            "suppression system": 0.44,
+            "residential sprinkler": 0.11
+          },
+          "compartment": {
+            "compartment wall": 14.06,
+            "compartment floor": 7.69,
+            "compartmentation": 5.16
+          },
+          "external wall": {
+            "external wall": 12.52,
+            "cladding": 1.87,
+            "combustible material": 1.32
+          },
+          "alarm": {
+            "fire detection": 4.83,
+            "smoke alarm": 0.11,
+            "fire alarm": 1.21
+          }
+        }
+      }
+    },
+    "jurisdiction_specific_terms": [
+      {
+        "term": "dwellinghouse",
+        "family": "dwelling",
+        "used_by": [
+          "EW",
+          "NI"
+        ],
+        "absent_from": [
+          "SC",
+          "IE"
+        ],
+        "rates": {
+          "EW": 17.2,
+          "SC": 0.0,
+          "NI": 14.35,
+          "IE": 0.0
+        }
+      },
+      {
+        "term": "dwelling house",
+        "family": "dwelling",
+        "used_by": [
+          "IE"
+        ],
+        "absent_from": [
+          "EW",
+          "SC",
+          "NI"
+        ],
+        "rates": {
+          "EW": 0.0,
+          "SC": 0.0,
+          "NI": 0.0,
+          "IE": 1.43
+        }
+      },
+      {
+        "term": "protected stairway",
+        "family": "protected stair",
+        "used_by": [
+          "EW",
+          "NI",
+          "IE"
+        ],
+        "absent_from": [
+          "SC"
+        ],
+        "rates": {
+          "EW": 18.44,
+          "SC": 0.0,
+          "NI": 13.15,
+          "IE": 11.43
+        }
+      },
+      {
+        "term": "protected zone",
+        "family": "protected stair",
+        "used_by": [
+          "SC"
+        ],
+        "absent_from": [
+          "EW",
+          "NI",
+          "IE"
+        ],
+        "rates": {
+          "EW": 0.0,
+          "SC": 3.81,
+          "NI": 0.0,
+          "IE": 0.0
+        }
+      },
+      {
+        "term": "protected shaft",
+        "family": "protected stair",
+        "used_by": [
+          "EW",
+          "NI",
+          "IE"
+        ],
+        "absent_from": [
+          "SC"
+        ],
+        "rates": {
+          "EW": 12.24,
+          "SC": 0.0,
+          "NI": 6.38,
+          "IE": 4.83
+        }
+      },
+      {
+        "term": "fire doorset",
+        "family": "fire door",
+        "used_by": [
+          "EW",
+          "IE"
+        ],
+        "absent_from": [
+          "SC",
+          "NI"
+        ],
+        "rates": {
+          "EW": 13.33,
+          "SC": 0.0,
+          "NI": 0.0,
+          "IE": 0.44
+        }
+      },
+      {
+        "term": "self-closing device",
+        "family": "fire door",
+        "used_by": [
+          "EW",
+          "SC",
+          "IE"
+        ],
+        "absent_from": [
+          "NI"
+        ],
+        "rates": {
+          "EW": 2.48,
+          "SC": 0.06,
+          "NI": 0.0,
+          "IE": 0.99
+        }
+      },
+      {
+        "term": "residential sprinkler",
+        "family": "suppression",
+        "used_by": [
+          "EW",
+          "SC",
+          "IE"
+        ],
+        "absent_from": [
+          "NI"
+        ],
+        "rates": {
+          "EW": 0.46,
+          "SC": 0.06,
+          "NI": 0.0,
+          "IE": 0.11
+        }
+      }
+    ]
+  }
+}
