@@ -1,0 +1,683 @@
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Amendments to the
+Approved Documents
+This document contains amendments to the following Approved 
+Document:
+Approved Document B: Fire safety
+Volume 1 – Dwellings 
+Volume 2 – Buildings other than dwellings 
+2019 edition incorporating the 2020 and 2022 amendments
+March 2024
+For use in England
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Introduction
+This document sets out amendments to guidance previously published in Approved Document B: Fire 
+safety, Volume 1 – Dwellings and Volume 2 – Buildings other than dwellings, 2019 edition incorporating 
+the 2020 and 2022 amendments.
+These amendments will be incorporated into both the online and paper versions of Approved 
+Document B Volume 1 and Volume 2 when the changes take effect. Versions from before that date 
+will need to be read alongside the amendments listed in this document. You should always check the 
+online version to know that you are looking at the most up to date version.
+The changes highlighted in this amendment booklet take effect on 30 September 2026 for use in 
+England. The 2019 edition incorporating the 2020 and 2022 amendments will continue to apply where 
+a building notice or an initial notice has been given to, or a building control approval application with 
+full plans made to, the relevant authority before 30 September 2026 and either the building work to 
+which it relates:
+a.	
+has started and is sufficiently progressed before that day; or
+b.	
+is started and is sufficiently progressed within the period of 18 months beginning on that day.
+Please note that ‘building notice’, ‘initial notice’ and ‘building control approval application with full 
+plans’ have the meanings given in the Building Regulations 2010. For the purpose of these transitional 
+arrangements, building work is to be regarded as ‘sufficiently progressed’:
+a.	
+where the building work consists of the construction of a building, when the pouring of 
+concrete for the permanent placement of the trench, pad or raft foundations has started, or the 
+permanent placement of piling has started; or
+b.	
+where the building work consists of work to an existing building, when that work has started; or
+c.	
+where the building work consists of a material change of use of a building, when work to effect 
+that change of use has stated.
+The changes focus on the following fire safety provisions:
+a.	
+A new recommendation for more than one common stair to be provided in blocks of flats with a 
+storey 18m or more in height.
+b.	
+Building design provisions to support the use of evacuation lifts in blocks of flats.
+Full details of the changes are provided below.
+2	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+The Building Regulations 2010
+Approved Document B: Fire safety
+Volume 1 – Dwellings 
+2019 edition incorporating the 2020 and 2022 
+amendments
+List of amendments
+March 2024
+Section 3: Means of escape – flats
+Means of escape in the common parts of flats
+Page 26	
+Replace subheading ‘Number of escape routes’ with the following.
+Design for horizontal escape
+Replace paragraph 3.27 with the following.
+3.27	
+From the flat entrance door, a single escape route is acceptable in either of the 
+following cases.
+a.	
+The flat is on a storey served by a single common stair and both of the 
+following apply.
+i.	
+Every flat is separated from the common stair by a protected lobby or 
+common protected corridor (see Diagram 3.7).
+ii.	
+The maximum travel distance in Table 3.1, for escape in one direction 
+only, is not exceeded.
+b.	
+The flat is on a storey served by two (or more) common stairs, the flat is in 
+a dead end of a common corridor and the maximum travel distance given in 
+Table 3.1, for escape in one direction only, is not exceeded (Diagram 3.8).
+Replace Table 3.1 with the following.
+Table 3.1  Limitations on travel distance in common areas of blocks of flats
+Maximum travel distance from flat entrance door to storey exit or stair lobby(1)
+Escape in one direction 
+Escape in more than one direction
+7.5m(2)(3)
+30m(3)(4)
+NOTES:
+1.	 If travel distance is measured to a stair lobby, the lobby must not provide direct access to any storage room, flat or
+other space containing a fire hazard.
+2.	In the case of a small single stair building in accordance with Diagram 3.9, this is reduced to 4.5m.
+3.	Does not apply if all flats on a storey have independent alternative means of escape.
+4.	Sheltered housing may require reduced maximum travel distances.
+Approved Document B	
+3
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Page 27	
+Replace Diagram 3.7 with the following.
+See para 3.27 and 3.40
+a. Corridor access ﬂats
+F
+F
+F
+F
+7.5m max.
+7.5m max.
+F
+F
+F
+F
+Flat
+F
+Stair lobby with no ﬂat
+opening directly into it
+Shaded areas indicate zones where ventilation should
+be provided in accordance with paragraphs 3.57 to 3.43
+(An external wall vent or smoke shaft located
+anywhere in the shaded area)
+b. Lobby access ﬂats
+Fire resisting construction
+NOTES:
+1. 
+The arrangements shown also apply to the top storey.
+2. See Diagram 3.9 for small single stair buildings.
+3. All doors shown are ﬁre doorsets.
+4. Where travel distance is measured to a stair lobby, the
+lobby must not provide direct access to any storage
+room, ﬂat or other space containing a potential ﬁre
+hazard.
+5. For further guidance on the performance of the ﬁre
+doorsets from the corridor to the ﬂat and/or 
+ 
+evacuation shaft refer to Appendix C, Table C1.
+6. A single common stair arrangement is only suitable 
+for use in buildings with a top storey less than 18m in
+height (see Diagram D6 in Appendix D).
+F
+F
+7.5m max.
+F
+F
+Diagram 3.7	 Horizontal escape for flats served by a single common stair
+4	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Page 28	
+Replace Diagram 3.8 with the following.
+See para 3.27 and 3.40
+p
+a. Corridor access without dead ends
+F
+F
+F
+F
+F
+F
+F
+Fd
+F
+F
+F
+F
+F
+F
+F
+30m max.
+b. Corridor access with dead ends
+The central door may be omitted if maximum travel distance is not more than 15m
+F
+F
+F
+F
+F
+F
+F
+Fd
+Fd
+Fd
+F
+F
+F
+F
+F
+F
+F
+7.5m max.
+7.5m max.
+30m max.
+c. ‘T’ junction with main corridor
+Cross-corridor ﬁre doorset
+Fd
+Flat
+F
+F
+F
+Shaded areas indicate zones where ventilation should
+be provided in accordance with paragraphs 3.57 to 3.60
+(An external wall vent or smoke shaft located
+anywhere in the shaded area)
+F
+F
+F
+Fd
+Fire resisting construction
+7.5m max.
+Escape route
+Fd
+F
+F
+F
+NOTES:
+1. 
+The arrangements shown also apply to the top storey.
+2. For further guidance on the ﬁre resistance rating of the 
+ﬁre doorsets from the corridor to the ﬂat and/or stairway
+refer to Appendix C, Table C1.
+F
+F
+Diagram 3.8	 Horizontal escape for flats served by more than one common stair
+Approved Document B	
+5
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Insert new headings and paragraphs after Diagram 3.8 as follows.
+Design for vertical escape
+3.28 	 The limits on horizontal travel escape distances mean most people should be able
+to independently travel from the flats to a storey exit and from there make their 
+way to a final exit.
+See Section 15 for the provision of firefighting stairs in buildings.
+3.29	
+Where evacuation lifts are provided, these should be located within an evacuation 
+shaft containing a protected stairway, evacuation lift and evacuation lift lobby. 
+An evacuation lift lobby should provide a refuge area for those waiting for the 
+evacuation lift, have direct access to a protected stairway and not be directly 
+accessible from any flat, maisonette, storage room or electrical equipment room.
+Number of common stairs
+3.30 	 Flats should be served by more than one common stair if either of the following
+applies.
+a. 	 The flat is on a storey that does not meet the criteria for a single escape
+route or a small single stair building (see paragraphs 3.27 and 3.32).
+b.	
+The building has a top storey of 18m or more in height (see Diagram D6 in 
+Appendix D).
+3.31	
+Interlocked stairs should be considered as a single escape route and do not 
+constitute an alternative means of escape.
+Page 30 	
+Replace paragraph 3.33 with the following.
+3.37	
+An escape route should not pass through one stair enclosure to reach an 
+alternative exit. It may pass through a protected lobby (minimum REI 30) of one 
+stair to reach an alternative exit. A protected lobby should not provide direct 
+access to more than one stair.
+Replace paragraph 3.35 with the following.
+3.39	
+Divide a common corridor connecting two or more storey exits with a fire doorset 
+fitted with a self-closing device (minimum E 30 Sa). See Diagram 3.8. Associated 
+screens should be fire resisting. Doors should be positioned such that smoke does 
+not affect access to more than one stair.
+Page 31	
+Replace paragraph 3.49 with the following.
+3.53	
+Despite the provisions described, it is probable that some smoke will get into the 
+common corridor or lobby from a fire in a flat.
+There should therefore be some means of ventilating the common corridors/
+lobbies to control smoke and so protect the common stairs. This means of 
+ventilation offers additional protection to that provided by the fire doors to the 
+stair, as well as some protection to the corridors/lobbies.
+6	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Where evacuation lifts are provided, evacuation shafts should be afforded the 
+same level of minimum protection as the stairway. Any smoke control system 
+designed to protect the staircase should extend the same level of protection to 
+the evacuation lift and evacuation lift lobby.
+Ventilation can be natural (paragraphs 3.50 to 3.53) or mechanical (paragraph 3.54).
+Page 32	
+Replace paragraph 3.50 with the following.
+3.54	
+Except in buildings that comply with Diagram 3.9, the corridor or lobby directly 
+in front of each storey exit should have a smoke vent. The location of the vent 
+should comply with both of the following.
+a.	
+Be as high as practicable.
+b.	
+Be positioned so the top edge is at least as high as the top of the door to the 
+stair.
+NOTE: Evacuation lift lobbies form part of the evacuation shaft and are located 
+after the storey exit.
+Page 33	
+Replace sub-paragraph 3.56 (b) with the following.
+b.	
+Not be situated within a protected stairway, evacuation shaft or 
+protected lobby.
+Replace heading ‘Common stairs’ with the following. 
+Design and construction of common stairs
+Delete subheading ‘Number of common stairs’ and paragraph 3.59.
+Replace paragraph 3.60 with the following.
+3.63	
+A stair of acceptable width for everyday use will be sufficient for escape purposes. 
+If it is also a firefighting stair or a common stair in a building with a storey 18m or 
+more in height (see Diagram D6 in Appendix D), it should be at least 1100mm wide. 
+The width is the clear width between the walls or balustrades. Any handrails and 
+strings intruding into that width by a maximum of 100mm on each side may be 
+ignored.
+Page 40	
+Replace sub-paragraph 3.99 (a) with the following.
+a.	
+Be sited within the enclosures of a protected stairway or evacuation shaft.
+Replace paragraph 3.101 with the following.
+3.104	 In buildings designed for phased evacuation or progressive horizontal evacuation,
+if the lift well is not within the enclosures of a protected stairway or evacuation 
+shaft, its entrance should be separated at every storey by a protected lobby 
+(minimum REI 30).
+Replace paragraph 3.102 with the following.
+3.105	 In basements and enclosed car parks, the lift should be within the enclosure of a
+protected stairway or evacuation shaft. Otherwise, the lift should be approached 
+only via a protected lobby or protected corridor (minimum REI 30).
+Approved Document B	
+7
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Section 17: Fire safety information
+Essential information
+Page 112	
+Replace sub-paragraph 17.6 (c) (ii) as follows.
+ii. 	 Any provision to enable the evacuation of disabled people (including the
+location and mode of operation of evacuation lifts).
+Appendix A: Key terms
+Page 116	
+Insert the following two entries between the definitions of Evacuation lift and Exit 
+passageway.
+Evacuation lift lobby An area protected from fire and smoke ingress by fire resisting 
+construction and smoke control measures, providing direct access to an evacuation 
+lift, where a person can wait for a lift service in relative safety while an evacuation is 
+underway.
+Evacuation shaft A protected shaft containing a protected stairway, an evacuation 
+lift (together with its machine room) and evacuation lift lobbies.
+Page 117	
+Insert the following entry between the definitions of Inner room and Live/work unit.
+Interlocked stair Two interlocking protected stairways providing two separate paths 
+of egress within one protected shaft or separated protected shafts. These are also 
+sometimes referred to as scissor stairs or stacked stairs.
+Page 119	
+Replace the entry for Storey exit with the following.
+Storey exit A final exit, or a doorway that gives direct access into a protected 
+stairway, evacuation lift lobby within an evacuation shaft, firefighting lobby or 
+external escape route.
+NOTE: If an institutional building is planned to enable progressive horizontal 
+evacuation, a door in a compartment wall is considered a storey exit for the 
+purposes of requirement B1.
+8	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Appendix C: Fire doorsets
+Pages 138 	Replace Table C1 with the following table.
+and 139
+Table C1  Provisions for fire doorsets
+Position of door
+Minimum fire resistance of door 
+in terms of integrity (minutes) 
+when tested to the relevant 
+European standard(1)
+Minimum fire resistance of 
+door in terms of integrity 
+(minutes) when tested to 
+BS 476-22
+1.
+In a compartment wall separating buildings
+Same as for the wall in which 
+the door is fitted, but a 
+minimum of 60 minutes
+Same as for the wall in which 
+the door is fitted, but a 
+minimum of 60 minutes
+2. In a compartment wall:
+a. if it separates a flat from a space in
+E 30 Sa
+(2)
+FD 30 S(2)
+common use
+b. enclosing a protected shaft forming a
+E 30 Sa
+(2) 
+FD 30 S(2)
+stairway or an evacuation shaft wholly 
+or partly above the adjoining ground in a 
+building used for flats, other residential, 
+assembly and recreation, or office 
+purposes
+c. enclosing a protected shaft forming
+Half the period of fire resistance 
+of the wall in which it is fitted, 
+but 30 minutes minimum and 
+with suffix Sa
+Half the period of fire 
+resistance of the wall in 
+which it is fitted, but 30 
+minutes minimum and with 
+suffix S(2)
+a stairway or an evacuation shaft not 
+described in (b) above
+(2)
+d. enclosing a protected shaft forming a lift
+Half the period of fire resistance 
+of the wall in which it is fitted, 
+but 30 minutes minimum
+Half the period of fire 
+resistance of the wall in 
+which it is fitted, but 30 
+minutes minimum
+or service shaft
+e. not described in (a), (b), (c) or (d) above.
+Same as for the wall in which 
+it is fitted, but add Sa
+Same as for the wall in which 
+it is fitted, but add S(2) if the 
+door is used for progressive 
+horizontal evacuation under 
+the guidance to requirement 
+B1
+(2) if the 
+door is used for progressive 
+horizontal evacuation under the 
+guidance to requirement B1
+3. In a compartment floor
+Same as for the floor in which it 
+is fitted
+Same as for the floor in 
+which it is fitted
+4. Forming part of the enclosures of:
+a. protected stairway or evacuation shaft
+E 30 Sa
+(2)
+FD 30 S(2)
+(except as described in item 9 or 11(b) 
+below)
+b. a lift shaft (see paragraph 3.99b) that does
+E 30
+FD 30
+not form a protected shaft in 2(b), (c) or (d) 
+above.
+5. Forming part of the enclosure of:
+a. a protected lobby approach (or protected
+E 30 Sa
+(2)
+FD 30 S(2)
+corridor) to a stairway or an evacuation 
+shaft
+b. any other protected corridor
+E 20 Sa
+(2)
+FD 20 S(2)
+c. a protected lobby approach to a lift shaft
+E 30 Sa
+(2)
+FD 30 S(2)
+(paragraphs 3.102 to 3.104).
+Approved Document B	
+9
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table C1  Continued
+Position of door
+Minimum fire resistance of door 
+in terms of integrity (minutes) 
+when tested to the relevant 
+European standard(1)
+Minimum fire resistance of 
+door in terms of integrity 
+(minutes) when tested to 
+BS 476-22
+6. Giving access to an external escape route
+E 30
+FD 30
+7. Sub-dividing:
+a. corridors connecting alternative exits
+E 20 Sa
+(2)
+FD 20 S(2)
+b. dead-end portions of corridors from the
+E 20 Sa
+(2)
+FD 20 S(2)
+remainder of the corridor.
+8. Any door within a cavity barrier
+E 30
+FD 30
+9. Any door that forms part of the enclosure
+E 20
+FD 20
+to a protected entrance hall or protected 
+landing in a flat
+10. Any door that forms part of the enclosure:
+a. to a place of special fire hazard
+E 30
+FD 30
+b. to ancillary accommodation in care homes
+E 30
+FD 30
+(see paragraph 2.44 in Approved Document 
+B Volume 2).
+11. In a dwellinghouse:
+a. between a dwellinghouse and a garage
+E 30 Sa
+(2)
+FD 30 S(2)
+b. forming part of the enclosures to a
+E 20
+FD 20
+protected stairway in a single family 
+dwellinghouse
+c. within any fire resisting construction in a
+E 20
+FD 20
+dwellinghouse not described elsewhere in 
+this table.
+NOTES:
+1. Classified in accordance with BS EN 13501-2. National classifications do not necessarily equate with European
+classifications, therefore products cannot typically assume a European class unless they have been tested accordingly.
+2.	Unless pressurisation techniques that comply with BS EN 12101-6 are used, these doors should also comply with
+one of the following conditions.
+a.	Have a leakage rate not exceeding 3m3/m/hour (from head and jambs only) when tested at 25Pa under BS 476-31.1.
+b.	Meet the additional Sa classification when tested to BS EN 1634-3.
+10	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+The Building Regulations 2010
+Approved Document B: Fire safety
+Volume 2 – Buildings other than dwellings  
+2019 edition incorporating the 2020 and 2022 
+amendments
+List of amendments
+March 2024
+Section 19: Fire safety information
+Essential information
+Page 128	 Replace sub-paragraph 19.6 (c) (ii) as follows.
+ii. 	 Any provision to enable the evacuation of disabled people (including the
+location and mode of operation of evacuation lifts).
+Appendix A: Key terms
+Page 131	
+Insert the following two entries between the definitions of Evacuation lift and Exit 
+passageway.
+Evacuation lift lobby An area protected from fire and smoke ingress by fire resisting 
+construction and smoke control measures, providing direct access to an evacuation 
+lift, where a person can wait for a lift service in relative safety while an evacuation is 
+underway.
+Evacuation shaft A protected shaft containing a protected stairway, an evacuation 
+lift (together with its machine room) and evacuation lift lobbies.
+Page 133	
+Insert the following entry between the definitions of Inner room and Live/work unit.
+Interlocked stair Two interlocking protected stairways providing two separate paths 
+of egress within one protected shaft or separated protected shafts. These are also 
+sometimes referred to as scissor stairs or stacked stairs.
+Page 134	 Replace the entry for Storey exit with the following.
+Storey exit A final exit, or a doorway that gives direct access into a protected 
+stairway, evacuation lift lobby within an evacuation shaft, firefighting lobby or 
+external escape route.
+NOTE: If an institutional building is planned to enable progressive horizontal 
+evacuation, a door in a compartment wall is considered a storey exit for the 
+purposes of requirement B1.
+Approved Document B	
+11
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+List of Approved Documents
+The following documents have been published to give guidance on how to meet the Building 
+Regulations. You can find the date of the edition approved by the Secretary of State at www.gov.uk.
+Approved Document A
+Structure
+Approved Document L
+Conservation of fuel and power
+Volume 1: Dwellings
+Approved Document B
+Fire safety
+Volume 1: Dwellings
+Approved Document L
+Conservation of fuel and power
+Volume 2: Buildings other than dwellings
+Approved Document B
+Fire safety
+Volume 2: Buildings other than dwellings
+Approved Document M
+Access to and use of buildings
+Volume 1: Dwellings
+Approved Document C
+Site preparation and resistance to contaminants 
+and moisture
+Approved Document M
+Access to and use of buildings
+Volume 2: Buildings other than dwellings
+Approved Document D
+Toxic substances
+Approved Document O
+Overheating 
+Approved Document P
+Electrical safety – Dwellings
+Approved Document E
+Resistance to the passage of sound
+Approved Document F
+Ventilation
+Volume 1: Dwellings
+Approved Document Q
+Security – Dwellings
+Approved Document F
+Ventilation
+Volume 2: Buildings other than dwellings
+Approved Document R
+Infrastructure for electronic communications
+Volume 1: Physical infrastructure and network 
+connection for new dwellings
+Approved Document G
+Sanitation, hot water safety and water efficiency
+Approved Document R
+Infrastructure for electronic communications
+Volume 2: Physical infrastructure for high-speed 
+electronic communications networks
+Approved Document H
+Drainage and waste disposal
+Approved Document J
+Combustion appliances and fuel storage systems
+Approved Document S
+Infrastructure for the charging of 
+electric vehicles
+Approved Document K
+Protection from falling, collision and impact
+Approved Document T
+Toilets
+Approved Document 7
+Materials and workmanship
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010, Approved Documents are available from:
+RIBA Books
+Online: www.ribabooks.com
+Telephone: (0)207 307 5355
+Email: sales@ribabooks.com
+© Crown copyright, 2024
+You may re-use this information (excluding logos) free of 
+charge in any format or medium, under the terms of the 
+Open Government Licence v3.
+Where we have identified any third-party copyright 
+information, you will need to obtain permission from the 
+copyright holders concerned. This publication is available for 
+download at www.gov.uk.
+To view this licence, visit www.nationalarchives.gov.uk/ 
+doc/open-governement-licence/version/3/ or write to 
+the Information Policy Team, The National Archives, Kew, 
+London TW9 4DU or email psi@nationalarchives.gsi.gov.uk.
+Copyright in the typographical arrangement, excluding logos, 
+of the cover and internal page layouts of this publication 
+rests with the publisher.
+O N L I N E  V E R S I O N

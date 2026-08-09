@@ -1,0 +1,1044 @@
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Amendments to the 
+Approved Documents
+This document contains amendments to the following Approved 
+Document: 
+Approved Document B: Fire safety 
+Volume 1 – Dwellings 
+Volume 2 – Buildings other than dwellings 
+2019 edition incorporating the 2020 and 2022 amendments
+Published 
+September 2024 
+Taking effect on 2 March 2025
+For use in England
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Introduction
+This document sets out amendments to guidance previously published in Approved Document B: Fire 
+safety, Volume 1 – Dwellings and Volume 2 – Buildings other than dwellings, 2019 edition incorporating 
+the 2020 and 2022 amendments.
+These amendments will be incorporated into both the online and paper versions of Approved 
+Document B Volume 1 and Volume 2 when the changes take effect. Versions from before that date 
+will need to be read alongside the amendments listed in this document. You should always check the 
+online version to know that you are looking at the most up to date version.
+The changes highlighted in this amendment booklet take effect on 2 March 2025 for use in England. 
+The 2019 edition incorporating the 2020 and 2022 amendments will continue to apply where a building 
+notice or an initial notice has been given to, or a building control approval application with full plans 
+made to, the relevant authority before 2 March 2025 and either the building work to which it relates:
+a. has started and is sufficiently progressed before that day; or
+b. is started and is sufficiently progressed within the period of six months beginning on that day.
+Please note that ‘building notice’, ‘initial notice’ and ‘building control approval application with full 
+plans’ have the meanings given in the Building Regulations 2010. For the purpose of these transitional 
+arrangements, building work is to be regarded as ‘sufficiently progressed’:
+a. where the building work consists of the construction of a building, when the pouring of concrete 
+for the permanent placement of the trench, pad or raft foundations has started, or the permanent 
+placement of piling has started; or
+b. where the building work consists of work to an existing building, when that work has started; or
+c. where the building work consists of a material change of use of a building, when work to effect 
+that change of use has stated.
+The changes focus on the following fire safety provisions:
+a. Regulation 38 and fire safety information.
+b. Removal of national classes for reaction to fire and roofs.
+c. Introduction of new provisions for sprinklers in care homes.
+Full details of the changes are provided below.
+2 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Approved Document B: Fire safety 
+Volume 1 – Dwellings 
+2019 edition incorporating the 2020 and 2022 
+amendments
+List of amendments 
+Taking effect on 2 March 2025
+Section 10: Resisting fire spread over external walls
+Page 82
+Paragraph 10.14, delete the second note.
+Regulation 38: Fire safety information
+Page 111
+Replace the text box for regulation 38 with the following.
+Fire safety information 
+38. (1) This regulation applies where building work—
+(a) consists of or includes the erection or extension of a relevant building; or 
+(b) is carried out in connection with a relevant change of use of a building, and Part B of 
+Schedule 1 imposes a requirement in relation to the work. 
+(2) The person carrying out the work must give fire safety information to the responsible person no 
+later than— 
+(a) where the building, proposed building or extension to which the building work relates is 
+not occupied during the building work, the date of completion of the work or the date of 
+occupation of the building or the extension, whichever is the earlier; 
+(b) in any other case, the date of completion of the work. 
+(2A) The responsible person must give the person carrying out the work a notice acknowledging 
+receipt of the fire safety information and confirming the information provided is sufficient to 
+enable them to understand, operate and maintain the building (and the fire safety systems in it) 
+after the building work in question. 
+(2B) Subject to paragraph (2D), the person carrying out the work must give a notice to the relevant 
+authority— 
+(a) confirming that they have given the fire safety information to the responsible person 
+pursuant to paragraph (2), and 
+(b) stating that they have received the notice from the responsible person pursuant to 
+paragraph (2A) or where they have not received the notice, stating the steps taken to obtain 
+the notice from the responsible person and the dates they were taken.
+Approved Document B 
+3
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+(2C) The notification under paragraph (2B) must be given no later than—
+(a) where regulation 20 (provisions applicable to self-certification schemes) applies to the work, 
+30 days after the date referred to in paragraph (2), 
+(b) in any other case, five days after the date referred to in paragraph (2). 
+(2D) Paragraphs (2B) and (2C) do not apply where regulation 20A (provisions applicable to third party 
+certification schemes) applies to the work and instead paragraphs (2E) to (2G) apply. 
+(2E) Where this paragraph applies, the person carrying out the work must notify the third party 
+certifier appointed under regulation 12(6)(c)—
+(a) confirming that they have given the fire safety information to the responsible person 
+pursuant to paragraph (2), and 
+(b) stating that they have received the notice from the responsible person pursuant to 
+paragraph (2A) or where they have not received the notice, stating the steps taken to obtain 
+the notice from the responsible person and the dates they were taken. 
+(2F) The notification under paragraph (2E) must be given no later than seven days after the date 
+referred to in paragraph (2). 
+(2G) Within 30 days of receiving the notification under paragraph (2E) the third party certifier 
+appointed under regulation 12(6)(c) must notify the relevant authority confirming receipt of the 
+notification under paragraph (2E). 
+(3) In this regulation—
+(a) “fire safety information” means information relating to the design and construction of the 
+building or extension, and the services, fittings and equipment provided in or in connection 
+with the building or extension which will assist the responsible person to operate and 
+maintain the building or extension with reasonable safety; 
+(b) a “relevant building” is a building to which the Regulatory Reform (Fire Safety) Order 2005 
+applies, or will apply after the completion of building work; 
+(c) a “relevant change of use” is a material change of use where, after the change of use takes 
+place, the Regulatory Reform (Fire Safety) Order 2005 will apply, or continue to apply, to the 
+building; and 
+(d) “responsible person” has the meaning given by article 3 of the Regulatory Reform (Fire 
+Safety) Order 2005.
+Section 17: Fire safety information
+Page 112 
+Replace the whole of Section 17: Fire safety information with the following. 
+Section 17: Fire safety information
+17.1 For building work involving the erection or extension or a change of use of a 
+relevant building (i.e. a building to which the Regulatory Reform (Fire Safety) Order 
+2005 or the Building Safety Act 2022 applies, or will apply), fire safety information 
+should be given to the relevant dutyholder (responsible person or accountable person) 
+at one of the following times, whichever is the earlier.
+a. 
+When the project is complete.
+b. 
+When the building or extension is first occupied.
+17.2 This section is a guide to the information that should be provided and is not 
+exhaustive. Guidance is in terms of essential information and additional information 
+for complex buildings; however, the level of detail required should be considered on 
+a case-by-case basis.
+4 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+Essential information
+17.3 The essential information provided should be sufficient to enable the relevant 
+dutyholder to understand, operate and maintain the building (including the fire 
+safety systems in it). It should make it clear how the fire safety arrangements of the 
+building are intended to operate together. In cases where a fire safety strategy has 
+been prepared (e.g. as part of the design and construction process for a building or 
+building work), then this should be made available to the relevant dutyholder.
+17.4 Information on the location of fire protection measures may be sufficient. An 
+as-built plan of the building should be provided showing all of the following.
+a. 
+Escape routes – this should include exit capacity (i.e. the maximum allowable 
+number of people for each storey and for the building).
+b. 
+Fire resisting construction and location of fire-separating elements (including 
+cavity barriers in walk-in spaces).
+c. 
+Fire doorsets, fire doorsets fitted with a self-closing device and other doors 
+relevant to the fire safety strategy, such as doors equipped with relevant 
+hardware.
+d. 
+Locations of fire detector heads (e.g. heat and smoke detectors), manual call 
+points, fire alarm control and indicating equipment, fire alarm sounders, fire 
+safety signage, emergency lighting, fire extinguishers, dry or wet fire mains and 
+other firefighting equipment, and hydrants outside the building.
+e. 
+Any sprinkler systems, including isolating valves and control equipment.
+f. 
+Any smoke control systems, or ventilation systems with a smoke control 
+function, including mode of operation and control systems.
+g. 
+Any high risk areas (e.g. heating machinery).
+h. 
+Any power supplies or power generating installations.
+i. 
+The location of secure information boxes.
+17.5 Details should be provided of all of the following.
+a. 
+Specifications of fire safety equipment provided, including routine maintenance 
+schedules.
+b. 
+Any assumptions regarding the management of the building in the design of the 
+fire safety arrangements.
+c. 
+Any provision enabling the evacuation of disabled people, which can be used 
+when designing personal emergency evacuation plans.
+Approved document B 
+5
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Additional information for complex buildings
+17.6 A detailed record should be provided of both of the following.
+a. 
+The fire safety strategy.
+b. 
+Procedures for operating and maintaining any fire protection measures. This 
+should include an outline cause and effect matrix/strategy for the building.
+Further guidance is available in clause 9 and Annex H of BS 9999.
+17.7 The records should include details of the following.
+a. 
+The fire safety strategy, including all assumptions in the design of the fire safety 
+systems (such as fire load). Any risk assessments or risk analysis.
+b. 
+All assumptions in the design of the fire safety arrangements for the 
+management of the building.
+c. 
+All of the following.
+i. 
+Escape routes (including occupant load and capacity of escape routes).
+ii. 
+Any provision to enable the evacuation of disabled people (including the 
+location and mode of operation of evacuation lifts).
+iii. 
+Escape strategy (e.g. simultaneous or phased).
+iv. 
+Assembly points and/or muster stations.
+d. 
+All passive fire safety measures, including all of the following.
+i. 
+Compartmentation.
+ii. 
+Fire-separating elements.
+iii. 
+Fire resisting construction.
+iv. 
+Cavity barriers.
+v. 
+Fire doorsets, including fre doorsets ftted with a self-closing device and 
+other doors relevant to the fre safety strategy, such as doors equipped with 
+relevant hardware (e.g. electronic security locks).
+vi. Fire dampers, fre and smoke dampers, and smoke control dampers.
+vii. Fire shutters.
+e. 
+All of the following.
+i. 
+Fire detector heads (e.g. heat and smoke detectors).
+ii. 
+Manual call points.
+iii. 
+Fire alarm control and indicating equipment.
+iv. 
+Fire alarm sounders.
+v. 
+Emergency communications systems.
+vi. CCTV.
+6 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+vii. Fire safety signage.
+viii. Emergency lighting.
+ix. 
+Fire extinguishers.
+x. 
+Dry or wet fre mains and other frefghting equipment.
+xi. 
+Other interior facilities for the fre and rescue service.
+xii. Emergency control rooms.
+xiii. Location of hydrants outside the building.
+xiv. Other exterior facilities for the fre and rescue service.
+xv. The location of secure information boxes.
+f. 
+All active fire safety measures, including both of the following.
+i. 
+Sprinkler system(s) design, including isolating valves and control equipment.
+ii. 
+Smoke control system(s) (or heating, ventilation and air conditioning system 
+with a smoke control function) design, including any air inlets, smoke 
+outlets, mode of operation and control systems.
+g. 
+Any high risk areas (e.g. heating machinery) and particular hazards.
+h. 
+Plans of the building as built, showing the locations of the above.
+i. 
+Both of the following.
+i. 
+Specifcations of any fre safety equipment provided, including all of the 
+following.
+• 
+Operational details.
+• 
+Operators’ manuals.
+• 
+Software.
+• 
+System zoning.
+• 
+Routine inspection, testing and maintenance schedules.
+ii. 
+Records of any acceptance or commissioning tests.
+j. 
+Any other details appropriate for the specific building.
+Appendix B: Performance of materials, products and structures
+Introduction
+Page 121 
+Replace paragraphs B1 to B5 with the following.
+B1 
+Much of the guidance in this document is given in terms of performance 
+classifications in relation to British or European Standards. In such cases, it will 
+be necessary to demonstrate that a system or product can meet the relevant 
+performance classification. This will be achieved if the system or product complies 
+with one of the following.
+a. 
+They should be in accordance with a specification or design that has been 
+shown by specific test(s) to be capable of meeting that performance 
+classification.
+Approved document B 
+7
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+b. 
+They should have been designed by using relevant design standards in order to 
+meet that performance classification.
+c. 
+They should have been assessed by applying relevant test evidence, in lieu 
+of carrying out a specific test, as being capable of meeting that performance 
+classification.
+NOTE: Some products are subject to Classification Without Further Testing (CWFT). 
+For the purposes of this approved document, such products can be considered 
+to have been shown to be capable of meeting a performance specification as per 
+paragraph B1a.
+B2 Any test evidence used to demonstrate the fire performance classification of a 
+product or system should be carefully checked to ensure that it is applicable to the 
+intended use. Small differences in detail, such as fixing method, joints, dimensions, 
+the introduction of insulation materials and air gaps (ventilated or not), might 
+significantly affect the performance and should be tested or assessed in accordance 
+with paragraph B1.
+B3 Assessments should not be regarded as a way to avoid a test where one is 
+necessary. Assessments should only be carried out where sufficient relevant test 
+evidence is available. Relevant test evidence is unlikely to be provided by test 
+standards which have different classification criteria.
+B4 Where it is proposed to assess the classification of a product or system in lieu of 
+carrying out a specific test (as in paragraph B1c), this should be done in accordance 
+with the relevant standard for extended application for the test in question and 
+should include details of the test evidence that has been used to support the 
+assessment.
+For performance classifications where there is no specific standard for extended 
+application, assessment reports should be produced in accordance with the 
+principles of BS EN 15725 and should include details of the test evidence that has 
+been used to support the assessment. In cases where the end use application is not 
+covered by the extended application standard and an assessment is the only other 
+suitable approach, then further information on best practice is provided in the 
+Passive Fire Protection Forum’s Guide to Undertaking Technical Assessments of the 
+Fire Performance of Construction Products Based on Fire Test Evidence. The same 
+principle should be followed for assessments as described in paragraph B2.
+NOTE: Regulation 7(2) limits components used in or on the external walls of 
+certain buildings to materials achieving class A2-s1, d0 or class A1 (see Section 10). 
+Assessments cannot be used to demonstrate compliance with this requirement.
+B5 Tests and assessments should be carried out by organisations with the necessary 
+expertise. For example, organisations listed as ‘notified bodies’ in accordance with 
+the European Construction Products Regulation or laboratories accredited by the 
+United Kingdom Accreditation Service (UKAS) for the relevant test standard can be 
+assumed to have the necessary expertise.
+NOTE: Standard fire tests do not directly measure fire hazard. They measure or 
+assess the response of a material or system to exposure to one or more aspects 
+of fire conditions. Performance in fire tests is only one of a number of factors that 
+should be taken into account.
+8 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+Reaction to fire
+Page 122 Replace paragraph B8 with the following.
+B8 To reduce the testing burden on manufacturers, BS EN 13238 defines a number of 
+standard substrates that produce test results representative of different end use 
+applications. The classification for reaction to fire achieved during testing is only 
+valid when the product is used within this direct field of application, i.e. when the 
+product is fixed to a substrate of that class in its end use. The standard substrate 
+selected for testing should take account of the intended end use applications (field 
+of application) of the product and represent end use substrates that have a density 
+of a minimum of 75% of the standard substrate’s nominal density.
+National classifications for reaction to fire
+Pages 122 Delete the section National classifications for reaction to fire. 
+and 123
+Thermoplastic materials
+Page 123 
+Replace paragraph B13 with the following. 
+and 124 
+B12 For the purposes of requirements B2 and B4, thermoplastic materials should be 
+classified as TP(a) rigid, TP(a) flexible or TP(b), as follows:
+a. 
+TP(a) rigid
+i. 
+rigid solid uPVC sheet
+ii. 
+solid (as distinct from double- or multi-skinned) polycarbonate sheet a 
+minimum of 3mm thick
+iii. 
+any other rigid thermoplastic product, a specimen of which (at the thickness 
+of the product as put on the market), when tested to BS 2782-0 Method 
+508A, performs so that both:
+• 
+the test flame extinguishes before the first mark
+• 
+the duration of flaming or afterglow does not exceed 5 seconds 
+following removal of the burner.
+b. 
+TP(a) flexible
+Flexible products a maximum of 1mm thick that comply with the Type C 
+requirements of BS 5867-2 when tested to BS 5438 Test 2 with the flame applied 
+to the surface of the specimens for 5, 15, 20 and 30 seconds respectively, but 
+excluding the cleansing procedure; and
+c. 
+TP(b)
+i. 
+rigid solid polycarbonate sheet products a maximum of 3mm thick, or multi-
+skinned polycarbonate sheet products that do not qualify as TP(a) by test
+ii. 
+other products which, when a specimen of the material between 1.5 and 
+3mm thick is tested in accordance with BS 2782-0 Method 508A, have a 
+maximum rate of burning of 50mm/minute.
+NOTE: If it is not possible to cut or machine a 3mm thick specimen from the 
+product, then a 3mm test specimen can be moulded from the same material as that 
+used to manufacture the product.
+Approved document B 
+9
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Roofs
+Page 125 Replace paragraph B18 with the following.
+B17 This document uses the European classification system for roof covering set out in 
+BS EN 13501-5; however, there may be some products or systems whose performance 
+will need to be assessed based on the recommendations of paragraphs B1 to B5 as 
+being capable of meeting that performance classification.
+Page 125
+Delete Table B2.
+Page 125
+Delete the note after Table B2.
+Appendix F: Standards referred to
+British Standards
+Page 150 Replace the section on BS 476 Fire tests on building materials and structures with the 
+following.
+BS 476 Fire tests on building materials and structures
+BS 476-8 Test methods and criteria for the fire resistance of elements of building 
+construction [1972]
+BS 476-20 Method for determination of the fire resistance of elements of 
+construction (general principles) [1987]
+BS 476-21 Methods for determination of the fire resistance of loadbearing elements 
+of construction [1987]
+BS 476-22 Methods for determination of the fire resistance of non-loadbearing 
+elements of construction [1987]
+BS 476-23 Methods for determination of the contribution of components to the fire 
+resistance of a structure [1987]
+BS 476-24 Method for determination of the fire resistance of ventilation ducts [1987]
+BS 476-31.1 Methods for measuring smoke penetration through doorsets and shutter 
+assemblies. Method of measurement under ambient temperature conditions [1983]
+Page 151 
+Replace the entry for BS 9251 with the following.
+BS 9251 Fire sprinkler systems for domestic and residential occupancies. Code of practice 
+[2021].
+Index
+Page 155 In the index entry for British Standards, delete the following sub-entries.
+BS 476-3 Table B2
+BS 476-6 Table B1
+BS 476-7 Appendix B13, Table B1
+10 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+Page 155 In the index entry for British Standards, replace the sub-entry for ‘BS EN 13501-1’ with
+the following.
+BS EN 13501-1 page 76, Appendix B6
+In the index entry for British Standards, replace the sub-entry for ‘BS EN 1351-5’ with the 
+following
+BS EN 13501-5 Appendix B15 to B17
+Page 160 In the index entry for Fire performance, replace the sub-entry for ‘Classification and
+testing’ with the following.
+Classification and testing Appendix B1 to B9
+In the index entry for Fire performance, replace the sub-entry for ‘Roofs’ with the 
+following.
+Roofs Appendix B14 to B17
+Page 165 In the index entry for Roof coverings, delete the following sub-entry.
+Performance classification Table B2
+Approved document B 
+11
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+The Building Regulations 2010
+Approved Document B: Fire safety 
+Volume 2 – Buildings other than dwellings 
+2019 edition incorporating the 2020 and 2022 
+amendments
+List of amendments 
+Taking effect on 2 March 2025
+Section 2: Design for horizontal escape
+Residential care homes
+Bedrooms
+Page 26
+Replace paragraph 2.43 with the following.
+2.43 Bedrooms should not contain more than one single or double bed.
+NOTE: It is not the intention to separate couples who happen to live in a care home by 
+recommending that they sleep in separate bedrooms or beds.
+Sprinkler systems
+Page 27
+Replace paragraph 2.46 with the following.
+2.46 Care homes should be fitted with a sprinkler system throughout the building in 
+accordance with Appendix E.
+Section 12: Resisting fire spread over external walls
+Page 97
+Paragraph 12.15, delete the second note.
+Regulation 38: Fire safety information
+Page 126
+Replace the text box for regulation 38 with the following.
+Fire safety information 
+38. (1) This regulation applies where building work—
+(a) consists of or includes the erection or extension of a relevant building; or 
+(b) is carried out in connection with a relevant change of use of a building, and Part B of 
+Schedule 1 imposes a requirement in relation to the work. 
+(2) The person carrying out the work must give fire safety information to the responsible person no 
+later than— 
+(a) where the building, proposed building or extension to which the building work relates is 
+not occupied during the building work, the date of completion of the work or the date of 
+occupation of the building or the extension, whichever is the earlier; 
+(b) in any other case, the date of completion of the work.
+12 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+(2A) The responsible person must give the person carrying out the work a notice acknowledging 
+receipt of the fire safety information and confirming the information provided is sufficient to 
+enable them to understand, operate and maintain the building (and the fire safety systems in it) 
+after the building work in question. 
+(2B) Subject to paragraph (2D), the person carrying out the work must give a notice to the relevant 
+authority— 
+(a) confirming that they have given the fire safety information to the responsible person 
+pursuant to paragraph (2), and 
+(b) stating that they have received the notice from the responsible person pursuant to 
+paragraph (2A) or where they have not received the notice, stating the steps taken to obtain 
+the notice from the responsible person and the dates they were taken. 
+(2C) The notification under paragraph (2B) must be given no later than—
+(a) where regulation 20 (provisions applicable to self-certification schemes) applies to the work, 
+30 days after the date referred to in paragraph (2), 
+(b) in any other case, five days after the date referred to in paragraph (2). 
+(2D) Paragraphs (2B) and (2C) do not apply where regulation 20A (provisions applicable to third party 
+certification schemes) applies to the work and instead paragraphs (2E) to (2G) apply. 
+(2E) Where this paragraph applies, the person carrying out the work must notify the third party 
+certifier appointed under regulation 12(6)(c)—
+(a) confirming that they have given the fire safety information to the responsible person 
+pursuant to paragraph (2), and 
+(b) stating that they have received the notice from the responsible person pursuant to 
+paragraph (2A) or where they have not received the notice, stating the steps taken to obtain 
+the notice from the responsible person and the dates they were taken. 
+(2F) The notification under paragraph (2E) must be given no later than seven days after the date 
+referred to in paragraph (2). 
+(2G) Within 30 days of receiving the notification under paragraph (2E) the third party certifier 
+appointed under regulation 12(6)(c) must notify the relevant authority confirming receipt of the 
+notification under paragraph (2E). 
+(3) In this regulation—
+(a) “fire safety information” means information relating to the design and construction of the 
+building or extension, and the services, fittings and equipment provided in or in connection 
+with the building or extension which will assist the responsible person to operate and 
+maintain the building or extension with reasonable safety; 
+(b) a “relevant building” is a building to which the Regulatory Reform (Fire Safety) Order 2005 
+applies, or will apply after the completion of building work; 
+(c) a “relevant change of use” is a material change of use where, after the change of use takes 
+place, the Regulatory Reform (Fire Safety) Order 2005 will apply, or continue to apply, to the 
+building; and 
+(d) “responsible person” has the meaning given by article 3 of the Regulatory Reform (Fire 
+Safety) Order 2005.
+Section 19: Fire safety information
+Page 127 Replace the whole of Section 19: Fire safety information with the following.
+Section 19: Fire safety information
+19.1 For building work involving the erection or extension or a change of use of a 
+relevant building (i.e. a building to which the Regulatory Reform (Fire Safety) Order 
+2005 or the Building Safety Act 2022 applies, or will apply), fire safety information 
+should be given to the relevant dutyholder (responsible person or accountable person) 
+at one of the following times, whichever is the earlier.
+a. 
+When the project is complete.
+Approved document B 
+13
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+b. 
+When the building or extension is first occupied.
+19.2 This section is a guide to the information that should be provided and is not 
+exhaustive. Guidance is in terms of essential information and additional information 
+for complex buildings; however, the level of detail required should be considered on 
+a case-by-case basis. 
+Essential information
+19.3 The essential information provided should be sufficient to enable the relevant 
+dutyholder to understand, operate and maintain the building (including the fire 
+safety systems in it). It should make it clear how the fire safety arrangements of the 
+building are intended to operate together. In cases where a fire safety strategy has 
+been prepared (e.g. as part of the design and construction process for a building or 
+building work), then this should be made available to the relevant dutyholder.
+19.4 Information on the location of fire protection measures may be sufficient. An 
+as-built plan of the building should be provided showing all of the following.
+a. 
+Escape routes – this should include exit capacity (i.e. the maximum allowable 
+number of people for each storey and for the building).
+b. 
+Fire resisting construction and location of fire-separating elements (including 
+cavity barriers in walk-in spaces).
+c. 
+Fire doorsets, fire doorsets fitted with a self-closing device and other doors 
+relevant to the fire safety strategy, such as doors equipped with relevant 
+hardware.
+d. 
+Locations of fire detector heads (e.g. heat and smoke detectors), manual call 
+points, fire alarm control and indicating equipment, fire alarm sounders, fire 
+safety signage, emergency lighting, fire extinguishers, dry or wet fire mains and 
+other firefighting equipment, and hydrants outside the building.
+e. 
+Any sprinkler systems, including isolating valves and control equipment.
+f. 
+Any smoke control systems, or ventilation systems with a smoke control 
+function, including mode of operation and control systems.
+g. 
+Any high risk areas (e.g. heating machinery).
+h. 
+Any power supplies or power generating installations.
+i. 
+The location of secure information boxes.
+19.5 Details should be provided of all of the following.
+a. 
+Specifications of fire safety equipment provided, including routine maintenance 
+schedules.
+b. 
+Any assumptions regarding the management of the building in the design of the 
+fire safety arrangements.
+c. 
+Any provision enabling the evacuation of disabled people, which can be used 
+when designing personal emergency evacuation plans.
+d. 
+Information for care homes should include the assessment for the number of 
+beds in a compartment, as this should set out the expected number of staff 
+and level of assistance of residents (see paragraph 2.39).
+14 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+Additional information for complex buildings
+19.6 A detailed record should be provided of both of the following.
+a. 
+The fire safety strategy.
+b. 
+Procedures for operating and maintaining any fire protection measures. This 
+should include an outline cause and effect matrix/strategy for the building.
+Further guidance is available in clause 9 and Annex H of BS 9999.
+19.7 The records should include details of the following.
+a. 
+The fire safety strategy, including all assumptions in the design of the fire safety 
+systems (such as fire load). Any risk assessments or risk analysis.
+b. 
+All assumptions in the design of the fire safety arrangements for the 
+management of the building.
+c. 
+All of the following.
+i. 
+Escape routes (including occupant load and capacity of escape routes).
+ii. 
+Any provision to enable the evacuation of disabled people (including the 
+location and mode of operation of evacuation lifts).
+iii. 
+Escape strategy (e.g. simultaneous or phased).
+iv. 
+Assembly points and/or muster stations.
+d. 
+All passive fire safety measures, including all of the following.
+i. 
+Compartmentation.
+ii. 
+Fire-separating elements.
+iii. 
+Fire resisting construction.
+iv. 
+Cavity barriers.
+v. 
+Fire doorsets, including fre doorsets ftted with a self-closing device and 
+other doors relevant to the fre safety strategy, such as doors equipped with 
+relevant hardware (e.g. electronic security locks).
+vi. Fire dampers, fre and smoke dampers, and smoke control dampers.
+vii. Fire shutters.
+e. 
+All of the following.
+i. 
+Fire detector heads (e.g. heat and smoke detectors).
+ii. 
+Manual call points.
+iii. 
+Fire alarm control and indicating equipment.
+iv. 
+Fire alarm sounders.
+v. 
+Emergency communications systems.
+vi. CCTV.
+Approved document B 
+15
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+vii. Fire safety signage.
+viii. Emergency lighting.
+ix. 
+Fire extinguishers.
+x. 
+Dry or wet fre mains and other frefghting equipment.
+xi. 
+Other interior facilities for the fre and rescue service.
+xii. Emergency control rooms.
+xiii. Location of hydrants outside the building.
+xiv. Other exterior facilities for the fre and rescue service.
+xv. The location of secure information boxes.
+f. 
+All active fire safety measures, including both of the following.
+i. 
+Sprinkler system(s) design, including isolating valves and control equipment.
+ii. 
+Smoke control system(s) (or heating, ventilation and air conditioning system 
+with a smoke control function) design, including any air inlets, smoke 
+outlets, mode of operation and control systems.
+g. 
+Any high risk areas (e.g. heating machinery) and particular hazards.
+h. 
+Plans of the building as built, showing the locations of the above.
+i. 
+Both of the following.
+i. 
+Specifcations of any fre safety equipment provided, including all of the 
+following.
+• 
+Operational details.
+• 
+Operators’ manuals.
+• 
+Software.
+• 
+System zoning.
+• 
+Routine inspection, testing and maintenance schedules.
+ii. 
+Records of any acceptance or commissioning tests.
+j. 
+Any other details appropriate for the specific building.
+Appendix B: Performance of materials, products and structures
+Introduction
+Page 136 Replace paragraphs B1 to B5 with the following.
+B1 
+Much of the guidance in this document is given in terms of performance 
+classifications in relation to British or European Standards. In such cases, it will 
+be necessary to demonstrate that a system or product can meet the relevant 
+performance classification. This will be achieved if the system or product complies 
+with one of the following.
+a. 
+They should be in accordance with a specification or design that has been 
+shown by specific test(s) to be capable of meeting that performance 
+classification.
+16 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+b. 
+They should have been designed by using relevant design standards in order to 
+meet that performance classification.
+c. 
+They should have been assessed by applying relevant test evidence, in lieu 
+of carrying out a specific test, as being capable of meeting that performance 
+classification.
+NOTE: Some products are subject to Classification Without Further Testing (CWFT). 
+For the purposes of this approved document, such products can be considered 
+to have been shown to be capable of meeting a performance specification as per 
+paragraph B1a.
+B2 Any test evidence used to demonstrate the fire performance classification of a 
+product or system should be carefully checked to ensure that it is applicable to the 
+intended use. Small differences in detail, such as fixing method, joints, dimensions, 
+the introduction of insulation materials and air gaps (ventilated or not), might 
+significantly affect the performance and should be tested or assessed in accordance 
+with paragraph B1.
+B3 Assessments should not be regarded as a way to avoid a test where one is 
+necessary. Assessments should only be carried out where sufficient relevant test 
+evidence is available. Relevant test evidence is unlikely to be provided by test 
+standards which have different classification criteria.
+B4 Where it is proposed to assess the classification of a product or system in lieu of 
+carrying out a specific test (as in paragraph B1c), this should be done in accordance 
+with the relevant standard for extended application for the test in question and 
+should include details of the test evidence that has been used to support the 
+assessment.
+For performance classifications where there is no specific standard for extended 
+application, assessment reports should be produced in accordance with the 
+principles of BS EN 15725 and should include details of the test evidence that has 
+been used to support the assessment. In cases where the end use application is not 
+covered by the extended application standard and an assessment is the only other 
+suitable approach, then further information on best practice is provided in the 
+Passive Fire Protection Forum’s Guide to Undertaking Technical Assessments of the 
+Fire Performance of Construction Products Based on Fire Test Evidence. The same 
+principle should be followed for assessments as described in paragraph B2.
+NOTE: Regulation 7(2) limits components used in or on the external walls of 
+certain buildings to materials achieving class A2-s1, d0 or class A1 (see Section 12). 
+Assessments cannot be used to demonstrate compliance with this requirement.
+B5 Tests and assessments should be carried out by organisations with the necessary 
+expertise. For example, organisations listed as ‘notified bodies’ in accordance with 
+the European Construction Products Regulation or laboratories accredited by the 
+United Kingdom Accreditation Service (UKAS) for the relevant test standard can be 
+assumed to have the necessary expertise.
+NOTE: Standard fire tests do not directly measure fire hazard. They measure or 
+assess the response of a material or system to exposure to one or more aspects 
+of fire conditions. Performance in fire tests is only one of a number of factors that 
+should be taken into account.
+Approved document B 
+17
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Reaction to fire
+Page 137 
+Replace paragraph B8 with the following.
+B8 To reduce the testing burden on manufacturers, BS EN 13238 defines a number of 
+standard substrates that produce test results representative of different end use 
+applications. The classification for reaction to fire achieved during testing is only 
+valid when the product is used within this direct field of application, i.e. when the 
+product is fixed to a substrate of that class in its end use. The standard substrate 
+selected for testing should take account of the intended end use applications (field 
+of application) of the product and represent end use substrates that have a density 
+of a minimum of 75% of the standard substrate’s nominal density.
+National classifications for reaction to fire
+Pages 137 Delete the section National classifications for reaction to fire. 
+and 138
+Thermoplastic materials
+Page 138 Replace paragraph B13 with the following. 
+and 139 
+B12 For the purposes of requirements B2 and B4, thermoplastic materials should be 
+classified as TP(a) rigid, TP(a) flexible or TP(b), as follows:
+a. 
+TP(a) rigid
+i. 
+rigid solid uPVC sheet
+ii. 
+solid (as distinct from double- or multi-skinned) polycarbonate sheet a 
+minimum of 3mm thick
+iii. 
+any other rigid thermoplastic product, a specimen of which (at the thickness 
+of the product as put on the market), when tested to BS 2782-0 Method 
+508A, performs so that both:
+• 
+the test flame extinguishes before the first mark
+• 
+the duration of flaming or afterglow does not exceed 5 seconds 
+following removal of the burner.
+b. 
+TP(a) flexible
+Flexible products a maximum of 1mm thick that comply with the Type C 
+requirements of BS 5867-2 when tested to BS 5438 Test 2 with the flame applied 
+to the surface of the specimens for 5, 15, 20 and 30 seconds respectively, but 
+excluding the cleansing procedure; and
+c. 
+TP(b)
+i. 
+rigid solid polycarbonate sheet products a maximum of 3mm thick, or multi-
+skinned polycarbonate sheet products that do not qualify as TP(a) by test
+ii. 
+other products which, when a specimen of the material between 1.5 and 
+3mm thick is tested in accordance with BS 2782-0 Method 508A, have a 
+maximum rate of burning of 50mm/minute.
+NOTE: If it is not possible to cut or machine a 3mm thick specimen from the 
+product, then a 3mm test specimen can be moulded from the same material as that 
+used to manufacture the product.
+18 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+Roofs
+Page 139 
+and 140
+Replace paragraph B18 with the following.
+B17 This document uses the European classification system for roof covering set out in 
+BS EN 13501-5; however, there may be some products or systems whose performance 
+will need to be assessed based on the recommendations of paragraphs B1 to B5 as 
+being capable of meeting that performance classification.
+Page 140
+Delete Table B2.
+Page 140
+Delete the note after Table B2.
+Appendix F: Standards referred to
+British Standards
+Page 165 Replace the section on BS 476 Fire tests on building materials and structures with the 
+following.
+BS 476 Fire tests on building materials and structures
+BS 476-8 Test methods and criteria for the fire resistance of elements of building 
+construction [1972]
+BS 476-20 Method for determination of the fire resistance of elements of 
+construction (general principles) [1987]
+BS 476-21 Methods for determination of the fire resistance of loadbearing elements 
+of construction [1987]
+BS 476-22 Methods for determination of the fire resistance of non-loadbearing 
+elements of construction [1987]
+BS 476-23 Methods for determination of the contribution of components to the fire 
+resistance of a structure [1987]
+BS 476-24 Method for determination of the fire resistance of ventilation ducts [1987]
+BS 476-31.1 Methods for measuring smoke penetration through doorsets and shutter 
+assemblies. Method of measurement under ambient temperature conditions [1983]
+Page 166 Replace the entry for BS 9251 with the following.
+BS 9251 Fire sprinkler systems for domestic and residential occupancies. Code of practice 
+[2021].
+Index
+Page 170 In the index entry for British Standards, delete the following sub-entries.
+BS 476-3 Table B2
+BS 476-6 Table B1
+BS 476-7 Appendix B13, Table B1
+BS 476-11 Table B1
+Approved document B 
+19
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Page 171 
+In the index entry for British Standards, replace the sub-entry for ‘BS EN 13501-1’ with 
+the following.
+BS EN 13501-1 page 91, Appendix B6
+In the index entry for British Standards, replace the sub-entry for ‘BS EN 1351-5’ with the 
+following
+BS EN 13501-5 Appendix B15 to B17
+Page 177 
+In the index entry for Fire performance, replace the sub-entry for ‘Roofs’ with the 
+following.
+Roofs Appendix B14 to B17
+Page 186 In the index entry for Roof coverings, delete the following sub-entry.
+Fire resistance Table B2
+20 
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+List of Approved Documents
+The following documents have been published to give guidance on how to meet the Building 
+Regulations. You can fnd the date of the edition approved by the Secretary of State at www.gov.uk.
+Approved Document A 
+Structure
+Approved Document L 
+Conservation of fuel and power 
+Volume 1: Dwellings
+Approved Document B 
+Fire safety 
+Volume 1: Dwellings
+Approved Document L 
+Conservation of fuel and power 
+Volume 2: Buildings other than dwellings
+Approved Document B 
+Fire safety 
+Volume 2: Buildings other than dwellings
+Approved Document M 
+Access to and use of buildings 
+Volume 1: Dwellings
+Approved Document C 
+Site preparation and resistance to contaminants 
+and moisture
+Approved Document M 
+Access to and use of buildings 
+Volume 2: Buildings other than dwellings
+Approved Document D 
+Toxic substances
+Approved Document O 
+Overheating 
+Approved Document P 
+Electrical safety – Dwellings
+Approved Document E 
+Resistance to the passage of sound
+Approved Document F 
+Ventilation 
+Volume 1: Dwellings
+Approved Document Q 
+Security – Dwellings
+Approved Document F 
+Ventilation 
+Volume 2: Buildings other than dwellings
+Approved Document R 
+Infrastructure for electronic communications 
+Volume 1: Physical infrastructure and network 
+connection for new dwellings
+Approved Document G 
+Sanitation, hot water safety and water efciency
+Approved Document R 
+Infrastructure for electronic communications 
+Volume 2: Physical infrastructure for high-speed 
+electronic communications networks
+Approved Document H 
+Drainage and waste disposal
+Approved Document J 
+Combustion appliances and fuel storage systems
+Approved Document S 
+Infrastructure for the charging of 
+electric vehicles
+Approved Document K 
+Protection from falling, collision and impact
+Approved Document T 
+Toilet accommodation
+Approved Document 7 
+Materials and workmanship
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010, Approved Documents are available from:
+RIBA Books
+Online: www.ribabooks.com 
+Telephone: (0)207 307 5355 
+Email: sales@ribabooks.com
+© Crown copyright, 2024
+You may re-use this information (excluding logos) free of 
+Where we have identified any third-party copyright 
+charge in any format or medium, under the terms of the 
+information, you will need to obtain permission from the 
+Open Government Licence v3. 
+copyright holders concerned. This publication is available for 
+download at www.gov.uk.
+To view this licence, visit www.nationalarchives.gov.uk/ 
+doc/open-government-licence/version/3/ or write to 
+Copyright in the typographical arrangement, excluding logos, 
+the Information Policy Team, The National Archives, Kew, 
+of the cover and internal page layouts of this publication 
+London TW9 4DU or email psi@nationalarchives.gsi.gov.uk. 
+rests with the publisher.
+O N L I N E  V E R S I O N

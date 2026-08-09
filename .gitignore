@@ -112,11 +112,11 @@ venv.bak/
 .idea/
 
 # Local databases (SQLite)
-fire_safety.db
-*.db
-*.db-journal
-*.sqlite
-*.sqlite3
+# fire_safety.db
+# *.db
+# *.db-journal
+# *.sqlite
+# *.sqlite3
 
 # OS generated files
 .DS_Store
@@ -137,8 +137,8 @@ meetings.zip
 # Downloaded reference standards and the extracted text corpus. Rebuild
 # with `python -m corpus.fetch --extract` rather than committing ~110 MB
 # of third-party PDFs.
-corpus/raw/
-corpus/text/
+# corpus/raw/
+# corpus/text/
 
 # Next.js dashboard
 web/node_modules/

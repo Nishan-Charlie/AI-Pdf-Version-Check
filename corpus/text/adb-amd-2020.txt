@@ -1,0 +1,769 @@
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Amendments to the
+Approved Documents
+This document contains amendments to the following Approved 
+Document:
+Approved Document B: Fire safety
+Volume 1 – Dwellings 
+Volume 2 – Buildings other than dwellings 
+2019 edition
+May 2020
+For use in England
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Introduction
+This document sets out amendments to guidance previously published in Approved Document 
+B: Fire safety, Volume 1 – Dwellings and Volume 2 – Buildings other than dwellings, 2019 edition. 
+These amendments will be incorporated into both the online and paper versions of Approved 
+Document B Volume 1 and Volume 2 later in the year when the changes take effect. Versions 
+from before that date will need to be read alongside the amendments listed in this document. 
+You should always check the online version to know that you are looking at the most up to 
+date version.
+The changes highlighted in this amendment booklet take effect on 26 November 2020 for use in 
+England. The 2019 edition will continue to apply where a building notice or an initial notice has 
+been given to, or full plans deposited with, a local authority before 26 November 2020 and either 
+the building work to which it relates:
+a. has started before that day; or
+b. is started before 29 January 2021.
+Please note that ‘building notice’, ‘initial notice’ and ‘full plans’ have the meanings given in the 
+Building Regulations 2010.
+The changes focus on the following fire safety provisions in blocks of flats:
+a. Sprinklers:
+A reduction in the trigger height from 30m to 11m.
+b. Wayfinding signage for the fire service:
+A new recommendation for floor identification and flat indication signage within blocks of flats 
+with storeys over 11m.
+In addition a typographical error is corrected in both volumes. Purpose group number 2 is now 
+included in reference to ‘residential’ buildings in the guidance on boundaries.
+Full details of the changes are provided below.
+2	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+The Building Regulations 2010
+Approved Document B: Fire safety
+Volume 1 – Dwellings 
+2019 edition
+List of amendments
+May 2020
+Section 7: Compartmentation/sprinklers – flats
+Page 59	
+Replace paragraph 7.4 with the following.
+7.4	
+Blocks of flats with a top storey more than 11m above ground level (see Diagram 
+D6) should be fitted with a sprinkler system throughout the building in accordance 
+with Appendix E.
+NOTE: Sprinklers should be provided within the individual flats, they do not need 
+to be provided in the common areas such as stairs, corridors or landings when 
+these areas are fire sterile.
+Section 11: Resisting fire spread from one building to another
+Page 83 	
+Replace paragraph 11.5 with the following.
+11.5 	
+The boundary that a wall faces is the relevant boundary (Diagram 11.2). It may be 
+one of the following.
+a.	
+The site boundary.
+b.	
+The centre line of a space where further development is unlikely, such as a 
+road, railway, canal or river.
+c.	
+An assumed notional boundary between two buildings on the same site 
+(Diagram 11.3) where either of the following conditions is met.
+i.	
+One or both of the buildings are in the ‘residential’ or ‘assembly and 
+recreation’ purpose groups (purpose group 1, 2 or 5).
+ii.	
+The buildings will be operated/managed by different organisations.
+Amendments to the Approved Documents 	
+3
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Section 15: Access to buildings for firefighting personnel – flats
+Page 105	 After paragraph 15.12, insert the following.
+Wayfinding signage for the fire service
+15.13	 To assist the fire service to identify each floor in a block of flats with a top storey
+more than 11m above ground level (see Diagram D6), floor identification signs and 
+flat indicator signs should be provided.
+15.14	 The floor identification signs should meet all of the following conditions.
+a.	
+The signs should be located on every landing of a protected stairway and 
+every protected corridor/lobby (or open access balcony) into which a 
+firefighting lift opens.
+b.	
+The text should be in sans serif typeface with a letter height of at least 
+50mm. The height of the numeral that designates the floor number should be 
+at least 75mm.
+c.	
+The signs should be visible from the top step of a firefighting stair and, where 
+possible, from inside a firefighting lift when the lift car doors open.
+d.	
+The signs should be mounted between 1.7m and 2m above floor level and, as 
+far as practicable, all the signs should be mounted at the same height.
+e.	
+The text should be on a contrasting background, easily legible and readable in 
+low level lighting conditions or when illuminated with a torch.
+15.15 	 The wording used on each floor identification sign should take the form Floor
+X, with X designating the number of the storey, as intended for reference by 
+residents. The floor number designations should meet all of the following 
+conditions.
+a.	
+The floor closest to the mean ground level (see Diagram D4) should be 
+designated as either Floor 0 or Ground Floor.
+b.	
+Each floor above the ground floor should be numbered sequentially 
+beginning with Floor 1.
+c.	
+A lower ground floor should be designated as either Floor –1 or Lower 
+Ground Floor.
+d.	
+Each floor below the ground floor should be numbered sequentially 
+beginning with Floor –1 or Basement 1.
+15.16	 All floor identification signs should be supplemented by flat indicator signs,
+which provide information relating to the flats accessed on each storey. The flat 
+indicator signs should meet all of the following conditions.
+a.	
+The signs should be sited immediately below the floor identification signs, 
+such that the top edge of the sign is no more than 50mm below the bottom 
+edge of the floor identification sign.
+b.	
+The wording should take the form Flats X–Y, with the lowest flat number first.
+c.	
+The text should be in sans serif typeface with a letter height of at least half 
+that of the floor indicator sign.
+4	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+d.	
+The wording should be supplemented by arrows when flats are in more than 
+one direction.
+e.	
+The text and arrows should be on a contrasting background, easily legible and 
+readable in low level lighting conditions or when illuminated with a torch.
+NOTE: In the case of multi-storey flats with two or more entrances, the flat 
+number should only be indicated on the normal access storey.
+Appendix B: Performance of materials, products and structures
+Pages 129 	Replace Table B4 with the following. 
+to 130
+Table B4  Minimum periods of fire resistance 
+ 
+Purpose group of building
+Minimum periods of fire resistance(1) (minutes) in a:
+Basement storey* 
+including floor over
+Ground or upper storey
+Depth (m) of the 
+lowest basement
+Height (m) of top floor above ground, in a building or 
+separated part of a building
+More than 
+10
+Up to 10
+Up to 5
+Up to 11
+Up to 18
+Up to 30
+More than 
+30
+1.	 Residential:
+a.	 Block of flats
+90 min
+60 min
+30 min† 
+60 min+§
+Not 
+permitted(2)
+Not 
+permitted(2)
+Not 
+permitted(2)
+– without sprinkler
+system
+– with sprinkler system(3) 90 min 
+60 min
+30 min†
+60 min+§
+60 min+§
+90 min+
+120 min+
+b. and c. Dwellinghouse
+Not 
+applicable(4)
+30 min*†
+30 min†
+60 min(5)
+60 min(5)
+Not 
+applicable(4) Not
+applicable(4)
+2.	 Residential
+a.	 Institutional 
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+b.	 Other residential
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+3.	 Office:
+– without sprinkler
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+30 min†
+30 min†
+60 min
+120 min‡
+4.	 Shop and commercial:
+– without sprinkler
+90 min
+60 min
+60 min
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+60 min
+60 min
+60 min
+120 min‡
+5.	 Assembly and
+recreation:
+– without sprinkler
+90 min
+60 min
+60 min
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+60 min
+60 min
+60 min
+120 min‡
+Amendments to the Approved Documents 	
+5
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B4  Continued
+Purpose group of building
+Minimum periods of fire resistance(1) (minutes) in a:
+Basement storey* 
+including floor over
+Ground or upper storey
+Depth (m) of the 
+lowest basement
+Height (m) of top floor above ground, in a building or 
+separated part of a building
+More than 
+10
+Up to 10
+Up to 5
+Up to 11
+Up to 18
+Up to 30
+More than 
+30
+6.	 Industrial:
+– without sprinkler
+120 min
+90 min
+60 min
+90 min
+90 min
+120 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+7.	 Storage and other non-
+residential:
+a.	 any building or part not
+described elsewhere:
+– without sprinkler
+120 min
+90 min
+60 min
+90 min
+90 min
+120 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+b. 	 car park for light vehicles:
+i. open sided car park(7)
+Not 
+applicable
+Not 
+applicable
+15 min†#
+15 min†#(8)
+15 min†#(8)
+15 min†#(8)
+60 min
+ii. any other car park
+90 min
+60 min
+30 min†
+60 min
+60 min
+ 90 min
+120 min‡
+NOTES:
+For single storey buildings, the periods under the heading ‘Up to 5’ apply. If single storey buildings have basements, 
+for the basement storeys the period appropriate to their depth applies.
+*	 For the floor over a basement or, if there is more than one basement, the floor over the topmost basement, the 
+higher of the period for the basement storey and the period for the ground or upper storey applies.
+†	 For compartment walls that separate buildings, the period is increased to a minimum of 60 minutes.
++	 For any floor that does not contribute to the support of the building within a flat of more than one storey, the
+period is reduced to 30 minutes.	
+§	 For flat conversions, refer to paragraphs 6.5 to 6.7 regarding the acceptability of 30 minutes. 
+‡	 For elements that do not form part of the structural frame, the period is reduced to 90 minutes.
+#	 For elements that protect the means of escape, the period is increased to 30 minutes.
+6	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B4  Continued
+1.	Refer to note 1, Table B3 for the specific provisions of test.
+2.	Blocks of flats with a top storey more than 11m above ground level (see Diagram D6) should be fitted with a
+sprinkler system in accordance with Appendix E.
+NOTE: Sprinklers should be provided within the individual flats, they do not need to be provided in the common 
+areas such as stairs, corridors or landings when these areas are fire sterile. 
+3.	‘With sprinkler system’ means that the building is fitted throughout with an automatic sprinkler system in
+accordance with Appendix E.
+4.	Very large (with a top storey more than 18m above ground level or with a 10m deep basement) or unusual
+dwellinghouses are outside the scope of the guidance provided with regard to dwellinghouses. 
+5.	A minimum of 30 minutes in the case of three storey dwellinghouses, increased to 60 minutes minimum for
+compartment walls separating buildings.
+6.	Buildings within the ‘office’, ‘shop and commercial’, ‘assembly and recreation’, ‘industrial’ and ‘storage and other
+non-residential’ (except car parks for light vehicles) purpose groups (purpose groups 3 to 7(a)) require sprinklers 
+where there is a top storey more than 30m above ground level. 
+7.	The car park should comply with the relevant provisions in the guidance on requirement B3, Section 11 of
+Approved Document B Volume 2.
+8.	For the purposes of meeting the Building Regulations, the following types of steel elements are deemed to have
+satisfied the minimum period of fire resistance of 15 minutes when tested to the European test method.
+i.	 Beams supporting concrete floors, maximum Hp/A=230m-1 operating under full design load.
+ii.	 Free-standing columns, maximum Hp/A=180m-1 operating under full design load.
+iii.	Wind bracing and struts, maximum Hp/A=210m-1 operating under full design load.
+Guidance is also available in BS EN 1993-1-2.
+Amendments to the Approved Documents 	
+7
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+The Building Regulations 2010
+Approved Document B: Fire safety
+Volume 2 – Buildings other than dwellings 
+2019 edition
+List of amendments
+May 2020
+Section 13: Resisting fire spread from one building to another
+Page 98 	 Replace paragraph 13.5 with the following.
+13.5 	 The boundary that a wall faces is the relevant boundary (Diagram 13.2). It may be
+one of the following.
+a.	
+The site boundary.
+b.	
+The centre line of a space where further development is unlikely, such as a 
+road, railway, canal or river.
+c.	
+An assumed notional boundary between two buildings on the same site 
+(Diagram 13.3) where either of the following conditions is met.
+i.	
+One or both of the buildings are in the ‘residential’ or ‘assembly and 
+recreation’ purpose groups (purpose group 1, 2 or 5).
+ii.	
+The buildings will be operated/managed by different organisations.
+Appendix B: Performance of materials, products and structures
+Pages 145 	Replace Table B4 with the following. 
+to 146
+Table B4  Minimum periods of fire resistance 
+ 
+Purpose group of building
+Minimum periods of fire resistance(1) (minutes) in a:
+Basement storey* 
+including floor over
+Ground or upper storey
+Depth (m) of the 
+lowest basement
+Height (m) of top floor above ground, in a building or 
+separated part of a building
+More than 
+10
+Up to 10
+Up to 5
+Up to 11
+Up to 18
+Up to 30
+More than 
+30
+1.	 Residential:
+a.	 Block of flats
+– without sprinkler
+90 min
+60 min
+30 min† 
+60 min+§
+Not 
+permitted(2)
+Not 
+permitted(2)
+Not 
+permitted(2)
+system
+– with sprinkler system(3) 90 min 
+60 min
+30 min†
+60 min+§
+60 min+§
+90 min+
+120 min+
+b. and c. Dwellinghouse
+Not 
+applicable(4)
+30 min*†
+30 min†
+60 min(5)
+60 min(5)
+Not 
+applicable(4) Not
+applicable(4)
+8	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B4  Continued
+Purpose group of building
+Minimum periods of fire resistance(1) (minutes) in a:
+Basement storey* 
+including floor over
+Ground or upper storey
+Depth (m) of the 
+lowest basement
+Height (m) of top floor above ground, in a building or 
+separated part of a building
+More than 
+10
+Up to 10
+Up to 5
+Up to 11
+Up to 18
+Up to 30
+More than 
+30
+2.	 Residential
+a.	 Institutional 
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+b.	 Other residential
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+3.	 Office:
+– without sprinkler
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+30 min†
+30 min†
+60 min
+120 min‡
+4.	 Shop and commercial:
+– without sprinkler
+90 min
+60 min
+60 min
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+60 min
+60 min
+60 min
+120 min‡
+5.	 Assembly and
+recreation:
+– without sprinkler
+90 min
+60 min
+60 min
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+60 min
+60 min
+60 min
+120 min‡
+6.	 Industrial:
+– without sprinkler
+120 min
+90 min
+60 min
+90 min
+90 min
+120 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+7.	 Storage and other non-
+residential:
+a.	 any building or part not
+described elsewhere:
+– without sprinkler
+120 min
+90 min
+60 min
+90 min
+90 min
+120 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+b. 	 car park for light vehicles:
+i. open sided car park(7)
+Not 
+applicable
+Not 
+applicable
+15 min†#
+15 min†#(8)
+15 min†#(8)
+15 min†#(8)
+60 min
+ii. any other car park
+90 min
+60 min
+30 min†
+60 min
+60 min
+ 90 min
+120 min‡
+Amendments to the Approved Documents 	
+9
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B4  Continued
+NOTES:
+For single storey buildings, the periods under the heading ‘Up to 5’ apply. If single storey buildings have basements, 
+for the basement storeys the period appropriate to their depth applies.
+*	 For the floor over a basement or, if there is more than one basement, the floor over the topmost basement, the 
+higher of the period for the basement storey and the period for the ground or upper storey applies.
+†	 For compartment walls that separate buildings, the period is increased to a minimum of 60 minutes.
++	 For any floor that does not contribute to the support of the building within a flat of more than one storey, the
+period is reduced to 30 minutes.	
+§	 For flat conversions, refer to paragraphs 6.5 to 6.7 of Approved Document B Volume 1 regarding the acceptability
+of 30 minutes.  
+‡	 For elements that do not form part of the structural frame, the period is reduced to 90 minutes.
+#	 For elements that protect the means of escape, the period is increased to 30 minutes.
+1.	Refer to note 1, Table B3 for the specific provisions of test.
+2.	Blocks of flats with a top storey more than 11m above ground level (see Diagram D6) should be fitted with a
+sprinkler system in accordance with Appendix E.
+NOTE: Sprinklers should be provided within the individual flats, they do not need to be provided in the common 
+areas such as stairs, corridors or landings when these areas are fire sterile. 
+3.	‘With sprinkler system’ means that the building is fitted throughout with an automatic sprinkler system in
+accordance with Appendix E.
+4.	Very large (with a top storey more than 18m above ground level or with a 10m deep basement) or unusual
+dwellinghouses are outside the scope of the guidance provided with regard to dwellinghouses. 
+5.	A minimum of 30 minutes in the case of three storey dwellinghouses, increased to 60 minutes minimum for
+compartment walls separating buildings.
+6.	Buildings within the ‘office’, ‘shop and commercial’, ‘assembly and recreation’, ‘industrial’ and ‘storage and other
+non-residential’ (except car parks for light vehicles) purpose groups (purpose groups 3 to 7(a)) require sprinklers 
+where there is a top storey more than 30m above ground level. 
+7.	The car park should comply with the relevant provisions in the guidance on requirement B3, Section 11.
+8.	For the purposes of meeting the Building Regulations, the following types of steel elements are deemed to have
+satisfied the minimum period of fire resistance of 15 minutes when tested to the European test method.
+i.	 Beams supporting concrete floors, maximum Hp/A=230m-1 operating under full design load.
+ii.	 Free-standing columns, maximum Hp/A=180m-1 operating under full design load.
+iii.	Wind bracing and struts, maximum Hp/A=210m-1 operating under full design load.
+Guidance is also available in BS EN 1993-1-2.
+10	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+The Building Regulations 2010
+O N L I N E  V E R S I O N
+Amendments to the Approved Documents 	
+11
+O N L I N E  V E R S I O N
+
+List of approved documents
+The following publications give practical guidance on how to meet the Building Regulations. 
+You can find the date of the edition approved by the Secretary of State at www.gov.uk.
+Approved Document A 
+Structure
+Approved Document L1A
+Conservation of fuel and power in new 
+dwellings
+Approved Document B
+Fire safety
+Volume 1: Dwellings
+Volume 2: Buildings other than dwellings
+Approved Document L1B
+Conservation of fuel and power in existing 
+dwellings
+Approved Document C
+Site preparation and resistance to 
+contaminants and moisture
+Approved Document L2A
+Conservation of fuel and power in new 
+buildings other than dwellings
+Approved Document D
+Toxic substances
+Approved Document L2B
+Conservation of fuel and power in existing 
+buildings other than dwellings
+Approved Document E
+Resistance to the passage of sound
+Approved Document M
+Access to and use of buildings
+Volume 1: Dwellings
+Volume 2: Buildings other than dwellings
+Approved Document F
+Ventilation
+Approved Document G
+Sanitation, hot water safety and water 
+efficiency
+Approved Document P
+Electrical safety – Dwellings
+Approved Document Q
+Security – Dwellings
+Approved Document H
+Drainage and waste disposal
+Approved Document R
+Physical infrastructure for high-speed electronic 
+communications networks
+Approved Document J
+Combustion appliances and fuel storage 
+systems
+Approved Document 7
+Materials and workmanship
+Approved Document K
+Protection from falling, collision and impact
+The Builiding Regulations 2010, Approved Documents are available from:
+RIBA Books
+Online: www.architecture.com/ribabooks
+Telephone: +44 (0)20 7496 8383
+Email: sales@books.architecture.com
+© Crown copyright, 2020
+The content of this publication, excluding logos, may be 
+reproduced free of charge in any format or medium for 
+research, private study or for internal circulation within 
+an organisation. This is subject to it being reproduced 
+accurately and not used in a misleading context. The 
+material must be acknowledged as Crown copyright and 
+the title and edition of the publication specified. This 
+document/publication is value added. You may re-use the 
+content (not including logos) free of charge in any format or 
+medium, under the terms of the Open Government Licence.
+To view this licence, visit: www.nationalarchives.gov.uk/
+doc/open-government-licence or write to the Information 
+Policy Team, The National Archives, Kew, London TW9 4DU, 
+or email: psi@nationalarchives.gov.uk.
+If you require this publication in an alternative format, 
+please email: alternativeformats@communities.gov.uk.
+Copyright in the typographical arrangement, excluding 
+logos, of the cover and internal page layouts of this 
+publication rests with the publisher.

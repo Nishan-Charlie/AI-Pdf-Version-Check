@@ -1,0 +1,7047 @@
+B
+Fire Safety
+Building
+Regulations
+2017
+Volume 2
+Dwelling Houses
+Technical
+Guidance
+Document
+An Roinn Tithíochta, Pleanála, 
+Pobail agus Rialtais Áitiúil
+Department of Housing, Planning, 
+Community and Local Government
+
+Building Regulations 2017 
+ 
+ 
+Technical Guidance Document B  
+ 
+ 
+ 
+Fire Safety – Volume 2 – Dwelling Houses
+Le ceannach díreach ó 
+FOILSEACHÁIN RIALTAIS, 
+52 FAICHE STIABHNA, BAILE ÁTHA CLIATH 2 
+(Teil: 01 – 0761106834 nó 1890 213434; Fax 0761106843) 
+nó trí aon díoltóir leabhar. 
+_______________________ 
+ 
+ 
+To be purchased from  
+GOVERNMENT PUBLICATIONS,  
+52 ST. STEPHEN'S GREEN, DUBLIN 2. 
+(Tel: 0761106834 or 1890 213434; Fax: 0761106843) 
+or through any bookseller. 
+ 
+ 
+ 
+_______________________ 
+ 
+Price €10.00 
+ 
+ISBN 
+9781406429497
+Printed on recycled paper containing a 
+minimum of 75% post-consumer waste
+
+© Government of Ireland 2017
+
+Contents
+Page
+Introduction 
+ 
+6
+Transitional Arrangements 
+ 
+6
+The Guidance 
+ 
+6
+Existing Buildings 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6
+Technical Specifications 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6
+Materials and Workmanship 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7
+Interpretation 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+7
+Part B: The Requirement  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+8
+SECTION 0 GENERAL GUIDANCE  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9
+0.1 Use of the Guidance  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9
+0.1.1 Fire Safety objectives  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9
+0.1.2 Technical Guidance Document B (Fire safety) is published in two volumes. 
+ 
+9
+0.1.3 Application of Part B  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9
+0.1.4 Arrangements of Sections 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9
+0.1.5 Purpose Groups 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+9
+0.1.6 Interaction of Provisions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10
+0.1.7 Performance Statements 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10
+0.1.8  Alternative Solutions  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10
+0.1.9 Existing Buildings  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11
+0.1.10  Operation, Maintenance and Use  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11
+0.1.11 Fire Performance of Material and Structures Appendix A 
+ 
+ 
+ 
+ 
+11
+0.1.12 Fire Doors: Appendix B  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11
+0.1.13 Methods of Measurement : Appendix C  
+ 
+ 
+ 
+ 
+ 
+ 
+12
+0.1.14 Loft Conversions : Appendix D  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12
+0.1.15 Referenced Standards and Publications 
+ 
+ 
+ 
+ 
+ 
+ 
+12
+0.1.16 Independent schemes of Certification  
+ 
+ 
+ 
+ 
+ 
+ 
+12
+0.1.17 Definitions  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12
+1
+
+Contents Cont’d
+SECTION 1 MEANS OF WARNING AND ESCAPE IN CASE OF FIRE 
+ 
+ 
+ 
+16 
+ 
+1.1 
+Means of Warning and Escape in case of Fire  
+ 
+ 
+ 
+ 
+ 
+16 
+ 
+1.2 
+Performance   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+16
+1.3 
+Dwelling Houses 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+17
+1.3.1 Introduction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+17
+1.3.2 Dwelling houses with no floors 4.5m above ground level 
+ 
+ 
+ 
+ 
+17
+1.3.3 Dwelling houses with one floor more than 4.5m above ground level 
+ 
+ 
+18
+1.3.4 Dwelling houses with more than one floor more than 4.5m above ground level 
+ 
+19
+1.3.5 Community Dwelling Houses  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+22
+1.3.6 Fire Detection and Alarm systems 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+22
+1.3.7 Windows for escape or rescue     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+25
+1.3.8 Escape stairways 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+26
+1.3.9 General Provisions for Dwelling Houses 
+ 
+ 
+ 
+ 
+ 
+ 
+26
+SECTION 2 INTERNAL FIRE SPREAD (LININGS)  
+ 
+ 
+ 
+ 
+ 
+29
+2.1 
+Internal Fire Spread (Linings)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+29
+2.2 
+Performance   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+29
+2. 3  Introduction to provisions  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+30
+2.3.1 Fire Spread and Lining Materials  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+30
+2.3.2 Floors and Stairways   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+30
+2.3.3 Furniture and Fittings  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+30
+2.3.4 Other controls on Lining Properties  
+ 
+ 
+ 
+ 
+ 
+ 
+30
+2.3.5 Classification of Performance 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+30
+2.3.6 Assessment of Performance  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+31
+2.4  
+General Provisions  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+31
+2.5  
+Variations and Special Provisions  
+ 
+ 
+ 
+ 
+ 
+ 
+31
+2.5.1 Walls  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+31
+2
+
+Contents Cont’d
+2.6 
+Thermoplastic materials 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+32
+2.6.1 Windows 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+32
+2.6.2 Rooflights 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+32
+2.6.3 Lighting diffusers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+32
+SECTION 3 INTERNAL FIRE SPREAD (STRUCTURE) 
+ 
+ 
+ 
+ 
+ 
+35
+3.1 
+Internal Fire Spread (Structure)  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+35
+3.2 
+Performance   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+35
+3.3 
+Introduction to provisions   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+36
+3.3.1 Introduction to provisions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+36
+3.3.2 Fire Resistance 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+36
+3.3.3 Provisions elsewhere in Technical Guidance Document B concerning Fire Resistance 
+36
+3.4 
+Loadbearing elements of structure 
+ 
+ 
+ 
+ 
+ 
+ 
+36
+3.4.1 Introduction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+36
+3.4.2 Fire resistance standard 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+36
+3.4.3 Application of the Resistance Standards for Loadbearing Elements 
+ 
+ 
+36
+3.4.4 Exclusions from the Provisions for Elements of Structure 
+ 
+ 
+ 
+ 
+37
+3.4.5 Additional Provisions  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+37
+3.5 
+Compartmentation  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+37
+3.5.1 Introduction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+37
+3.5.2 Forms of Compartmentation  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+37
+3.5.3 Limits to Compartment Sizes  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+39
+3.5.4 Construction of Compartment walls  
+ 
+ 
+ 
+ 
+ 
+ 
+39
+3.6 
+Concealed Spaces (cavities) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+42
+3.6.1 Introduction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+42
+3.6.2 Provision of Cavity Barriers  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+42
+3.6.3 Construction and Fixings for Cavity barriers  
+ 
+ 
+ 
+ 
+ 
+43
+3.6.4 Openings in Cavity Barriers  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+43
+3
+
+Contents Cont’d
+3.7 
+Protection of Openings and Fire-Stopping 
+ 
+ 
+ 
+ 
+ 
+43
+3.7.1 Introduction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+43
+3.7.2 Openings for Pipes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+44
+3.7.3 Ventilating Ducts 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+44
+3.7.4 Flues  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+44
+3.7.5 Fire-Stopping  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+44
+3.7.6  Displacement   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+45
+3.7.7 Proprietary Seals 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+45
+3.7.8 Further Guidance 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+45
+SECTION 4 EXTERNAL FIRE SPREAD  
+ 
+ 
+46
+4.1 
+External Fire Spread 
+ 
+46
+4.2 
+Performance 
+ 
+46
+4.3 
+Introduction to Provisions 
+ 
+47
+4.4 
+Construction of External Walls 
+ 
+47
+4.4.1 Introduction 
+ 
+47
+4.4.2 Fire Resistance Standard 
+ 
+47
+4.4.3 External Surfaces 
+ 
+47
+4.4.4 External Wall Construction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+48
+4.5 
+Space Separation 
+ 
+48
+4.5.1 Introduction 
+ 
+48
+4.5.2 Boundaries 
+ 
+48
+4.5.3 Notional Boundaries 
+ 
+48
+4.5.4 Relevant Boundaries 
+ 
+50
+4.5.5 Unprotected Areas and Fire Resistance 
+ 
+50
+4.5.6 Status of Combustible Surfaces as Unprotected Area 
+ 
+50
+4.5.7 External Walls within 1 m of the Relevant Boundary 
+ 
+50
+4.5.8 External Walls 1 m or more from the Relevant Boundary 
+ 
+52
+4.5.9 Material Alteration of Existing Buildings  
+ 
+54
+4.5.10 Material Change of Use of Existing Buildings  
+ 
+54
+4
+
+Contents Cont’d
+4.5.11 Extensions 
+ 
+54
+4.5.12 Increase in Extent of Unprotected Area  
+ 
+54
+4.6 
+Roof Coverings 
+ 
+54
+4.6.1 Introduction 
+ 
+54
+4.6.2 Other Controls on Roofs  
+ 
+54
+4.6.3 Classification of Performance  
+ 
+54
+4.6.4 Separation Distances 
+ 
+55
+4.6.5 Plastic Rooflights  
+ 
+55
+4.6.6 Glass in Rooflights  
+ 
+55
+SECTION 5 ACCESS AND FACILITIES FOR THE FIRE SERVICE 
+ 
+59
+5.1 
+Access and Facilities for the fire service  
+ 
+ 
+ 
+ 
+ 
+59
+5.2  
+Performance   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+59
+5.3 
+Introduction to provisions  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+60
+5.3.1 Scope  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+60
+5.4 
+Vehicle Access 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+60
+5.4.1 Introduction 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+60
+5.4.2 Provision of Vehicle Access  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+60
+5.4.3 Existing Dwelling Houses 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+60
+5.4.4 Design of Access Routes and Hard-standings 
+ 
+ 
+ 
+ 
+ 
+60
+5.4.5 Requirements for switches 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+61
+APPENDICES
+Appendix A- Performance of materials and structures   
+62
+Appendix B - Fire Doors 
+79
+Appendix C - Methods of Measurement 
+ 81
+Appendix D - Loft Conversions 
+ 84
+Referenced Standards and Publications 
+86
+5
+
+Building Regulations 2017 
+Technical Guidance Document B  
+Fire Safety – Volume 2 – Dwelling Houses
+Introduction 
+ 
+This document has been published by the 
+Minister for Housing, Planning, Community 
+and Local Government, under Article 7 of the 
+Building Regulations, 1997-2017. It provides 
+guidance in relation to Part B of the Second 
+Schedule to the Regulations, as amended 
+relating to dwelling houses. 
+ 
+In general, Building Regulations apply to the 
+construction of new buildings and to 
+extensions and material alterations to 
+buildings. In addition, certain parts of the 
+Regulations apply to existing buildings where 
+a material change of use takes place. 
+Otherwise, Building Regulations do not apply 
+to buildings constructed prior to 1 June 1992. 
+ 
+Transitional Arrangements 
+ 
+In general, this document applies to works to 
+dwelling houses, or buildings in which a 
+material change of use takes place, where 
+the works or the change of use commence or 
+takes place, as the case may be on or after 1 
+July 2017.The guidance given in Technical 
+Guidance Document B – Fire Safety, dated 
+2006 relating to dwelling houses, will cease to 
+have effect from that date. However, the latter 
+document may continue to be used in the 
+case of works, or buildings in which a 
+material change of use takes place, where 
+the works, material alteration or the change of 
+use commence or takes place, as the case 
+may be, on or before 30 June 2017. 
+ 
+The Guidance 
+ 
+The materials, methods of construction, 
+standards and other specifications (including 
+technical specifications) which are referred to 
+in this document are those which are likely to 
+be suitable for the purposes of the 
+Regulations. Where works are carried out in 
+accordance with the guidance in this 
+document, this will, prima facie, indicate 
+compliance with Part B of the Second 
+Schedule of the Building Regulations.
+However, the adoption of an approach other 
+than that outlined in the guidance is not 
+precluded provided that the relevant 
+requirements of the Regulations are complied 
+with. Those involved in the design and 
+construction of a building may be required by 
+the relevant building control authority to 
+provide such evidence as is necessary to 
+establish that the requirements of the Building 
+Regulations have been complied with. 
+ 
+Existing Buildings 
+ 
+In the case of material alterations or changes 
+of use of existing buildings, the adoption of 
+the guidance in this document without 
+modification may not, in all circumstances, be 
+appropriate. In particular, the adherence to 
+guidance including codes, standards or 
+technical specifications, intended for 
+application to new work may be unduly 
+restrictive or impracticable. Buildings of 
+architectural or historical interest are 
+especially likely to give rise to such 
+circumstances. In these situations, alternative 
+approaches based on the principles 
+contained in the document may be more 
+relevant and should be considered. 
+ 
+Technical Specifications  
+ 
+Building Regulations are made for specific 
+purposes, e.g. to provide, in relation to 
+buildings, for the health, safety and welfare of 
+persons, the conservation of energy and 
+access for people with disabilities. Technical 
+specifications (including harmonised 
+European Standards, European Technical 
+Assessments, National Standards and 
+Agrément Certificates) are relevant to the 
+extent that they relate to these 
+considerations. Any reference to a technical 
+specification is a reference to so much of the 
+specification as is relevant in the context in 
+which it arises. Technical specifications may 
+also address other aspects not covered by 
+the Regulations. 
+A reference to a technical specification is to 
+the latest edition (including any amendments,
+6
+
+supplements or addenda) current at the date 
+of publication of this Technical Guidance 
+Document. However, if this version of the 
+technical specification is subsequently 
+revised or updated by the issuing body, the 
+new version may be used as a source of 
+guidance provided that it continues to 
+address the relevant requirements of the 
+Regulations.
+Materials and Workmanship 
+ 
+Under Part D of the Second Schedule to the 
+Building Regulations, works to which the 
+Regulations apply must be carried out with 
+proper materials and in a workmanlike 
+manner. Guidance in relation to compliance 
+with these requirements is contained in 
+Technical Guidance Document D. 
+ 
+Interpretation 
+ 
+In this document, a reference to a section, 
+sub-section, part, paragraph or diagram is, 
+unless otherwise stated, a reference to a 
+section, sub-section, part, paragraph or 
+diagram, as the case may be, of this 
+document. A reference to another Technical 
+Guidance Document is a reference to the 
+latest edition of a document published by the 
+Minister for Housing, Planning, Community 
+and Local Government under Article 7 of the 
+Building Regulations, 1997. Diagrams are 
+used in this document to illustrate particular 
+aspects of construction - they may not show 
+all the details of construction.
+7
+
+Fire Safety – Volume 2 - Dwelling Houses  
+Building Regulations – The Requirement
+Part B – The Requirement  
+ 
+Part B6-B11 of the Second Schedule to the Building Regulations, 2017 provides for Dwelling 
+Houses as follows:
+Means of warning 
+and escape in case 
+of fire.
+B6 
+A dwelling house shall be so designed and constructed that there 
+are appropriate provisions for the early warning of fire and there are 
+adequate means of escape in case of fire from the dwelling house 
+to a place of safety outside the building, capable of being safely and 
+effectively used.
+Internal fire spread 
+(linings).
+B7 
+For the purpose of inhibiting the spread of fire within a dwelling 
+house, the internal linings:
+(a) shall have, either a rate of heat release or a rate of fire growth 
+and a resistance to ignition which is reasonable in the 
+circumstances; and
+(b) shall offer adequate resistance to the spread of flame over their 
+surfaces.
+Internal fire spread 
+(structure).
+B8 
+(1) A dwelling house shall be so designed and constructed that, in 
+the event of fire, its stability will be maintained for a reasonable 
+period.
+(2) (a) A wall common to a dwelling house and to one or more
+adjoining buildings shall be so designed and constructed that it 
+offers adequate resistance to the spread of fire between those 
+buildings.
+(b) A dwelling house shall be sub-divided with fire resisting 
+construction where this is necessary to inhibit the spread of fire 
+within the dwelling house.
+(3) A dwelling house shall be so designed and constructed that
+the unseen spread of fire and smoke within concealed spaces in its 
+structure or fabric is inhibited where necessary.
+(4) For the purposes of sub-paragraph 2(a), a dwelling house in a 
+terrace and a semi-detached dwelling house are each to be treated 
+as being a separate building.
+External fire spread. 
+B9  
+The external walls and roof of a dwelling house shall be so 
+designed and constructed that they afford adequate resistance to 
+the spread of fire to and from neighbouring buildings.
+Access and facilities 
+for the fire service.
+B10 A dwelling house shall be so designed and constructed that there is
+adequate provision for access for fire appliances and such other 
+facilities as may be reasonably required  to assist the fire service in 
+the protection of life and property.
+Definitions for this 
+Part.
+B11 In this Part - “dwelling house” means a dwelling that is not a flat.
+8
+
+Section 0 
+General guidance
+0 . 1 Use of the Guidance  
+ 
+0.1.1 Fire Safety objectives 
+Building Regulations are made for specific 
+purposes. Part B of the Second Schedule to 
+the Building Regulations is therefore primarily 
+concerned with the health, safety and welfare 
+of persons. The fire safety measures outlined 
+in this guidance document are intended for 
+the protection of life from fire.  
+ 
+0.1.2 Technical Guidance Document B-Fire 
+safety (TGD B) is published in two volumes. 
+ 
+Volume 1, deals with all other types of 
+buildings covered by the Building Regulations 
+excluding dwelling houses. 
+ 
+Volume 2, deals solely with dwelling houses. 
+Volume 2 gives guidance which relates to 
+non-complex dwelling houses of normal 
+design and construction and timber frame to 
+I.S 440. Where very large or unusual dwelling 
+houses (over 15m in height), are proposed, or 
+where an alternative approach is required, 
+some of the guidance in Volume 1 may be 
+needed to supplement that given by Volume 
+2.  
+ 
+0.1.3 Application of Part B 
+Part B of the Second Schedule to the 
+Building Regulations is primarily concerned 
+with securing the health, safety and welfare of 
+persons in or about buildings. This volume 
+deals with the requirements of B6 - B10 
+relating to dwelling houses: 
+ 
+B6 aims to ensure that a satisfactory 
+standard of early warning and means of 
+escape is provided for persons in the event of 
+fire in a dwelling house; 
+ 
+B7 aims to ensure that fire spread over the 
+internal linings of dwelling houses is inhibited; 
+ 
+B8 aims to ensure the stability of dwelling 
+houses in the event of fire, that there is a
+sufficient degree of fire separation within 
+dwelling houses and between adjoining 
+buildings, (including dwelling houses) and to 
+inhibit the unseen spread of fire and smoke in 
+concealed spaces in dwelling houses; 
+ 
+B9 aims to ensure that external walls and 
+roofs have adequate resistance to the spread 
+of fire over their external surfaces, and that 
+spread of fire from one building to another is 
+restricted; and 
+ 
+B10 aims to ensure satisfactory access for 
+fire appliances to dwelling houses and 
+appropriate facilities in dwelling houses to 
+assist fire fighters in the protection of life and 
+property. 
+ 
+0.1.4 Arrangements of Sections 
+The provisions set out in Sections 1 to 5 of 
+this Document, deal with the five 
+Requirements of the Building Regulations as 
+outlined above.  The five sections, in addition 
+to this one dealing with general provisions, 
+are: 
+ 
+S1 
+Means of warning and escape in case 
+of fire 
+S2 
+Internal Fire Spread (linings)
+S3 
+Internal Fire Spread (structure)
+S4 
+External Fire Spread
+S5 
+Access and Facilities for the Fire 
+Service 
+ 
+0.1.5  Purpose Groups 
+Many of the provisions in this Document are 
+related to the use of the building. The use 
+classifications are termed purpose groups 
+and from this it follows that the relevant 
+purpose group should be decided before the 
+provisions can be determined.
+9
+
+The provisions in this Document are related 
+to the purpose groups outlined in Table 0.1
+0.1.6 Interaction of Provisions
+Whilst provisions appropriate to B6 to B10 
+are set out separately in Sections 1 to 5 in this 
+Document, many of the provisions are closely 
+interlinked. For example, there is a close link 
+between the provisions for means of escape 
+(S1) and those for the control of fire growth 
+(S2), fire containment (S3), and facilities for 
+the fire service (S5). Similarly there are links 
+between S3 and the provisions for controlling 
+external fire spread (S4), and between S3 
+and S5.
+Table 0.1 Classification of buildings 
+by purpose group                      Par.0.1.5
+Use 
+Group 
+Purpose for which 
+a building or 
+compartment of a 
+building is used 
+Residential 
+(Dwellings)
+1(a)(1)(2) Dwelling house
+with no storey with 
+a floor level which 
+is more than 4.5 m 
+above ground level. 
+1(b)(1)(2) Dwelling house
+Interaction between these different 
+requirements should be recognised where 
+variations in the standard of provision are 
+being considered. A higher standard under 
+one of the requirements may be of benefit in 
+respect of one or more of the other 
+requirements. Thus the provisions in the 
+Document as a whole should be considered as 
+a package aimed at achieving an acceptable 
+standard of fire safety.
+with a storey with a 
+floor level which is 
+more than 4.5 m 
+above ground level. 
+1(d)(2) 
+Community 
+Dwelling house 
+with a maximum of 
+8 bedrooms which 
+may have  no more 
+than one  storey, 
+the floor level of  
+which is more than 
+4.5 m above 
+ground level  
+ 
+Note 1
+0.1.7 Performance Statements
+At the start of Sections S1 to S5, the relevant 
+requirement of the Regulations is set out and 
+is followed by a performance statement 
+which indicates how the requirement may 
+be met. These statements incorporate the 
+essential elements required to satisfy the 
+regulations and form the basis for the 
+provisions contained in the guidance.
+Purpose Groups 1(a) and 1(b) include:
+ 
+any surgery, consulting rooms, office 
+or other (professional rooms) 
+accommodation not exceeding 50m2
+forming part of a dwelling house and 
+used by the occupant of the dwelling 
+house in a professional capacity.
+0.1.8 Alternative Solutions
+The detailed provisions set out in this 
+Document are intended to provide guidance 
+for some of the more common building 
+situations. In other situations, alternative 
+ways of achieving compliance with the 
+requirements of Part B of the Second 
+Schedule to the Building Regulations may be 
+appropriate. There is no obligation to adopt 
+any particular solution contained herein. The 
+use of alternative design solutions, standards, 
+systems or methods of fire protection to those
+Note 2
+Purpose Groups 1(a) ,1(b) and 1(d) include:
+ 
+a domestic garage within the 
+envelope of the dwelling house.
+10
+
+outlined in this document is acceptable, 
+provided the level of fire safety achieved is 
+adequate to satisfy the requirements of the 
+Building Regulations.
+ 
+Architectural Heritage Protection 
+Guidelines for Planning Authorities 
+Chapter 7 and Chapter 17 published 
+by the DAHG 2011; 
+ 
+ 
+Fire protection in old buildings and 
+historic town centers, published by the 
+Fire Protection Association; 
+ 
+ 
+Fire protection measures for the Royal 
+Palaces, Department of National 
+Heritage, London; and
+0.1.9 Existing Buildings 
+In the case of an existing building there may 
+be constraints that would not exist with a new 
+building and some variation of the provisions 
+set out in this Document may be appropriate.  
+ 
+Alternative solutions whether applied to all or 
+part of the building or to specific provisions, 
+may be employed in these situations. Also 
+note that exceptions are allowed in 1.3.8 in 
+relation to existing internal stairways. 
+ 
+Many fire safety provisions are inter-
+dependent and should not be considered in 
+isolation. Where a particular provision 
+outlined in this Document cannot be 
+practicably achieved, account may be taken of 
+compensating fire safety measures, depending 
+on the nature and circumstances of each 
+particular case.  
+ 
+Such measures would include active and / or 
+passive provisions. Active provisions are 
+those which come into action on detection of 
+fire (such as fire suppression systems) while 
+passive provisions relate to the defence 
+against fire provided by the fabric and 
+construction of a building (such as floors and 
+walls). 
+ 
+Further guidance on effective and feasible 
+recommendations and selection criteria for 
+the use of passive fire protection (PFP) 
+systems in buildings is given in “Ensuring best 
+practice for passive fire protection in 
+buildings” published by the Association of 
+Specialist Fire Protection (ASFP). 
+ 
+A number of useful publications are available 
+which outline alternative approaches to fire 
+safety in existing buildings of special or 
+historic merit. These include:
+ 
+Heritage under fire, a guide to the 
+protection of historic buildings by the 
+United Kingdom Working Party on 
+Fire Safety in historic buildings.
+ 
+Guide for Practitioners 6: Conversion 
+of Traditional Buildings by Historic 
+Scotland  
+ 
+0.1.10 Operation , maintenance and use. 
+Sufficient clear and comprehensive 
+information on any continuing maintenance 
+should be provided to the owner where a Fire 
+Detection and Alarm System (FDAS) or a fire 
+suppression system is installed in the dwelling 
+house.  
+ 
+0.1.11 Fire Performance of Materials 
+and Structures: Appendix A 
+Many of the provisions throughout this 
+publication are given in terms of 
+performance in relation to standard fire test 
+methods. Details are drawn together in 
+Appendix A and reference is made where 
+appropriate in Sections 1 to 5. 
+ 
+0.1.12 Fire Doors: Appendix B 
+Provisions in respect of fire doors are set out 
+in Appendix B. Fire doors may play a 
+significant part in the fire safety of some 
+dwelling houses. It is important to note that a 
+fire door refers to a complete door assembly 
+and not the door leaf alone.
+11
+
+0.1.13 Methods of measurement: 
+Appendix C 
+Some form of measurement is an integral 
+part of many of the provisions in this 
+publication, and methods of measurement 
+are set out in Appendix C. 
+ 
+0.1.14 Loft Conversions: Appendix D 
+Provision in respect of Loft conversions in 
+existing one and two storey dwellings are set 
+out in Appendix D. 
+ 
+0.1.15 Referenced Standards and 
+Publications  
+For convenience standards and publications 
+are referenced after the Appendices in this 
+Document  
+ 
+0.1.16 Independent schemes of 
+Certification  
+Third party certification installers of systems, 
+materials, products or structures can provide 
+a means of ensuring that installations have 
+been conducted by competent contractors to 
+appropriate standards, thereby increasing the 
+reliability of the anticipated performance in 
+fire. (See Technical Guidance Document D –
+Materials and Workmanship) 
+ 
+0.1.17 
+Definitions  
+For the purposes of this document, the 
+following terms and definitions apply. These 
+definitions are additional to those to be found 
+in TGD Part B: Volume 1: Buildings other 
+than dwelling houses  
+ 
+Access room - Room through which passes 
+the only escape route from an inner room.  
+ 
+Appliance ventilation duct - A duct provided 
+to convey combustion air to an appliance. 
+ 
+Access level - A level used for normal 
+access to a building that either incorporates, 
+or leads directly to, a place of safety.
+Alternative escape routes - Escape routes 
+sufficiently separated by either direction and 
+space, or by fire-resisting construction, to 
+ensure that one is still available should the 
+other be affected by fire. 
+ 
+Basement storey - means a storey which is 
+below the ground storey or, where there is 
+no ground storey, means a storey the top 
+surface of the floor of which is situated at 
+such a level or levels that some point on its 
+perimeter is more than 1.2 m below the 
+level of the finished surface of the ground 
+adjoining the building in the vicinity of that 
+point.  
+ 
+Bedroom - A room within a dwelling or 
+building which is used as sleeping 
+accommodation. 
+ 
+Boundary - The boundary of the land 
+belonging to the building, or where the land 
+abuts a road, railway, canal or river, the 
+centreline of that road, railway, canal or river 
+(see Diagram15). 
+ 
+Conservatory - A single storey part of a 
+building where the roof and walls are 
+substantially glazed with a transparent or 
+translucent material. 
+ 
+Cavity barrier - A construction provided to 
+close a concealed space against 
+penetration of smoke or flame, or provided 
+to restrict the movement of smoke or flame 
+within such a space. 
+ 
+Ceiling - A part of a building which encloses 
+and is exposed overhead in a room or 
+circulation space (the soffit of a rooflight is 
+included as part of its surface but not the 
+frame). 
+ 
+Circulation space- A space (including a 
+protected stairway) mainly used as a means of 
+access between a room and an exit from the 
+building or compartment.
+12
+
+Class 0- see appendix A - A12 
+ 
+Community dwelling house - a dwelling 
+house with a maximum of 8 bedrooms 
+which may have no more than one storey, 
+the floor level of which is more than 4.5 m 
+above ground level occupied as a group 
+home, under the management of a statutory 
+or voluntary organization providing 
+supported living and residential services. 
+ 
+Compartment - A building or part of a 
+building, comprising one or more rooms, 
+spaces or storeys, constructed to prevent 
+the spread of fire to or from another part of 
+the same building, or an adjoining building. 
+ 
+Compartment wall or floor - A fire-
+resisting wall/floor used in the separation of 
+one fire compartment from another 
+(constructional requirements are given in 
+3.5 of Section 3).  
+ 
+Concealed space (cavity) - A space 
+enclosed by elements of a building (including 
+a suspended ceiling) or contained within an 
+element, but not a room, cupboard, 
+circulation space, protected shaft or space 
+within a flue, chute, duct, pipe or conduit. 
+ 
+Dead-end -Area from which escape is 
+possible in one direction only. 
+ 
+Domestic garage- means a building 
+ancillary to a dwelling which is used, or 
+suitable for use, for the storage of a motor 
+vehicle or vehicles and is not used for the 
+purposes of any trade or business. 
+ 
+Dwelling – A house or flat, forming a 
+separate unit of residential accommodation.  
+ 
+Dwelling house – means a dwelling that is 
+not a flat (as defined in S.I.497 of 1997).
+Emergency lighting - Lighting provided for 
+use when the power supply to the normal 
+lighting fails. 
+ 
+Electro-magnetic, or electro-mechanical 
+device susceptible to smoke - A device 
+which will allow a door held open by it to 
+close automatically in the event of each or 
+any one of the following:
+(a) detection of smoke by automatic
+apparatus suitable in nature, quality 
+and location, and 
+ 
+(b) operation of a manually operated
+switch fitted in a suitable position, and 
+ 
+(c) failure of the electricity supply to the
+device, apparatus or switch, and 
+ 
+(d) operation of the fire alarm system, if
+any. 
+ 
+Escape route - A route by which a person 
+may reach a place of safety, and, in relation 
+to any point in a building, a route from that 
+point to a place of safety. 
+ 
+External wall - (or side of a building for the 
+purposes of B9) includes a part of a roof 
+pitched at an angle of 70° or more to the 
+horizontal - if that part of the roof adjoins a 
+space within the building to which persons 
+have access (but not access only for repair or 
+maintenance). 
+ 
+Final exit - The termination of an escape 
+route from a building giving direct access to 
+a street, passageway, walkway or open 
+space, and sited to ensure the rapid 
+dispersal of persons from the vicinity of a 
+building so that they are no longer in danger 
+from fire and/or smoke. 
+ 
+Fire door - A door or shutter, provided for 
+the passage of persons, air or objects, 
+which together with its frame and furniture
+13
+
+as installed in a building is intended when 
+closed to resist the passage of fire and/or 
+gaseous products of combustion, and is 
+capable of meeting specified performance 
+criteria to those ends. (It may have one or 
+more leaves and includes a cover or other 
+form of protection to an opening in a fire-
+resisting wall or floor, or in a structure 
+surrounding a protected shaft). 
+ 
+Fire stop – A seal provided to close an 
+imperfection of fit or design tolerance 
+between elements or components, to restrict 
+or prevent the passage of fire and smoke 
+ 
+Flat –separate and self-contained premises 
+constructed or adapted for residential use 
+and forming part of a building from some 
+other part of which it is divided horizontally. 
+ 
+Floor area - In relation to a building means 
+the area bounded by the inner finished 
+surfaces of the enclosing walls, or, on any 
+side where there is no enclosing wall, by the 
+outermost edge of the floor on that side and 
+in calculating the area of a building or part of 
+a building there shall be included in such 
+area the space occupied by any walls, 
+shafts, ducts or structure within the area 
+being measured (see Diagram C1 of 
+Appendix C). 
+ 
+Gallery - Is a floor or storey which consists 
+of a raised area or platform which projects 
+into the space of the room, providing extra 
+floor area. 
+ 
+Habitable room - A room used for living or 
+sleeping purposes but does not include a 
+kitchen having a floor area less than 6.5 m2, a 
+bathroom, toilet or shower room. 
+ 
+Hydrant - an assembly comprising a valve 
+and outlet connection from an external fire 
+mains, provided to deliver a supply of water 
+for fire-fighting.
+Height (of a building or storey) - (or of 
+part of a building which is completely 
+separated throughout, both below and above 
+ground, by a compartment wall or 
+compartment walls in the same continuous 
+vertical plane) means the height of such 
+building or part measured from the mean 
+level of the ground adjoining the outside of 
+the external wall of the building to the level 
+of half the vertical height of the roof of the 
+building or part, or to the top of the walls or 
+of the parapet (if any), whichever is the 
+higher (see Diagram C5 of Appendix C). 
+ 
+Inner room - A room from which escape is 
+possible only by passing through an access 
+room. 
+ 
+Means of escape - Physical means where by 
+a safe route or routes is or are provided for 
+persons to travel from any point in a building 
+to a place of safety. 
+ 
+Measurement - (For area, cubic capacity, 
+height of a building and number of storeys) - 
+See Appendix C, Diagrams C1 to C5.  
+ 
+Notional boundary - A boundary presumed 
+to exist between buildings on the same site 
+(see Diagram 14). 
+ 
+Place of Safety - A place, normally in the 
+open air at ground level, in which persons are 
+in no danger from fire. 
+ 
+Pipe –Includes: pipe fittings and accessories; 
+excludes: a flue pipe and a pipe used for 
+ventilating purposes (other than a ventilating 
+pipe for an above ground drainage system). 
+ 
+Protected corridor/lobby- A corridor or 
+lobby which is adequately protected from fire 
+in adjoining accommodation by fire-resisting 
+construction. 
+ 
+Protected stairway - A stairway which is 
+adequately protected from fire in the 
+accommodation through which it passes by
+14
+
+fire-resisting construction and discharges 
+through a final exit to a place of safety. 
+ 
+Relevant boundary - The boundary which 
+the side of the building faces (see Diagram 
+15). A notional boundary can be a relevant 
+boundary. 
+ 
+Rooflight - Any domelight, lantern light, 
+skylight or other element intended to admit 
+daylight through a roof. 
+ 
+Storey-means any of the parts into which a 
+dwelling house is divided horizontally above 
+or below ground level including a gallery, 
+but excluding any part of a dwelling house 
+situated above the level of the roof space 
+which has not been adapted to be used for 
+habitable purposes.  
+ 
+Thermo-plastic material - See Appendix A, 
+paragraph A16. 
+ 
+Unprotected area - In relation to a side or 
+external wall of a building means:
+(ii) any part of a ceiling which slopes at
+an angle of 70° or more to the 
+horizontal. 
+ 
+but a wall excludes (for the purpose of S4):
+(i) doors and door frames;
+(ii) window frames and frames in which
+glazing is fitted; 
+ 
+(iii) architraves, cover moulds, picture
+rails, skirtings and similar narrow 
+members; and 
+ 
+(iv) fireplace surrounds, mantle-shelves
+and fitted furniture.
+(a) a window, door or other opening; and
+(b) any part of the external wall which has
+less than the relevant fire resistance 
+set out in Section 4.4; and
+(c) any part of the external wall which has
+combustible material more than 1 mm 
+thick attached or applied to its 
+external face, whether for cladding or 
+any other purpose (combustible 
+material in this context is any material 
+that is not included in Tables A6 or A7 
+in Appendix A). 
+ 
+Wall - (for the purpose of S4) includes:
+(i) the surface of glazing (except glazing
+in doors),and
+15
+
+Section 1  
+Means of warning and escape in case of fire
+Means of warning and 
+escape in case of fire.
+B6 
+A dwelling house shall be so designed and constructed that there 
+are appropriate provisions for the early warning of fire and there 
+are adequate means of escape in case of fire from the dwelling 
+house to a place of safety outside the building, capable of being 
+safely and effectively used.
+1.1 
+Means of warning and escape in 
+case of fire  
+ 
+1.1.1 General 
+The purpose of the requirement of Regulation 
+B6 is to ensure that adequate early warning 
+of fire is provided and a satisfactory standard 
+of means of escape is provided for persons in 
+the event of fire in a building. 
+ 
+1.2 
+Performance 
+The requirement of B6 may be met:
+(a) If there is a route or routes of
+sufficient size, which are suitably 
+located to enable persons to escape 
+to a place of safety in the event of fire;
+(b) If the routes are sufficiently protected
+from the effects of fire in terms of 
+enclosure, where necessary, and in 
+the use of materials on the routes; 
+and
+(c) If an alarm system to warn the
+occupants of the existence of fire is 
+provided to enable them to use the 
+routes safely; 
+ 
+all to an extent necessary that is dependent 
+on the use of the building, its size and height.
+16
+
+1.3 Dwelling Houses  
+ 
+1.3.1 Introduction 
+This section deals with the means of escape 
+provisions in Dwelling houses (Purpose 
+Groups 1(a), 1(b) and 1(d) in Table 0.1). 
+ 
+Note: The means of escape provisions for 
+Residential (Dwellings), flats and maisonettes 
+(Purpose Group 1(c)) are contained in TGD B 
+Volume 1: Buildings other than Dwelling 
+Houses. 
+ 
+Dwelling houses will generally have a single 
+escape stairway and there is a risk that this 
+may become unusable due to smoke. 
+Protection/enclosure to the stairway is 
+required, to an extent which varies with the 
+number of storeys above the ground level. 
+Windows, if suitably located and constructed, 
+can in some situations provide an alternative 
+means of escape. With increasing height, 
+windows become unsuitable for escape but 
+may be useful for rescue purposes. 
+ 
+The means of escape provisions for dwelling 
+houses are outlined in 1.3.2 -1.3.5 and 1.3.9 
+contains general provisions for dwelling 
+houses. Appendix D deals with loft 
+conversions in existing dwelling houses. 
+ 
+Early warning of fire can be achieved by the 
+provision of an appropriate smoke detection 
+and alarm system. Guidance on an 
+appropriate system for dwellings is outlined in 
+1.3.6. 
+ 
+1.3.2 Dwelling Houses with no Floors 
+more than 4.5 m above ground level 
+(Purpose Group 1(a)) 
+The following provisions apply to dwelling 
+houses where the height of the top storey is 
+not more than 4.5 m (see Diagram 3(a) or 
+3(b) and Appendix C, Diagram C4). 
+This type of dwelling house typically has one 
+or two storeys:
+(a) any habitable room which is an inner
+room should be provided with a 
+window for escape or rescue in 
+accordance with 1.3.7. 
+ 
+(b) a stairway serving an upper storey
+should be enclosed with storey-height 
+construction, which need not be fire-
+resisting, and should discharge 
+directly to the open air.
+(c) a fire detection and alarm system
+should be provided, in accordance 
+with 1.3.6; and 
+ 
+(d) The provisions regarding escape and
+rescue in 1.3.7 should be complied 
+with.
+(e) The general provisions in 1.3.9 should
+be complied with. 
+ 
+1.3.2.1 An open-plan arrangement, where the 
+stairway rises directly from the ground storey 
+accommodation is less preferable than the 
+arrangement at (b) above and is only 
+acceptable where:
+(a) the stairway discharges to within
+4.5 m of a door (final exit) at the 
+ground storey leading directly to the 
+open air; 
+ 
+(b) the stairway does not discharge into a
+kitchen (see Diagram 1(a)) and either;
+(i) any ground storey kitchen, where
+the cooking facilities are within 3 m 
+of the stairway is enclosed in 
+storey height construction which 
+need not be fire resisting (see 
+Diagram 1(b)) or ;  
+ 
+(ii) where the stairway passes within
+3 m of the cooking facilities, the 
+stairway should be shielded to the 
+foot of the stairs with ceiling –
+height construction which need not 
+be fire-resisting;(see Diagram 1 (c))
+17
+
+Diagram 1 Open plan arrangement for escape                                                      Par.1.3.2.1
+(c) a fire detection and alarm system is
+(ii) it is provided with a door or window
+provided, in accordance with 1.3.6  
+ 
+(d) all habitable rooms at the upper storey
+for escape or rescue which complies 
+with the provisions of 1.3.7. 
+ 
+(b) unless the top storey is separated
+are provided with windows for escape or 
+rescue in accordance with 1.3.7; and 
+ 
+(e) the design meets the general provisions
+from the lower storey by fire-resisting 
+construction (refer to S3 and Appendix 
+A and Diagram 2(b)) and is provided 
+with an alternative escape route 
+leading to its own  final exit, the 
+internal stairway should:
+for dwelling houses, outlined in 1.3.9.  
+ 
+1.3.3 Dwelling Houses with one floor 
+more than 4.5 m above ground level 
+(Purpose Group 1(b)) 
+The following provisions apply to dwelling 
+houses where there is one storey which is at 
+a height of more than 4.5 m (see Diagram 
+3(c) & Appendix C, Diagram C4). This type of 
+dwelling house will typically have three 
+storeys above ground level:
+(i) be a protected stairway (see 1.3.8);
+(ii) connect the ground and all upper
+storeys; and 
+ 
+(iii) either deliver directly to a final exit
+(Diagram 2 (a)) or give access to 
+not less than two independent 
+escape routes delivering to 
+alternative final exits (see Diagram 
+2(b));
+(a) a habitable room should not be an
+inner room unless: 
+ 
+(i) it has a floor level not more than 4.5
+m above ground or access level; and
+(c) automatic smoke detection and
+alarms should be provided in 
+accordance with 1.3.6;
+18
+
+(d) The provisions regarding escape and
+Diagram 2 - Alternative arrangements for 
+escape via the ground floor in dwelling 
+houses with floors more than 4.5 m above 
+ground level                                                      
+Par.1.3.3  & 1.3.4.
+rescue in 1.3.7 should be complied 
+with; and  
+ 
+(e) the general provisions for dwelling
+houses, outlined in par. 1.3.9 should 
+be met.  
+ 
+1.3.4 Dwelling Houses with more than 
+one floor more than 4.5 m above ground 
+level (Purpose Group 1(b)) 
+The following provisions apply to dwelling 
+houses where there are more than one storey 
+at a height of more than 4.5 m (see Diagram 
+3(d) and Appendix C, Diagram C4). This type 
+of dwelling house will typically have four or 
+more storeys above ground level:
+(a) a habitable room should not be an
+inner room unless it has a floor level 
+not more than 4.5 m above ground 
+level and
+(i) it is provided with a door or window
+for escape or rescue which complies 
+with the provisions of par. 1.3.7;
+(b) all upper floors should be served by a
+stairway which should; 
+ 
+(i) be a protected stairway (see 1.3.8);
+(ii) connect the ground and all upper
+storeys; and  
+ 
+(iii) either deliver directly to a final exit
+(see Diagram 2(a)) or give access 
+to not less than two independent 
+escape routes delivering to 
+alternative final exits (see Diagram 
+2(b));
+19
+
+Diagram 3    Means of escape from Dwelling houses                       Par.1.3.2, 1.3 3.& 1.3.4
+20
+
+(c) an alternative escape route by way of
+Diagram 4         Fire Separation in 
+dwelling houses with more than one 
+floor over 4.5 m above ground level           
+Par. 1.3.4
+an escape stairway should be 
+provided from each storey which has 
+a floor 7.5 m or more above the 
+ground or access level. Where the 
+access to the alternative escape route 
+is by way of the protected stairway, 
+the protected stairway at or about 7.5 
+m above ground or access level 
+should be separated from the lower 
+storeys or levels by fire resisting 
+construction;(see Diagram 4) 
+ 
+(d) the provisions regarding escape or
+rescue in  par. 1.3.7 should be 
+complied with for all floors below 7.5 
+m; 
+ 
+(e) automatic smoke detection and
+alarms should be provided in 
+accordance with par.1.3.6; and 
+ 
+(f) the general provisions for dwelling
+houses, outlined in par.1.3.9 should 
+be met. 
+ 
+(g) Where a dwelling house is
+constructed using timber frame 
+construction, an automatic sprinkler 
+system should be installed in 
+accordance with BS 9251: 2014: Fire 
+sprinkler systems for domestic and 
+residential occupancies – Code of 
+practice.
+21
+
+1.3.5 
+Community Dwelling Houses 
+(Purpose Group 1(d)) 
+The provisions contained in paragraphs 1.3.2 
+or 1.3.3 and 1.3.9 as appropriate are 
+applicable to Community dwelling houses. 
+In addition to these general requirements, 
+these dwelling houses are:
+(iv) be provided with batteries rated
+for at least 4 years normal 
+operation. 
+ 
+(f) required to have fire doors to all
+protected stairways and corridors in 
+accordance with Appendix B. 
+ 
+Further guidance is available in: “Fire safety 
+in Community Dwelling Houses :Code of 
+practice for fire safety in new and existing 
+Community Dwellings Houses ” published by 
+the Department of Housing Planning 
+Community and Local Government .  
+ 
+1.3.6 Fire Detection and Alarm Systems 
+ 
+A fire detection and alarm system can 
+significantly increase the level of fire safety in 
+a dwelling house and should be provided in 
+accordance with I.S. 3218:2013: Fire 
+Detection and Alarm Systems for Building: 
+System Design, Installation Commissioning, 
+Servicing and Maintenance. This standard 
+provides guidance on the provision of fire 
+detection and alarm systems in dwellings. It 
+refers to different grades and types of fire 
+detection and alarm systems, which can 
+provide varying levels of protection. The 
+grade and system should be selected and 
+installed in accordance with the following 
+paragraphs. 
+ 
+1.3.6.1 Grades of fire detection and alarm 
+systems  
+The grade of alarm system should be 
+appropriate to the size of the dwelling house, 
+the number of storeys and the fire risk. 
+I.S.3218 provides guidance in this respect.  
+ 
+In general the following provisions are 
+appropriate to satisfy the requirements of B6: 
+ 
+Grade D system: An installation of self-
+contained mains-powered smoke or heat 
+alarms each provided with an integral 
+standby power supply. Where multiple units 
+are provided all devices shall be 
+interconnected so that detection of fire by any
+(a) limited to 3 storeys. 
+ 
+(b) limited to a maximum of 8 bedrooms
+none of which should be an inner 
+room. 
+ 
+(c) required to have all escape routes
+protected by fire resisting construction 
+irrespective of the height of the 
+dwelling.(see Appendix A). 
+ 
+(d) required to have a Fire Detection and
+Alarm System designed to comply 
+with a minimum category LD1 Life 
+safety system in accordance with I.S. 
+3218. Additionally a fire alarm control 
+switch should be installed in 
+conjunction with the LD1 FDAS to 
+facilitate testing of the system.
+(e) required to have a self-contained
+emergency luminaire in corridors, 
+hallways, landings and stairways. 
+The emergency luminaire should:
+(i) provide horizontal illuminance on
+the floor along the centre line of 
+an escape route of not less than 
+1lux and the central band 
+consisting of not less than half of  
+the width of the route shall be 
+illuminated to a minimum of 50% 
+of that value;
+(ii) provide full luminance within 5
+seconds of the failure of the 
+normal lighting supply;
+(iii) maintain the level of luminance
+for not less than 3 hours; and
+22
+
+one unit will provide an audible alarm from 
+each unit. 
+ 
+For Grade D installations interconnections 
+may be by radio or wiring. Where radio 
+interconnection is used, manufacturer's 
+recommendations on testing of signal 
+strength/reception at each device shall be 
+carefully followed and records kept. 
+ 
+1.3.6.2 Fire detection and alarm system 
+types 
+Dwelling houses should be provided with a 
+fire detection and alarm system as follows:
+in which a fire might start ,other than toilets, 
+bathrooms and shower rooms. 
+ 
+1.3.6.3 Installation of smoke and heat 
+alarms 
+Two types of self-contained smoke alarm, an 
+optical type and an ionisation type, which 
+have differing smoke response 
+characteristics, are available. A mixture of 
+both types is recommended and in the case 
+of a typical two storey dwelling house, an 
+optical type on the ground floor storey and an 
+ionisation type on the upper floor is the most 
+appropriate. The number and location of 
+smoke alarms and heat alarms will be 
+determined by the system type (see 1.3.6.2). 
+ 
+Smoke /heat alarms should be sited 
+according to the following provisions:
+Category LD2 system for purpose group 
+1(a) and 1(b) 
+ 
+Category LD1 for purpose group 1 (d)  
+ 
+or better in accordance with I.S.3218 
+designed for the protection of life.  
+ 
+Category LD2: Interconnected self-contained 
+mains powered/battery backed Smoke/Heat 
+Alarms (as Grade D above) shall be suitably 
+located in:
+(a) In circulation areas, no door to a
+habitable room should be further than 
+7.5 m from the nearest smoke alarm.  
+ 
+(b) Smoke and heat alarms should
+preferably be fixed to the ceiling, at 
+least 300 mm from any wall or light 
+fitting. The method of fixing and 
+location/spacing should take into 
+account instructions provided by the 
+manufacturer of the alarms.  
+ 
+(c) It should be possible to reach all
+(1) all circulation areas that form part of
+an escape route within the dwelling, 
+and 
+ 
+(2) all high fire risk areas/rooms e.g.
+smoke and heat alarms to carry out, 
+easily and safely, routine maintenance 
+such as testing and cleaning. 
+Instructions on maintenance 
+requirements should be provided with 
+all smoke alarm systems. 
+ 
+(d) A heat detector is to be provided in
+kitchen, living rooms, garages, utility 
+rooms and 
+ 
+(3) all bedrooms. 
+ 
+Where professional rooms, (see1.3.9.6) are 
+provided the FDAS should also cover this 
+area. 
+ 
+Category LD1: Includes all those areas 
+specified in LD 2 but also includes all rooms 
+and areas (including attics/lofts/other spaces)
+kitchen areas in accordance with the 
+relevant provisions of I.S. 3218: 2013. 
+ 
+Note: This guidance applies to ceilings that 
+are predominantly flat and horizontal.
+23
+
+1.3.6.4 Any new extension to an existing 
+dwelling house should have a Fire Detection 
+and Alarm System in accordance with 
+1.3.6.2. 
+ 
+Where the following conditions apply, and 
+where an extension creates one or more 
+habitable rooms a Fire Detection and Alarm 
+System should be provided throughout the 
+whole dwelling house:
+added by converting the existing roof space 
+into habitable accommodation, the converted 
+dwelling house should comply with the 
+provisions of 1.3.2. 
+ 
+In the case of an existing two storey dwelling 
+house to which a storey is to be added by 
+converting the existing roof space into 
+habitable accommodation, the converted 
+dwelling house should comply with the 
+provisions of 1.3.3. 
+ 
+1.3.6.5.1 The provisions in Appendix D may 
+be applied as an alternative to those in 1.3.3 
+where the new second storey 
+accommodation does not:
+(a) the rear garden is enclosed
+(b) the only escape route is through a
+room in the dwelling house and 
+ 
+(c) the provisions in Diagram 5 are not
+(a) exceed 50 m2 in area; or
+met. 
+ 
+1.3.6.5 Loft Conversions 
+In the case of an existing single storey 
+dwelling house to which a storey is to be
+(b) contain more than two habitable
+rooms.
+Diagram 5     Ground storey exit into an enclosed space                               Par 1.3.6.4
+24
+
+1.3.7 Windows for escape or rescue 
+ 
+1.3.7.1 General  
+Windows may provide an alternative means 
+of escape or may be used for rescue 
+purposes in dwelling houses of limited height. 
+ 
+As a general provision, all bedrooms in 
+dwelling houses, other than bedrooms with 
+doors that give direct access to the outside 
+should have at least one window which 
+complies with the provisions herein.  
+ 
+As an alternative, a door which gives direct 
+access to a balcony which is suitable for 
+rescue by ladder or for escape may be used.  
+Where provision is made in this subsection 
+for windows for these purposes (see 
+paragraph 1.3.2, 1.3.3, 1.3.4 and 1.3.5) such 
+windows should comply with the following:
+paragraph. 
+ 
+(d) In the case of a dormer window or
+rooflight, the distance from the eaves 
+to the bottom of the opening section 
+of the rooflight, or, where the window 
+is vertical, the vertical plane of the 
+window, should not exceed 1.7 m 
+measured along the slope of the 
+roof. 
+ 
+(e) The area beneath the window
+externally should be such as to 
+make escape or rescue practicable. 
+For example;  
+ 
+(i) where there is a clear drop from a
+window in an upper storey or attic 
+conversion, the ground beneath the 
+window should be suitable for 
+supporting a ladder safely and be 
+accessible for rescue by the fire 
+services or others.
+(a) The window should have an openable
+section which provides an 
+unobstructed clear open area of at 
+least 0.33 m2. 
+The height should be not less than 
+450 mm. The width should be not less 
+than 450 mm. The opening section 
+should be capable of remaining in the 
+position which provides this minimum 
+clear open area. 
+ 
+(b) The bottom of the window opening
+(ii) Where there is a roof,
+conservatory, balcony or canopy 
+below a window for escape or 
+rescue, it should be structurally 
+adequate to support those using 
+the window. 
+ 
+(f) The opening section of the window
+should be secured by means of 
+fastenings which are readily 
+openable from the inside. In certain 
+circumstances safety restrictors may 
+be fitted to such windows see TGD K 
+Section 2.7. Lockable handles or 
+restrictors, which can only be 
+released by removable keys or other 
+tools, should not be fitted to window 
+opening sections for escape or 
+rescue.  
+ 
+1.3.7.2. Replacement Windows 
+Where windows are being replaced in 
+existing dwelling houses, bedroom windows 
+should meet, in as far as is practicable, the 
+provisions outlined at 1.3.7.1 (a) to (e) above.
+should be not more than 1100 mm 
+and in the case of a rooflight not less 
+than 600 mm above the floor, 
+immediately inside or beneath the 
+window or rooflight.  
+ 
+(c) As an exception to the general
+guidance in TGD K that guarding be 
+provided for any window, the cill of 
+which is less than 800 mm in height 
+above floor level, (where the external 
+ground level is below 1.4 m below 
+floor level), guarding should not be  
+provided to a rooflight opening 
+provided in compliance with this
+25
+
+In the case of other habitable rooms, opening 
+sections should not be reduced or altered to 
+an extent that reduces their potential for 
+escape or rescue. 
+ 
+1.3.8 Escape stairways  
+Escape stairways should comply with the 
+requirements of Section 1 of Technical 
+Guidance Document K - Stairways, Ladders, 
+Ramps and Guards, to the Building 
+Regulations, 2014. 
+ 
+An exception to this requirement may be 
+made in the case of an existing stairway in an 
+existing building which is capable of affording 
+safe passage for the users of the building. 
+ 
+Where an escape stairway is a protected 
+stairway the performance requirements for 
+the enclosure are indicated in Appendix A 
+(Tables A1). 
+ 
+1.3.9 General Provisions for Dwelling 
+Houses 
+ 
+1.3.9.1 Inner rooms  
+An inner room is where the access to that 
+room is through another room. A habitable 
+room should not be an inner room unless it is 
+located at basement, ground or first storey 
+and is provided with a window or door 
+suitable for escape or rescue in accordance 
+with the provisions of 1.3.7. 
+ 
+1.3.9.2 Heat producing appliances  
+Heat producing appliances include cookers, 
+boilers, stoves and open fires which are 
+designed to burn oil, gas or solid fuel. These 
+appliances are a potential source of ignition 
+for fires and it is important that they are 
+correctly installed in dwelling houses. Part J 
+of the Second Schedule to the Building 
+Regulations contains requirements in relation 
+to heat producing appliances. Technical 
+Guidance Document J - (Heat Producing 
+Appliances), provides guidance on how to 
+comply with Part J.
+1.3.9.3 Ducts 
+Where a ducted warm air heating system or a 
+Mechanical Ventilation with Heat Recovery 
+system or similar is provided in a dwelling 
+house, precautions should be taken to ensure 
+that it will not contribute to fire spread or 
+endanger the enclosure to any stairway, 
+particularly with regard to protected 
+stairways, BS 9991: 2015 Fire Safety in the 
+Design, Management and use of Residential 
+Buildings: Section 6, paragraph 35, contains 
+appropriate guidance on these measures. 
+(see also S3- Internal Fire Spread). 
+ 
+It is not recommended to connect cooker 
+hoods to Mechanical Ventilation with Heat 
+Recovery systems. Where cooker hoods are 
+connected the guidance under fire 
+precautions in BRE Digest 398 “Continuous 
+mechanical ventilation in dwellings” should be 
+followed. 
+ 
+1.3.9.4 Electrical installations  
+The electrical installation, comprising wiring, 
+sockets, switches, fuses, distribution board, 
+circuit breakers, earthing, etc., should comply 
+with ET101:2008: National Rules for 
+Electrical Installations produced by the 
+Electro-Technical Council of Ireland.  
+ 
+1.3.9.5 Basements 
+Basements, where provided in dwelling 
+houses, should be separated from the ground 
+floor storey by means of fire resisting 
+construction. 
+ 
+Where a dwelling house is provided with a 
+basement, all floors should be served by a 
+protected stairway unless the basement 
+rooms have an alternative means of escape. 
+Any basement habitable room which is an 
+inner room or basement bedroom should be 
+provided with an alternative means of 
+escape.  
+ 
+The fire detection and alarm system should 
+include the basement areas.
+26
+
+1.3.9.6 Professional Rooms 
+In the case of P.G.1(a) and P.G.1(b) any 
+surgery, consulting rooms, offices or other 
+accommodation not exceeding 50m2 forming 
+part of the dwelling house and used by the 
+occupant of the dwelling house in a 
+professional capacity should be provided with 
+a smoke alarm as part of the domestic alarm 
+system, an emergency light and escape 
+signage. 
+ 
+1.3.9.7 Final Exits  
+Any final exit door in a dwelling house or a 
+door which gives direct access to a balcony 
+as provided in 1.3.7 should be provided with 
+simple fastenings (thumb latches or other 
+readily openable mechanism) which can be 
+operated from the escape side without the 
+use of a key.  
+ 
+1.3.9.8 Fire Doors 
+Any door between a dwelling house and a 
+garage should be an E30Sa or FD30S in 
+accordance with the requirements of 
+Appendix B. 
+ 
+1.3.9.9 Galleries 
+A gallery should be treated as a storey and a 
+dwelling house with a gallery should comply 
+with sections 1.3.2, 1.3.3 or 1.3.4. 
+Where all of the following conditions are 
+complied with the gallery need not be 
+considered a storey:
+(d) the distance from the head of the
+access stair to any point on the gallery 
+should not exceed 7.5 m; and  
+ 
+(e) any cooking facilities within a room
+containing a gallery should either:
+(i) 
+be enclosed in storey height 
+construction which need not be 
+fire-resisting; or 
+ 
+(ii) 
+be not less than 3 m from the stair 
+to the gallery and positioned such 
+that they do not prejudice the 
+escape from the gallery.
+(a) it is not designed for use as a sleeping
+area;
+(b) the gallery should not project into
+more than 50% of the area of the 
+room below (see Diagram 6 );
+(c) the distance between the foot of the
+access stair to the gallery and the 
+door to the room containing the gallery 
+should not exceed 3 m;
+27
+
+Diagram 6 Gallery floors with no alternative exit                                    Par. 1.3.9.9
+28
+
+Section 2  
+Internal Fire Spread (Linings)
+Internal fire spread 
+(linings)
+B7 
+For the purpose of inhibiting the spread of fire within a dwelling house, 
+the internal linings:
+(a) shall have, either a rate of heat release or a rate of fire growth and
+a resistance to ignition which is reasonable in the circumstances; 
+and
+(b) shall offer adequate resistance to the spread of flame over their
+surfaces.
+2.1 
+Internal Fire Spread (linings) 
+ 
+2.1.1 General 
+The purpose of the requirement of Regulation 
+B7 is to ensure that the fire spread over the 
+internal linings is inhibited.  
+ 
+2.2 
+Performance 
+The requirement of B7 may be met as 
+follows:
+(a) In relation to the European fire tests
+and classification system, the 
+requirement of B7 will be met if the heat 
+released from the internal linings is 
+restricted by making provision for them 
+to have a rate of fire growth and a 
+resistance to ignition which is 
+reasonable in the circumstances; or 
+ 
+(b) The requirement of B7 may be met if
+the spread of fire over the internal 
+linings of the building is restricted by 
+making provision for them to have low 
+rates of surface spread of flame and in 
+some cases to have a low rate of heat 
+release or a rate of fire growth, so as to 
+limit the contribution that the fabric of 
+the building makes to fire growth. 
+ 
+The extent to which this is necessary is 
+dependent on the location of the lining.
+29
+
+2.3 
+Introduction to Provisions  
+ 
+2.3.1 Fire Spread and Lining 
+Materials 
+The choice of materials for the lining of walls 
+and ceilings can significantly affect the 
+spread of a fire, and its rate of growth, even 
+though they are not likely to be the materials 
+first ignited. This is particularly important in 
+circulation spaces where linings would offer 
+the main vehicle for fire spread, and where 
+rapid spread would be most likely to prevent 
+occupants from escaping. 
+ 
+Several properties of lining materials 
+influence fire spread. These include the ease 
+of ignition and the rate at which the lining 
+material gives off heat when burning. The 
+guidance relating to the European fire tests 
+and classification provides for control of 
+internal fire spread through control of these 
+properties. 
+ 
+2.3.2 Floors and Stairways 
+It is impractical to attempt to control the 
+materials used to cover floors and stairways 
+through Building Regulations, and no 
+provisions are made in this Document about 
+them.  
+ 
+2.3.3 Furniture and Fittings 
+Furniture and fittings can have a major effect 
+on fire spread but it is impractical to attempt 
+to control them through Building Regulations 
+and no provisions is made in this Document 
+about them.  
+ 
+2.3.4 Other Controls on Linings 
+Properties 
+There are provisions for the control of fire 
+growth in Section 4, sub-section 4.4 
+concerning the external surface of walls and 
+in sub-section 4.6 concerning the surface of 
+rooflights in connection with the performance 
+of roof coverings.
+2.3.5 Classification of Performance 
+Appendix A describes the different classes of 
+performance for materials used as a wall or 
+ceiling lining and the appropriate methods of 
+test, including performance ratings for 
+thermoplastic materials, referred to as TP(a) 
+rigid and TP(b). 
+ 
+The European classifications are described in 
+I.S. EN 13501-1: 2007 +A1:2009, Fire 
+classification of construction products and 
+building elements, Part 1- Classification using 
+data from reaction to fire tests. They are 
+based on a combination of four European test 
+methods: 
+ 
+I.S. EN ISO 1182: 2010, Reaction to fire tests 
+for building products - Non combustibility test; 
+ 
+I.S. EN ISO 1716: 2010, Reaction to fire tests 
+for building products - Determination of the 
+gross calorific value; 
+ 
+I.S. EN 13823: 2010, Reaction to fire tests for 
+building products - Building products 
+excluding floorings exposed to the thermal 
+attack by a single burning item; and 
+ 
+I.S. EN ISO 11925-2: 2010, Reaction to fire 
+tests for building products, Part 2 - Ignitability 
+when subjected to direct impingement of 
+flame. 
+ 
+For some building products, there is currently 
+no generally accepted guidance on the 
+appropriate procedure for testing and 
+classification in accordance with the 
+European fire tests. Until such time that the 
+appropriate European test and classification 
+methods for these building products are 
+published, classification may only be possible 
+using existing national test methods.  
+ 
+The National classifications used are based 
+on tests in BS 476: Parts 6 and 7. Tests in BS 
+2782 are used for classification of 
+thermoplastic materials.
+30
+
+Table A5 of Appendix A gives typical 
+performance ratings which may be achieved 
+by some generic materials and products. 
+ 
+2.3.6 Assessment of Performance 
+Combustible linings can contribute 
+significantly to the spread of fire in a building 
+and their use should be restricted. The fire 
+performance of lining materials is especially 
+important in circulation spaces and on escape 
+routes. An assessment of the likely 
+performance of lining materials should take 
+account of the following:
+Note: Care should be taken to ensure that a 
+build-up of combustible paints does not 
+reduce the classification of any wall or ceiling 
+lining. 
+ 
+2.4 
+General Provisions 
+ 
+Subject to the variations and specific 
+provisions described in the paragraphs 
+below, the surface linings of walls and 
+ceilings should meet the following 
+classifications as outlined in Appendix A 
+Table A5.
+ the performance of the lining materials
+(a) Class D - s3, d2 (European class) or
+in accordance with the criteria indicated 
+in paragraphs A7 to A19 of Appendix A,
+Class 3 (National class) in bathrooms, 
+toilets and shower rooms. 
+ 
+(b) Class C - s3, d2 (European class) or
+ the extent and thickness of the lining
+materials,
+Class 1 (National class) in other 
+rooms.
+ the likely interaction between wall and
+ceiling linings and between linings and 
+any combustible fittings or fixtures, 
+ 
+ the extent of voids behind the lining
+(c) Class C - s3, d2 (European class) or
+Class 1(National class) in circulation 
+spaces.
+materials and the existence of electrical 
+services in such voids. 
+ 
+Care should be taken to ensure that any 
+products which are used to treat lining 
+materials for the purpose of inhibiting spread 
+of flame are applied, and maintained, strictly 
+in accordance with the specification 
+applicable to the relevant test certification 
+supplied by the manufacturer of such 
+products. 
+ 
+Surface treatment of linings is not, in general, 
+a suitable method of achieving class B - s3, 
+d2 (European class) or Class 0 (National 
+class) performance (see A10 of Appendix A). 
+However, in the case of existing lining 
+materials, which satisfy the assessment 
+criteria indicated above, surface treatment to 
+achieve the required performance may be 
+considered.
+2.5 
+Variations and Special Provisions  
+ 
+2.5.1 Walls  
+Part of the surface of a wall in a room may be 
+of a class lower than specified in 2.4, (but not 
+lower than Class D - s3, d2 (European) or 
+Class 3 (National)) if the area of that part (or, 
+if there are two or more such parts, the total 
+area of those parts) does not exceed –
+(a) half the floor area of the room, or
+(b) 20 m2: and 
+ 
+any individual part should not exceed 5 m2
+and should be separated from any other such 
+part by a distance of not less than 2 m;  
+ 
+Note: A wall does not include a door or 
+glazing in a door.
+31
+
+2.6 
+Thermoplastic Materials 
+Thermoplastic materials (see Appendix A, 
+paragraphs A15, A16) which cannot meet the 
+performance specified in paragraph 2.4 can 
+be used in windows, rooflights and lighting 
+diffusers in ceilings if they comply with the 
+provisions of the following paragraphs: 
+ 
+2.6.1 Windows 
+External windows to rooms (though not to 
+circulation spaces) may be glazed with 
+thermoplastic materials, if the material can be 
+classified as a TP(a) rigid product. 
+Internal glazing should meet the provisions in 
+par. 2.4 above. 
+ 
+2.6.2 Rooflights 
+Rooflights to rooms and circulation spaces 
+(with the exception of protected stairways) 
+may be constructed of a thermoplastic 
+material if:
+Diagram 7 Lighting Diffuser in relation to
+ceiling                         Par. 2.6.3
+Ceilings to rooms and circulation spaces (but 
+not protected stairways) may incorporate 
+thermoplastic lighting diffusers if the following 
+provisions are observed:
+(a) the lower surface has a TP(a) (rigid)
+or TP(b) classification (see paragraph 
+A16, Appendix A) 
+ 
+(b) the size and disposition of the
+(a) Wall and ceiling surfaces exposed
+within the space above the suspended 
+ceiling (other than the upper surfaces 
+of the thermoplastic panels) should 
+comply with the general provisions of 
+par. 2.4, according to the type of 
+space below the suspended ceiling.
+rooflights accords with the limitations 
+in Table 2.1, Diagram 8 and Table 4.4 
+to Section 4. 
+ 
+2.6.3 Lighting Diffusers 
+Lighting diffusers are translucent or open-
+structured elements that allow light to pass 
+through. They may be part of a luminaire or 
+used below rooflights or other sources of 
+light. The following provisions apply only to 
+lighting diffusers which form part of a ceiling 
+and are not concerned with diffusers of light 
+fittings which are attached to the soffit of, or 
+suspended beneath a ceiling (see Diagram 7) 
+ 
+Thermoplastic lighting diffusers should not be 
+used in fire protecting or fire resisting ceilings, 
+unless they have been satisfactorily tested as 
+part of the ceiling system that is to be used to 
+provide the appropriate fire protection.
+(b) If the diffusers are of classification
+TP(a) (rigid), there are no restrictions 
+on their extent.
+(c) If the diffusers are of classification
+TP(b), they should be limited in extent 
+as indicated in Table 2.1 and Diagram 
+8. 
+ 
+Thermoplastic materials which have a lesser 
+performance than TP(b) should not be used 
+for lighting diffusers which form part of a 
+ceiling.
+32
+
+Table 2. 1    Limitations applied to thermoplastic lighting diffusers in suspended
+ceilings and thermoplastic rooflights.
+Minimum 
+classification of
+Use of space
+Maximum area of
+Max total area of 
+diffuser panels and
+Minimum
+below the 
+diffusers or
+each diffuser 
+panel or rooflight
+distance 
+between 
+diffuser panels 
+or rooflights (1)
+lower surface
+rooflights as 
+percentage of floor 
+area of the space in
+rooflight
+(1)
+which the ceiling is
+located
+TP(a)
+any except
+No Limit 
+No Limit 
+No Limit
+Rigid
+protected
+stairway
+TP(b) 
+rooms
+5 m2 
+50% 
+3 m
+circulation 
+spaces except
+5 m2 
+15% 
+3 m
+protected 
+stairways
+Note:1. Smaller panels can be grouped together provided that the overall size of the group and the space 
+between one group and any others satisfies the dimensions shown in Diagram 8.
+33
+
+Diagram 8 Layout restrictions on TP(b) thermoplastic lighting diffusers and rooflights
+Par 2.6.3
+34
+
+Section 3 
+Internal Fire Spread (Structure)
+Internal fire spread 
+(structure)
+B8 
+(1) 
+A dwelling house shall be so designed and constructed that, 
+in the event of fire, its stability will be maintained for a reasonable 
+period.
+(2)     (a) A wall common to a dwelling house and to one or more
+adjoining buildings shall be so designed and constructed 
+that it offers adequate resistance to the spread of fire 
+between those buildings.
+(b) A dwelling house shall be sub-divided with fire resisting 
+construction where this is necessary to inhibit the spread of 
+fire within the dwelling house.
+(3) A dwelling house shall be so designed and constructed that 
+the unseen spread of fire and smoke within concealed spaces in 
+its structure or fabric is inhibited where necessary.
+(4) 
+For the purposes of sub-paragraph 2(a), a dwelling house 
+in a terrace and a semi-detached dwelling house are each to be 
+treated as being a separate building.
+3.1 
+Internal Fire Spread (structure) 
+ 
+3.1.1 General 
+The purpose of the requirement of Regulation 
+B8 is to ensure the stability of buildings in the 
+event of fire, that there is a sufficient degree 
+of fire separation within dwelling houses  and 
+between adjoining buildings, and to inhibit the 
+unseen spread of fire and smoke in 
+concealed spaces in buildings. 
+ 
+3.2 
+Performance 
+The requirements of B8 may be met:
+(d) if any hidden voids in the construction
+are sealed and subdivided to inhibit 
+the unseen spread of fire and 
+products of combustion, in order to 
+reduce the risk of structural failure and 
+the spread of fire, in so far as they 
+pose a threat to the safety of people in 
+and around the building. 
+ 
+The extent to which any of these measures 
+are necessary is dependent on the use of the 
+building and, in some cases its size, and on 
+the location of the element of construction.
+(a) if the structural elements of the
+building are capable of withstanding 
+the effects of fire for an appropriate 
+period without loss of stability, 
+ 
+(b) if the building is sub-divided by
+elements of fire-resisting  construction 
+into compartments, 
+ 
+(c) if any openings in fire separating
+elements are suitably protected in 
+order to maintain the fire integrity of 
+the element, and
+35
+
+3.3 
+Introduction to Provisions 
+ 
+3.3.1 Provisions for loadbearing elements of 
+structure are given in sub-section 3.4. Sub-
+section 3.5 is concerned with the subdivision 
+of a building into compartments, and sub-
+section 3.6 makes provisions about 
+concealed spaces (or cavities).  
+ 
+Sub-section 3.7 gives information on the 
+protection of openings and on fire-stopping 
+which relates to compartmentation and to fire 
+spread in concealed spaces. Common to all 
+these sub-sections and to other provisions of 
+this Document is the property of fire 
+resistance. 
+ 
+3.3.2 Fire Resistance 
+The fire resistance of an element of 
+construction is a measure of its ability to 
+withstand the effects of fire in one or more 
+ways:
+There are provisions in Section 4 for fire 
+resistance of external walls to restrict the 
+spread of fire between buildings. 
+Appendix A gives information on methods of 
+test and performance for elements of 
+construction. 
+ 
+Appendix B gives information on fire-resisting 
+doors. 
+ 
+3.4 Loadbearing Elements of Structure 
+ 
+3.4.1 Introduction 
+Premature failure of the structure can be 
+prevented by provision for loadbearing 
+elements of structure to have a minimum 
+standard of fire resistance, in terms of 
+resistance to collapse or failure of 
+loadbearing capacity. 
+ 
+The purpose in providing the structure with 
+fire resistance is threefold:
+(a) resistance to collapse, i.e. the ability
+(a) to protect the occupants;
+to maintain loadbearing capacity 
+(which applies to loadbearing 
+members only);(R in European 
+Classification) 
+ 
+(b) resistance to fire penetration, i.e. an
+(b) to protect fire fighters who may be
+engaged in search or rescue 
+operations (though this is limited and 
+is not intended to cover fire-fighting 
+operations generally);
+ability to maintain the integrity of the 
+element (which applies to fire-
+separating elements);(E in European 
+Classification) 
+ 
+(c) resistance to the transfer of excessive
+(c) to reduce the danger to people in the
+vicinity of the building who might be 
+hurt by falling debris or by the impact 
+of the collapsing structure on other 
+buildings. 
+ 
+3.4.2 Fire Resistance Standard 
+Structural frames, beams, columns, 
+loadbearing walls (internal and external), floor 
+structures, should have at least the fire 
+resistance given in Appendix A, Table A1. 
+ 
+3.4.3 Application of the Fire Resistance 
+Standards for Loadbearing Elements (see 
+Appendix A, Tables A1 ) 
+The measures set out in Appendix A include 
+provisions to ensure that where one element 
+of structure supports or gives stability to 
+another element of structure, the supporting
+heat, i.e. an ability to provide 
+insulation from high temperatures 
+(which applies to fire-separating 
+elements);(I in European 
+Classification) 
+ 
+3.3.3 Provisions Elsewhere in Technical 
+Guidance Document B concerning Fire 
+Resistance 
+There are provisions in Section 1 concerning 
+the use of fire-resisting construction to protect 
+means of escape.
+36
+
+element has no less fire resistance than that 
+required for the other element. 
+ 
+The measures also provide for elements of 
+structure that are common to more than one 
+building or compartment, to be constructed to 
+the standard of the greater of the relevant 
+provisions. 
+ 
+Special provisions about fire resistance of 
+elements of structure in single storey 
+buildings are also given, and there are 
+concessions in respect of fire resistance of 
+elements of structure in basements where at 
+least one side of the basement is open at 
+ground level. See "Application of the fire 
+resistance standard in Table A1" in Appendix 
+A. 
+ 
+3.4.4 Exclusions from the Provisions for 
+Elements of Structure 
+The following are excluded from the definition 
+of elements of structure for the purposes of 
+these provisions:
+3.5 Compartmentation  
+ 
+3.5.1 Introduction 
+The spread of fire within a building can be 
+restricted by sub-dividing it into 
+compartments separated from one another by 
+walls and/or floors of fire-resisting 
+construction. The object is twofold:
+(a) to prevent rapid fire spread which
+could trap occupants of the building; 
+and 
+ 
+(b) to reduce the chance of fires
+becoming large, on the basis that 
+large fires are more dangerous, not 
+only to occupants but to people in the 
+vicinity of the building. 
+ 
+Compartmentation may be complementary to 
+provisions made under Section 1 for the 
+protection of escape routes, and to provisions 
+made under Section 4 against the spread of 
+fire between buildings.  
+ 
+3.5.2 Forms of Compartmentation 
+Compartment walls should be provided in 
+dwelling houses in the circumstances 
+described below,  
+ 
+Special forms of compartmentation to which 
+particular construction provisions apply, are:
+(a) a structure that only supports a roof,
+unless the roof performs the function 
+of a floor, or as a means of escape 
+(see S1) or is essential for the stability 
+of an external wall which is required to 
+have fire resistance (see S4); 
+ 
+(b) the lowest floor of the building. 
+ 
+3.4.5 Additional Provisions 
+Additional provisions are required if a 
+loadbearing wall is also:
+(a) walls common to two or more
+buildings (separating wall),  
+ 
+(b) Any wall between semi-detached
+dwelling houses, or houses in a 
+terrace, should be constructed as a 
+separating wall and the dwelling 
+houses should be considered as 
+separate buildings. 
+ 
+(c) If a domestic garage is attached to (or
+(a) a separating wall (this includes a wall
+common to two buildings) (see 3.5); 
+ 
+(b) a wall between a dwelling house and
+a domestic garage (par. 3.5.2); 
+ 
+(c) protecting a means of escape (see
+forms part of) a dwelling house, the 
+walls, floors and ceilings should 
+provide the fire separation from the 
+rest of the dwelling house as indicated 
+in Diagram 9.
+Appendix A : Table A1) 
+ 
+(d) an external wall (see S4, sub-section
+4.4 and 4.5);
+37
+
+(d) Where a door is provided between a
+dwelling house and the garage, the 
+door opening should be positioned at 
+least 100 mm above garage floor level 
+(see Diagram 9) and should be fitted 
+to open into the garage. Alternatively 
+the floor of the garage should be laid 
+to fall not less than1:100 to allow fuel 
+spills to flow away from the door.
+(e) In the case of a single storey house in
+order to maintain a 30 minute fire 
+separation between the house and the 
+garage either:
+(i) the wall between the house and the
+garage should be taken up to the 
+underside of the roof; or 
+ 
+(ii) the ceiling of the garage should
+have a minimum period of fire 
+resistance of 30 minute.
+Diagram 9 Separation between garage and dwelling house 
+                   Par. 3.5.2
+38
+
+3.5.3 Limits to Compartment sizes  
+There is no limit on the floor area or cubic 
+capacity of a compartment in a Residential 
+Dwelling of Purpose Groups 1(a),1(b) or 1(d). 
+ 
+3.5.4 Construction of Compartment 
+Walls  
+Every compartment wall/separating wall 
+should:
+I.S.440: Timber Frame Construction, 
+Dwellings and Other Buildings; between 
+buildings of up to three storeys, (four storeys 
+where the provisions of section 1.3.4 (g) are 
+complied with) where the design, materials 
+and workmanship used in the manufacture 
+and construction of the wall are in 
+accordance with the provisions of Technical 
+Guidance Document D (Materials and 
+Workmanship). 
+ 
+3.5.4.4 Services in separating walls  
+No services should pass through or breach 
+separating walls.  
+ 
+In timber framed construction, where 
+necessary, a service cavity external to the un-
+breached linings of the fire resistant 
+separating wall should be provided to 
+accommodate services as outlined in I.S. 
+440. 
+ 
+3.5.4.5 Junction of separating wall with 
+other walls  
+Where a separating wall meets an external 
+wall, the junction should be fitted with a cavity 
+barrier in accordance with Diagram 12 or 
+where no cavity exists, maintain the fire 
+resistance of the separating wall, or in the 
+case of external insulation systems a fire stop 
+within the insulation in the plane of the 
+separating wall.  
+ 
+3.5.4.6 Junction of separating wall and 
+roof  
+The junction between a separating wall and 
+the roof of a building should be capable of 
+restricting fire spread between the buildings. 
+ 
+A separating wall should be taken up to meet 
+the underside of the roof covering or deck 
+and fire stopped where necessary at the 
+wall/roof junction. 
+ 
+The construction of the wall, particularly 
+between any ceiling and the roof, should not 
+contain imperfections that would provide a 
+route for fire penetration or premature failure 
+of the fire resistance performance of the wall.
+(a) form a complete barrier to fire
+between the buildings they separate; 
+ 
+(b) have the appropriate fire resistance as
+indicated in Appendix A, Table A1; 
+ 
+The performance requirements for fire 
+resisting elements of construction are 
+indicated in Appendix A, paragraph A5. 
+ 
+3.5.4.1 Openings in fire resisting 
+construction 
+Any door provided between a dwelling house 
+and a garage should be protected by means 
+a fire door, in accordance with the provisions 
+outlined in Appendix B and Table B1.  
+ 
+Openings between compartments for the 
+passage of pipes, ducts and other services 
+should be protected in accordance with the 
+provisions outlined in sub-section 3.5.4 for 
+framed compartment walls see 3.5.4.3. 
+ 
+Note: No openings are allowed in separating 
+walls (see 3.5.4.4) 
+ 
+3.5.4.2 Separating walls 
+Separating walls should run the full height of 
+the building in a continuous vertical plane and 
+should be constructed of non-combustible 
+(see Appendix A, Table A7) materials. 
+Adjoining buildings should only be separated 
+by walls, not floors.  
+ 
+3.5.4.3 Separating walls in timber framed 
+construction  
+An exception to the requirement for 
+separating walls to be constructed of non-
+combustible materials may be permitted in 
+the case of separating walls in timber frame 
+dwelling houses built in accordance with
+39
+
+The gap between the wall and the underside 
+of the roof should be as small as practicable 
+(generally not greater than 50 mm) and be 
+filled with suitable fire stopping material over 
+the full width of the wall. 
+ 
+Where structural roof members such as 
+beams, purlins and rafters are built into a 
+separating wall, any openings for them 
+should be as small as practicable and any 
+gaps should be effectively fire stopped with 
+non-combustible fire stopping material over 
+the full width of the wall.  
+ 
+No structural roof member should be carried 
+across a separating wall (except where 
+specified at (a) below). 
+ 
+The design and detailing of the junction 
+between a separating wall and any roof 
+valley, gutter, or other roof configuration, 
+should be carefully considered so as to 
+ensure that a means is not provided at the 
+junction for premature fire spread between 
+compartments or buildings. 
+ 
+If a fire penetrates a roof near a separating 
+wall there is a risk that it will spread over the 
+roof to the adjoining building. To reduce that 
+risk, the junction between a separating wall 
+and a roof should be constructed in 
+accordance with the following:
+membrane along the line of the wall 
+and at the eaves should be 
+adequately fire stopped (see Diagram 
+10(a)). 
+ 
+(b) As an alternative to (a) above the
+separating wall may be extended 
+above the line of the external roof 
+surface by a height of not less than 
+375 mm to form a parapet wall (see 
+Diagram 10(b)). 
+ 
+(c) As an alternative to (a) or (b) above,
+any other system which has been 
+shown by test to be equally effective 
+in restricting the spread of fire at a 
+separating wall/compartment wall/roof 
+junction may be used.
+(a) In dwelling houses not more than
+15 m high a zone of the roof at least 
+1.5 m wide (see Table 4.3) on both 
+sides of the wall should have a 
+covering of class BRoof(t4) (European 
+class) or AA, AB, or AC (National 
+class) (see table A4 to Appendix A). 
+Where  timber tiling battens or 
+combustible boarding used as a 
+substrate to the roof covering, are to 
+be carried over the separating wall, 
+they should be fully bedded in mortar 
+or other suitable non-combustible fire 
+stopping material for the full width of 
+the wall. Boarding should not exceed 
+25 mm in thickness, and any cavities 
+within the thickness of the roof, above 
+and below the sarking felt or similar
+40
+
+Diagram 10          Junction of Separating wall with roof for Dwelling Houses not more
+than 15 m high                                                                          Par 3.5.4.6
+41
+
+3.6 
+Concealed Spaces (Cavities) 
+ 
+3.6.1 Introduction 
+Hidden voids in the construction of a building 
+provide a ready route for smoke and flame 
+spread. This is particularly so in the case of 
+voids above other spaces in a building, e.g. 
+above a suspended ceiling or in a roof space. 
+As the spread is concealed, it presents a 
+greater danger than would a more obvious 
+weakness in the fabric of the building. 
+Provisions are made to restrict this by 
+interrupting cavities which could form a 
+pathway around a barrier to fire, and sub-
+dividing extensive cavities. 
+ 
+It should be noted that cavity barriers should 
+not be provided above separating walls as 
+these walls are required to be carried up full 
+storey height to the roof. 
+The fire resistance standards for cavity 
+barriers are lower than for a separating wall 
+and it is important to use a separating wall in 
+this situation to maintain the standard of fire 
+resistance. 
+ 
+3.6.2 Provision of Cavity Barriers 
+Cavity barriers should be provided in 
+accordance with the following:
+Diagram 11 Roofspaces over 
+protected stairway in dwelling houses 
+(alternative arrangements)    Par 3.6.2
+(a) At the top of an external cavity wall
+(masonry or framed construction) 
+including any gable wall.  
+ 
+(b) Vertically at the junction of separating
+wall and any such wall with an 
+external cavity wall (see Diagram 12). 
+ 
+(c) Above the enclosures to a protected
+Diagram 12 Vertical cavity barrier at 
+junction of separating wall Par. 3.6.2.
+stairway (see Diagram 11).  
+ 
+(d) Around all openings (windows, doors,
+vents, service boxes etc.) in framed 
+construction.
+42
+
+3.6.3 Construction and Fixings for Cavity 
+Barriers 
+Every cavity barrier should be constructed to 
+provide at least 30 minutes fire resistance 
+(see Appendix A, Table A1, item 10). 
+ 
+Notes: Any cavity barrier required in framed 
+construction may however be formed of –
+3.6.4 Openings in Cavity Barriers 
+Any openings in a cavity barrier should be 
+limited to those for:
+(a) the passage of pipes which meet the
+provisions in sub-section 3.7;
+(b) the passage of cables or conduits
+(i) steel at least 0.5 mm thick, or
+containing one or more cables;
+(ii) timber at least 38 mm thick, or
+(c) ducts which are fire resisting. 
+ 
+3.7 
+Protection of Openings and Fire-
+Stopping 
+ 
+3.7.1 Introduction 
+Earlier sections of this Document describe 
+the provision of barriers to fire, and the 
+circumstances in which there may be 
+openings in them. This Section deals with the 
+protection of openings in such barriers. 
+If an element that is intended to provide fire 
+separation (i.e. it has requirements for fire 
+resistance in terms of integrity and insulation) 
+is to be effective, then every joint, or 
+imperfection of fit, or opening to allow 
+services to pass through the element, should 
+be adequately protected by sealing or fire-
+stopping so that the fire resistance of the 
+element is not impaired. Building service 
+installations should be designed in 
+accordance with BS 8313:1997 (Section 13).  
+ 
+Provisions for door openings and fire doors 
+are given in Appendix B. 
+ 
+Note: The measures are intended to delay 
+the passage of fire. They generally have the 
+additional benefit of retarding smoke spread 
+but the test specified in Appendix A for 
+integrity does not stipulate criteria for the 
+passage of smoke as such. 
+ 
+3.7.2 Openings for Pipes 
+Pipes which pass through a wall or floors 
+which are required to be fire resisting , or 
+cavity barrier, should meet the appropriate 
+provisions in alternatives A, B or C below. 
+ 
+Note: No pipework should pass through any 
+separating wall (see 3.5.4.4)
+(iii) polythene sleeved mineral wool, or
+mineral wool slab, in either case 
+under compression when installed 
+in the cavity. 
+ 
+A cavity barrier may be formed by any 
+construction provided for another purpose if it 
+meets the provisions for cavity barriers. 
+ 
+Cavity barriers should be tightly fitted to rigid 
+construction and mechanically fixed in 
+position wherever possible. Where this is not 
+possible (for example, in the case of a 
+junction with slates, tiles, corrugated sheeting 
+or similar materials) the junction should be 
+fire-stopped. 
+ 
+Where cavity barriers are fitted in roof spaces 
+the roof members to which they are fixed do 
+not have to be fire resisting. 
+ 
+Cavity barriers should also be fixed so that 
+their performance is unlikely to be made 
+ineffective by:
+(a) movement of the building due to
+subsidence, shrinkage or thermal 
+change and  movement of the 
+external envelope due to wind; 
+ 
+(b) collapse in a fire of any services
+penetrating them; 
+ 
+(c) failure in a fire of their fixings; or
+failure in a fire of any material or 
+construction which they abut.
+43
+
+Alternative A: Proprietary Seals (any pipe 
+diameter) 
+ 
+Provide a proprietary sealing system which 
+has been shown by test to maintain the fire 
+resistance of the wall, floor or cavity barrier. 
+ 
+Alternative B: Pipes with a restricted 
+diameter 
+ 
+Where a proprietary sealing system is not 
+used, fire-stopping may be used around the 
+pipe, keeping the opening as small as 
+possible. The nominal internal diameter of the 
+pipe should not be more than the relevant 
+dimension given in Table 3.4. 
+ 
+Alternative C: Sleeving 
+ 
+A pipe of lead, aluminium, aluminium alloy, 
+asbestos-cement or uPVC, with a maximum 
+nominal internal diameter of 160 mm, may be 
+used with a sleeving of non-combustible pipe 
+extending not less than 1m from the fire 
+resistant element.  The specification for non-
+combustible and uPVC pipes is given in the 
+notes to Table 3.4. 
+ 
+3.7.3 Ventilating Ducts 
+Where ventilation and air conditioning ducts 
+pass between  fire resisting elements (floors, 
+protected stairwells etc.), they should be 
+protected in accordance with the 
+recommendations contained in paragraph 
+1.3.9.3. 
+ 
+3.7.4 Flues  
+If a flue, or duct containing flues or appliance 
+ventilation duct(s), passes through a fire 
+resisting wall or fire resisting floor, or is built 
+into a separating wall, the walls of the flue or 
+duct should have a fire resistance of at least 
+half that of the wall or floor in order to prevent 
+the by-passing of the compartmentation (see 
+Diagram 13). The walls enclosing the flue or 
+duct should be of solid non-combustible 
+construction.
+Diagram 13 Flues in separating walls 
+                                               Par 3.7.4
+3.7.5 Fire-Stopping 
+In addition to any other provisions in this 
+document for fire-stopping:
+(a) joints between elements which serve
+as a barrier to the passage of fire 
+should be fire-stopped; allowing for 
+movement where appropriate. 
+ 
+(b) all openings for pipes, ducts, conduits
+or cables to pass through any part of 
+an element which serves as a barrier 
+to the passage of fire should be:
+(i) kept as few in number as possible,
+and
+(ii) kept as small as practicable, and
+(iii) fire-stopped (which in the case of
+a pipe or ducts, should allow 
+thermal movement).(see also 
+Section 1, 1.3.9.3)
+44
+
+Other suitable fire-stopping materials are:
+Table 3.4  Maximum nominal internal  
+                 diameter of pipes
+ 
+cement or lime mortar, 
+ 
+ 
+gypsum based plaster, 
+ 
+ 
+cement or gypsum based 
+vermiculite/perlite mixes, 
+ 
+ 
+glass fibre, mineral wool, crushed 
+rock, blast furnace slag or ceramic 
+based products (with or without resin 
+binders) 
+ 
+ 
+intumescent mastics. 
+ 
+These may be used only in situations which 
+are suitable for the particular fire-stopping 
+materials. 
+ 
+3.7.8 Further Guidance  
+ 
+Further information on the generic types of 
+systems available, their suitability for different 
+applications and guidance on test method is 
+given in the Association for Specialist Fire 
+Protection, (Red Book): “Fire Stopping and 
+Penetration Seals for the Construction 
+Industry” 
+ 
+Guidance on the process of design, 
+installation and maintenance of passive fire 
+protection is available in “Ensuring best 
+practice for passive fire protection in 
+buildings” produced by the Association for 
+Specialist Fire Protection (ASFP).
+Purpose 
+(a) 
+(b) 
+(c)
+Non-
+combust
+Lead, 
+aluminium or
+or any
+other 
+material
+ible 
+Material
+aluminium 
+alloy, fibre-
+(1)
+cement or
+uPVC(2)
+Any 
+situation
+160 
+40 
+40
+(3)
+Notes:
+1. A non-combustible material (such as cast
+iron or steel) which, if exposed to a 
+temperature of 800°C will neither soften 
+nor fracture to the extent that flame or hot 
+gases will pass through the wall of the 
+pipe. 
+2. PVCu pipes complying with I.S. EN 1329-
+1:2014, BS 4514: 2001 and BS 5255: 
+1989 
+3. no pipes, wires or other services are
+allowed to pass through or breach 
+separating walls.(See 3.5.4.4) 
+ 
+3.7.6 Displacement  
+To prevent displacement, materials used for 
+fire-stopping should be reinforced with (or 
+supported by) materials of limited 
+combustibility in the following circumstances:
+(a) in all cases where the unsupported
+span is greater than 100 mm, and 
+ 
+(b) in any other case where non-rigid
+materials are used (unless they have 
+been shown to be satisfactory by test) 
+ 
+3.7.7 Proprietary Seals  
+Proprietary sealing systems (including those 
+designed for service penetrations) which 
+have been shown by test to maintain the fire 
+resistance of the wall or other element are 
+available.
+45
+
+Section 4  
+External Fire Spread
+External fire spread 
+B9  The external walls and roof of a dwelling house shall be so
+designed and constructed that they afford adequate resistance to 
+the spread of fire to and from neighbouring buildings.
+4.1 
+External Fire Spread 
+ 
+4.1.1 General 
+The purpose of the requirement of 
+Regulation B9 is to ensure that external walls 
+and roofs have adequate resistance to the 
+spread of fire over their external surfaces, 
+and that spread of fire from one building to 
+another is restricted. 
+ 
+4.2 
+Performance 
+The requirements of B9 may be met:
+(a) if the external walls are constructed so
+that the risk of ignition from an 
+external source, and the spread of fire 
+over their surfaces, is restricted by 
+making provision for them to have low 
+rates of spread of flame, and in some 
+cases low rates of heat release,
+(b) if the amount of unprotected area in
+the side of the building is restricted so 
+as to limit the amount of thermal 
+radiation that can pass through the 
+wall, taking the distance between the 
+wall and the boundary into account, 
+and
+(c) if the roof is constructed so that the
+risk of spread of flame and/or fire 
+penetration from an external fire 
+source is restricted, 
+ 
+in each case so as to limit the risk of a fire 
+spreading from the building to a building 
+beyond the boundary, or vice versa. 
+ 
+The extent to which this is necessary is 
+dependent on the use of the building, its 
+distance from the boundary and (in some 
+cases) its height.
+46
+
+4.3 
+Introduction to Provisions 
+ 
+4.3.1 Introduction  
+The construction of external walls and the 
+separation between buildings to prevent 
+external fire spread are closely related. 
+ 
+The chances of fire spreading across an open 
+space between buildings, and the 
+consequences if it does depend on:
+Provisions are made in this Section for the 
+external walls of the building to have 
+sufficient fire resistance to prevent fire spread 
+across the relevant boundary. The provisions 
+are closely linked with those for space 
+separation in sub-section 4.5 which sets out 
+limits on the amount of wall area that need 
+not be fire-resisting (termed unprotected 
+area). As the limits depend on the distance of 
+the wall from the relevant boundary, it is 
+possible for some, or all, of the walls to be 
+permitted to have no fire resistance except for 
+any parts which are loadbearing. 
+ 
+External walls are elements of structure and 
+the relevant period of fire resistance (which is 
+specified in Appendix A) depends on the use, 
+height and size of the building concerned, 
+and whether the wall is within 1 m of the 
+relevant boundary. 
+ 
+Provisions are also made to restrict the 
+amount of combustible surfaces on buildings 
+that are very close (less than 1 m) to the 
+relevant boundary and/or on high buildings. 
+This is in order to reduce the susceptibility of 
+ignition of the surface from an external 
+source, and to reduce the possibility of fire 
+spread up the external face of the building. 
+ 
+4.4.2 Fire Resistance Standard 
+The external walls of the building should have 
+the appropriate fire resistance given in 
+Appendix A, Table A1, unless they are 
+permitted to form an unprotected area under 
+sub-section 4.5. 
+ 
+4.4.3 External Surfaces 
+The external surfaces of walls should meet 
+the following provisions in dwelling houses:
+• 
+the size and intensity of the fire in the 
+building concerned;
+• 
+the risk it presents to people in the 
+other building(s);
+• 
+the distance between the buildings; 
+and
+• 
+the fire protection given by their facing 
+sides. 
+ 
+Provisions are made in sub-section 4.4 for 
+the fire resistance of external walls, and to 
+limit the susceptibility of the external surface 
+of walls to ignition and to fire spread. 
+ 
+Provisions are made in sub-section 4.5 to 
+limit the extent of openings and other 
+unprotected areas in external walls in order to 
+reduce the risk of fire spread by radiation. 
+ 
+Provisions are made in sub-section 4.6 for 
+reducing the risk of fire spread between and 
+over roofs. 
+ 
+4.4 
+Construction of External Walls 
+ 
+4.4.1 Introduction 
+Under Section 3, provisions are made in sub-
+section 3.4 for internal and external 
+loadbearing walls to maintain their 
+loadbearing function in the event of fire.
+(a) less than 15 m in height  and less than
+1 m from the relevant boundary (the 
+relevant boundary may be a notional 
+boundary) they should be Class B –
+s3,d2(European) or Class 0 
+(National);
+47
+
+(b) less than 15 m in height and more
+(c) that no significant radiation will pass
+than 1 m from the relevant boundary: 
+no provisions.  
+ 
+However, the total amount of combustible 
+material may be limited in practice by the 
+provisions for space separation in par. 4.5.6. 
+ 
+4.4.4 External Wall Construction 
+The external envelope of a building should 
+not provide a medium for fire spread. The use 
+of combustible materials for cladding 
+framework, or of combustible thermal 
+insulation as an overcladding in drained 
+and/or ventilated cavities, may present such a 
+risk even though the provisions for external 
+surfaces in 4.4.3 (a) or (b) may have been 
+satisfied. 
+ 
+In the case of the outer cladding of a wall with 
+a drained and/or ventilated cavity, the surface 
+of the outer cladding which faces the cavity 
+should also meet the provisions of 4.4.3 (a) or 
+(b). 
+ 
+4.5 
+Space Separation  
+ 
+4.5.1 Introduction 
+The provisions in this Section limit the extent 
+of openings and other unprotected areas in 
+the sides of the building (including areas with 
+a combustible surface) which will not give 
+adequate protection against the spread of 
+fire. 
+ 
+The provisions assume:
+through any parts of the external wall 
+that have fire resistance. 
+ 
+4.5.2 Boundaries 
+The use of the distance to a boundary rather 
+than to another building in measuring the 
+separation distance makes it possible to 
+calculate the allowable proportion of 
+unprotected areas, even where another 
+building does not exist but may do. 
+ 
+A wall should be treated as facing a boundary 
+if the boundary makes an angle with the wall 
+of 80° or less (see Diagram 15). 
+ 
+Usually only the distance to the boundary of 
+the site needs to be considered. The 
+meaning of the term boundary is explained in 
+Diagram 15. 
+ 
+4.5.3 Notional Boundaries 
+In some circumstances the distances to other 
+buildings on the same site needs to be 
+considered. This should be done by 
+assuming a boundary called a notional 
+boundary between those buildings. 
+ 
+The concept of a notional boundary between 
+two buildings on the same site and the rules 
+that apply are illustrated in Diagram 14. 
+ 
+In general, it is not necessary to consider the 
+separation distance between buildings on the 
+same site unless one of the buildings, 
+whether new or existing, is of Residential 
+Purpose Groups 1(a), 1(b), 1(c) Flats and 
+Maisonettes, 1(d), 2(a) Residential 
+Institutional, 2(b) Other Residential or 
+Assembly and Recreation (Purpose Group 5) 
+use.  
+ 
+Where a number of buildings of any purpose 
+group occupy the same site and where each 
+building is under different ownership, tenancy 
+or occupancy or where sub-division of the site 
+is likely to occur, it would in these
+(a) that the intensity of the fire is related
+to the use of the building as a dwelling 
+house.
+(b) that the building on the adjoining site
+has an identical elevation to the one in 
+question, and is at the same distance 
+from the common boundary; and
+48
+
+circumstances be appropriate to consider 
+space separation between all buildings on the 
+same site. 
+ 
+Where buildings of any purpose group occur 
+on the same site and where space separation 
+has not been considered, then it is necessary 
+to take into account the compartmentation 
+requirements under Section 3 (3.5) as if they 
+were connected together as one building.
+Diagram 14  Notional Boundary                                                                   Pars.4.5.2 and 4.5.3
+49
+
+4.5.4 Relevant Boundaries 
+The boundary which a wall faces whether it is 
+the boundary of the site or a notional 
+boundary is called the relevant boundary (see 
+Diagrams 14 and 15). 
+ 
+4.5.5 Unprotected Areas and Fire 
+Resistance
+Diagram 15 Relevant boundary     
+                                       Par 4.5.2 & 4.5.4
+Any part of an external wall which has less 
+fire resistance than the appropriate amount 
+indicated in Table A1(5) of Appendix A is 
+considered to be an unprotected area.
+4.5.6 Status of Combustible Surfaces as 
+Unprotected Area 
+Besides the restrictions on combustible 
+surfaces in 4.4, their extent may also be 
+limited by the result of the calculation of 
+unprotected area if they are more than 1 mm 
+in thickness. Then:
+(a) if the combustible material is used as
+a surface on a wall that has the 
+necessary fire resistance, then half of 
+the area of combustible material 
+should be counted as unprotected 
+area; or
+(b) if the combustible material is used as
+a surface on a wall that does not have 
+the necessary fire resistance, then the 
+whole of the area of combustible 
+material is counted as unprotected 
+area. 
+ 
+4.5.7 External Walls within 1 m of the 
+Relevant Boundary 
+A wall situated within 1 m from any point on 
+the relevant boundary will meet the provisions 
+for space separation if:
+(a) the only unprotected areas are those
+shown in Diagram 16; and
+(b) the rest of the wall (if any) is fire
+resisting.
+50
+
+Diagram 16  Unprotected areas which may be disregarded for 
+                    Par. 4.5.7  
+                    space separation purposes
+51
+
+4.5.8 External Walls 1 m or more from the 
+Relevant Boundary  
+A wall situated at least 1 m from any point on 
+the relevant boundary will meet the provisions 
+for space separation if:
+The methods outlined in the BRE report are 
+based on the following:
+• 
+enclosing rectangle (geometric 
+method);
+• 
+aggregate notional areas (protractor 
+method); and
+(a) the extent of unprotected area does
+not exceed that given by one of the 
+methods referred to in 4.5.8.2 below, 
+and
+• 
+Fire engineering approaches  (Part 4 of 
+BRE Report)
+(b) the rest of the wall (if any) is fire-
+Diagram 17 The effect of a canopy on
+resisting.  
+ 
+4.5.8.1 Canopies  
+In the case of a canopy attached to the side 
+of a building, provided that the edges of the 
+canopy are at least 2 m from the relevant 
+boundary, separation distance may be 
+determined from the wall (building line) rather 
+than the edge of the canopy (see Diagram 
+17). 
+ 
+4.5.8.2 Methods for calculating 
+acceptable unprotected area  
+Two methods are given in this Document for 
+calculating the acceptable amount of 
+unprotected area in an external wall that is at 
+least 1 m from any point on the relevant 
+boundary (for walls within 1 m of the 
+boundary see 4.5.7 above). 
+ 
+Method 1 (see 4.5.8.3) is only suitable for 
+small dwelling houses which do not belong to 
+Purpose Group 2(a), Residential 
+(Institutional). 
+ 
+Method 2 (see 4.5.8.4) may be used for 
+buildings or compartments for which Method 
+1 is not appropriate. 
+ 
+Other methods are described in the Building 
+Research Establishment Report (BR 187) 
+"External fire spread: building separation and 
+boundary distances" (2nd edition 2014).
+separation distance   Par 4.5.8.1
+Method 1 Small Dwelling houses  
+4.5.8.3 This method applies only to a 
+building intended to be used as a dwelling 
+house which is not less than 1m from any 
+point on the relevant boundary. The following 
+rules for determining the maximum permitted 
+unprotected area should be read with 
+Diagram 18 and Table 4.1: 
+ 
+1. The building should not exceed 3 storeys
+in height (basements not counted) or be 
+more than 24 m in length.
+2. Each side of the building will meet the
+provisions for space separation if:
+(a) the distance of the side of the building
+from the relevant boundary, and
+(b) the extent of unprotected area,
+are within the limits given in Table 4.1.
+52
+
+1. 
+Each side of the building will meet the 
+provisions for space separation if:
+Note: In calculating the maximum permitted 
+unprotected area, any areas shown in Diagram 16 
+can be disregarded. 
+ 
+3. Any parts of the side of the building in
+(a) the distance of the side of the building
+from the relevant boundary, and
+excess of the maximum permitted 
+unprotected area should be fire-resisting. 
+ 
+Diagram 18 Small dwelling houses
+(b) the extent of unprotected area, 
+ 
+are within the limits of unprotected area set 
+out in Table 4.2. 
+ 
+Note: In calculating the maximum permitted 
+unprotected area, any areas shown in Diagram 16 
+can be disregarded. 
+ 
+2. 
+Any parts of the side of the building in 
+excess of the maximum permitted 
+unprotected area should be fire-resisting.
+Par 4.5.8.3
+Note: For any dwelling house or compartment 
+more than 15 m in height, the methods set out in 
+the BRE Report Building separation and boundary 
+distances’ can be applied.
+Table 4.1 Permitted unprotected areas
+in small dwelling houses.
+Table 4.2    Permitted unprotected areas 
+in larger dwelling houses   Par 4.5.8.4
+Par 4.5.8.3
+Minimum distance 
+(A) between side of 
+building and 
+relevant 
+boundary(m)
+Maximum total area of 
+unprotected areas (m2)
+Minimum distance between 
+side of building and 
+relevant boundary(m)
+Maximum 
+total per cent
+of 
+unprotected
+areas (%)
+1.0 
+5.6
+Purpose Groups 1(a), 1(b)
+2.0 
+12
+and 1(d)
+3.0 
+18
+0 
+0
+4.0 
+24
+2.5 
+20
+5.0 
+30
+5.0 
+40
+6.0 
+No limit 
+ 
+Method 2 Larger Dwelling houses  
+4.5.8.4 This method applies to a dwelling 
+house not less than 1m from any point on the 
+relevant boundary. The following rules 
+determine the maximum permitted 
+unprotected area and should be read with 
+Table 4.2.
+7.5 
+60
+10.0 
+80
+12.5 
+100
+Notes: 
+Intermediate values may be obtained by 
+interpolation.
+53
+
+4.5.9 Material Alteration of Existing 
+Dwelling houses 
+In the case of a material alteration of an 
+existing dwelling house the requirements in 
+relation to space separation may be met 
+where:
+the new and existing walls of the dwelling 
+house comply with section 4.5.7 or 4.5.8.
+4.5.12 
+Increase in Extent of Unprotected 
+Area 
+Where it is proposed to increase the extent of 
+unprotected areas of a wall on an existing 
+elevation, it may be appropriate to employ 
+insulated fire-resisting glazing in fixed frames 
+or provide other fire resisting construction 
+remote from any existing openings, to provide 
+the necessary protection.  
+ 
+4.6 
+Roof Coverings 
+ 
+4.6.1 Introduction 
+The provisions in this sub-section limit the 
+proximity to the boundary of those types of 
+roof covering which will not give adequate 
+protection against the spread of fire. 
+ 
+4.6.2 Other Controls on Roofs 
+There are provisions concerning the fire 
+properties of roofs elsewhere. In S3, there 
+are provisions in sub-section 3.5 for roofs that 
+pass over the top of a compartment wall or 
+separating wall. In S2, there are provisions 
+for the internal surfaces of rooflights as part 
+of the internal lining of a room or circulation 
+space. 
+ 
+4.6.3 Classification of Performance 
+The performance of roof coverings is 
+determined in accordance with I.S. EN 
+13501-5: 2006+A1 2009 - Fire classification 
+of construction products and building 
+elements, Part 5 – Classification using test 
+data from external fire exposure to roof tests 
+or is designated by reference to the test 
+methods specified in BS 476: part 3: 2004, as 
+described in Appendix A. The notional 
+performance of some common roof coverings 
+is given in Table A4 of Appendix A. 
+ 
+I.S. ENV 1187: 2002 - Test Methods for 
+external fire exposure to roofs also refers.
+ 
+there is no increase in the extent of 
+unprotected areas to the existing 
+external walls of the building; and 
+ 
+ 
+the building is not altered or extended 
+by the provision of additional floor 
+area(s). 
+ 
+Note: Where the above criteria are not met, it 
+will be necessary to demonstrate that the 
+unprotected areas comply with the 
+requirements outlined at 4.5.7 or 4.5.8.
+4.5.10 
+Material Change of Use of 
+Existing Buildings 
+In the case of a material change of use of an 
+existing building to a dwelling house the 
+requirements in relation to space separation 
+may be met where:
+ 
+there is no increase in the extent of 
+un-protected areas to the existing 
+external walls of the building; and 
+ 
+ 
+the building is not altered or extended
+by the provision of additional floor 
+area(s);  
+ 
+Note: Where either of the above criteria are 
+not met, it will be necessary to demonstrate 
+that the unprotected areas comply with the 
+requirements outlined at 4.5.7 and 4.5.8. 
+ 
+4.5.11 Extensions  
+Where an extension to an existing dwelling 
+house is proposed the requirements in 
+relation to space separation may be met 
+where: there is no increase in the extent of 
+un-protected areas to the new external walls 
+of the building or the total unprotected area of
+54
+
+Rooflights are controlled on a similar basis, 
+although there is a different method of 
+classification for plastic roof lights, see 
+paragraph 4.6.5. 
+ 
+4.6.4 Separation Distances 
+The separation distance is the minimum 
+distance from the roof (or part of the roof) in 
+question to the nearest boundary, which may 
+be a notional boundary. 
+ 
+Table 4.3 sets out separation distances 
+according to the type of roof covering and the 
+size and use of the building. However, there 
+are no restrictions on the use of roof 
+coverings designated class BROOF(t4) 
+(European class) or AA, AB or AC (National 
+class). 
+ 
+In addition, roof covering products (and/or 
+materials) as defined in Commission Decision 
+2000/553/EC of 6th September 2000 
+implementing Council Directive 89/106/EEC 
+as regards the external fire performance of 
+roof coverings can be considered to fulfil all of 
+the requirements for performance 
+characteristic “external fire performance” 
+without the need for testing provided that any 
+national provisions on the design and 
+execution of works are fulfilled. That is, the 
+roof covering products (and/or materials) 
+defined in this Commission Decision can be 
+used without restriction. 
+ 
+4.6.5 Plastic Rooflights 
+Table 4.4 sets out the limitations on the use 
+of plastic rooflights which do not meet the 
+basic provisions described in Table 4.3 but 
+which have a lower surface of thermoplastic 
+material with a TP(a) rigid or TP(b) 
+classification (see A16 of Appendix A). 
+ 
+When used in rooflights, a rigid thermoplastic 
+sheet product made from polycarbonate or 
+from unplasticised PVC, which achieves a 
+Class C–s3, d2 (European class) or class 1 
+(National class) rating for surface spread of 
+flame when tested to BS 476 part 7:1997,
+can be regarded as having BROOF(t4) 
+(European class) or an AA (National class) 
+designation. 
+ 
+4.6.6 Glass in Rooflights 
+When used in rooflights, unwired glass at 
+least 4 mm thick can be regarded as having 
+BROOF(t4) (European class) or an AA 
+(National class) designation. Thinner glass 
+should only be used where the separation 
+distance is 6 m or more, unless the glass is 
+over one of the following:
+(a) a balcony, veranda, open carport,
+covered way, loading bay or detached 
+swimming pool; or
+(b) a garage, conservatory or outbuilding,
+with a maximum floor area of 40 m2.
+55
+
+Table 4.3      Limitations on roof coverings*                                                                Par. 4.6
+Designation of covering of roof, or
+Minimum distance from any point on relevant boundary
+part of roof
+European
+National
+Less than
+At least
+At least
+At least
+Class
+Class
+6 m
+6 m
+12 m
+20 m
+BROOF(t4) 
+AA, AB or AC 
+ 
+ 
+ 
+
+CROOF(t4) 
+BA, BB or BC 
+x 
+ 
+ 
+
+DROOF(t4) 
+CA, CB or CC 
+x 
+(1) 
+(2) 
+
+EROOF(t4) 
+AD, BD or CD 
+x 
+(1) 
+(2) 
+(2)
+FROOF(t4) 
+DA, DB, DC or 
+DD
+x 
+x 
+x 
+(1)
+x 
+(1) 
+(2) 
+(2)
+thatch or wood 
+shingles (3)
+Notes:
+* 
+See par. 4.6.6 for limitation on glass and Table 4.4 for limitation on plastic rooflights. 
+ 
+Acceptable 
+x 
+Not acceptable
+(1) 
+Not acceptable on any building listed below:
+(a) houses in terraces of three or more houses; 
+(b) any other buildings with a cubic capacity of more than 1500 m3and only acceptable on other buildings if the part 
+of the roof is no more than 3 m2 area and is at least 1.5 m from any similar part, with the roof between the parts 
+covered with a material of limited combustibility. 
+(2)  Not acceptable on any of the buildings listed at (a) or (b) in (1) above.
+(3) Where the performance under BS 476: Part 3:2004 cannot be established.
+56
+
+Table 4.4 
+Limitations on plastic rooflights                                                   Par. 4.6.5
+Classification on 
+lower surface(1)
+Space which rooflight can serve 
+Minimum distance from any point on 
+relevant boundary to rooflight with an 
+external surface classification(2) of:
+TP(a) TP(b) FROOF(t4)(European Class)
+or DA DB DC DD (National
+Class)
+1. TP(a) rigid 
+any space except a protected 
+stairway
+6 m
+(3) 
+6 m
+(5) 
+20 m
+2. TP(b) 
+(a) balcony, veranda, carport or 
+covered way which has at least one 
+longer side wholly or permanently 
+open
+6 m 
+6 m 
+20 m
+(b) conservatory, garage or 
+outbuilding, with a maximum floor 
+area of 40 m2
+(c) circulation space(4) (except a 
+protected stairway 
+(d) room(4)
+(5)
+6 m
+(5) 6m
+(5) 
+20 m
+Notes:
+(1) See also the guidance to Section 2.
+(2) The classification of external roof surfaces is explained in Appendix A.
+(3) No limit in the case of any space described in 2(a) and (b).
+(4) Single skin rooflight only, in the case of non-thermoplastic material.
+(5) The rooflight should also meet the provisions of Diagram 19.
+None of the above designations are suitable for protected stairways - (see 2.6.3)
+Products may have upper and lower surfaces with different properties if they have double skins or are laminates of
+different materials.
+57
+
+Diagram 19 Limits on spacing and size of plastic rooflights                                 Table 4.4
+having a TP(b) lower surface
+58
+
+Section 5 
+Access and Facilities for the Fire Service
+Access and facilities 
+for the fire service.
+B10 A dwelling house shall be so designed and constructed that there is
+adequate provision for access for fire appliances and such other 
+facilities as may be reasonably required  to assist the fire service in 
+the protection of life and property.
+5.1 
+Access and facilities for the fire 
+service 
+ 
+5.1.1 General 
+The purpose of the requirement of Regulation 
+B10 is to ensure satisfactory access for fire 
+appliances to buildings and facilities in 
+buildings to assist fire fighters in the 
+protection of life and property. 
+ 
+5.2 
+Performance 
+The requirement of B10 may be met:
+(a) if there is sufficient means of external
+access to enable fire appliances to be 
+brought near to the building for 
+effective use; 
+ 
+(b) if there is sufficient means of access
+into, and within, the building for fire-
+fighting personnel to effect rescue and 
+fight fire;  
+ 
+all to an extent dependent on the use and 
+size of the building.
+59
+
+5.3 Introduction to Provisions  
+ 
+5.3.1 Scope 
+While the fire safety objectives of Part B 
+relate principally to the protection of life from 
+fire (see 0.1.1), Section 5 relates to measures 
+intended to assist the fire services in the 
+protection of life and property from fire. 
+ 
+Fire authorities have functions under the Fire 
+Services Acts, 1981 and 2003 to provide fire 
+brigades for the extinguishment of fires and 
+for the protection and rescue of persons and 
+property from injury by fire. Regulation B10 
+provides for the provision of access and other 
+facilities to assist the fire service in the 
+protection of life and property from fire. 
+ 
+The guidance in this Section relates to the 
+provision of facilities for the fire service within 
+and around buildings for the purpose of 
+protecting life and mitigating property damage 
+due to fire. 
+ 
+For dwelling houses, it is usually only 
+necessary to ensure that the building is 
+sufficiently close to a point accessible to fire 
+and rescue service vehicles. For very large 
+dwelling houses additional measures may be 
+necessary. The guidance given in Part B 
+Volume 1 (Buildings other than dwelling 
+houses) may be applicable. 
+ 
+Vehicle access routes and hard-standings 
+should meet the criteria described in 5.4.4 if 
+they are to be used by fire service vehicles. 
+ 
+5.4 Vehicle Access  
+ 
+5.4.1 Introduction 
+Fire brigade vehicle access to the exterior of 
+a dwelling house is required to enable 
+pumping appliances to supply water and 
+equipment for firefighting.
+Access for fire appliances should be provided 
+in accordance with the provisions outlined in 
+5.4.2 below. 
+ 
+5.4.2 Provision of Vehicle Access 
+For effective firefighting operations, fire 
+brigade appliances should be able to get 
+within 45 m of the principal entrance to the 
+dwelling house.  
+ 
+5.4.3 Existing Dwelling House  
+In the case of a material alteration or 
+extension of an existing dwelling house, the 
+requirements of B10 of the Second Schedule 
+to the Building Regulations may be met if the 
+access and facilities for the fire service are 
+not altered in such a way as to reduce the 
+extent or performance of those that existed 
+before the material alteration or extension.
+In the case of a material change of use of a 
+building to a dwelling house, it will be 
+necessary to assess the access and facilities 
+for the fire services in accordance with the 
+guidance of the relevant sub-section to this 
+Section.  
+ 
+It may also be prudent to seek advice from 
+the relevant fire authority in relation to such 
+matters 
+ 
+5.4.4 Design of Access Routes and Hard-
+standings 
+A vehicle access route may be a public or 
+private road, or other route, which, including 
+any manhole or other covers, meets the 
+standards in Table 5.1 and the following 
+paragraph. 
+ 
+Where access roadways are provided within 
+the site of a dwelling house , turning facilities 
+for appliances, in accordance with the 
+requirements of Table 5.1 should be provided 
+in any dead-end access route that is more 
+than 20 m long.
+60
+
+Table 5.1 
+Vehicle access route specifications                                                Par. 5.4.4
+Minimum 
+width of road
+Minimum
+Minimum
+Minimum
+Minimum 
+clearance
+Minimum
+Appliance
+carrying 
+capacity 
+(tonnes) 
+ 
+Pump
+width of 
+gateways
+turning
+turning
+type
+between 
+kerbs (m)
+circle 
+between
+circle 
+between
+height
+between
+(m)
+3.7
+3.1
+16.8
+19.2
+3.7
+12.5
+Note:
+1. Use of these figures will cater for nearly all of the fire appliances in use  at present. Some fire authorities use different
+sized appliances and it is therefore advisable that the relevant fire authority be consulted. 
+2. Turning  facilities can be  a turning circle, a hammerhead, or other point at which a vehicle can turn (see
+Recommendation for Site Development Works for housing areas.) 
+ 
+5.4.5  Requirements for switches
+5.4.5.1 Photovoltaic Panels. Where 
+Photovoltaic (P.V.) panels are provided on 
+buildings, provision should be made for the 
+isolation of the panel array externally and in 
+accordance with ET101, 2008.
+61
+
+Appendix A 
+Performance of Materials and Structures
+General 
+A1 Many of the provisions in this Document 
+are given in terms of performance in relation 
+to standard methods of tests identified below. 
+In such cases the material, product or 
+structure should:
+For buildings designed in accordance with the 
+Eurocodes, the performance specified must 
+be achieved when tested in accordance with 
+the European test methods . 
+ 
+For existing buildings the performance may 
+be achieved by reference to the test methods 
+set out in BS 476. 
+ 
+A2 Building Regulations deal with fire safety 
+in buildings as a whole and they are aimed at 
+limiting fire hazard. The aim of standard fire 
+tests is to measure or assess the response of 
+a material, product, structure or system to 
+one or more aspects of fire behaviour. 
+Standard fire tests cannot normally measure 
+fire hazard. They form only one of a number 
+of factors that need to be taken into account. 
+Other factors include those set out in this 
+Technical Guidance Document. 
+ 
+Fire Resistance 
+A3 Factors having a bearing on fire 
+resistance, that are considered in this 
+document, are:
+(a) be shown by test to be capable of
+meeting that performance, or
+(b) have been assessed, analysed and
+appraised as meeting that 
+performance (for this purpose, 
+competent persons, laboratories 
+accredited for conducting the relevant 
+test, and other approving bodies might 
+be expected to have the necessary 
+expertise). 
+For materials/products where 
+European standards or approvals are 
+not yet available and for a transition 
+period after they become available, 
+National Standards may continue to 
+be used. Where European product 
+standards or approvals are available, 
+any body notified to the European 
+Commission as competent to assess 
+such materials or products against the 
+relevant European standards or 
+technical approval can be considered 
+to have the appropriate 
+expertise.(Refer to :New Approach 
+Notified and Designated 
+Organisations(NANDO)); or
+(a) fire severity,
+(b) building height, or depth,
+(c) building occupancy, and
+(d) intervention by fire fighters. 
+ 
+A4 The standards of fire resistance given 
+are based on assumptions about the severity 
+of fires and the consequences should an 
+element fail. Fire severity is estimated in very 
+broad terms from the use of the building (its 
+purpose group), on the assumption that the 
+building contents (which constitute the fire 
+load) are the same for buildings in the same 
+use. In the simplest terms, the concentration 
+of combustible material indicates the 
+maximum temperature to which construction 
+elements may be heated. 
+ 
+From estimates of the amount of combustible 
+material per unit of floor area in various types
+(c) where tables of notional performance
+are included in this Document, 
+conform with an appropriate 
+specification given in these tables, or
+(d) in the case of fire-resisting elements,
+conform with an appropriate 
+specification given in Part II of the 
+Building Research Establishments' 
+Report (BR 128) 'Guidelines for the 
+construction of fire-resisting structural 
+elements' .
+62
+
+of building (the fire load density), which were 
+made for the Post-War Building Study No. 20 
+on the Fire Grading of Buildings, minimum 
+standards have been devised for fire 
+resistance. In this Technical Guidance 
+Document, these basic standards have been 
+modified according to particular features of 
+the building affecting the risk to life, which 
+are:
+3 May 2000 implementing the Council 
+Directive 89/106/EEC as regards the 
+classification of the resistance to fire 
+performance of construction products, 
+construction works and parts thereof 
+and any subsequent amendments, fire 
+resisting elements tested to the 
+Relevant European suite of test 
+methods: I.S. EN 1364, I.S. EN1365, 
+I.S. EN1366, I.S. EN 1636; or
+(a) height of the top floor above ground,
+which affects the ease of escape and 
+of fire fighting operations, and the 
+consequences should large scale 
+collapse occur;
+(b) (National tests) BS 476: Parts 20-24:
+1987 (or to BS 476 Part 8:1972 in 
+respect of items tested or assessed 
+prior to 1st January 1988). 
+ 
+All products are classified in accordance with:  
+ 
+I.S. EN 13501-2: 2016, Fire classification of 
+construction products and building elements, 
+Part 2 - Classification using data from fire 
+resistance tests (excluding products for use in 
+ventilation systems). 
+ 
+I.S. EN 13501-3: 2005+A1:2009  Fire 
+classification of construction products and 
+building elements, Part 3 - Classification 
+using data from fire resistance tests on 
+components of normal building service 
+installations (other than smoke control 
+systems). 
+ 
+I.S. EN 13501-4: 2007+A1:2009 Fire 
+classification of construction products and 
+building elements, Part 4 - Classification 
+using data from fire resistance tests on 
+smoke control systems. 
+ 
+Table A1 gives the specific requirements for 
+each element in terms of the three following 
+performance criteria (provisions for fire doors 
+are set out in Appendix B, Table B1):
+(b) occupancy, which reflects the ease
+with which the building can be 
+evacuated quickly;
+(c) basements, where the lack of an
+external wall through which to vent 
+heat and smoke may increase heat 
+build-up as well as complicating fire-
+fighting, thereby prolonging the fire; 
+and
+(d) single storey construction, where
+escape is direct and structural failure 
+is unlikely to precede evacuation. 
+ 
+Because the use of buildings is subject to 
+change, a precise estimate of fire severity 
+based on the fire load due to a particular use 
+may be misleading. A fire engineering 
+approach of this kind must show a suitable 
+factor of safety, to cater for these possible 
+variations in fire load. 
+ 
+Fire Resistance Performance 
+A5 Performance in terms of the fire 
+resistance to be met by elements of structure, 
+doors and other forms of construction is 
+determined by reference to either;
+(a) resistance to collapse (loadbearing
+capacity), which applies to 
+loadbearing elements, denoted R in 
+the European classification of the 
+resistance to fire performance;
+(a) Commission Decision 2003/629/EC of
+27 August 2003 amending 
+Commission Decision 2000/367/EC of
+63
+
+(b) resistance to fire, smoke and hot
+is not impaired (see 3.7). Care and attention 
+to detail should also be taken at the junctions 
+between fire resisting elements of 
+construction to ensure that the integrity of the 
+fire resistance is maintained. 
+ 
+Roofs 
+A6 Performance in terms of the resistance of 
+roofs to external fire exposure is determined 
+by reference to either:
+gases penetration (integrity), which 
+applies to fire separating elements, 
+denoted E in the European 
+classification of the resistance to fire 
+performance; and
+(c) resistance to the transfer of excessive
+heat (insulation), which applies to fire 
+separating elements, denoted I in the 
+European classification of resistance 
+to fire performance. 
+ 
+Table A1 also sets out the minimum periods 
+of fire resistance for elements of structure. 
+ 
+Table A2 sets out criteria appropriate to the 
+suspended ceilings that can be accepted as 
+contributing to the fire resistance of a floor. 
+ 
+Table A3 sets out limitations on the use of 
+uninsulated fire-resisting glazed elements. 
+ 
+Information on tested elements is frequently 
+given in literature available from 
+manufacturers and trade associations. Any 
+reference used to substantiate the fire 
+resistance rating of a construction should be 
+carefully checked to ensure that it is suitable, 
+adequate and applicable to the construction 
+to be used. Small differences in detail (such 
+as fixing method, joints, dimensions, etc.) 
+may significantly affect the rating. 
+ 
+Fire resisting elements of construction should 
+be strictly in accordance with the specification 
+and method of construction which, by the 
+criteria indicated at A1, can be shown to be 
+capable of meeting the required performance. 
+Fire resisting elements of construction should 
+not incorporate any components, such as 
+building services, which could compromise 
+their fire resistance performance.  
+ 
+Any openings for services which pass 
+through fire resisting construction should be 
+adequately protected and fire stopped to 
+ensure that the fire resistance of the element
+(a) Commission Decisions 2005/823/EC
+amending Decision 2001/671/EC of 
+22 November 2005 establishing a 
+classification system for the external 
+fire performance of roofs and roof 
+coverings and any subsequent 
+amendments ;or
+(b) I.S. ENV 1187: 2002; or
+(c) (National tests) BS 476: part 3: 2004 
+ 
+All constructions are classified within the 
+European system as BROOF(t4), CROOF(t4), 
+DROOF(t4), EROOF(t4) or FROOF(t4) (with 
+BROOF(t4) being the highest performance and 
+FROOF(t4) being the lowest) in accordance 
+with I.S. EN 13501-5: 2005+A1:2009, Fire 
+classification of construction products and 
+building elements, Part 5 – Classification 
+using test data from external fire exposure to 
+roof tests. 
+Roof covering products (and/or materials) can 
+be considered to fulfil all of the requirements 
+for the performance characteristic “external 
+fire performance” without the need for testing 
+if they are listed in Commission Decision 
+2000/553/EC of 6 September 2000 
+implementing Council Directive 89/106/EEC 
+as regards the external fire performance of 
+roof coverings. 
+ 
+Commentary - All constructions are 
+classified within the National system by 2 
+letters in the range A to D, with an AA 
+designation being the best. The first letter 
+indicates the time to penetration and the
+64
+
+second letter a measure of the spread of 
+flame. 
+Table A4 gives notional designations of some 
+generic roof coverings. 
+ 
+Reaction to fire 
+A7 Performance in terms of reaction to fire 
+to be met by construction products is 
+determined by Commission Delegated 
+Regulation (EU) 2016/364 of the 1 July 2015 
+and any subsequent amendments. All 
+products, excluding floorings, are classified 
+as A1, A2, B, C, D, E or F (with class A1 
+being the highest performance and F being 
+the lowest) in accordance with I.S. EN 13501-
+1: 2007+A1:2009 Fire classification of 
+construction products and building elements, 
+Part 1-Classification using data from reaction 
+to fire tests. 
+ 
+The relevant European test methods are 
+specified as follows; 
+ 
+I.S. EN ISO 1182: 2010 Reaction to fire tests 
+for building products - Non-combustibility test. 
+ 
+I.S. EN ISO 1716: 2010 Reaction to fire tests 
+for building products - Determination of the 
+gross calorific value. 
+ 
+I.S. EN 13823: 2010 Reaction to fire tests for 
+building products - Building products 
+excluding floorings exposed to the thermal 
+attack by a single burning item. 
+ 
+I.S. EN ISO 11925 - 2: 2010 Reaction to fire 
+tests for building Products, Part 2 - Ignitability 
+when subjected to direct impingement of a 
+flame. 
+ 
+I.S. EN 13238:2010 +A7 2014 Reaction to 
+fire tests for building products - conditioning 
+procedures and general rules for selection of 
+substrates. 
+ 
+Note: The classes of reaction to fire 
+performance of A1, A2, B, C, D and E are
+accompanied by additional classifications 
+related to the production of smoke (s1, s2, s3, 
+with s1being the highest performance) and/or 
+flaming droplets/particles (d0, d1, d2, with d0 
+being the highest performance). 
+ 
+Internal Linings 
+A8 Flame spread over wall or ceiling 
+surfaces is controlled by providing for the 
+lining materials or products to meet given 
+performance levels in tests appropriate to the 
+materials or products involved. 
+ 
+A9 Under the European classifications, lining 
+systems are classified in accordance with I.S. 
+EN 13501-1: 2007+A1:2009, Fire 
+classification of construction products and 
+building elements, Part 1 - Classification 
+using data from reaction to fire tests. 
+Materials or products are classified as A1, 
+A2, B, C, D, E or F with A1 being the highest. 
+When a classification includes “s3, d2”, it 
+means that there is no limit set for smoke 
+production and/or flaming droplets/particles. 
+ 
+Under the National classifications, lining 
+systems which can be effectively tested for 
+'surface spread of flame' are rated for 
+performance by reference to the method 
+specified in BS 476: Part 7: 1971 or 1987 
+under which materials or products are 
+classified 1, 2, 3 or 4 - with Class1 being the 
+highest (Class 4 ratings are not acceptable 
+under the provisions in this document). 
+ 
+A10 The European reaction to fire 
+classification system is based on the principle 
+that construction products should be tested in 
+the I.S. EN 13823 test in a manner that is 
+representative of their “end use” application. 
+This means that realistic jointing and fixing 
+arrangements should be included within the 
+specimens that are tested. It is important to 
+recognise this fact since as a consequence, a 
+construction product may have several 
+different European reaction to fire classes 
+depending upon its “end use” application. 
+Clearly, for many construction products there 
+are a large number of combinations and
+65
+
+variations possible. Where European 
+Technical Specifications for products have 
+been published or are being developed, 
+guidance on appropriate reaction to fire test 
+arrangements should be available. However, 
+for those products for which no specific 
+guidance exists, general guidance is 
+available in I.S CEN/TS 15447(2006), 
+Technical Specification “Mounting and fixing 
+in reaction to fire tests under the CPD”.  
+ 
+A11 To restrict to a minimum the use of 
+materials which ignite easily, have a high rate 
+of heat release and/or which reduce the time 
+to flashover, maximum acceptable 'fire 
+propagation' indices are specified. These are 
+determined by reference to the method 
+specified in BS 476: Part 6: 1981 or 1989. 
+Index of performance (I) relates to the overall 
+test performance, where sub-index (11) is 
+derived from the first three minutes of test. 
+ 
+A12 The highest product performance 
+classification is Class 0. This is achieved if a 
+material or the surface together with its 
+substrate of a composite product is either:
+A14 Composite products defined as materials 
+of limited combustibility (see A18) in Table A6 
+should in addition comply with the test 
+requirement appropriate to any surface rating 
+specified in Sections 2, 3 and 4. 
+ 
+A15 The notional performance ratings of 
+certain widely-used generic materials or 
+products are listed in Table A5 in terms of 
+their performance in the traditional lining tests 
+(BS 476: Parts 6 and 7) or in accordance with 
+I.S. EN 13501-1: 2007+A1;2009, Fire 
+classification of construction products and 
+building elements, Part 1- Classification using 
+data from reaction to fire tests. 
+ 
+Note: Information on tests on proprietary 
+materials is frequently given in literature 
+available from manufacturers and trade 
+associations. 
+ 
+Any reference used to substantiate the 
+surface spread of flame rating of a material or 
+product should be carefully checked to 
+ensure that it is suitable, adequate and 
+applicable to the construction to be used. 
+Small differences in detail, such as thickness, 
+substrate, fixings, adhesive etc., may 
+significantly affect the rating. 
+ 
+A16 A thermoplastic material means any 
+polymeric material which has a softening 
+point below 200°C if tested to I.S. EN ISO 
+306: 2013. Specimens for this test may be 
+fabricated from the original polymer where 
+the thickness of material of the end product is 
+less than 2.5 mm.  
+ 
+For the purposes of Sections 2 and 4 
+thermoplastic materials should be used 
+according to the performance set out in A8 
+and A9 above or be classified as TP (a) or TP 
+(b) as follows: 
+ 
+TP (a) rigid:
+(a) composed throughout of materials of
+limited combustibility (see A18); or
+(b) a Class 1 material which has a fire
+propagation index (I) of not more than 
+12 and sub-index (11) of not more 
+than 6. 
+ 
+Note: Class 0 is not a classification identified 
+in any Standard test. 
+ 
+A13 No thermoplastic material in isolation can 
+be assumed to protect a surface underlying it. 
+The surface rating of both products must 
+meet the required classification. If however, 
+the thermoplastic material is fully bonded to a 
+non-thermoplastic substrate, then only the 
+surface rating of the composite will need to 
+comply.
+(i) 
+Rigid solid pvc sheet;
+66
+
+(ii) 
+solid (as distinct from double - or 
+multiple-skin) polycarbonate sheet at 
+least 3 mm thick;
+Materials of Limited Combustibility 
+A18 Materials of limited combustibility are 
+defined in Table A6,
+(iii) 
+multi-skinned rigid sheet made from 
+unplasticised pvc or polycarbonate 
+which has Class 1 rating when tested 
+to BS 476: Part 7:1971 or 1987;
+(a) (European classes) in terms of
+performance when classified as class 
+A2-s3, d2 in accordance with I.S. EN 
+13501-1: 2007+A1:2009 , Fire 
+classification of construction products 
+and building elements, Part 1 - 
+Classification using data from reaction to 
+fire tests when tested to I.S. EN ISO 
+1182: 2002, Reaction to fire tests for 
+building products - Non combustibility 
+test or I.S. EN ISO 1716: 2002 Reaction 
+to fire tests for building products - 
+Determination of the gross calorific value 
+and I.S. EN 13823: 2010 Reaction to fire 
+tests for building products - Building 
+products excluding floorings exposed to 
+the thermal attack by a single burning 
+item or
+(iv) 
+any other rigid thermoplastic product, 
+a specimen of which, when tested to 
+BS 2782-0: 2011 method 508A, 
+performs so that the test flame 
+extinguishes before the first mark, and 
+the duration of flaming or afterglow 
+does not exceed 5 seconds following 
+removal of the burner. 
+ 
+TP (b):
+(i) Rigid solid polycarbonate sheet
+products less than 3 mm thick, or 
+multiple skin polycarbonate sheet 
+products which do not qualify as TP(a) 
+by test; or
+(b) (National classes) by reference to the
+method specified in BS 476: Part 11: 
+1982 
+ 
+(c) (National classes) Table A6 also includes
+(ii) Other products which, when a
+specimen of the material between 1.5 
+and 3 mm thick is tested in accordance 
+with BS 2782-0: 2011 Annex A method 
+508A, has a rate of burning which does 
+not exceed 50 mm/minute (if it is not 
+possible to cut or machine a 3 mm thick 
+specimen from the product then a 3 mm 
+test specimen can be moulded from the 
+same material as that used for the 
+manufacture of the product); and 
+ 
+(iii) the product, when ignited, does not
+composite products (such as 
+plasterboard) which are considered 
+acceptable, and where they are exposed 
+as linings they should also meet any 
+appropriate flame spread rating.
+Non-combustible Materials 
+A19 Non-combustible materials are defined in 
+Table A7 either as listed products, or in terms 
+of performance;
+produce burning droplets which could 
+contribute to the spread of fire within a 
+building. 
+ 
+A17 Concessions are made for thermoplastic 
+materials used for windows, rooflights and 
+within suspended ceilings if they cannot be 
+tested as specified in pars. A9 , A10 and A11. 
+They are described in Sections 2 and 4.
+(a) (European classes) when classified as
+class A1 in accordance with I.S. EN 
+13501-1: 2007+A1:2009, Fire 
+classification of construction products 
+and building elements, Part 1 - 
+Classification using data from reaction to 
+fire tests when tested to I.S. EN ISO 
+1182: 2002, Reaction to fire tests for
+67
+
+(b) building products - Non combustibility
+Eurocodes must be taken to include 
+reference to the relevant Irish National 
+Annex. 
+ 
+Attention is drawn to the fire parts of the 
+Structural Eurocodes  
+I.S. EN 1991-1-2: 2002, 
+I.S. EN 1992-1-2: 2004,  
+I.S. EN 1993-1-2: 2005,  
+I.S. EN 1994-1-2: 2005,  
+I.S. EN 1995-1-2: 2004,  
+I.S. EN 1996-1-2: 2005, 
+I.S. EN 1999-1-2: 2007  
+ 
+which present a range of options for the 
+designer ranging from prescriptive rules 
+based on standard fire resistance periods and 
+the use of tabulated data, to calculation 
+procedures based on a natural fire exposure 
+and whole building behaviour. 
+ 
+When assessing existing structural elements 
+in existing dwelling houses guidance on the 
+design for different structural materials is 
+contained in Part 1 of the Building Research 
+Establishment Report (BR 128) “Guidelines 
+for the construction of fire-resisting structural 
+elements".
+test and I.S. EN ISO 1716: 2002 
+Reaction to fire tests for building 
+products - Determination of the gross 
+calorific value; or
+(c) (National classes) when tested to BS
+476: Part 4: 1970 or Part 11: 1982. 
+ 
+Only non-combustible materials may be used 
+where there is a provision for non-
+combustibility and also for the specific 
+application in the elements listed in Table A7. 
+Non-combustible materials may be used 
+whenever there is a requirement for materials 
+of limited combustibility. 
+ 
+Fire Test Methods 
+A20  A guide to the various test methods in 
+BS 476 and BS 2782 is given in PD 6520: 
+1988 (BSI). 
+ 
+A guide to the development and presentation 
+of fire tests and their use in hazard 
+assessment is given in BS 6336: 1998. 
+ 
+Structural Fire Design 
+A21 The Eurocodes are a set of harmonised 
+European structural design codes for building 
+and civil engineering works and are produced 
+by CEN (European Committee for 
+Standardisation).  
+ 
+There are 10 Eurocodes made up of 58 
+Parts. Each Part is implemented nationally 
+with a National Annex. These Annexes 
+contain information on Nationally Determined 
+Parameters to be used for the design of 
+building and civil engineering works to be 
+constructed addressing for example particular 
+national safety parameters, geographical and 
+climatic conditions, and procedures. 
+ 
+Irish National choices are contained in the 
+Irish National Annex or National Foreword to 
+each Part. Therefore, any reference to the
+68
+
+Table A1 Specific provisions of test for fire resistance of elements of structure, etc in 
+Dwelling Houses
+Minimum 
+provisions when 
+tested to the 
+relevant (7) 
+European 
+standard 
+(minutes)
+Minimum provisions when tested to 
+relevant parts of BS 476 (1) (minutes) 
+Method of
+Part of building
+exposure 
+Loadbear
+Integrity 
+Insulation
+ing 
+capacity
+(2)
+1 
+Structural frame, beam or column 
+R30 
+30 
+No 
+provision
+No Provision 
+Exposed faces
+2 
+Loadbearing wall (which is not also
+R30 
+30 
+No 
+provision
+No provision 
+each side 
+separately
+a wall described in any of the
+following items)
+3 
+Floors 
+(a) floor in upper storey of a 2
+R 30, 
+REI 15
+30
+15
+15
+from underside
+30
+30
+30
+(3)
+storey dwelling house (but not over 
+a garage) 
+(b) any other floor including  
+compartment or basement  floors
+REI 30
+from underside
+(3)
+4 
+Roofs Any part forming an escape 
+route
+REI 30 
+30 
+30 
+30 
+from underside
+(3) 
+5 
+External walls
+REI30
+30
+30
+30
+each side 
+separately
+(a) any part less than 1 m from any
+point on relevant boundary 
+(b) any part 1m or more from the 
+relevant boundary
+RE30 
+REI 15
+30
+30
+15 (4)
+from inside
+6 
+Separating wall (5) 
+REI 
+(min 60)
+(min 60)
+(min 60)
+(min 60)
+each side 
+separately
+7 
+Enclosure  protected stairway 
+REI 30(6) 
+30 
+30 
+30 (6) 
+Each side 
+separately 
+8 
+Wall separating an attached or 
+integral garage from a dwelling 
+house
+REI 30 (6) 
+30 
+30 
+30 
+from garage
+side
+REI 30 (6) 
+30 
+30 
+30 (6) 
+each side 
+separately 
+10 
+Cavity barrier 
+EI 15,
+9 
+Fire-resisting construction not 
+described elsewhere.
+30 
+15 
+each side 
+separately 
+11 
+Ceiling described in Diagram 9 
+EI 30 
+N/A 
+30 
+30 
+from 
+underside 
+12 
+Duct described in Section 3, 
+paragraph 3.7.3
+No 
+provision
+E30
+E30 
+N/A 
+30 
+No provision 
+from outside
+13 
+Flue walls described in 3.7.4 and 
+Diagram 11
+EI5 
+N/A 
+15 
+15 
+from outside
+14 
+Fire doors 
+See Table B1 of Appendix B
+Notes 
+N/A     Denotes that provision is not applicable. 
+(1) 
+BS 476 Part 21 for loadbearing elements, Part 22 for non-loadbearing elements, Part 23 for fire-protecting 
+suspended ceilings; and Part 24 for ventilation ducts (tests to BS 476: Part 8 are permitted subject to 
+paragraph A5). 
+(2) 
+Applies to loadbearing elements only. 
+(3) 
+A suspended ceiling should only be relied on to contribute to the fire resistance of the floor if the ceiling meets 
+the appropriate provisions given in Table A2. 
+(4) 
+30 mins. for any part adjacent to an external escape route (but no provision for glazed elements in respect of 
+insulation). 
+(5) 
+See Section S3, 3.5.4 for requirements for construction of separating walls. 
+(6) 
+Except for any limitations on glazed elements given in Table A3. 
+(7) 
+The National classifications do not automatically equate with the equivalent classifications in the European 
+column, therefore products cannot typically assume a European class unless they have been tested 
+accordingly. 
+R is the European classification of the resistance to fire performance in respect of loadbearing capacity 
+E is the European classification of the resistance to fire performance in respect of integrity, and 
+I is the European classification of the resistance to fire performance in respect of insulation.
+69
+
+Application of the Fire Resistance 
+Standards in Table A1 
+ 
+Where one element of structure supports or 
+carries or gives stability to another, the fire 
+resistance of the supporting element should 
+be no less than the minimum period of fire 
+resistance for the other element (whether that 
+other element is loadbearing or not). 
+ 
+There are circumstances where it may be 
+reasonable to vary this principle, for example:
+Where one side of a basement is (due to the 
+slope of the ground) open at ground level, 
+giving an opportunity for smoke venting and 
+access for fire fighting, it may be appropriate 
+to adopt for elements of structure in that 
+storey, the standard of fire resistance 
+applicable to above ground structure.
+(i) 
+where the supporting structure is in the 
+open air; or  
+ 
+(ii) 
+Where an element of structure forms 
+part of more than one building or 
+compartment, that element should be 
+constructed to the standard of the 
+greater of the relevant provisions. 
+ 
+Although some elements of structure in a 
+single storey building may be excluded from 
+needing fire resistance (see Section 3 
+Par.3.4.4) fire resistance will be needed if the 
+element:
+(i) 
+is part of (or supports) an external wall 
+and there is provision in Section 4 to 
+limit the extent of openings and other 
+unprotected areas in the wall: or
+(ii) 
+is part of (or supports) a compartment 
+wall, a separating wall or a wall 
+between a dwelling house and an 
+attached or integral garage; or 
+ 
+(iii) 
+supports a gallery. 
+ 
+For the purposes of this paragraph, the 
+ground storey of a building which has one or 
+more basement storeys and no upper 
+storeys, may be considered as single storey.  
+ 
+The fire resistance of the basement storeys 
+should be that appropriate to basements.
+70
+
+Table A2 Limitations on fire-protecting suspended ceilings
+Height of building 
+or of separated part (m)
+Type of floor 
+Provisions of fire resistance
+Description of 
+suspended ceiling
+of floor (mins)
+Less than 15
+Surface of ceiling exposed 
+to the cavity should be 
+Class C-s3, d2 or better 
+(European) or Class O or 
+Class 1 (National).
+not compartment
+60 or less
+Notes: 
+Any insulation above the ceiling should be of a material of Class A2-s3, d2 or better (European) or of limited 
+combustibility (National). 
+The National classifications do not automatically equate with the equivalent European classifications, therefore 
+products cannot typically assume a European class unless they have been tested accordingly. 
+When a classification includes “s3, d2”, this means that there is no limit set for smoke production and/or flaming 
+droplets/particles.
+Table A3 Limitations on the use of uninsulated fire resisting glazed elements on
+escape routes
+Position of glazed element 
+Maximum total glazed area in parts of a building with
+access to:
+a single stairway 
+more than one stairway
+Walls 
+Door Leaf 
+Walls 
+Door Leaf
+1. 
+Dwelling House  
+Fixed 
+fanlights
+Unlimited 
+Fixed 
+fanlights
+Unlimited
+(a) within the enclosures to a protected 
+stairway or within fire-resisting 
+construction shown in Diagram 2
+only
+only
+Table A4 Notional designations of roof coverings
+Part I: Pitched roofs covered with slates or tiles
+Covering Material 
+Supporting Structure 
+Designation
+1. 
+Natural slates
+2. 
+Fibre-cement slates
+1. 
+Timber rafters with or without underfelt, 
+sarking, boarding, wood wool slabs, plywood, 
+wood chipboard, or fibre insulating board
+BROOF(t4) (European class)
+or 
+AA (National class)
+3. 
+Clay tiles
+4. 
+Concrete tiles
+5. 
+Strip slates of bitumen felt 
+Class 1 or 2
+DROOF(t4) (European class)
+2. 
+Timber rafters and boarding, plywood, 
+wood wool slabs, compressed straw slabs, 
+wood chipboard, or fibre insulating board
+or 
+CC (National class)
+6. 
+Bitumen felt strip slates Type 
+2E, with underlay of bitumen 
+felt Type 2B
+CROOF(t4) (European class)
+3. 
+Timber rafters and boarding, plywood, 
+wood wool slabs, compressed straw slabs, 
+wood chipboard or fibre insulating board
+or 
+BB (National class)
+71
+
+Table A4 Notional designations of roof coverings
+Part II: Pitched roofs covered with pre-formed self-supporting sheets
+Supporting
+Structure 
+Designation 
+Profiled sheets of 
+1. single skin without underlay 
+or with underlay of -
+Material 
+Construction
+BROOF(t4) 
+(European class) or 
+AA (National Class) 
+(i) galvanised steel  
+(i) plasterboard 
+(ii) aluminium  
+(ii) fibre insulating board
+structure of timber,
+steel 
+or concrete
+(iii) fibre reinforced cement 
+(iii) wood wool slab
+(iv) pvc coated steel
+Profiled sheets of: 
+2. double skin without underlay 
+or with underlay of -
+structure of timber, 
+steel or concrete
+DROOF(t4) 
+(European class or AA
+(National Class) 
+(i) galvanised steel 
+(i) resin-bonded glass fibre 
+(ii) aluminium 
+(ii) bitumen-bonded glass fibre
+(iii) composite steel and fibre-cement 
+(iii) mineral wool slab or blanket
+(iv) fibre-cement or 
+(iv) polystyrene or 
+(v) pvc coated steel 
+(v) polyurethane
+Table A4 Notional designations of roof coverings
+Part III: Pitched or flat roofs covered with fully supporting material
+Covering Material 
+Supporting Structure 
+Designation
+1. 
+Aluminium sheet 
+1.Timber joists and 
+(i) tongued and grooved boarding,  
+ 
+or 
+ 
+(ii) plain edged boarding
+BROOF(t4)* 
+(European class)
+2. 
+Copper sheet
+or 
+AA* (National
+3. 
+Zinc sheet
+Class)
+4. 
+Lead sheet
+5. 
+Mastic asphalt 
+2.Steel or timber joists with 
+deck of:  
+(i) wood wool slab 
+(ii) compressed straw slab  
+(iii) wood or flax chipboard  
+(iv) fibre insulating board, or 
+(v) 9.5 mm plywood
+BROOF(t4) 
+(European class)
+6. 
+Vitreous enamelled steel sheet
+or 
+AA (National Class)
+7. 
+Lead/tin alloy coated steel sheet
+8. 
+Zinc/aluminium alloy coated steel 
+sheet 
+9. 
+Pre-painted (coil coated) steel sheet 
+including liquid-applied pvc coating
+3.Concrete or clay pot slab 
+(cast in situ or precast),or non-
+combustible deck of steel, 
+aluminium or fibre-cement (with 
+or without insulation)
+BROOF(t4) 
+(European class) or 
+AA (National Class)
+Note:* Lead sheet supported by timber joists and plain edge boarding is deemed to be designated class 
+CROOF(t4) (European class) or BA (National class).
+72
+
+Table A4 Notional designations of roof coverings
+Part IV(A): Flat roofs covered with bitumen felt
+A flat roof comprising a covering of bitumen felt shall (irrespective of the felt specification) be deemed to 
+be of class BROOF(t4) (European class) or AA (National class) if the felt is laid on a deck constructed of 
+any of the materials prescribed in the Table in Part IV(B) and has a surface finish of;
+(a) bitumen bedded stone chippings covering the whole surface to a depth of not less than 12.5 mm 
+(b) bitumen bedded tiles of a non-combustible material 
+(c) sand and cement screed or 
+(d) macadam
+Table A4 Notional designations of roof coverings
+Part IV(B): Pitched roofs covered with bitumen felt
+Number of 
+layers
+Type 
+of 
+upper 
+layer
+Type of 
+under-
+layer(s)
+Deck of either 
+of the 
+following 
+(having 
+minimum 
+thickness 
+stated) 
+plywood 
+(6mm), wood 
+chipboard 
+(12.5mm),  
+T&G boarding 
+(16mm 
+finished) or 
+Plain edged 
+boarding 
+(19mm 
+finished)
+Deck of 
+compressed 
+straw slab
+Deck of 
+screeded 
+woodwool 
+slab
+Fibre-
+cement or 
+steel single 
+or double 
+skin deck 
+(without 
+overlay or 
+with 
+overlay of 
+fibre 
+insulating 
+board)
+Aluminium 
+single or 
+double 
+skin deck 
+(without 
+overlay or 
+with 
+overlay of 
+fibre 
+insulating 
+board)
+Concrete 
+or pot slab 
+(cast in 
+situ or 
+precast)
+Two or three 
+layers built up 
+in accordance 
+with BS 
+8217:2005 
+Reinforced 
+bitumen 
+membranes 
+for roofing. 
+Code of 
+practice
+1. 
+Type 
+1E
+Type 1B 
+(minimum
+DROOF (t4) 
+(European 
+class) or CC
+BROOF(t4) 
+(European 
+class) or AC 
+(National 
+class)
+BROOF(t4) 
+(European 
+class) or AC
+BROOF(t4) 
+(European
+BROOF(t4) 
+(European 
+class) or 
+AC 
+(National 
+class)
+BROOF(t4) 
+(European
+mass 
+13kg/10m
+class) or
+class) or
+2)
+(National
+(National
+AC 
+(National
+AB 
+(National
+class)
+class)
+class)
+class)
+2. 
+Type 
+2E
+Type 1B 
+(minimum
+CROOF (t4) 
+(European 
+class) or BB
+BROOF(t4) 
+(European 
+class) or AB
+BROOF(t4) 
+(European 
+class) or AB
+BROOF(t4) 
+(European 
+class) or 
+AB 
+(National 
+class)
+BROOF(t4) 
+ (European
+BROOF(t4) 
+(European
+mass 
+13kg/10m
+class) or
+class) or
+2)
+(National
+(National
+(National
+AB 
+(National
+AB 
+(National
+class)
+class)
+class)
+class) 
+ 
+3. 
+Type 
+3E
+class)
+Type 3B or
+CROOF (t4)
+BROOF(t4) 
+(European 
+class) or AC
+BROOF(t4) 
+(European
+BROOF(t4) 
+(European
+BROOF(t4) 
+(European
+BROOF(t4) 
+(European
+3G
+(European 
+class) or BC
+(National
+AB 
+(National
+class) or
+AB 
+(National
+class) or
+AB 
+(National
+class) or
+AB 
+(National
+class) or
+class)
+(National
+class)
+class)
+class)
+class)
+class)
+Note: 
+Any reference in this Table to bitumen felt of a specified type is a reference to bitumen felt as so designated 
+in I.S. 36: Part 1: 1986 and Part 2: 1987.
+73
+
+Table A5 Typical performance ratings of some generic materials and products
+European
+Material o r  Product 
+National
+Material o r  Product
+Rating
+Rating
+Class A1 
+1.Any material that achieves this class when 
+tested in accordance with I.S. EN 1350 1-1 or is 
+class A1 without need for testing (see table A7) 
+or is within this class in Commission Decision 
+2003/43/EC of 17 January 2003 establishing 
+the classes of reaction to fire performance for 
+certain construction products and any 
+subsequent amendments.
+Class A2-s3, d2 2.Any material or product that achieves this
+class when tested in accordance with I.S. EN 
+13501-1 or any construction product with this 
+class in Commission Decision 2003/43/EC of 
+17 January 2003 establishing the classes of 
+reaction to fire performance for certain 
+construction products and any subsequent 
+amendments
+Class B-s3, d2 
+3.Any material or product that achieves this 
+class when tested in accordance with I.S. EN 
+13501-1 or any construction product with this 
+class in Commission Decision 2003/43/EC of 
+17 January 2003 establishing the classes of 
+reaction to fire performance for certain 
+construction products and any subsequent 
+amendments
+Class 0 
+6. Any non-combustible material or material of 
+limited combustibility (composite products 
+(National) listed in Table A7 must meet the test 
+requirements given in paragraph A 12(b)).  
+7. Brickwork, blockwork, concrete and ceramic tiles. 
+8. Plasterboard (painted or not, with or without an 
+air gap or fibrous or cellular insulating material 
+behind). 
+9. Woodwool cement slabs. 
+10. Mineral fibre tiles or sheets with cement or resin 
+binding.
+Class C-s3, d2 
+4.Any material or product that achieves this 
+class when tested in accordance with I.S. EN 
+13501-1 or any construction product with this 
+class in Commission Decision as in 3 above
+Class D-s3, d2 
+5.Any material or product that achieves this 
+class when tested in accordance with I.S. EN 
+13501-1 or any construction product with this 
+class in Commission Decision as in 3 above
+Class 3 
+11. Timber or plywood with density more than 400 
+kg/m
+3, (painted or unpainted). 
+12. Wood particle board or hard board, (either 
+treated or painted). 
+13. Standard glass reinforced polyesters.
+Notes (European): 
+For the purposes of the Building Regulations 
+1. 
+Materials and products listed under Class A1 also meet Classes A2-s3, d2, B-s3, d2, C-s3, d2 and D-s3, d2. 
+2. 
+Materials and products listed under Class A2-s3, d2 also meet Classes B-s3, d2, C-s3, d2 and D-s3, d2. 
+3. 
+Materials and products listed under Class B-s3, d2 also meet Classes C-s3, d2 and D-s3, d2. 
+4. 
+Materials and products listed under Class C-s3, d2 also meet Class D-s3, d2. 
+5. 
+The National classifications do not automatically equate with the equivalent classifications in the European column, 
+therefore products cannot typically assume a European class unless they have been tested accordingly. 
+6. 
+When a classification includes “s3, d2”, this means that there is no limit set for smoke production and/or flaming 
+droplets/particles. 
+Notes (National): 
+1. 
+Materials and products listed under Class 0 also meet Class 1. 
+2. 
+The following materials and products may achieve the ratings listed below. However, as the properties of different 
+products with the same generic description vary, the ratings of these materials/products should be substantiated by 
+test evidence. Materials/products should also be assessed by reference to the toxic hazard they pose in 
+combustion. 
+ 
+Class 0   -   aluminium faced fibre insulating board, flame retardant decorative laminates on a calcium silicate board,  
+                    thick polycarbonate sheet, phenolic sheet and uPVC; 
+Class 1   - phenolic or melamine laminates on a calcium silicate substrate and flame retardant decorate laminates on a  
+                    combustible substrate.
+74
+
+Table A6 Use of materials of limited combustibility
+Use 
+Material 
+1. 
+reinforcement/support for fire-stopping referred to in Section 3, 
+3.7.5
+2. 
+roof covering meeting the provisions:  
+ in Section 4, Diagram 19 
+3. 
+class 0 materials meeting the provision in Appendix A 
+paragraph A12(a) 
+4. 
+ceiling tiles or panels of any fire-protecting suspended ceiling 
+(Type D) in Table A2 
+5. 
+Insulation above any fire-protecting suspended ceiling (Type D) 
+in Table A2
+(a) or (b) below (European) 
+(c), (d), (e) or (f) below 
+(National) 
+ 
+6. 
+Insulation material in external wall construction referred to in 
+paragraph 4.4.4 
+ 
+Materials of limited combustibility: 
+ 
+European class 
+(a) Any material classified as Class A1 in accordance with I.S. EN 13501-1: 2002, Fire classification of construction 
+products and building elements, Part 1 - Classification using data from reaction to fire tests. 
+ 
+(b) Any material or product classified as Class A2-s3, d2 or better in accordance with I.S. EN 13501-1: 2002, Fire 
+classification of construction products and building elements, Part 1 - Classification using data from reaction to fire tests 
+ 
+Notes: The National classifications do not automatically equate with the equivalent classifications in the European  
+column, therefore products cannot typically assume a European class unless they have been tested accordingly. When a 
+classification includes “s3, d2”, this means that there is no limit set for smoke production and/or flaming 
+droplets/particles. 
+ 
+National class 
+(c) Any non-combustible material listed in Table A7. 
+ 
+(d) Any material of density 300 kg/m3 or more which when tested to BS 476: Part 11, does not flame and the rise in 
+temperature on the furnace thermocouple is not more than 20 degrees celsius. 
+ 
+(e) Any material with a non-combustible core at least 8 mm thick having combustible facings (on one or both sides) not  
+more than 0.5 mm thick (when a flame spread rating is specified, these materials must also meet the appropriate test 
+requirements). 
+ 
+(f) Any material of density less than 300 kg/m3, which when tested to BS 476: Part 11 does not flame for more than 10 
+seconds and the rise in temperature on the centre (specimen) thermocouple is not more than 35 degrees celsius and on 
+the furnace thermocouple is not more than 25 degrees celsius.
+75
+
+Table A7 
+Use of non-combustible materials
+Use 
+Material 
+1. 
+roof coverings meeting the provision in Section 3, 
+Diagram 10(a).
+2. 
+pipes meeting the provisions in Section 3, Table 3.4 
+3. 
+flue walls meeting the provisions in Section 3, Diagram 
+13 
+4. 
+external surfaces of walls where there is provision in 
+Section 4, 4.4.3 for them to be constructed of non-
+combustible materials. 
+5. 
+hinges meeting the provisions in Appendix B, 
+paragraph B3 
+6. 
+compartment walls and floors required by 3.5.4 of 
+Section 3 to be constructed of non-combustible 
+materials. 
+ 
+Non-combustible materials: 
+ 
+European class
+(a) Any material classified as Class A1 in accordance with I.S. EN 13501-1: 2002, Fire classification of
+construction products and building elements, Part 1 - Classification using data from reaction to fire 
+tests. 
+ 
+(b) Products made from one or more of the materials considered as Class A1 without the need for
+testing, as defined in Commission Decision 2003/424/EC of 6 June 2003 amending Commission 
+Decision 96/603/EC of 4 October 1996 establishing the list of products belonging to Class A1 (No 
+contribution to fire) provided for in the Decision 94/61 1/EC implementing Article 20 of the Council 
+Directive 89/106/EEC on construction products. None of the materials shall contain more than 1% by 
+weight or volume (whichever is the lower) of homogeneously distributed organic material. 
+ 
+Note: The National classifications do not automatically equate with the equivalent classifications in the 
+European column, therefore products cannot typically assume a European class unless they have been 
+tested accordingly. 
+ 
+National class
+(a) Any material which when tested to BS 476: Part 11: 1982 does not flame and there is no rise in
+temperature on either the centre (specimen) or furnace thermocouples.
+(b) Totally inorganic materials such as concrete, fired clay, ceramics, metals, plaster and masonry
+containing not more than 1 per cent by weight or volume of organic material (use in buildings of 
+combustible metals such as magnesium/aluminium alloys should be assessed in each individual 
+case).
+(c) Concrete bricks or blocks meeting) I.S. EN 771-3: 2011
+(d) Products classified as non-combustible under BS 476: Part 4: 1970.
+76
+
+ANNEX
+Materials to be considered as reaction to fire classes Al and A1 FL as provided for in Decision
+2000/147/EC without the need for testing 
+General notes 
+ 
+Products should be made only of one or more of the following materials if they are to be considered as Class 
+Al and Class A 1FL without testing. Products made by gluing one or more of the following materials together 
+will be considered Class Al and Class A1FL without testing provided that the glue does not exceed 0.1% by 
+weight or volume (whichever is the more onerous). 
+ 
+Panel products (e.g. of insulating material) with one or more organic layers, or products containing organic 
+material which is not homogeneously distributed (with the exception of glue) are excluded from the list. 
+ 
+Products made by coating one of the following materials with an inorganic layer (e.g. coated metal products) 
+may also be considered as Class Al and Class A1FL without testing. 
+ 
+None of the materials in the table is allowed to contain more than 1.0% by weight or volume (whichever is 
+the more onerous) of homogeneously distributed organic material.
+Material 
+Notes
+Expanded clay. 
+ 
+Expanded perlite 
+ 
+Expanded vermiculite 
+ 
+Mineral wool 
+ 
+Cellular glass 
+ 
+Concrete
+Includes ready-mixed concrete and precast reinforced and pre stressed 
+products 
+Aggregate concrete (dense and 
+lightweight mineral aggregates, 
+excluding integral thermal insulation)
+May contain admixtures and additions (e.g. PFA), pigments and other 
+materials. Includes precast units.
+Autoclaved aerated concrete units
+Units manufactured from hydraulic binders such as cement and/or lime, 
+combined with fine materials (siliceous material, PEA, blast furnace 
+slag), and cell generating material. Includes precast units. 
+Fibre cement
+Cement
+Lime 
+ 
+Blast furnace slag/pulverised fly ash 
+(PEA)
+Mineral aggregates 
+ 
+Iron, steel and stainless steel. 
+Not in finely divided form.
+Copper and copper alloys 
+Not in finely divided form.
+Zinc and zinc alloys 
+Not in finely divided form.
+Aluminium and aluminium alloys 
+Not in finely divided form.
+Lead 
+Not in finely divided form.
+Gypsum and gypsum based plasters 
+May include additives (retarders, tillers, fibres, pigments, hydrated lime, 
+air and water retaining agents and plasticisers), dense aggregates (e.g. 
+natural or crushed sand) or lightweight aggregates (e.g. perlite or 
+vermiculite) 
+Mortar with inorganic binding agents 
+Rendering/plastering mortars and mortars for floor screeds based on 
+one or more inorganic binding agent(s), e.g. cement, lime, masonry 
+cement and gypsum. 
+Clay units 
+Units from clay or other argillaceous materials, with or without sand, fuel 
+or other additives. Includes bricks, tiles paving and fireclay units (e.g. 
+chimney liners).
+77
+
+Calcium silicate units 
+Units made from a mixture of lime and natural siliceous materials (sand, 
+siliceous gravel or rock or mixtures thereof). May include colouring 
+pigments 
+Natural stone and slate products 
+A worked or non-worked element produced from natural stone 
+(magmatic, sedimentary or metamorphic rocks) or slate. 
+Gypsum unit 
+Includes blocks and other units of calcium sulphate and water, that may 
+incorporate fibres, fillers, aggregates and other additives, and may be 
+coloured by pigments. 
+Terrazo 
+Includes precast concrete terrazzo tiles and in-situ flooring.
+Glass 
+Includes heat strengthened, chemically toughened, laminated and wired 
+glass.  
+Glass ceramics 
+Glass ceramics consisting of a crystalline and a residual glass phase.
+Ceramics 
+Includes dust-pressed and extruded products, glazed or unglazed.
+78
+
+Appendix B 
+Fire Doors
+General 
+B1 A fire door is a door or shutter, provided 
+for the passage of persons, air or objects, 
+which together with its frame and furniture as 
+installed in a building is intended when closed 
+to resist the passage of fire and/or gaseous 
+products of combustion, and is capable of 
+meeting specified performance criteria to 
+those ends (see definition of a fire door in S0 
+General Guidance). 
+ 
+Any reference to a fire door in this Technical 
+Guidance Document, or in any code of 
+practice or other document referred to in this 
+Technical Guidance Document, is intended to 
+mean a complete door assembly which 
+includes the door leaf or leaves, the door 
+frame, ironmongery (hinges, latches, closers, 
+etc.) and any seals where required between 
+the frame and leaf or between leaves in the 
+case of a twin-leaf door, and which is 
+installed in a building and is capable of 
+meeting the required performance. 
+ 
+The performance of a fire door critically 
+depends on the correct installation of the 
+complete door assembly, strictly in 
+accordance with the terms of the relevant test 
+certification supplied by the door 
+manufacturer.  
+ 
+Attention is drawn to the importance of the 
+junction between the structure and the 
+doorframe and the need to provide 
+firestopping to maintain required fire 
+resistance. 
+ 
+All fire doors should have the appropriate 
+performance given in Table B1 either :
+Fire classification of construction 
+products and building elements, Part 2 
+- Classification using data from fire 
+resistance tests (excluding products 
+for use in ventilation systems). They 
+are tested to the relevant European 
+method from the following:
+I.S. EN 1634 - 1: 2014, Fire resistance 
+tests for door and shutter assemblies, 
+Part 1 - Fire doors and shutters; 
+ 
+I.S. EN 1634 - 2: 2008, Fire resistance 
+tests for door and shutter assemblies, 
+Part 2 - Fire door hardware; 
+ 
+I.S. EN 1634 - 3: 2004, Fire resistance 
+tests for door and shutter assemblies, 
+Part 3 - Smoke control doors and 
+shutters.  
+ 
+The performance requirement is in 
+terms of integrity (E) for a period of 
+minutes. An additional classification of 
+Sa is used for all doors where 
+restricted smoke leakage at ambient 
+temperatures is needed. 
+ 
+Note: For door sets manufactured 
+after 1/09/2016, I.S. EN 16034:2014 
+may apply. The co-existence period 
+will end on 1/09/2019. 
+ 
+or
+(b) by their performance under test to BS
+476:Part 22, in terms of integrity for a 
+period of minutes, e.g. FD30. A suffix 
+(S) is added for doors where restricted 
+smoke leakage at ambient 
+temperatures is needed.
+(a) as determined with reference to
+Commission Decision 2000/367/EC of 
+3rd May 2000 (as amended) as 
+regards the classification of the 
+resistance to fire performance of 
+construction products, construction 
+works and parts thereof. All fire doors 
+should be classified in accordance 
+with I.S.EN 13501-2:2007 +A1 2009,
+The method of test exposure in either case is 
+from each side of the door separately, except 
+in the case of lift doors which are tested from 
+the landing side only.
+79
+
+BS 8214: 2016 Code of Practice for fire door 
+assemblies with non-metallic leaves, makes 
+recommendations relating to the 
+specification, design, manufacture, 
+installation and maintenance of timber fire 
+doors. 
+ 
+Guidance on timber fire-resisting doorsets, in 
+Relation to the new European test method 
+may be found in “Timber fire-resisting 
+doorsets: maintaining performance under the 
+new European test standard” (2002) 
+published by TRADA Technology.  
+ 
+Guidance for metal doors is given in “Code of 
+Practice for Fire Resisting metal doorsets” 
+(2010) published by Door and Hardware 
+Federation.  
+ 
+Self-closing Devices 
+B2 All fire doors should be fitted with an 
+automatic self-closing device which is 
+capable of closing the door from any angle 
+and against any latch fitted to the door. 
+ 
+In Community Dwelling Houses (P.G.1(d)) 
+where persons with disabilities may be 
+residing, and a self-closing device would be 
+considered a hindrance to the normal use of 
+the dwelling house ,a free swing self-closing 
+device to I.S.EN 1155: 2009 operated by the 
+FDAS would be acceptable. 
+ 
+Note: Fire doors to cupboards in dwelling 
+houses are not required to be fitted with self-
+closing devices. Fire doors to service ducts 
+may be kept locked shut in lieu of being fitted 
+with a self-closing device. 
+ 
+Fire Door Hardware 
+B3 Any hinge on which a fire door is hung 
+should be made entirely from non-
+combustible materials having a melting point 
+of at least 800º C. Hardware used on fire 
+doors can significantly affect the performance 
+of the door in a fire. Single access hinges 
+where used should be manufactured in 
+accordance with I.S.EN 1935: 2002.
+Further guidance is available in Code of 
+Practice “Hardware for Fire and Escape 
+Doors” published by the Door and Hardware 
+Federation (2012).
+Table B 1 Provision of Fire Doors
+Position of door 
+Minimum fire 
+resistance in terms of
+integrity (minutes) 
+European 
+National 
+1. 
+Any door  
+(a) within a 
+cavity barrier, 
+(b) between a 
+dwelling house 
+and a garage
+E20
+FD 20
+E30Sa
+FD 30S
+2. 
+Any door - 
+forming part of 
+the enclosures 
+to a protected 
+stairway or  
+protected 
+corridor in a 
+dwelling house.
+E20
+FD 20
+Notes: 
+S 
+Unless pressurisation techniques complying 
+with I.S. EN 12101-6 are used, these doors 
+should have a leakage rate not exceeding 3 
+m3/hour (head and jambs only) when tested 
+at 25 Pa under BS 476: Part 31 Section 31.1 
+Sa Unless pressurisation techniques complying
+with I.S. EN 12101-6 are used, these doors 
+should also meet the additional classification 
+requirement of Sa when tested in accordance 
+with I.S. EN 1634-3: 2004. 
+ 
+See Appendix A, Table A3, for limitation on use of 
+uninsulated glazed elements.
+80
+
+Appendix C 
+Methods of Measurement
+Methods of Measurement 
+C1 Some form of measurement is an integral 
+part of many of the provisions in this 
+Document. Diagrams C1 to C5 show how the 
+various forms of measurement should be 
+made, based on definitions in S0 General 
+Guidance.
+Diagram C1 Measurement of areas
+81
+
+Diagram C2 Cubic capacity
+Diagram C3 Number of storeys
+Diagram C4 Height of top storey and depth of basement
+82
+
+Diagram C5 Height of building
+83
+
+Appendix D  
+Loft Conversions
+Loft Conversions 
+D.1 
+In the case of an existing single storey 
+dwelling house to which a storey is to be 
+added by converting the existing roof space 
+into habitable accommodation, the converted 
+dwelling house should comply with the 
+provisions of 1.3.2. 
+ 
+In the case of an existing two storey dwelling 
+house to which a storey is to be added by 
+converting the existing roof space into 
+habitable accommodation, the converted 
+dwelling house should comply with the 
+provisions of 1.3.3. 
+ 
+D.2 
+The following provisions D2.1-D2.5 
+can only be applied as an alternative to those 
+in 1.3.3 where the new second storey 
+accommodation does not;
+which is formed by extending the existing 
+enclosure in fire resisting construction so that 
+the new accommodation is separated from 
+the existing stairway. Two alternative 
+approaches are given in (a) and (b) below:
+(a) The new stairway may rise over the
+existing stairway and within the same 
+enclosure, in which case the stairway 
+should be separated from the new 
+room(s) by a self-closing fire door set 
+in fire resisting construction;  
+ 
+(b) The new stairway may alternatively
+rise from the existing room, in which 
+case the new stairway should be 
+separated from the existing room and 
+the rest of the dwelling house by fire-
+resisting construction extending to the 
+stairway enclosure with a self-closing 
+fire door at the top or bottom of the 
+new stairway. 
+ 
+Doorways  
+D.2.3 All doorways within the stairway 
+enclosure to habitable rooms and cupboards 
+should be fitted with a self-closing fire door 
+where possible, or as a minimum with a self-
+closing fire door leaf or leaves in the existing 
+frame. (See Appendix B) 
+ 
+Note: If the existing doors are considered to 
+be of historical or architectural merit it may be 
+possible to retain the doors or upgrade them 
+to an acceptable standard. 
+ 
+Glazing 
+D 2.4 Any glazing in the enclosure to the 
+existing stairway, including glazing in doors 
+(whether or not they need to be fire doors), 
+should be fire-resisting. There should be no 
+openable glazed sections or other ventilation 
+openings in the enclosure to the stairway. 
+ 
+This requirement does not apply to windows 
+or external doors within the stairway 
+enclosure.
+(a) exceed 50 m2 in area; or
+(b) contain more than two habitable
+rooms. 
+ 
+Enclosure of existing stairway  
+D.2.1 The stairway in the ground and first 
+storeys should be enclosed with walls and/or 
+partitions which are fire-resisting,(see 
+Appendix A) and the enclosure should either:
+(a) extend to a final exit (Diagram 2(a));
+or
+(b) give access to at least two escape
+routes at ground level, each delivering 
+to final exits and separated from each 
+other by fire-resisting construction and 
+self-closing fire doors (Diagram 2(b)). 
+ 
+New Stairway to additional storey 
+D.2.2 The new storey should be served by a 
+Stairway meeting the provisions in Technical 
+Guidance Document K - Stairways, Ladders, 
+Ramps and Guards, 2014.  The new stairway 
+should be contained within an enclosure
+84
+
+Floors in Domestic Loft Conversions 
+D 2.5 The new storey should be separated 
+from the rest of the dwelling house by fire-
+resisting construction. 
+ 
+In altering an existing two storey dwelling 
+house it would be reasonable to provide a 
+modified 30 minute standard of fire resistance 
+to the existing and new floors. 
+ 
+Note: “Modified 30 minute” standard satisfies 
+the test criteria for the full 30 minutes in  
+respect of loadbearing capacity, but allows 
+reduced performances for integrity and 
+insulation (see Table A1, item 3(a)). 
+ 
+Fire resistance of timber floors in existing 
+dwelling houses  
+D3 
+In an existing dwelling house floors 
+may be required to be 30 minute fire 
+resistance (as per Table A1).  
+ 
+The techniques generally adopted to upgrade 
+the fire resistance of timber floors are as 
+follows:
+proprietary materials and systems. These 
+must be capable of achieving the required 
+performance in the situations for which they 
+are adopted. Particular care and attention to 
+detail in the execution of any such upgrading  
+works is necessary to ensure the required 
+performance. 
+ 
+Table 14 of Building Research Establishment 
+Report "Guidelines for the construction of fire-
+resisting structural elements (BR 128 1988)" 
+provides guidance in relation to the 
+construction of fire-resisting timber floors. 
+ 
+Guidance on fire-resisting timber floors is also 
+available from the Timber Research and 
+Development Association (TRADA) and in the 
+trade literature produced by manufacturers of 
+fire protection materials and products. 
+ 
+Guidance on upgrading the fire resistance of 
+existing timber floors is provided in Building 
+Research Digest number 208 "Increasing the 
+fire resistance of existing timber floors 
+(revised 1988)". 
+ 
+Escape windows 
+D.4 
+The room (or rooms) in the new storey 
+should each have an openable window or 
+roof-light for escape or rescue purposes 
+which meets the relevant provisions in 1.3.7. 
+ 
+Fire detection and alarm systems  
+D.5 
+Automatic smoke detection and 
+alarms should be provided throughout the 
+dwelling house in accordance with the 
+provisions contained in Section 1.3.6. 
+The above requirements may be met by the 
+provision of radio interconnected smoke and 
+heat alarms, each incorporating a ten year 
+battery. 
+ 
+External Fire Spread 
+D.6 
+Particular attention should be given to 
+the provisions in Section 4: External Fire 
+Spread, which provide for space separation 
+to existing buildings, namely 4.5.9 Material 
+alteration of existing building and 4.5.10 
+Material change of use of existing building.
+(a) The addition of a fire-resisting layer,
+or layers, beneath the existing floor 
+joists. There are many techniques and 
+materials available for such purposes. 
+In some cases it is also necessary to 
+provide a protective layer on top of the 
+existing floor-boards or between the 
+floor joists. 
+ 
+(b) Filling the voids between the existing
+floor surface and ceiling below, or 
+between the floor joists, with a 
+suitable material. There are a number 
+of proprietary systems available which 
+are based on this method. These are 
+often more appropriate than the 
+method outlined at (a) above in 
+buildings of historic or architectural 
+interest, where existing plasterwork is 
+to be retained. 
+ 
+Many of the techniques employed in 
+upgrading timber floors involve the use of
+85
+
+Referenced Standards and Publications
+Standards referred to: 
+ 
+I.S. 36-1: 1986 Bitumen Roofing Felts - Part 1: Fibre and Glass Fibre Based Felts (Table A4 note) 
+ 
+I.S. 36-2: 1987 Bitumen Roofing Felts Part 2: Polyester Based Felts 
+ 
+I.S. 440: Timber Frame Construction, Dwellings and Other Buildings 
+ 
+I.S. 3218: 2013 Fire Detection and Alarm Systems for Building: System Design Installation, 
+Commissioning, Servicing and Maintenance.  
+ 
+I.S. EN 771-3: 2011 - Specification for Masonry Units – Part 3: Aggregate Concrete Masonry Units 
+using an NSAI, System 2+ Certificate of factory production control. 
+ 
+I.S. EN 1155 : 1998 Building Hardware – Electrically powered hold open devices for swing doors 
+– Requirements and Test Method  
+ 
+I.S. EN 1329-1: 2014 Plastic piping systems for soil and waste discharge (low and high 
+temperature) within the building structure. Unplasticized poly (vinyl chloride) (PVC-U) 
+specifications for pipes, fittings and the system.  
+ 
+I.S. EN 1364-1: 2015- Fire resistance tests for non-loadbearing elements, Part 1 – Wall 
+ 
+I.S. EN 1364-2: 2000 - Fire resistance tests for non-loadbearing elements, Part 2 – Ceilings 
+ 
+I.S. EN 1364-3: 2014 - Fire resistance tests for non-loadbearing elements, Part 3 - Curtain walls - 
+full configuration 
+ 
+I.S. EN 1364-4: 2014 - Fire resistance tests for loadbearing elements, Part 4 - Columns 
+ 
+I.S. EN 1365-1: 2012 - Fire resistance tests for loadbearing elements, Part 1 - Walls 
+ 
+I.S. EN 1365-2: 2014 - Fire resistance tests for loadbearing elements, Part 2 - Floors and roofs 
+ 
+I.S. EN 1365-3: 2000 - Fire resistance tests for loadbearing elements, Part 3 - Beams 
+ 
+I.S. EN 1365-4: 2000 - Fire resistance tests for loadbearing elements, Part 4 - Columns 
+ 
+I.S. EN 1365-5: 2004 - Fire resistance tests for loadbearing elements, Part 5 - Balconies and 
+walkways 
+ 
+I.S. EN 1365-6: 2004 - Fire resistance tests for loadbearing elements, Part 6 - Stairs 
+ 
+I.S. EN 1366-1: 2014 - Fire resistance tests for service installations, Part 1 - Ducts 
+ 
+I.S. EN 1366-2: 2015 - Fire resistance tests for service installations, Part 2 - Fire dampers 
+ 
+I.S. EN 1366-3: 2009 - Fire resistance tests for service installations, Part 3 - Penetration seals
+86
+
+I.S. EN 1366-4: 2006+ A1 2010 - Fire resistance tests for service installations, Part 4 - Linear joint 
+seals 
+ 
+I.S. EN 1366-5: 2010 - Fire resistance tests for service installations, Part 5 - Service ducts and 
+shafts 
+ 
+I.S. EN 1366-6: 2004 - Fire resistance tests for service installations, Part 6 - Raised access and - 
+hollow core floors 
+ 
+I.S. EN 1366-7: 2004 - Fire resistance tests for service installations, Part 7 - Conveyor systems and 
+their closures 
+ 
+I.S. EN 1366-8: 2004 - Fire resistance tests for service installations, Part 8 - Smoke extraction ducts 
+ 
+I.S. EN 1366-9: 2008 - Fire resistance tests for service installations, Part 9 - Single compartment 
+smoke extraction ducts 
+ 
+I.S. EN 1366-10: 2011 - Fire resistance tests for service installations, Part 10 - Smoke control 
+dampers 
+ 
+I.S. EN 1634-1: 2014 - Fire resistance tests for door and shutter assemblies, Part 1 - Fire doors and 
+shutters 
+ 
+I.S. EN 1634-2: 2008- Fire resistance tests for door and shutter assemblies, Part 2 - Fire door 
+hardware 
+ 
+I.S. EN 1634-3: 2004 - Fire resistance tests for door and shutter assemblies, Part 3 - Smoke control 
+doors and shutters 
+ 
+I.S. EN 1935: 2002 Building Hardware. Single – Access Hinges. Requirements and Test 
+Methods  
+ 
+I.S. EN 12101-6: 2005 - Smoke and heat control systems. Specifications for pressure differential 
+systems, kits. 
+ 
+I.S. EN 13238: 2010 - Reaction to fire tests for building products-conditioning procedures and 
+general rules for selection of substrates 
+ 
+I.S. EN 13501-1: 2007 - Fire classification of construction products and building elements, Part 1 - 
+Classification using data from reaction to fire tests 
+ 
+I.S. EN 13501-2: 2016 - Fire classification of construction products and building elements, Part 2 
+Classification using data from fire resistance tests (excluding ventilation services) 
+ 
+I.S. EN 13501-3: 2005+A1 2009 - Fire classification of construction products and building 
+elements, Part 3 - Classification using data from fire resistance tests on components of normal 
+building 
+service 
+installations 
+(other 
+than 
+smoke 
+control 
+systems)
+87
+
+I.S. EN 13501-4: 2007 +A1 2009 - Fire classification of construction products and building 
+elements, Part 4 - “Classification using data from fire resistance tests on smoke control systems.” 
+ 
+I.S. EN 13501-5: 2006+A1 2009 Fire classification of construction products and building elements, 
+Part 5 – Classification using test data from external fire exposure to roof tests 
+ 
+I.S. EN 13823: 2010+A1 2014 - Reaction to fire tests for building products - Building products 
+excluding 
+floorings 
+exposed 
+to 
+the 
+thermal 
+attack 
+by 
+a 
+single 
+burning 
+item
+ 
+I.S. EN 16034: 2014 - Pedestrian doorsets, industrial, commercial, garage doors and openable 
+windows. Product standard, performance characteristics . Fire resisting and/or smoke control 
+characteristics.  
+ 
+I.S. EN ISO 306: 2013 Plastics. Thermoplastic materials. Determination of Vicat Softening 
+Temperature (VST).  
+ 
+I.S. EN ISO 1182: 2010, Reaction to fire tests for building products - Non combustibility test 
+ 
+I.S. EN ISO 1716: 2010, Reaction to fire tests for building products - Determination of the gross 
+calorific value 
+ 
+I.S. EN ISO 11925-2: 2010 - Reaction to fire tests for building Products, Part 2 - Ignitability when 
+subjected to direct impingement of a flame 
+ 
+I.S.CEN/TS 15447: 2006 - Mounting and fixing in reaction to fire tests under the CPD.  
+ 
+I.S. ENV 1187: 2002 Test Methods for external fire exposure to roofs. 
+ 
+Eurocodes: 
+ 
+I.S. EN 1991-1-2: 2002 Eurocode 1. Actions on structures. General actions. Actions on structures 
+exposed to fire 
+ 
+I.S. EN 1992-1-2: 2004 Eurocode 2. Design of concrete structures. General rules. Structural fire 
+design 
+ 
+I.S. EN 1993-1-2:2005 Eurocode 3. Design of steel structures. General rules. Structural fire design 
+ 
+I.S. EN 1994-1-2:2005 Eurocode 4. Design of composite steel and concrete structures. General 
+rules. Structural fire design 
+ 
+I.S. EN 1995-1-2: 2004 Eurocode 5. Design of timber structures. General. Structural fire design 
+ 
+I.S. EN 1996-1-2: 2005 Eurocode 6. Design of masonry structures. General rules. Structural fire 
+design
+88
+
+I.S. EN 1999-1-2: 2007 Eurocode 9. Design of aluminium  structures. Structural fire design 
+BS 476 - Fire tests on building materials and structures
+Part 3: 2004 - Classification and method of test for external fire exposure to roofs. 
+ 
+Part 4: 1970 (1984) - Non-combustibility test for materials 
+ 
+Part 6: 1989 + A1: 2009 - Method of test for fire propagation for products 
+ 
+Part 7:1997 - Method of test to determine the classification of the surface spread of flame of 
+products 
+ 
+Part 8: 1972 –Test methods and criteria for the fire resistance of elements of building 
+construction. 
+ 
+Part 11: 1982 (1988) - Method for assessing the heat emission from building products 
+ 
+Part 20: 1987 AMD 6487 - Method for determination of the fire resistance of elements of 
+construction (general principles) 
+ 
+Part 21: 1987 - Methods for determination of the fire resistance of loadbearing elements of 
+construction 
+ 
+Part 22: 1987 - Methods for determination of the fire resistance of non-loadbearing elements 
+of construction 
+ 
+Part 23: 1987 - Methods for determination of the contribution of components to the fire 
+resistance of a structure
+Part 24: 1987 - Method for determination of the fire resistance of ventilation ducts 
+ 
+Part 31:1983 - Methods of measuring smoke penetration through doorsets and shutter 
+assemblies. Section 31.1 Measurement under ambient temperature conditions 
+ 
+BS 2782 -0: 2011 - Methods of testing plastics. Introduction
+Annex A: Method 508A: Performs so that the test flame extinguishes before the first mark, 
+and the duration of flaming or afterglow does not exceed 5 seconds following removal of the 
+burner 
+ 
+BS 4514: 2001 - Unplasticized PVC soil and ventilating pipes of 82.4 mm minimum mean outside 
+diameter, fittings and accessories of 82.4 mm and of other sizes. Specification. 
+ 
+BS 5255: 1989 - Specification for thermoplastic waste pipe and fittings 
+ 
+BS 6336: 1998 - Guide to development and presentation of fire tests and their use in hazard 
+assessment 
+ 
+BS 8214: 2016 - Code of Practice for fire door assemblies with non-metallic leaves
+89
+
+BS 8217: 2005- Reinforced bitumen membranes for roofing. Code of practice 
+ 
+BS 8313:1997- Code of Practice of Building Services in Ducts  
+ 
+BS 9251: 2014- Fire Sprinkler systems for Domestic and Residential Occupancy Code of Practice.  
+ 
+BS 9991: 2015 Fire Safety in the Design, Management and use of Residential Buildings 
+ 
+PD 6520: 1988 - Guide to fire test methods for building materials and elements of construction
+90
+
+Publications referred to:  
+ 
+Architectural, Heritage Protection Guidelines for Planning Authorities Chapter 6 (page 89) and 
+Chapter 17 published by the Heritage Section DEHLG 2005 
+ 
+BRE Digest 398 – Continuous Mechanical Ventilation on Dwellings. Design, installation and 
+operation 
+ 
+Code of Practice for Fire Resisting metal door sets 2010 published by Door and Hardware 
+Federation (www.dhfonline.org.uk ) 
+ 
+Commission Decision 2000/367/EC of 3rd May 2000 
+ 
+Commission Decision 2000/553/EC of 6th September 2000 
+ 
+Commission Decision 2003/424/EC of 6 June 2003 
+ 
+Commission Decision 2003/629/EC of 27 August 2003 amending Commission Decision 
+2000/367/EC of 3 May 2000 
+ 
+Commission Decisions 2005/823/EC amending Decision 2001/671/EC of 22 November 2005 
+ 
+Commission Delegated Regulation (EU) 2016/364 of the 1 July 2015 
+ 
+Ensuring best practise for passive fire protection (PFP) systems in buildings. Association of 
+Specialist Fire Protection (ASFP)  
+ 
+ET101: 2008: National Rules for Electrical Installations produced by the Electro-Technical Council 
+of Ireland.  
+ 
+External fire spread: building separation and boundary distances. Building Research 
+Establishment, (BR 187) 2014  
+ 
+Fire Grading of Buildings, Part 1. General Principles and Structural Precautions. Post-War Building 
+Studies No. 20. HMSO, 1946 
+ 
+Fire protection in old buildings and historic town centres. The Fire Protection Association, London 
+ 
+Fire protection measures for the Royal Palaces (The Bailey Report). Department of National 
+Heritage, London 
+ 
+Fire Safety in Community Dwelling Houses : Code of Practice for safety in new and existing 
+community dwelling houses.  
+ 
+Fire Services Acts, 1981 and 2003 
+ 
+Fire Stopping and penetration seals for the construction industry (2004) by the Association of 
+Specialist Fire Protection (ASFP)  
+ 
+Guide for Practitioners 6: Conservation of Traditional Buildings, Historic Scotland, (www.histroic-
+scotland.gov.uk)
+91
+
+Guidelines for the construction of fire-resisting structural elements. Building Research 
+Establishment (BR 128) (www.brebookshop.com) 
+ 
+Hardware for Fire and Escape Doors Code of Practice published by the Door and Hardware 
+Federation (2012) (www.dhfonline.org.uk)  
+ 
+Heritage under fire. A guide to the protection of historic buildings. The United Kingdom Working 
+Party on fire safety in historic buildings 
+ 
+Increasing the fire resistance of existing timber floors. Building Research Establishment (Digest 
+208) 
+ 
+New Approach Notified and Designated Organisations (NANDO) http://ec.europa.eu/growth/tools-
+databases/nando/  
+ 
+Recommendation for Site Development Works for housing areas 
+ 
+Technical Guidance Document D – Materials and Workmanship  
+ 
+Technical Guidance Document J - Heat Producing Appliances 
+ 
+Technical Guidance Document K - Stairways, Ladders, Ramps and Guards 
+ 
+Timber and fire-resisting doorsets: maintaining performance under the new European test 
+standard” (2002) published by TRADA. Technology (www.trada.co.uk/techinfo/library)
+92
+
+Printed on recycled paper containing a mini-
+mum of 75% post-consumer waste

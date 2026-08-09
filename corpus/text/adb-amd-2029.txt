@@ -1,0 +1,2941 @@
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Amendments to the
+Approved Documents
+This document contains amendments to the following Approved 
+Document:
+Approved Document B: Fire safety
+Volume 1 – Dwellings 
+Volume 2 – Buildings other than dwellings 
+2019 edition incorporating the 2020, 2022, 2025 
+and 2026 amendments
+Published	
+September 2024
+Taking effect on	 2 September 2029
+For use in England
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Introduction
+This document sets out amendments to guidance previously published in Approved Document 
+B: Fire safety, Volume 1 – Dwellings and Volume 2 – Buildings other than dwellings, 2019 edition 
+incorporating the 2020, 2022, 2025 and 2026 amendments.
+These amendments will be incorporated into both the online and paper versions of Approved 
+Document B Volume 1 and Volume 2 when the changes take effect. Versions from before that date 
+will need to be read alongside the amendments listed in this document. You should always check 
+the online version to know that you are looking at the most up to date version.
+The changes highlighted in this amendment booklet take effect on 2 September 2029 for use in 
+England. The 2019 edition incorporating the 2020, 2022, 2025 and 2026 amendments will continue to 
+apply where a building notice or an initial notice has been given to, or a building control approval 
+application with full plans made to, the relevant authority before 2 September 2029 and either the 
+building work to which it relates:
+a.	 has started and is sufficiently progressed before that day; or
+b.	 is started and is sufficiently progressed within the period of six months beginning on that day.
+Please note that ‘building notice’, ‘initial notice’ and ‘building control approval application with full 
+plans’ have the meanings given in the Building Regulations 2010. For the purpose of these transitional 
+arrangements, building work is to be regarded as ‘sufficiently progressed’:
+a.	 where the building work consists of the construction of a building, when the pouring of concrete
+for the permanent placement of the trench, pad or raft foundations has started, or the permanent 
+placement of piling has started; or
+b. 	 where the building work consists of work to an existing building, when that work has started; or
+c. 	 where the building work consists of a material change of use of a building, when work to effect
+that change of use has stated.
+The changes focus on the fire safety provisions regarding the removal of national classes for fire 
+resistance.
+Full details of the changes are provided below.
+2	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+The Building Regulations 2010
+Approved Document B: Fire safety
+Volume 1 – Dwellings 
+2019 edition incorporating the 2020, 2022, 
+2025 and 2026 amendments
+List of amendments
+Taking effect on 2 September 2029
+Appendix B: Performance of materials, products and structures
+Pages 121 	 Replace the whole of Appendix B: Performance of materials, products and
+to 135	
+structures with the following.
+Introduction
+B1	
+The guidance in this document is given in terms of performance classifications in 
+relation to European Standards. In such cases, it will be necessary to demonstrate 
+that a system or product can meet the relevant performance classification. This will 
+be achieved if the system or product complies with one of the following.
+a.	
+They should be in accordance with a specification or design that has been 
+shown by specific test(s) to be capable of meeting that performance 
+classification.
+b.	
+They should have been designed by using relevant design standards in order to 
+meet that performance classification.
+c.	
+They should have been assessed by applying relevant test evidence, in lieu 
+of carrying out a specific test, as being capable of meeting that performance 
+classification.
+NOTE: Some products are subject to Classification Without Further Testing (CWFT). 
+For the purposes of this approved document, such products can be considered 
+to have been shown to be capable of meeting a performance specification as per 
+paragraph B1a.
+B2	 Any test evidence used to demonstrate the fire performance classification of a
+product or system should be carefully checked to ensure that it is applicable to the 
+intended use. Small differences in detail, such as fixing method, joints, dimensions, 
+the introduction of insulation materials and air gaps (ventilated or not), might 
+significantly affect the performance and should be tested or assessed in accordance 
+with paragraph B1.
+Approved Document B	
+3
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+B3	 Assessments should not be regarded as a way to avoid a test where one is
+necessary. Assessments should only be carried out where sufficient relevant test 
+evidence is available. Relevant test evidence is unlikely to be provided by test 
+standards which have different classification criteria.
+B4	 Where it is proposed to assess the classification of a product or system in lieu of
+carrying out a specific test (as in paragraph B1c), this should be done in accordance 
+with the relevant standard for extended application for the test in question and 
+should include details of the test evidence that has been used to support the 
+assessment.
+For performance classifications where there is no specific standard for extended 
+application, assessment reports should be produced in accordance with the 
+principles of BS EN 15725 and should include details of the test evidence that has 
+been used to support the assessment. In cases where the end use application is not 
+covered by the extended application standard and an assessment is the only other 
+suitable approach, then further information on best practice is provided in the 
+Passive Fire Protection Forum’s Guide to Undertaking Technical Assessments of the 
+Fire Performance of Construction Products Based on Fire Test Evidence. The same 
+principle should be followed for assessments as described in paragraph B2.
+NOTE: Regulation 7(2) limits components used in or on the external walls of 
+certain buildings to materials achieving class A2-s1, d0 or class A1 (see Section 10). 
+Assessments cannot be used to demonstrate compliance with this requirement.
+B5	 Tests and assessments should be carried out by organisations with the necessary
+expertise. For example, organisations listed as ‘notified bodies’ in accordance with 
+the European Construction Products Regulation or laboratories accredited by the 
+United Kingdom Accreditation Service (UKAS) for the relevant test standard can be 
+assumed to have the necessary expertise.
+NOTE: Standard fire tests do not directly measure fire hazard. They measure or 
+assess the response of a material or system to exposure to one or more aspects 
+of fire conditions. Performance in fire tests is only one of a number of factors that 
+should be taken into account.
+Reaction to fire
+B6	 Reaction to fire relates to the degree to which a product will contribute, by its own
+decomposition, to a fire under specified conditions. Products, other than floorings, 
+are classified as A1, A2, B, C, D, E or F (with class A1 being the highest performance 
+and F being the lowest) in accordance with BS EN 13501-1. Class F is assigned when a 
+product fails to attain class E. Untested products cannot be classified in accordance 
+with BS EN 13501-1.
+Materials covered by the Classification Without Further Testing (CWFT) process can be 
+found by accessing the European Commission’s website https://eur-lex.europa.eu/.
+B7	 The classes of reaction to fire performance of A2, B, C, D and E are accompanied
+by additional classifications related to the production of smoke (s1, s2, s3), with s1 
+indicating the lowest production, and/or flaming droplets/particles (d0, d1, d2), with 
+d0 indicating the lowest production.
+4	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+NOTE: When a classification includes s3, d2 this means that there is no limit set for 
+smoke production and/or flaming droplets/particles.
+B8	 To reduce the testing burden on manufacturers, BS EN 13238 defines a number of
+standard substrates that produce test results representative of different end use 
+applications. The classification for reaction to fire achieved during testing is only 
+valid when the product is used within this direct field of application, i.e. when the 
+product is fixed to a substrate of that class in its end use. The standard substrate 
+selected for testing should take account of the intended end use applications (field 
+of application) of the product and represent end use substrates that have a density 
+of a minimum of 75% of the standard substrate’s nominal density.
+B9	 Standard substrates include gypsum plasterboard (BS EN 520) with a density of
+700+/-100kg/m3, calcium silicate board (BS EN 14306) 870+/-50kg/m3 and fibre-
+cement board 1800+/-200kg/m3.
+NOTE: Standard calcium silicate board is not representative of gypsum plasterboard 
+end use (due to the paper layer), but would be representative of most gypsum 
+plasters (with densities of more than 650kg/m3).
+NOTE: Classifications based on tests using a plasterboard substrate would also be 
+acceptable for products bonded to a gypsum plaster end use substrate.
+Thermoplastic materials
+B10	 Thermoplastic material is any synthetic polymeric material that has a softening point
+below 200°C if tested to BS EN ISO 306 Method A120. Products formed from these 
+materials cannot always be classified in the normal way. In those circumstances the 
+following approach can be followed.
+B11	 Thermoplastic materials used for window glazing, rooflights and lighting diffusers within
+suspended ceilings do not need to meet the criteria within paragraph B18 onwards, if 
+the guidance to requirements B2 and B4 is followed.
+B12	 For the purposes of requirements B2 and B4, thermoplastic materials should be
+classified as TP(a) rigid, TP(a) flexible or TP(b), as follows:
+a.	
+TP(a) rigid
+i.	
+rigid solid uPVC sheet
+ii.	
+solid (as distinct from double- or multi-skinned) polycarbonate sheet a 
+minimum of 3mm thick
+iii.	
+any other rigid thermoplastic product, a specimen of which (at the thickness 
+of the product as put on the market), when tested to BS 2782-0 Method 
+508A, performs so that both:
+•	
+the test flame extinguishes before the first mark
+•	
+the duration of flaming or afterglow does not exceed 5 seconds 
+following removal of the burner.
+Approved document B 	
+5
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+b.	
+TP(a) flexible
+Flexible products a maximum of 1mm thick that comply with the Type 
+C requirements of BS 5867-2 when tested to BS 5438 Test 2 with the 
+flame applied to the surface of the specimens for 5, 15, 20 and 30 seconds 
+respectively, but excluding the cleansing procedure; and
+c.	
+TP(b)
+i.	
+rigid solid polycarbonate sheet products a maximum of 3mm thick, or multi-
+skinned polycarbonate sheet products that do not qualify as TP(a) by test
+ii.	
+other products which, when a specimen of the material between 1.5 and 
+3mm thick is tested in accordance with BS 2782-0 Method 508A, have a 
+maximum rate of burning of 50mm/minute.
+NOTE: If it is not possible to cut or machine a 3mm thick specimen from the 
+product, then a 3mm test specimen can be moulded from the same material as that 
+used to manufacture the product.
+B13	 A thermoplastic material alone when used as a lining to a wall or ceiling cannot be
+assumed to protect a substrate. The surface rating of both thermoplastic material 
+and substrate must therefore meet the required classification.
+If, however, the thermoplastic material is fully bonded to a non-thermoplastic 
+substrate, then only the surface rating of the composite needs to meet the required 
+classification.
+Roofs
+B14 	 Performance of the resistance of roofs to external fire exposure is measured in
+terms of penetration through the roof construction and the spread of flame over its 
+surface.
+B15 	 Roof constructions are classified within the European system as BROOF(t4), CROOF(t4),
+DROOF(t4), EROOF(t4) or FROOF(t4) in accordance with BS EN 13501-5. BROOF(t4) indicates the 
+highest performance and FROOF(t4) the lowest.
+B16	 BS EN 13501-5 refers to four separate roof tests. The suffix (t4) used in paragraph B15
+indicates that Test 4 is to be used for the purposes of this approved document.
+B17	 This document uses the European classification system for roof covering set
+out in BS EN 13501-5; however, there may be some products or systems whose 
+performance will need to be assessed based on the recommendations of paragraphs 
+B1 to B5 as being capable of meeting that performance classification. 
+Fire resistance
+B18	 Common to all of the provisions of Part B of the Building Regulations is the property
+of fire resistance. Fire resistance is a measure of one or more of the following 
+criteria.
+a.	
+Resistance to collapse (loadbearing capacity), which applies to loadbearing 
+elements only, denoted R in the European classification of the resistance to fire 
+performance.
+6	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+b.	
+Resistance to fire penetration (integrity), denoted E in the European 
+classification of the resistance to fire performance.
+c.	
+Resistance to the transfer of excessive heat (insulation), denoted I in the 
+European classification of the resistance to fire performance.
+B19	 The standards of fire resistance necessary for a particular building are based on
+assumptions about the severity of fires and the consequences should an element 
+fail. Fire severity is estimated in very broad terms from the use of the building (its 
+purpose group), on the assumption that the building contents (which constitute the 
+fire load) are similar for buildings with the same use.
+B20	 Because the use of buildings may change, a precise estimate of fire severity based
+on the fire load due to a particular use may be misleading. Therefore if a fire 
+engineering approach of this kind is adopted, the likelihood that the fire load may 
+change in the future needs to be considered.
+B21	 Performance in terms of the fire resistance to be achieved by elements of structure,
+doors and other forms of construction is classified in accordance with one of the 
+following.
+a.	
+BS EN 13501-2.
+b.	
+BS EN 13501-3.
+c.	
+BS EN 13501-4.
+B22	 Fire resistance is measured in minutes. This relates to time elapsed in a standard test
+and should not be confused with real time.
+B23	 The fire resistance necessary for different circumstances is set out in the following
+tables.
+a.	
+Table B1 gives the specific requirements for each element of structure.
+b.	
+Table B2 sets out the minimum periods of fire resistance for elements of 
+structure.
+c.	
+Table B3 sets out limitations on the use of uninsulated fire resisting glazed 
+elements.
+B24	 This document uses the European classification system (REI) for fire resistance set
+out in BS EN 13501-2 to 4. Fire resistance is expressed as REI X, where X is the period 
+of fire resistance in minutes in terms of loadbearing capacity (R), integrity (E) and 
+insulation (I). Products or systems cannot typically assume a European class unless 
+they have been tested and classified accordingly.
+Approved document B 	
+7
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+B25	 Products or systems achieving the European classification (REI) should be specified
+wherever possible. However, there may be some products or systems that 
+have been assessed as being capable of meeting a fire resistance performance 
+classification. When assessed, products or systems should follow the relevant test 
+standards to indicate their fire resistance performance in terms of loadbearing 
+capacity, integrity and insulation based on the recommendations of paragraphs B1 to 
+B5. In those situations, the performance classifications given in Table B1 and Table B2 
+may be used.
+Table B1  Specific provisions of the test for fire resistance of elements of structure, etc.
+Part of building
+Minimum provisions when tested and classified 
+to the relevant European standard (minutes)(1) 
+or assessed following the recommendations of 
+paragraphs B1 to B5 (minutes)(2)
+Type of exposure
+Loadbearing 
+capacity(3)
+Integrity
+Insulation
+1.	 Structural frame, beam or column.
+See Table B2
+Not applicable
+Not applicable
+Exposed faces
+2.	 Loadbearing wall
+	
+(for a wall which is also described in 
+any of the following items, the more 
+onerous guidance should be applied).
+See Table B2 
+Not applicable 
+Not applicable 
+Each side 
+separately
+3.	 Floors(4)
+a.	 between a shop and flat above
+60 min or 
+see Table B2 
+(whichever is 
+greater)
+60 min or 
+see Table B2 
+(whichever is 
+greater)
+60 min or 
+see Table B2 
+(whichever is 
+greater)
+From underside(5)
+b.	 in upper storey of two storey
+30 min 
+15 min 
+15 min 
+From underside (5)
+dwellinghouse (but not over garage 
+or basement)
+c.	 any other floor – including
+See Table B2
+See Table B2
+See Table B2
+From underside (5)
+compartment floors.
+4.	 Roofs
+a.	 any part forming an escape route
+30 min 
+30 min 
+30 min 
+From underside (5)
+b.	 any roof that performs the function
+See Table B2
+See Table B2
+See Table B2
+From underside (5)
+of a floor.
+5.	 External walls
+a.	 any part a maximum of 1000mm from
+any point on the relevant boundary(6)
+See Table B2
+See Table B2
+See Table B2
+Each side 
+separately
+b.	 any part a minimum of 1000mm from
+the relevant boundary(6)
+See Table B2 
+See Table B2 
+15 min 
+From inside the 
+building
+c.	 any part beside an external escape
+30 min
+30 min
+No 
+provision(7) (8)
+From inside the 
+building
+route (Section 2, Diagram 2.7 and 
+Section 3, Diagram 3.11).
+6.	 Compartment walls
+Separating either:
+a.	 a flat from any other part of the
+60 min or 
+see Table B2 
+(whichever is 
+less)
+60 min or 
+see Table B2 
+(whichever is 
+less)
+60 min or 
+see Table B2 
+(whichever is 
+less)
+Each side 
+separately
+building (see paragraph 7.1)
+b.	 occupancies.
+60 min or 
+see Table B2 
+(whichever is 
+less)
+60 min or 
+see Table B2 
+(whichever is 
+less)
+60 min or 
+see Table B2 
+(whichever is 
+less)
+Each side 
+separately
+8	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B1  Continued
+Part of building
+Minimum provisions when tested and classified 
+to the relevant European standard (minutes)(1) 
+or assessed following the recommendations of 
+paragraphs B1 to B5 (minutes)(2)
+Type of exposure
+Loadbearing 
+capacity(3)
+Integrity
+Insulation
+7.	 Compartment walls
+See Table B2
+See Table B2
+See Table B2
+Each side 
+separately
+(other than in item 6 or item 10).
+8.	 Protected shafts
+	
+Excluding any firefighting shaft:
+a.	 any glazing described in Section 7,
+Not applicable
+30 min
+No provision(8)
+Each side 
+separately
+Diagram 7.2
+b.	 any other part between the shaft
+30 min
+30 min
+30 min
+Each side 
+separately
+and a protected lobby/corridor 
+described in Section 7, Diagram 7.2
+c.	 any part not described in (a) or (b)
+See Table B2
+See Table B2
+See Table B2
+Each side 
+separately
+above.
+9.	 Enclosure (that does not form
+part of a compartment wall or a 
+protected shaft) to a:
+a.	 protected stairway
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+b.	 lift shaft.
+30 min
+30 min
+30 min
+Each side 
+separately
+10. Wall or floor separating an
+30 min
+30 min
+30 min(8)
+From garage
+side
+attached or integral garage from a 
+dwellinghouse
+11. 	 Fire resisting construction in
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+dwellinghouses not described 
+elsewhere
+12.	 Firefighting shafts
+120 min
+120 min
+120 min
+From side remote 
+from shaft
+a.	 construction that separates
+60 min
+60 min
+60 min
+From shaft side
+firefighting shaft from rest of 
+building
+b.	 construction that separates
+60 min
+60 min
+60 min
+Each side 
+separately
+firefighting stair, firefighting lift shaft 
+and firefighting lobby.
+13.	 Enclosure (that is not a compartment
+wall or described in item 8) to a:
+a.	 protected lobby
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+b.	 protected corridor.
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+14.	 Sub-division of a corridor
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+Approved document B 	
+9
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B1  Continued
+Part of building
+Minimum provisions when tested and classified  
+to the relevant European standard (minutes)(1)  
+or assessed following the recommendations of 
+paragraphs B1 to B5 (minutes)(2)
+Type of exposure
+Loadbearing 
+capacity(3)
+Integrity
+Insulation
+15.	 Fire resisting construction
+a.	 construction that encloses places of
+30 min
+30 min
+30 min
+Each side 
+separately
+special fire hazard
+b.	 construction between store rooms
+30 min
+30 min
+30 min
+Each side 
+separately
+and sales area in shops
+c.	 fire resisting
+30 min
+30 min
+30 min
+Each side 
+separately
+sub-division
+d.	 construction that encloses bedrooms
+30 min
+30 min
+30 min
+Each side 
+separately
+and ancillary accommodation in care 
+homes.
+16.	 Enclosure in a flat to a protected
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+entrance hall, or to a protected 
+landing.
+17.	 Cavity barrier
+Not applicable 
+30 min 
+15 min 
+Each side 
+separately
+18.	 Ceiling see paragraph 2.5 and
+Not applicable
+30 min
+30 min
+From underside
+Diagram 2.3; paragraph 8.5 and 
+Diagram 8.3.
+19.	 Duct described in paragraph 5.24e.
+Not applicable
+30 min
+No provision
+From outside
+20.	Casing around a drainage system
+Not applicable
+30 min
+No provision
+From outside
+described in Diagram 9.1.
+21.	 Flue walls described in Diagram 9.5.
+Not applicable
+Half the period 
+given in Table 
+B2 for the 
+compartment 
+wall/floor
+Half the period 
+given in Table 
+B2 for the 
+compartment 
+wall/floor
+From outside
+22. Construction described in note (a) to
+Not applicable
+30 min
+30 min
+From underside
+paragraph 12.9.
+10	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B1  Continued
+Part of building
+Minimum provisions when tested and classified  
+to the relevant European standard (minutes)(1)  
+or assessed following the recommendations of 
+paragraphs B1 to B5 (minutes)(2)
+Type of exposure
+Loadbearing 
+capacity(3)
+Integrity
+Insulation
+23.	Fire doorsets
+See Table C1
+See  
+Appendix C
+NOTES:
+1. 	Classified in accordance with BS EN 13501-2, BS EN 13501-3 or BS EN 13501-4. In the European classification ‘R’ is
+the resistance to fire in terms of loadbearing capacity, ‘E’ is the resistance to fire in terms of integrity, ‘I’ is the 
+resistance to fire in terms of insulation. Products or systems cannot typically assume a European class unless they 
+have been tested and classified accordingly.
+2.	When assessed as being capable of meeting a performance classification, products or systems should follow the
+relevant test standards to indicate their fire resistance performance in terms of loadbearing capacity, integrity or 
+insulation for a period of minutes, when following the recommendations of paragraphs B1 to B5.
+3.	Applies to loadbearing elements only (see paragraph B18).
+4.	Guidance on increasing the fire resistance of existing timber floors is given in BRE Digest 208.
+5.	Only if a suspended ceiling meets the appropriate provisions should it be relied on to add to the fire resistance of
+the floor.
+6.	Such walls may contain areas that do not need to be fire resisting (unprotected areas). See Section 11.
+7.	Unless needed as part of a wall in item 5a or 5b.
+8.	Except for any limitations on uninsulated glazed elements given in Table B3.
+Approved document B 	
+11
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B2  Minimum periods of fire resistance 
+ 
+Purpose group of building
+Minimum periods of fire resistance(1) (minutes) in a:
+Basement storey* 
+including floor over
+Ground or upper storey
+Depth (m) of the lowest 
+basement
+Height (m) of top floor above ground, in a building or 
+separated part of a building
+More than 
+10
+Up to 10
+Up to 5
+Up to 11
+Up to 18
+Up to 30
+More than 
+30
+1.	 Residential:
+a.	 Block of flats
+– without sprinkler
+90 min
+60 min
+30 min† 
+60 min+§
+Not 
+permitted(2)
+Not 
+permitted(2)
+Not 
+permitted(2)
+system
+– with sprinkler system(3) 90 min 
+60 min
+30 min†
+60 min+§
+60 min+§
+90 min+
+120 min+
+b. and c. Dwellinghouse
+Not 
+applicable(4)
+30 min*†
+30 min†
+60 min(5)
+60 min(5)
+Not 
+applicable(4)
+Not 
+applicable(4)
+2.	 Residential
+a.	 Institutional 
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+b.	 Other residential
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+3.	 Office:
+– without sprinkler
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+30 min†
+30 min†
+60 min
+120 min‡
+4.	 Shop and commercial:
+– without sprinkler
+90 min
+60 min
+60 min
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+60 min
+60 min
+60 min
+120 min‡
+5.	 Assembly and
+recreation:
+– without sprinkler
+90 min
+60 min
+60 min
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+60 min
+60 min
+60 min
+120 min‡
+6.	 Industrial:
+– without sprinkler
+120 min
+90 min
+60 min
+90 min
+90 min
+120 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+7.	 Storage and other non-
+residential:
+a.	 any building or part not
+described elsewhere:
+– without sprinkler
+120 min
+90 min
+60 min
+90 min
+90 min
+120 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+12	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B2  Continued
+Purpose group of building
+Minimum periods of fire resistance(1) (minutes) in a:
+Basement storey* 
+including floor over
+Ground or upper storey
+Depth (m) of the lowest 
+basement
+Height (m) of top floor above ground, in a building or 
+separated part of a building
+More than 
+10
+Up to 10
+Up to 5
+Up to 11
+Up to 18
+Up to 30
+More than 
+30
+b. 	 car park for light vehicles:
+i. open sided car park(7)
+Not 
+applicable
+Not 
+applicable
+15 min†#
+15 min†#(8)
+15 min†#(8)
+15 min†#(8)
+60 min
+ii. any other car park
+90 min
+60 min
+30 min†
+60 min
+60 min
+ 90 min
+120 min‡
+NOTES:
+For single storey buildings, the periods under the heading ‘Up to 5’ apply. If single storey buildings have basements, 
+for the basement storeys the period appropriate to their depth applies.
+*	 For the floor over a basement or, if there is more than one basement, the floor over the topmost basement, the 
+higher of the period for the basement storey and the period for the ground or upper storey applies.
+†	 For compartment walls that separate buildings, the period is increased to a minimum of 60 minutes.
++	 For any floor that does not contribute to the support of the building within a flat of more than one storey, the
+period is reduced to 30 minutes.	
+§	For flat conversions, refer to paragraphs 6.5 to 6.7 regarding the acceptability of 30 minutes. 
+‡	 For elements that do not form part of the structural frame, the period is reduced to 90 minutes.
+#	 For elements that protect the means of escape, the period is increased to 30 minutes.
+1.	 Refer to note 1, Table B1 for the specific provisions of test.
+2.	Blocks of flats with a top storey more than 11m above ground level (see Diagram D6) should be fitted with a
+sprinkler system in accordance with Appendix E.
+NOTE: Sprinklers should be provided within the individual flats, they do not need to be provided in the common 
+areas such as stairs, corridors or landings when these areas are fire sterile. 
+3.	‘With sprinkler system’ means that the building is fitted throughout with an automatic sprinkler system in
+accordance with Appendix E.
+4.	Very large (with a top storey more than 18m above ground level or with a 10m deep basement) or unusual
+dwellinghouses are outside the scope of the guidance provided with regard to dwellinghouses. 
+5.	A minimum of 30 minutes in the case of three storey dwellinghouses, increased to 60 minutes minimum for
+compartment walls separating buildings.
+6.	Buildings within the ‘office’, ‘shop and commercial’, ‘assembly and recreation’, ‘industrial’ and ‘storage and other
+non-residential’ (except car parks for light vehicles) purpose groups (purpose groups 3 to 7(a)) require sprinklers 
+where there is a top storey more than 30m above ground level. 
+7.	The car park should comply with the relevant provisions in the guidance on requirement B3, Section 1 of Approved
+Document B Volume 2.
+8.	For the purposes of meeting the Building Regulations, the following types of steel elements are deemed to have
+satisfied the minimum period of fire resistance of 15 minutes when tested to the European test method.
+i.	 Beams supporting concrete floors, maximum Hp/A=230m-1 operating under full design load.
+ii.	 Free-standing columns, maximum Hp/A=180m-1 operating under full design load.
+iii.	Wind bracing and struts, maximum Hp/A=210m-1 operating under full design load.
+Guidance is also available in BS EN 1993-1-2.
+Approved document B 	
+13
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Application of the fire resistance standards in Table B2
+B26	 The following guidance should be used when applying the fire resistance standards
+in Table B2.
+a.	
+If one element of structure supports or carries or gives stability to another, the 
+fire resistance of the supporting element should be no less than the minimum 
+period of fire resistance for the other element (whether that other element is 
+loadbearing or not). In some circumstances, it may be reasonable to vary this 
+principle, for example:
+i.	
+if the supporting structure is in the open air and is not likely to be affected 
+by the fire in the building
+ii.	
+if the supporting structure is in a different compartment, with a fire-
+separating element (that has the higher standard of fire resistance) between 
+the supporting and the separated structure
+iii.	
+if a plant room on the roof needs greater fire resistance than the elements 
+of structure that support it.
+b.	
+If an element of structure forms part of more than one building or 
+compartment, that element should be constructed to the standard of the 
+higher of the relevant provisions.
+c.	
+If, due to the slope of the ground, one side of a basement is open at ground 
+level (allowing smoke to vent and providing access for firefighting) for elements 
+of structure in that storey it may be appropriate to adopt the standard of fire 
+resistance that applies to above-ground structures.
+d.	
+Although most elements of structure in a single storey building may not need 
+fire resistance, fire resistance is needed if one of the following applies to the 
+element.
+i.	
+It is part of, or supports, an external wall, and there is provision in the 
+guidance on requirement B4 to limit the extent of openings and other 
+unprotected areas in the wall.
+ii.	
+It is part of, or supports, a compartment wall, including a wall that is 
+common to two or more buildings.
+iii.	
+It supports a gallery.
+B27	 For the purposes of this paragraph, the ground storey of a building that has one or
+more basement storeys and no upper storeys may be considered as a single storey 
+building. The fire resistance of the basement storeys should be that specified for 
+basements.
+14	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B3  Limitations on the use of uninsulated glazed elements on escape routes. These
+limitations do not apply to glazed elements that satisfy the relevant insulation 
+criterion, see Table B1
+ 
+Position of glazed element
+Maximum total glazed area in parts of a building with access to:
+A single stair
+More than one stair
+Walls
+Door leaf
+Walls
+Door leaf
+Flats
+1.
+Within the enclosures of a protected 
+entrance hall or protected landing, or 
+within fire resisting separation shown in 
+Section 3, Diagram 3.4.
+Fixed fanlights 
+only
+Unlimited 
+above 1100mm 
+from floor
+Fixed fanlights 
+only
+Unlimited 
+above 1100mm 
+from floor
+Dwellinghouses
+2. Within either:
+Unlimited 
+above 1100mm 
+from floor or 
+pitch of the 
+stair
+Unlimited
+Unlimited 
+above 1100mm 
+from floor or 
+pitch of the 
+stair
+Unlimited
+a. the enclosures of a protected stairway
+b. fire resisting separation shown in
+Diagram 2.2.
+3. Within fire resisting separation either:
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+a. shown in Diagram 2.4
+b. described in paragraph 2.16b.
+4. Existing window between an attached/
+Unlimited
+Not applicable
+Unlimited
+Not applicable
+integral garage and the dwellinghouse.
+5. Adjacent to an external escape stair (see
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+paragraph 2.17 and Diagram 2.7) or roof 
+escape route (see paragraph 2.13).
+General (except dwellinghouses)
+6. Between residential/sleeping
+Nil
+Nil
+Nil
+Nil
+accommodation and a common escape 
+route (corridor, lobby or stair).
+7. Between a protected stairway(1) and either:
+Nil
+25% of door 
+area
+Unlimited 
+above 
+1100mm(2)
+50% of door 
+area
+a.	the accommodation
+b.	a corridor that is not a protected
+corridor other than in item 6 above.
+8. Between either:
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+a.	a protected stairway(1) and a protected
+lobby or protected corridor
+b.	accommodation and a protected lobby
+other than in item 6 above.
+9. Between the accommodation and a
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+protected corridor that forms a dead end, 
+other than in item 6 above.
+10. Between accommodation and any other
+Not applicable
+Not applicable
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+corridor, or sub-dividing corridors, other 
+than in item 6 above.
+11. Beside an external escape route.
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 1100mm 
+from floor
+Approved document B 	
+15
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B3  Continued
+Position of glazed element
+Maximum total glazed area in parts of a building with access to:
+A single stair
+More than one stair
+Walls
+Door leaf
+Walls
+Door leaf
+12. Beside an external escape stair (see
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+paragraph 3.68 and Diagram 3.11) or roof 
+escape route (see paragraph 3.30).
+NOTES:
+Items 1 and 8 apply also to single storey buildings.
+Fire resisting glass should be marked with the name of the manufacturer and the name of the product.
+Further guidance can be found in A Guide to Best Practice in the Specification and Use of Fire-resistant Glazed 
+Systems published by the Glass and Glazing Federation.
+1.	 If the protected stairway is also a protected shaft or a firefighting stair (see Section 15), there may be further
+restrictions on the use of glazed elements.
+2.	Measured vertically from the landing floor level or the stair pitch line.
+3.	The 100mm limit is intended to reduce the risk of fire spreading from a floor covering.
+Appendix C: Fire doorsets
+Pages 136 	Replace the whole of Appendix C: Fire doorsets with the following.
+to 139
+C1	
+All fire doorsets should have the performance shown in Table C1, based on one of 
+the following.
+a.	
+Fire doorsets should be classified in accordance with BS EN 13501-2, as 
+determined with reference to Commission Decision 2000/367/EC regarding the 
+classification of the resistance to fire performance of construction products, 
+construction works and parts thereof, when tested to the relevant European 
+method from the following.
+i.	
+BS EN 1634-1.
+ii.	
+BS EN 1634-2.
+iii.	
+BS EN 1634-3.
+b.	
+Fire doorsets may have their performance on fire resistance assessed, following 
+the recommendations of paragraphs B1 to B5, as being capable of meeting a 
+performance classification. In those situations the performance classifications 
+given in Table C1 may be used, presented in terms of integrity, for a period of 
+minutes, when tested to a relevant standard.
+c.	
+As determined with reference to European Parliament and Council Directive 
+95/16/EC (which applies to lifts that permanently serve buildings and 
+constructions and specified safety components) on the approximation of 
+laws of Member States relating to lifts (‘Lifts Directive’) implementing the Lifts 
+Regulations 1997 (SI 1997/831) and calling upon the harmonised standard 
+BS EN 81-58.
+16	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+C2	 The performance requirement is in terms of integrity (E) for a period of minutes. An
+additional classification of Sa is used for all doors where restricted smoke leakage at 
+ambient temperatures is needed.
+C3	 The requirement is for test exposure from each side of the doorset separately. The
+exception is lift doors, which are tested from the landing side only.
+C4	 Any test evidence used to verify the fire resistance rating of a doorset or shutter
+should be checked to ensure both of the following.
+a.	
+It adequately demonstrates compliance.
+b.	
+It is applicable to the complete installed assembly. Small differences in 
+detail might significantly affect the rating and should be tested or assessed in 
+accordance with paragraphs B1 to B5.
+Until relevant harmonised product standards are published, for the purposes of 
+meeting the Building Regulations, products or systems tested in accordance with 
+BS EN 1634-1 (with or without pre-fire test mechanical conditioning) or assessed as 
+being capable of meeting a performance classification based on the recommendations 
+of paragraphs B1 to B5 that achieve the minimum performance in Table C1 will be 
+deemed to satisfy the provisions.
+C5	 All fire doorsets, including to flat entrances and between a dwellinghouse and an
+integral garage, should be fitted with a self-closing device, except for all of the 
+following.
+a.	
+Fire doorsets to cupboards.
+b.	
+Fire doorsets to service ducts normally locked shut.
+c.	
+Fire doorsets within flats and dwellinghouses.
+C6	 If a self-closing device would be considered to interfere with the normal approved
+use of the building, self-closing fire doors may be held open by one of the following.
+a.	
+A fusible link, but not if the doorset is in an opening provided as a means of 
+escape unless it complies with paragraph C7.
+b.	
+An automatic release mechanism activated by an automatic fire detection and 
+alarm system.
+c.	
+A door closer delay device.
+C7	 Two fire doorsets may be fitted in the same opening if each door is capable
+of closing the opening, so the total fire resistance is the sum of their individual 
+resistances. If the opening is provided as a means of escape, both fire doorsets 
+should be self-closing.
+If one fire doorset is capable of being easily opened by hand and has a minimum of 
+30 minutes’ fire resistance, the other fire doorset should comply with both of the 
+following.
+a.	
+Be fitted with an automatic self-closing device.
+b.	
+Be held open by a fusible link.
+Approved document B 	
+17
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+C8	 Fire doorsets often do not provide any significant insulation. Unless providing both
+integrity and insulation in accordance with Appendix B, Table B1, a maximum of 25% 
+of the length of a compartment wall should consist of door openings.
+Where it is practicable to maintain a clear space on both sides of the doorway, the 
+above percentage may be greater.
+C9	 Rolling shutters should be capable of manual opening and closing for firefighting
+purposes (see Section 15). Rolling shutters across a means of escape should only 
+be released by a heat sensor, such as a fusible link or electric heat detector, in the 
+immediate vicinity of the door.
+Unless a shutter is also intended to partially descend as part of a boundary to a 
+smoke reservoir, shutters across a means of escape should not be closed by smoke 
+detectors or a fire alarm system.
+C10	 Unless shown to be satisfactory when tested as part of a fire doorset assembly, the
+essential components of any hinge on which a fire door is hung should be made 
+entirely from materials that have a minimum melting point of 800°C.
+C11	 Except for doorsets listed in paragraph C12, all fire doorsets should be marked with
+one of the following fire safety signs, complying with BS 5499-5, as appropriate.
+a.	
+To be kept closed when not in use – mark ‘Fire door keep shut’.
+b.	
+To be kept locked when not in use – mark ‘Fire door keep locked shut’.
+c.	
+Held open by an automatic release mechanism or free swing device – mark 
+‘Automatic fire door keep clear’.
+C12	 The following fire doorsets are not required to comply with paragraph C11.
+a.	
+Doors to and within flats and dwellinghouses.
+b.	
+Bedroom doors in ‘residential (other)’ (purpose group 2(b)) premises.
+c.	
+Lift entrance/landing doors.
+C13	 The performance of some doorsets set out in Table C1 is linked to the minimum
+periods of fire resistance for elements of structure given in Tables B1 and B2. 
+Limitations on the use of uninsulated glazing in fire doorsets are given in Table B3.
+C14	 Recommendations for the specification, design, construction, installation and
+maintenance of fire doorsets constructed with non-metallic door leaves are given in 
+BS 8214.
+Guidance on timber fire resisting doorsets, in relation to the new European test 
+standard, may be found in Timber Fire Resisting Doorsets: Maintaining Performance 
+Under the New European Test Standard published by the Timber Research and 
+Development Association (TRADA).
+Guidance for metal doors is given in Code of Practice for Fire Resisting Metal 
+Doorsets published by the Door and Shutter Manufacturers’ Association (DSMA).
+C15	 Hardware used on fire doors can significantly affect their performance in a fire.
+Notwithstanding the guidance in this approved document, guidance is available 
+in Hardware for Fire and Escape Doors published by the Door and Hardware 
+Federation (DHF) and Guild of Architectural Ironmongers (GAI).
+18	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table C1  Provisions for fire doorsets
+Position of doorset
+Minimum fire resistance of doorset in terms of 
+integrity (minutes) when tested and classified to the 
+relevant European standard(1) or assessed following the 
+recommendations of paragraph B1 to B5 and C1(2)
+1.
+In a compartment wall separating buildings
+Same as for the wall in which the door is fitted, but a 
+minimum of 60 minutes
+2.
+In a compartment wall:
+a. if it separates a flat from a space in common
+30 minutes Sa
+(3)
+use
+b. enclosing a protected shaft forming a stairway
+30 minutes Sa
+(3)
+or an evacuation shaft wholly or partly 
+above the adjoining ground in a building 
+used for flats, other residential, assembly and 
+recreation, or office purposes
+c. enclosing a protected shaft forming a stairway
+Half the period of fire resistance of the wall in which it is 
+fitted, but 30 minutes minimum and with suffix Sa
+or an evacuation shaft not described in (b) 
+above
+(3)
+d. enclosing a protected shaft forming a lift or
+Half the period of fire resistance of the wall in which it is 
+fitted, but 30 minutes minimum
+service shaft
+e. not described in (a), (b), (c) or (d) above.
+Same as for the wall in which it is fitted, but add Sa
+(3) if the 
+door is used for progressive horizontal evacuation under 
+the guidance to requirement B1
+3.
+In a compartment floor
+Same as for the floor in which it is fitted
+4.
+Forming part of the enclosures of:
+a. a protected stairway or evacuation shaft
+30 minutes Sa
+(3)
+(except as described in item 9 or 11(b) below)
+b. a lift shaft (see paragraph 3.99b) that does not
+30 minutes
+form a protected shaft in 2(b), (c) or (d) above.
+5.
+Forming part of the enclosure of:
+a. a protected lobby approach (or protected
+30 minutes Sa
+(3)
+corridor) to a stairway or an evacuation shaft.
+b. any other protected corridor
+20 minutes Sa
+(3)
+c. a protected lobby approach to a lift shaft
+30 minutes Sa
+(3)
+(paragraphs 3.102 to 3.104).
+6.
+Giving access to an external escape route
+30 minutes
+7.
+Sub-dividing:
+a. corridors connecting alternative exits
+20 minutes Sa
+(3)
+b. dead-end portions of corridors from the
+20 minutes Sa
+(3)
+remainder of the corridor.
+8.
+Any door within a cavity barrier
+30 minutes
+9.
+Any door that forms part of the enclosure to a 
+protected entrance hall or protected landing in 
+a flat
+20 minutes
+10.
+Any door that forms part of the enclosure:
+a. to a place of special fire hazard
+30 minutes
+b. to ancillary accommodation in care homes
+30 minutes
+(see paragraph 2.44 in Approved Document B 
+Volume 2).
+Approved document B 	
+19
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table C1  Continued
+Position of doorset
+Minimum fire resistance of doorset in terms of 
+integrity (minutes) when tested and classified to the 
+relevant European standard(1) or assessed following the 
+recommendations of paragraph B1 to B5 and C1(2)
+11.
+In a dwellinghouse:
+a. between a dwellinghouse and a garage
+30 minutes  Sa
+(3)
+b. forming part of the enclosures to a protected
+20 minutes
+stairway in a single family dwellinghouse
+c. within any fire resisting construction in a
+20 minutes
+dwellinghouse not described elsewhere in this 
+table.
+NOTES:
+1. Classified in accordance with BS EN 13501-2. In the European classification ‘E’ is the resistance to fire in terms of
+integrity. Products or systems cannot typically assume a European class unless they have been tested and classified 
+accordingly.
+2. When assessed as being capable of meeting a performance classification, products or systems should follow the
+relevant test standards to indicate their fire resistance performance in terms of integrity for a period of minutes, 
+when following the recommendations of paragraphs B1 to B5.
+3.	Unless pressurisation techniques that comply with BS EN 12101-6 are used, these doors should also be evidenced to
+match in performance the additional Sa classification when tested to BS EN 1634-3.
+Appendix F: Standards referred to
+British standards
+Page 150	 Delete the section on BS 476 Fire tests on building materials and structures.
+Appendix G: Documents referred to
+Other documents
+Association for Specialist Fire Protection (ASFP)
+Page 152	 Delete the following publication.
+ASFP Blue Book British Standard version – Fire Resisting Ductwork, Tested to BS 476 
+Part 24, Third Edition.
+Index
+Page 155	 In the index entry for British standards, delete the following sub-entries.
+BS 476-20 to 21  Table B3
+BS 476-22  Table B3, Appendix C1, Table C1
+BS 476-23 to 24  Table B3
+BS 476-31.1  Table C1
+20	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+The Building Regulations 2010
+Approved Document B: Fire safety
+Volume 2 – Buildings other than dwellings 
+2019 edition incorporating the 2020, 2022, 
+2025 and 2026 amendments
+List of amendments
+Taking effect on 2 September 2029
+Appendix B: Performance of materials, products and structures
+Pages 136 	Replace the whole of Appendix B: Performance of materials, products and
+to 150	
+structures with the following.
+Introduction
+B1	
+The guidance in this document is given in terms of performance classifications in 
+relation to European Standards. In such cases, it will be necessary to demonstrate 
+that a system or product can meet the relevant performance classification. This will 
+be achieved if the system or product complies with one of the following.
+a.	
+They should be in accordance with a specification or design that has been 
+shown by specific test(s) to be capable of meeting that performance 
+classification.
+b.	
+They should have been designed by using relevant design standards in order to 
+meet that performance classification.
+c.	
+They should have been assessed by applying relevant test evidence, in lieu 
+of carrying out a specific test, as being capable of meeting that performance 
+classification.
+NOTE: Some products are subject to Classification Without Further Testing (CWFT). 
+For the purposes of this approved document, such products can be considered 
+to have been shown to be capable of meeting a performance specification as per 
+paragraph B1a.
+B2	 Any test evidence used to demonstrate the fire performance classification of a
+product or system should be carefully checked to ensure that it is applicable to the 
+intended use. Small differences in detail, such as fixing method, joints, dimensions, 
+the introduction of insulation materials and air gaps (ventilated or not), might 
+significantly affect the performance and should be tested or assessed in accordance 
+with paragraph B1.
+Approved document B 	
+21
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+B3	 Assessments should not be regarded as a way to avoid a test where one is
+necessary. Assessments should only be carried out where sufficient relevant test 
+evidence is available. Relevant test evidence is unlikely to be provided by test 
+standards which have different classification criteria.
+B4	 Where it is proposed to assess the classification of a product or system in lieu of
+carrying out a specific test (as in paragraph B1c), this should be done in accordance 
+with the relevant standard for extended application for the test in question and 
+should include details of the test evidence that has been used to support the 
+assessment.
+For performance classifications where there is no specific standard for extended 
+application, assessment reports should be produced in accordance with the 
+principles of BS EN 15725 and should include details of the test evidence that has 
+been used to support the assessment. In cases where the end use application is not 
+covered by the extended application standard and an assessment is the only other 
+suitable approach, then further information on best practice is provided in the 
+Passive Fire Protection Forum’s Guide to Undertaking Technical Assessments of the 
+Fire Performance of Construction Products Based on Fire Test Evidence. The same 
+principle should be followed for assessments as described in paragraph B2.
+NOTE: Regulation 7(2) limits components used in or on the external walls of 
+certain buildings to materials achieving class A2-s1, d0 or class A1 (see Section 12). 
+Assessments cannot be used to demonstrate compliance with this requirement.
+B5	 Tests and assessments should be carried out by organisations with the necessary
+expertise. For example, organisations listed as ‘notified bodies’ in accordance with 
+the European Construction Products Regulation or laboratories accredited by the 
+United Kingdom Accreditation Service (UKAS) for the relevant test standard can be 
+assumed to have the necessary expertise.
+NOTE: Standard fire tests do not directly measure fire hazard. They measure or 
+assess the response of a material or system to exposure to one or more aspects 
+of fire conditions. Performance in fire tests is only one of a number of factors that 
+should be taken into account.
+Reaction to fire
+B6	 Reaction to fire relates to the degree to which a product will contribute, by its own
+decomposition, to a fire under specified conditions. Products, other than floorings, 
+are classified as A1, A2, B, C, D, E or F (with class A1 being the highest performance 
+and F being the lowest) in accordance with BS EN 13501-1. Class F is assigned when a 
+product fails to attain class E. Untested products cannot be classified in accordance 
+with BS EN 13501-1.
+Materials covered by the Classification Without Further Testing (CWFT) process can be 
+found by accessing the European Commission’s website https://eur-lex.europa.eu/.
+B7	 The classes of reaction to fire performance of A2, B, C, D and E are accompanied
+by additional classifications related to the production of smoke (s1, s2, s3), with s1 
+indicating the lowest production, and/or flaming droplets/particles (d0, d1, d2), with 
+d0 indicating the lowest production.
+22	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+NOTE: When a classification includes s3, d2 this means that there is no limit set for 
+smoke production and/or flaming droplets/particles.
+B8	 To reduce the testing burden on manufacturers, BS EN 13238 defines a number of
+standard substrates that produce test results representative of different end use 
+applications. The classification for reaction to fire achieved during testing is only 
+valid when the product is used within this direct field of application, i.e. when the 
+product is fixed to a substrate of that class in its end use. The standard substrate 
+selected for testing should take account of the intended end use applications (field 
+of application) of the product and represent end use substrates that have a density 
+of a minimum of 75% of the standard substrate’s nominal density.
+B9	 Standard substrates include gypsum plasterboard (BS EN 520) with a density of
+700+/-100kg/m3, calcium silicate board (BS EN 14306) 870+/-50kg/m3 and fibre-
+cement board 1800+/-200kg/m3.
+NOTE: Standard calcium silicate board is not representative of gypsum plasterboard 
+end use (due to the paper layer), but would be representative of most gypsum 
+plasters (with densities of more than 650kg/m3).
+NOTE: Classifications based on tests using a plasterboard substrate would also be 
+acceptable for products bonded to a gypsum plaster end use substrate.
+Thermoplastic materials
+B10	 Thermoplastic material is any synthetic polymeric material that has a softening point
+below 200°C if tested to BS EN ISO 306 Method A120. Products formed from these 
+materials cannot always be classified in the normal way. In those circumstances the 
+following approach can be followed.
+B11	 Thermoplastic materials used for window glazing, rooflights and lighting diffusers within
+suspended ceilings do not need to meet the criteria within paragraph B18 onwards, if 
+the guidance to requirements B2 and B4 is followed.
+B12	 For the purposes of requirements B2 and B4, thermoplastic materials should be
+classified as TP(a) rigid, TP(a) flexible or TP(b), as follows:
+a.	
+TP(a) rigid
+i.	
+rigid solid uPVC sheet
+ii.	
+solid (as distinct from double- or multi-skinned) polycarbonate sheet a 
+minimum of 3mm thick
+iii.	
+any other rigid thermoplastic product, a specimen of which (at the thickness 
+of the product as put on the market), when tested to BS 2782-0 Method 
+508A, performs so that both:
+•	
+the test flame extinguishes before the first mark
+•	
+the duration of flaming or afterglow does not exceed 5 seconds 
+following removal of the burner.
+Approved document B 	 23
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+b.	
+TP(a) flexible
+Flexible products a maximum of 1mm thick that comply with the Type 
+C requirements of BS 5867-2 when tested to BS 5438 Test 2 with the 
+flame applied to the surface of the specimens for 5, 15, 20 and 30 seconds 
+respectively, but excluding the cleansing procedure; and
+c.	
+TP(b)
+i.	
+rigid solid polycarbonate sheet products a maximum of 3mm thick, or multi-
+skinned polycarbonate sheet products that do not qualify as TP(a) by test
+ii.	
+other products which, when a specimen of the material between 1.5 and 
+3mm thick is tested in accordance with BS 2782-0 Method 508A, have a 
+maximum rate of burning of 50mm/minute.
+NOTE: If it is not possible to cut or machine a 3mm thick specimen from the 
+product, then a 3mm test specimen can be moulded from the same material as that 
+used to manufacture the product.
+B13	 A thermoplastic material alone when used as a lining to a wall or ceiling cannot be
+assumed to protect a substrate. The surface rating of both thermoplastic material 
+and substrate must therefore meet the required classification.
+If, however, the thermoplastic material is fully bonded to a non-thermoplastic 
+substrate, then only the surface rating of the composite needs to meet the required 
+classification.
+Roofs
+B14 	 Performance of the resistance of roofs to external fire exposure is measured in
+terms of penetration through the roof construction and the spread of flame over its 
+surface.
+B15 	 Roof constructions are classified within the European system as BROOF(t4), CROOF(t4),
+DROOF(t4), EROOF(t4) or FROOF(t4) in accordance with BS EN 13501-5. BROOF(t4) indicates the 
+highest performance and FROOF(t4) the lowest.
+B16	 BS EN 13501-5 refers to four separate roof tests. The suffix (t4) used in paragraph B15
+indicates that Test 4 is to be used for the purposes of this approved document.
+B17	 This document uses the European classification system for roof covering set
+out in BS EN 13501-5; however, there may be some products or systems whose 
+performance will need to be assessed based on the recommendations of paragraphs 
+B1 to B5 as being capable of meeting that performance classification. 
+Fire resistance
+B18	 Common to all of the provisions of Part B of the Building Regulations is the property
+of fire resistance. Fire resistance is a measure of one or more of the following 
+criteria.
+a.	
+Resistance to collapse (loadbearing capacity), which applies to loadbearing 
+elements only, denoted R in the European classification of the resistance to fire 
+performance.
+24	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+b.	
+Resistance to fire penetration (integrity), denoted E in the European 
+classification of the resistance to fire performance.
+c.	
+Resistance to the transfer of excessive heat (insulation), denoted I in the 
+European classification of the resistance to fire performance.
+B19	 The standards of fire resistance necessary for a particular building are based on
+assumptions about the severity of fires and the consequences should an element 
+fail. Fire severity is estimated in very broad terms from the use of the building (its 
+purpose group), on the assumption that the building contents (which constitute the 
+fire load) are similar for buildings with the same use.
+B20	 Because the use of buildings may change, a precise estimate of fire severity based
+on the fire load due to a particular use may be misleading. Therefore if a fire 
+engineering approach of this kind is adopted, the likelihood that the fire load may 
+change in the future needs to be considered.
+B21	 Performance in terms of the fire resistance to be achieved by elements of structure,
+doors and other forms of construction is classified in accordance with one of the 
+following.
+a.	
+BS EN 13501-2.
+b.	
+BS EN 13501-3.
+c.	
+BS EN 13501-4.
+B22	 Fire resistance is measured in minutes. This relates to time elapsed in a standard test
+and should not be confused with real time.
+B23	 The fire resistance necessary for different circumstances is set out in the following
+tables.
+a.	
+Table B1 gives the specific requirements for each element of structure.
+b.	
+Table B2 sets out the minimum periods of fire resistance for elements of 
+structure.
+c.	
+Table B3 sets out limitations on the use of uninsulated fire resisting glazed 
+elements.
+B24	 This document uses the European classification system (REI) for fire resistance set
+out in BS EN 13501-2 to 4. Fire resistance is expressed as REI X, where X is the period 
+of fire resistance in minutes in terms of loadbearing capacity (R), integrity (E) and 
+insulation (I). Products or systems cannot typically assume a European class unless 
+they have been tested and classified accordingly.
+B25	 Products or systems achieving the European classification (REI) should be specified
+wherever possible. However, there may be some products or systems that 
+have been assessed as being capable of meeting a fire resistance performance 
+classification. When assessed, products or systems should follow the relevant test 
+standards to indicate their fire resistance performance in terms of loadbearing 
+capacity, integrity and insulation based on the recommendations of paragraphs B1 to 
+B5. In those situations, the performance classifications given in Table B1 and Table B2 
+may be used.
+Approved document B 	 25
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B1  Specific provisions of the test for fire resistance of elements of structure, etc.
+Part of building
+Minimum provisions when tested and classified 
+to the relevant European standard (minutes)(1) 
+or assessed following the recommendations of 
+paragraphs B1 to B5 (minutes)(2)
+Type of exposure
+Loadbearing 
+capacity(3)
+Integrity
+Insulation
+1.	 Structural frame, beam or column.
+See Table B2
+Not applicable
+Not applicable
+Exposed faces
+2.	 Loadbearing wall
+	
+(for a wall which is also described in 
+any of the following items, the more 
+onerous guidance should be applied).
+See Table B2 
+Not applicable 
+Not applicable 
+Each side 
+separately
+3.	 Floors(4)
+a.	 between a shop and flat above
+60 min or 
+see Table B2 
+(whichever is 
+greater)
+60 min or 
+see Table B2 
+(whichever is 
+greater)
+60 min or 
+see Table B2 
+(whichever is 
+greater)
+From underside(5)
+b.	 in upper storey of two storey
+30 min 
+15 min 
+15 min 
+From underside (5)
+dwellinghouse (but not over garage 
+or basement)
+c.	 any other floor – including
+See Table B2
+See Table B2
+See Table B2
+From underside (5)
+compartment floors.
+4.	 Roofs
+a.	 any part forming an escape route
+30 min 
+30 min 
+30 min 
+From underside (5)
+b.	 any roof that performs the function
+See Table B2
+See Table B2
+See Table B2
+From underside (5)
+of a floor.
+5.	 External walls
+a.	 any part a maximum of 1000mm from
+any point on the relevant boundary(6)
+See Table B2
+See Table B2
+See Table B2
+Each side 
+separately
+b.	 any part a minimum of 1000mm from
+the relevant boundary(6)
+See Table B2 
+See Table B2 
+15 min 
+From inside the 
+building
+c.	 any part beside an external escape
+30 min
+30 min
+No 
+provision(7) (8)
+From inside the 
+building
+route (Section 2, Diagram 2.7 of 
+Approved Document B Volume 1 and 
+Section 3, Diagram 3.4).
+26	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B1  Continued
+Part of building
+Minimum provisions when tested and classified 
+to the relevant European standard (minutes)(1) 
+or assessed following the recommendations of 
+paragraphs B1 to B5 (minutes)(2)
+Type of exposure
+Loadbearing 
+capacity(3)
+Integrity
+Insulation
+6.	 Compartment walls
+Separating either:
+a.	 a flat from any other part of the
+60 min or 
+see Table B2 
+(whichever is 
+less)
+60 min or 
+see Table B2 
+(whichever is 
+less)
+60 min or 
+see Table B2 
+(whichever is 
+less)
+Each side 
+separately
+building (see paragraph 7.1 of 
+Approved Document B Volume 1)
+b.	 occupancies.
+60 min or 
+see Table B2 
+(whichever is 
+less)
+60 min or 
+see Table B2 
+(whichever is 
+less)
+60 min or 
+see Table B2 
+(whichever is 
+less)
+Each side 
+separately
+7.	 Compartment walls
+See Table B2
+See Table B2
+See Table B2
+Each side 
+separately
+(other than in item 6 or item 10).
+8.	 Protected shafts
+	
+Excluding any firefighting shaft:
+a.	 any glazing described in Section 8,
+Not applicable
+30 min
+No provision(8)
+Each side 
+separately
+Diagram 8.4
+b.	 any other part between the shaft
+30 min
+30 min
+30 min
+Each side 
+separately
+and a protected lobby/corridor 
+described in Section 8, Diagram 8.4
+c.	 any part not described in (a) or (b)
+See Table B2
+See Table B2
+See Table B2
+Each side 
+separately
+above.
+9.	 Enclosure (that does not form
+part of a compartment wall or a 
+protected shaft) to a:
+a.	 protected stairway
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+b.	 lift shaft.
+30 min
+30 min
+30 min
+Each side 
+separately
+10. Wall or floor separating an
+30 min
+30 min
+30 min(8)
+From garage
+side
+attached or integral garage from a 
+dwellinghouse
+11. 	 Fire resisting construction in
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+dwellinghouses not described 
+elsewhere
+12.	 Firefighting shafts
+120 min
+120 min
+120 min
+From side remote 
+from shaft
+a.	 construction that separates
+60 min
+60 min
+60 min
+From shaft side
+firefighting shaft from rest of 
+building
+b.	 construction that separates
+60 min
+60 min
+60 min
+Each side 
+separately
+firefighting stair, firefighting lift shaft 
+and firefighting lobby.
+Approved document B 	 27
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B1  Continued
+Part of building
+Minimum provisions when tested and classified  
+to the relevant European standard (minutes)(1)  
+or assessed following the recommendations of 
+paragraphs B1 to B5 (minutes)(2)
+Type of exposure
+Loadbearing 
+capacity(3)
+Integrity
+Insulation
+13.	 Enclosure (that is not a compartment
+wall or described in item 8) to a:
+a.	 protected lobby
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+b.	 protected corridor.
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+14.	 Sub-division of a corridor
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+15.	 Fire resisting construction
+a.	 construction that encloses places of
+30 min
+30 min
+30 min
+Each side 
+separately
+special fire hazard
+b.	 construction between store rooms
+30 min
+30 min
+30 min
+Each side 
+separately
+and sales area in shops
+c.	 fire resisting sub-division
+30 min
+30 min
+30 min
+Each side 
+separately
+d.	 construction that encloses bedrooms
+30 min
+30 min
+30 min
+Each side 
+separately
+and ancillary accommodation in care 
+homes.
+16.	 Enclosure in a flat to a protected
+30 min
+30 min
+30 min(8)
+Each side 
+separately
+entrance hall, or to a protected 
+landing.
+17.	 Cavity barrier
+Not applicable 
+30 min 
+15 min 
+Each side 
+separately
+18.	 Ceiling see see paragraph 2.5,
+Not applicable
+30 min
+30 min
+From underside
+Diagram 2.3 of Approved Document 
+B Volume 1 and paragraph 9.5 and 
+Diagram 9.3.
+19.	 Duct described in paragraph 9.17e.
+Not applicable
+30 min
+No provision
+From outside
+20.	Casing around a drainage system
+Not applicable
+30 min
+No provision
+From outside
+described in Diagram 9.1 of Approved 
+Document B Volume 1.
+21.	 Flue walls described in Diagram 10.4.
+Not applicable
+Half the period 
+given in Table 
+B2 for the 
+compartment 
+wall/floor
+Half the period 
+given in Table 
+B2 for the 
+compartment 
+wall/floor
+From outside
+22. Construction described in note
+Not applicable
+30 min
+30 min
+From underside
+(a) to paragraph 12.9 of Approved 
+Document B Volume 1.
+28	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B1  Continued
+Part of building
+Minimum provisions when tested and classified  
+to the relevant European standard (minutes)(1)  
+or assessed following the recommendations of 
+paragraphs B1 to B5 (minutes)(2)
+Type of exposure
+Loadbearing 
+capacity(3)
+Integrity
+Insulation
+23.	Fire doorsets
+See Table C1
+See  
+Appendix C
+NOTES:
+1. 	Classified in accordance with BS EN 13501-2, BS EN 13501-3 or BS EN 13501-4. In the European classification ‘R’ is
+the resistance to fire in terms of loadbearing capacity, ‘E’ is the resistance to fire in terms of integrity, ‘I’ is the 
+resistance to fire in terms of insulation. Products or systems cannot typically assume a European class unless they 
+have been tested and classified accordingly.
+2. When assessed as being capable of meeting a performance classification, products or systems should follow the
+relevant test standards to indicate their fire resistance performance in terms of loadbearing capacity, integrity or 
+insulation for a period of minutes, when following the recommendations of paragraphs B1 to B5.
+3.	Applies to loadbearing elements only (see paragraph B18).
+4.	Guidance on increasing the fire resistance of existing timber floors is given in BRE Digest 208.
+5.	Only if a suspended ceiling meets the appropriate provisions should it be relied on to add to the fire resistance of
+the floor.
+6.	Such walls may contain areas that do not need to be fire resisting (unprotected areas). See Section 13.
+7.	Unless needed as part of a wall in item 5a or 5b.
+8.	Except for any limitations on uninsulated glazed elements given in Table B3.
+Approved document B 	 29
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B2  Minimum periods of fire resistance 
+ 
+Purpose group of building
+Minimum periods of fire resistance(1) (minutes) in a:
+Basement storey* 
+including floor over
+Ground or upper storey
+Depth (m) of the lowest 
+basement
+Height (m) of top floor above ground, in a building or 
+separated part of a building
+More than 
+10
+Up to 10
+Up to 5
+Up to 11
+Up to 18
+Up to 30
+More than 
+30
+1.	 Residential:
+a.	 Block of flats
+– without sprinkler
+90 min
+60 min
+30 min† 
+60 min+§
+Not 
+permitted(2)
+Not 
+permitted(2)
+Not 
+permitted(2)
+system
+– with sprinkler system(3) 90 min 
+60 min
+30 min†
+60 min+§
+60 min+§
+90 min+
+120 min+
+b. and c. Dwellinghouse
+Not 
+applicable(4)
+30 min*†
+30 min†
+60 min(5)
+60 min(5)
+Not 
+applicable(4)
+Not 
+applicable(4)
+2.	 Residential
+a.	 Institutional 
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+b.	 Other residential
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+3.	 Office:
+– without sprinkler
+90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+30 min†
+30 min†
+60 min
+120 min‡
+4.	 Shop and commercial:
+– without sprinkler
+90 min
+60 min
+60 min
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+60 min
+60 min
+60 min
+120 min‡
+5.	 Assembly and
+recreation:
+– without sprinkler
+90 min
+60 min
+60 min
+60 min
+60 min
+90 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 60 min
+60 min
+30 min†
+60 min
+60 min
+60 min
+120 min‡
+6.	 Industrial:
+– without sprinkler
+120 min
+90 min
+60 min
+90 min
+90 min
+120 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+7.	 Storage and other non-
+residential:
+a.	 any building or part not
+described elsewhere:
+– without sprinkler
+120 min
+90 min
+60 min
+90 min
+90 min
+120 min
+Not 
+permitted(6)
+system
+– with sprinkler system(3) 90 min
+60 min
+30 min†
+60 min
+60 min
+90 min
+120 min‡
+30	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B2  Continued
+Purpose group of building
+Minimum periods of fire resistance(1) (minutes) in a:
+Basement storey* 
+including floor over
+Ground or upper storey
+Depth (m) of the lowest 
+basement
+Height (m) of top floor above ground, in a building or 
+separated part of a building
+More than 
+10
+Up to 10
+Up to 5
+Up to 11
+Up to 18
+Up to 30
+More than 
+30
+b. 	 car park for light vehicles:
+i. open sided car park(7)
+Not 
+applicable
+Not 
+applicable
+15 min†#
+15 min†#(8)
+15 min†#(8)
+15 min†#(8)
+60 min
+ii. any other car park
+90 min
+60 min
+30 min†
+60 min
+60 min
+ 90 min
+120 min‡
+NOTES:
+For single storey buildings, the periods under the heading ‘Up to 5’ apply. If single storey buildings have basements, 
+for the basement storeys the period appropriate to their depth applies.
+*	 For the floor over a basement or, if there is more than one basement, the floor over the topmost basement, the 
+higher of the period for the basement storey and the period for the ground or upper storey applies.
+†	 For compartment walls that separate buildings, the period is increased to a minimum of 60 minutes.
++	 For any floor that does not contribute to the support of the building within a flat of more than one storey, the
+period is reduced to 30 minutes.	
+§	For flat conversions, refer to paragraphs 6.5 to 6.7 of Approved Document B Volume 1 regarding the acceptability
+of 30 minutes. 
+‡	 For elements that do not form part of the structural frame, the period is reduced to 90 minutes.
+#	 For elements that protect the means of escape, the period is increased to 30 minutes.
+1.	 Refer to note 1, Table B1 for the specific provisions of test.
+2.	Blocks of flats with a top storey more than 11m above ground level (see Diagram D6) should be fitted with a
+sprinkler system in accordance with Appendix E.
+NOTE: Sprinklers should be provided within the individual flats, they do not need to be provided in the common 
+areas such as stairs, corridors or landings when these areas are fire sterile. 
+3.	‘With sprinkler system’ means that the building is fitted throughout with an automatic sprinkler system in
+accordance with Appendix E.
+4.	Very large (with a top storey more than 18m above ground level or with a 10m deep basement) or unusual
+dwellinghouses are outside the scope of the guidance provided with regard to dwellinghouses. 
+5.	A minimum of 30 minutes in the case of three storey dwellinghouses, increased to 60 minutes minimum for
+compartment walls separating buildings.
+6.	Buildings within the ‘office’, ‘shop and commercial’, ‘assembly and recreation’, ‘industrial’ and ‘storage and other
+non-residential’ (except car parks for light vehicles) purpose groups (purpose groups 3 to 7(a)) require sprinklers 
+where there is a top storey more than 30m above ground level. 
+7.	The car park should comply with the relevant provisions in the guidance on requirement B3, Section 11.
+8.	For the purposes of meeting the Building Regulations, the following types of steel elements are deemed to have
+satisfied the minimum period of fire resistance of 15 minutes when tested to the European test method.
+i.	 Beams supporting concrete floors, maximum Hp/A=230m-1 operating under full design load.
+ii.	 Free-standing columns, maximum Hp/A=180m-1 operating under full design load.
+iii.	Wind bracing and struts, maximum Hp/A=210m-1 operating under full design load.
+Guidance is also available in BS EN 1993-1-2.
+Approved document B 	
+31
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Application of the fire resistance standards in Table B2
+B26	 The following guidance should be used when applying the fire resistance standards
+in Table B2.
+a.	
+If one element of structure supports or carries or gives stability to another, the 
+fire resistance of the supporting element should be no less than the minimum 
+period of fire resistance for the other element (whether that other element is 
+loadbearing or not). In some circumstances, it may be reasonable to vary this 
+principle, for example:
+i.	
+if the supporting structure is in the open air and is not likely to be affected 
+by the fire in the building
+ii.	
+if the supporting structure is in a different compartment, with a fire-
+separating element (that has the higher standard of fire resistance) between 
+the supporting and the separated structure
+iii.	
+if a plant room on the roof needs greater fire resistance than the elements 
+of structure that support it.
+b.	
+If an element of structure forms part of more than one building or 
+compartment, that element should be constructed to the standard of the 
+higher of the relevant provisions.
+c.	
+If, due to the slope of the ground, one side of a basement is open at ground 
+level (allowing smoke to vent and providing access for firefighting) for elements 
+of structure in that storey it may be appropriate to adopt the standard of fire 
+resistance that applies to above-ground structures.
+d.	
+Although most elements of structure in a single storey building may not need 
+fire resistance, fire resistance is needed if one of the following applies to the 
+element.
+i.	
+It is part of, or supports, an external wall, and there is provision in the 
+guidance on requirement B4 to limit the extent of openings and other 
+unprotected areas in the wall.
+ii.	
+It is part of, or supports, a compartment wall, including a wall that is 
+common to two or more buildings.
+iii.	
+It supports a gallery.
+B27	 For the purposes of this paragraph, the ground storey of a building that has one or
+more basement storeys and no upper storeys may be considered as a single storey 
+building. The fire resistance of the basement storeys should be that specified for 
+basements.
+32	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B3  Limitations on the use of uninsulated glazed elements on escape routes. These
+limitations do not apply to glazed elements that satisfy the relevant insulation 
+criterion, see Table B1
+ 
+Position of glazed element
+Maximum total glazed area in parts of a building with access to:
+A single stair
+More than one stair
+Walls
+Door leaf
+Walls
+Door leaf
+Flats
+1.
+Within the enclosures of a protected 
+entrance hall or protected landing, or 
+within fire resisting separation shown 
+in Section 3, Diagram 3.4 of Approved 
+Document B Volume 1.
+Fixed fanlights 
+only
+Unlimited 
+above 1100mm 
+from floor
+Fixed fanlights 
+only
+Unlimited 
+above 1100mm 
+from floor
+Dwellinghouses
+2. Within either:
+Unlimited 
+above 1100mm 
+from floor or 
+pitch of the 
+stair
+Unlimited
+Unlimited 
+above 1100mm 
+from floor or 
+pitch of the 
+stair
+Unlimited
+a. the enclosures of a protected stairway
+b. fire resisting separation shown in
+Diagram 2.2 of Approved Document B 
+Volume 1.
+3. Within fire resisting separation either:
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+a. shown in Diagram 2.4 of Approved
+Document B Volume 1
+b. described in paragraph 2.16b of
+Approved Document B Volume 1.
+4. Existing window between an attached/
+Unlimited
+Not applicable
+Unlimited
+Not applicable
+integral garage and the dwellinghouse.
+5. Adjacent to an external escape stair
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+(see paragraph 2.17 and Diagram 27 of 
+Approved Document B Volume 1) or 
+roof escape route (see paragraph 2.13 of 
+Approved Document B Volume 1).
+General (except dwellinghouses)
+6. Between residential/sleeping
+Nil
+Nil
+Nil
+Nil
+accommodation and a common escape 
+route (corridor, lobby or stair).
+7. Between a protected stairway(1) and either:
+Nil
+25% of door 
+area
+Unlimited 
+above 
+1100mm(2)
+50% of door 
+area
+a.	the accommodation
+b.	a corridor that is not a protected
+corridor other than in item 6 above.
+8. Between either:
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+a.	a protected stairway(1) and a protected
+lobby or protected corridor
+b.	accommodation and a protected lobby
+other than in item 6 above.
+9. Between the accommodation and a
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+protected corridor that forms a dead end, 
+other than in item 6 above.
+10. Between accommodation and any other
+Not applicable
+Not applicable
+Unlimited 
+above 100mm 
+from floor
+Unlimited 
+above 100mm 
+from floor
+corridor, or sub-dividing corridors, other 
+than in item 6 above.
+Approved document B 	 33
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table B3  Continued
+Position of glazed element
+Maximum total glazed area in parts of a building with access to:
+A single stair
+More than one stair
+Walls
+Door leaf
+Walls
+Door leaf
+11. Beside an external escape route.
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 1100mm 
+from floor
+Unlimited 
+above 1100mm 
+from floor
+12. Beside an external escape stair (see
+Unlimited
+Unlimited
+Unlimited
+Unlimited
+paragraph 3.32 and Diagram 3.4) or roof 
+escape route (see paragraph 2.32).
+NOTES:
+Items 1 and 8 apply also to single storey buildings.
+Fire resisting glass should be marked with the name of the manufacturer and the name of the product.
+Further guidance can be found in A Guide to Best Practice in the Specification and Use of Fire-resistant Glazed 
+Systems published by the Glass and Glazing Federation.
+1.	 If the protected stairway is also a protected shaft or a firefighting stair (see Section 17), there may be further
+restrictions on the use of glazed elements.
+2.	Measured vertically from the landing floor level or the stair pitch line.
+3.	The 100mm limit is intended to reduce the risk of fire spreading from a floor covering.
+Appendix C: Fire doorsets
+Pages 151 	 Replace the whole of Appendix C: Fire doorsets with the following.
+to 154
+C1	
+All fire doorsets should have the performance shown in Table C1, based on one of 
+the following.
+a.	
+Fire doorsets should be classified in accordance with BS EN 13501-2, as 
+determined with reference to Commission Decision 2000/367/EC regarding the 
+classification of the resistance to fire performance of construction products, 
+construction works and parts thereof, when tested to the relevant European 
+method from the following.
+i.	
+BS EN 1634-1.
+ii.	
+BS EN 1634-2.
+iii.	
+BS EN 1634-3.
+b.	
+Fire doorsets may have their performance on fire resistance assessed, following 
+the recommendations of paragraphs B1 to B5, as being capable of meeting a 
+performance classification. In those situations the performance classifications 
+given in Table C1 may be used, presented in terms of integrity, for a period of 
+minutes, when tested to a relevant standard.
+c.	
+As determined with reference to European Parliament and Council Directive 
+95/16/EC (which applies to lifts that permanently serve buildings and 
+constructions and specified safety components) on the approximation of 
+laws of Member States relating to lifts (‘Lifts Directive’) implementing the Lifts 
+Regulations 1997 (SI 1997/831) and calling upon the harmonised standard 
+BS EN 81-58.
+34	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+C2	 The performance requirement is in terms of integrity (E) for a period of minutes. An
+additional classification of Sa is used for all doors where restricted smoke leakage at 
+ambient temperatures is needed.
+C3	 The requirement is for test exposure from each side of the doorset separately. The
+exception is lift doors, which are tested from the landing side only.
+C4	 Any test evidence used to verify the fire resistance rating of a doorset or shutter
+should be checked to ensure both of the following.
+a.	
+It adequately demonstrates compliance.
+b.	
+It is applicable to the complete installed assembly. Small differences in 
+detail might significantly affect the rating and should be tested or assessed in 
+accordance with paragraphs B1 to B5.
+Until relevant harmonised product standards are published, for the purposes of 
+meeting the Building Regulations, products or systems tested in accordance with 
+BS EN 1634-1 (with or without pre-fire test mechanical conditioning) or assessed as 
+being capable of meeting a performance classification based on the recommendations 
+of paragraphs B1 to B5 that achieve the minimum performance in Table C1 will be 
+deemed to satisfy the provisions.
+C5	 All fire doorsets, including to flat entrances and between a dwellinghouse and an
+integral garage, should be fitted with a self-closing device, except for all of the 
+following.
+a.	
+Fire doorsets to cupboards.
+b.	
+Fire doorsets to service ducts normally locked shut.
+c.	
+Fire doorsets within flats and dwellinghouses.
+C6	 If a self-closing device would be considered to interfere with the normal approved
+use of the building, self-closing fire doors may be held open by one of the following.
+a.	
+A fusible link, but not if the doorset is in an opening provided as a means of 
+escape unless it complies with paragraph C7.
+b.	
+An automatic release mechanism activated by an automatic fire detection and 
+alarm system.
+c.	
+A door closer delay device.
+C7	 Two fire doorsets may be fitted in the same opening if each door is capable
+of closing the opening, so the total fire resistance is the sum of their individual 
+resistances. If the opening is provided as a means of escape, both fire doorsets 
+should be self-closing.
+If one fire doorset is capable of being easily opened by hand and has a minimum of 
+30 minutes’ fire resistance, the other fire doorset should comply with both of the 
+following.
+a.	
+Be fitted with an automatic self-closing device.
+b.	
+Be held open by a fusible link.
+Approved document B 	 35
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+C8	 Fire doorsets often do not provide any significant insulation. Unless providing both
+integrity and insulation in accordance with Appendix B, Table B1, a maximum of 25% 
+of the length of a compartment wall should consist of door openings.
+Where it is practicable to maintain a clear space on both sides of the doorway, the 
+above percentage may be greater.
+C9	 Rolling shutters should be capable of manual opening and closing for firefighting
+purposes (see Section 17). Rolling shutters across a means of escape should only 
+be released by a heat sensor, such as a fusible link or electric heat detector, in the 
+immediate vicinity of the door.
+Unless a shutter is also intended to partially descend as part of a boundary to a 
+smoke reservoir, shutters across a means of escape should not be closed by smoke 
+detectors or a fire alarm system.
+C10	 Unless shown to be satisfactory when tested as part of a fire doorset assembly, the
+essential components of any hinge on which a fire door is hung should be made 
+entirely from materials that have a minimum melting point of 800°C.
+C11	 Except for doorsets listed in paragraph C12, all fire doorsets should be marked with
+one of the following fire safety signs, complying with BS 5499-5, as appropriate.
+a.	
+To be kept closed when not in use – mark ‘Fire door keep shut’.
+b.	
+To be kept locked when not in use – mark ‘Fire door keep locked shut’.
+c.	
+Held open by an automatic release mechanism or free swing device – mark 
+‘Automatic fire door keep clear’.
+C12	 The following fire doorsets are not required to comply with paragraph C11.
+a.	
+Doors to and within flats and dwellinghouses.
+b.	
+Bedroom doors in ‘residential (other)’ (purpose group 2(b)) premises.
+c.	
+Lift entrance/landing doors.
+C13	 The performance of some doorsets set out in Table C1 is linked to the minimum
+periods of fire resistance for elements of structure given in Tables B1 and B2. 
+Limitations on the use of uninsulated glazing in fire doorsets are given in Table B3.
+C14	 Recommendations for the specification, design, construction, installation and
+maintenance of fire doorsets constructed with non-metallic door leaves are given in 
+BS 8214.
+Guidance on timber fire resisting doorsets, in relation to the new European test 
+standard, may be found in Timber Fire Resisting Doorsets: Maintaining Performance 
+Under the New European Test Standard published by the Timber Research and 
+Development Association (TRADA).
+Guidance for metal doors is given in Code of Practice for Fire Resisting Metal 
+Doorsets published by the Door and Shutter Manufacturers’ Association (DSMA).
+C15	 Hardware used on fire doors can significantly affect their performance in a fire.
+Notwithstanding the guidance in this approved document, guidance is available 
+in Hardware for Fire and Escape Doors published by the Door and Hardware 
+Federation (DHF) and Guild of Architectural Ironmongers (GAI).
+36	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table C1  Provisions for fire doorsets
+Position of doorset
+Minimum fire resistance of doorset in terms of 
+integrity (minutes) when tested and classified to the 
+relevant European standard(1) or assessed following the 
+recommendations of paragraph B1 to B5 and C1(2)
+1.
+In a compartment wall separating buildings
+Same as for the wall in which the door is fitted, but a 
+minimum of 60 minutes
+2.
+In a compartment wall:
+a. if it separates a flat from a space in common
+30 minutes Sa
+(3)
+use
+b. enclosing a protected shaft forming a stairway
+30 minutes Sa
+(3)
+or an evacuation shaft wholly or partly 
+above the adjoining ground in a building 
+used for flats, other residential, assembly and 
+recreation, or office purposes
+c. enclosing a protected shaft forming a stairway
+Half the period of fire resistance of the wall in which it is 
+fitted, but 30 minutes minimum and with suffix Sa
+or an evacuation shaft not described in (b) 
+above
+(3)
+d. enclosing a protected shaft forming a lift or
+Half the period of fire resistance of the wall in which it is 
+fitted, but 30 minutes minimum
+service shaft
+e. not described in (a), (b), (c) or (d) above.
+Same as for the wall in which it is fitted, but add Sa
+(3) if the 
+door is used for progressive horizontal evacuation under 
+the guidance to requirement B1
+3.
+In a compartment floor
+Same as for the floor in which it is fitted
+4.
+Forming part of the enclosures of:
+a. a protected stairway or evacuation shaft
+30 minutes Sa
+(3)
+(except as described in item 9 or 11(b) below)
+b. a lift shaft (see paragraph 5.34b) that does not
+30 minutes
+form a protected shaft in 2(b), (c) or (d) above.
+5.
+Forming part of the enclosure of:
+a. a protected lobby approach (or protected
+30 minutes Sa
+(3)
+corridor) to a stairway or an evacuation shaft.
+b. any other protected corridor
+20 minutes Sa
+(3)
+c. a protected lobby approach to a lift shaft
+30 minutes Sa
+(3)
+(paragraphs 5.37 to 5.39).
+6.
+Giving access to an external escape route
+30 minutes
+7.
+Sub-dividing:
+a. corridors connecting alternative exits
+20 minutes Sa
+(3)
+b. dead-end portions of corridors from the
+20 minutes Sa
+(3)
+remainder of the corridor.
+8.
+Any door within a cavity barrier
+30 minutes
+9.
+Any door that forms part of the enclosure to a 
+protected entrance hall or protected landing in 
+a flat
+20 minutes
+10.
+Any door that forms part of the enclosure:
+a. to a place of special fire hazard
+30 minutes
+b. to ancillary accommodation in care homes
+30 minutes
+(see paragraph 2.44).
+Approved document B 	 37
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010
+Table C1  Continued
+Position of doorset
+Minimum fire resistance of doorset in terms of 
+integrity (minutes) when tested and classified to the 
+relevant European standard(1) or assessed following the 
+recommendations of paragraph B1 to B5 and C1(2)
+11.
+In a dwellinghouse:
+a. between a dwellinghouse and a garage
+30 minutes  Sa
+(3)
+b. forming part of the enclosures to a protected
+20 minutes
+stairway in a single family dwellinghouse
+c. within any fire resisting construction in a
+20 minutes
+dwellinghouse not described elsewhere in this 
+table.
+NOTES:
+1. Classified in accordance with BS EN 13501-2. In the European classification ‘E’ is the resistance to fire in terms of
+integrity. Products or systems cannot typically assume a European class unless they have been tested and classified 
+accordingly.
+2. When assessed as being capable of meeting a performance classification, products or systems should follow the
+relevant test standards to indicate their fire resistance performance in terms of integrity for a period of minutes, 
+when following the recommendations of paragraphs B1 to B5.
+3.	Unless pressurisation techniques that comply with BS EN 12101-6 are used, these doors should also be evidenced to
+match in performance the additional Sa classification when tested to BS EN 1634-3.
+Appendix F: Standards referred to
+British standards
+Page 165	 Delete the section on BS 476 Fire tests on building materials and structures.
+Appendix G: Documents referred to
+Other documents
+Association for Specialist Fire Protection (ASFP)
+Page 167	 Delete the following publication.
+ASFP Blue Book British Standard version – Fire Resisting Ductwork, Tested to BS 476 
+Part 24, Third Edition.
+Index
+Page 170	 In the index entry for British standards, delete the following sub-entries.
+BS 476-20 to 24  Table B3
+BS 476-22  Appendix C1, Table C1
+BS 476-31.1  Table C1
+38	
+Amendments to the Approved Documents
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+List of Approved Documents
+The following documents have been published to give guidance on how to meet the Building 
+Regulations. You can find the date of the edition approved by the Secretary of State at www.gov.uk.
+Approved Document A
+Structure
+Approved Document L
+Conservation of fuel and power
+Volume 1: Dwellings
+Approved Document B
+Fire safety
+Volume 1: Dwellings
+Approved Document L
+Conservation of fuel and power
+Volume 2: Buildings other than dwellings
+Approved Document B
+Fire safety
+Volume 2: Buildings other than dwellings
+Approved Document M
+Access to and use of buildings
+Volume 1: Dwellings
+Approved Document C
+Site preparation and resistance to contaminants 
+and moisture
+Approved Document M
+Access to and use of buildings
+Volume 2: Buildings other than dwellings
+Approved Document D
+Toxic substances
+Approved Document O
+Overheating 
+Approved Document P
+Electrical safety – Dwellings
+Approved Document E
+Resistance to the passage of sound
+Approved Document F
+Ventilation
+Volume 1: Dwellings
+Approved Document Q
+Security – Dwellings
+Approved Document F
+Ventilation
+Volume 2: Buildings other than dwellings
+Approved Document R
+Infrastructure for electronic communications
+Volume 1: Physical infrastructure and network 
+connection for new dwellings
+Approved Document G
+Sanitation, hot water safety and water efficiency
+Approved Document R
+Infrastructure for electronic communications
+Volume 2: Physical infrastructure for high-speed 
+electronic communications networks
+Approved Document H
+Drainage and waste disposal
+Approved Document J
+Combustion appliances and fuel storage systems
+Approved Document S
+Infrastructure for the charging of 
+electric vehicles
+Approved Document K
+Protection from falling, collision and impact
+Approved Document T
+Toilet accommodation
+Approved Document 7
+Materials and workmanship
+O N L I N E  V E R S I O N
+
+O N L I N E  V E R S I O N
+The Building Regulations 2010, Approved Documents are available from:
+RIBA Books
+Online: www.ribabooks.com
+Telephone: (0)207 307 5355
+Email: sales@ribabooks.com
+© Crown copyright, 2024
+You may re-use this information (excluding logos) free of 
+charge in any format or medium, under the terms of the 
+Open Government Licence v3.
+Where we have identified any third-party copyright 
+information, you will need to obtain permission from the 
+copyright holders concerned. This publication is available for 
+download at www.gov.uk.
+To view this licence, visit www.nationalarchives.gov.uk/
+doc/open-government-licence/version/3/ or write to 
+the Information Policy Team, The National Archives, Kew, 
+London TW9 4DU or email psi@nationalarchives.gsi.gov.uk.
+Copyright in the typographical arrangement, excluding logos, 
+of the cover and internal page layouts of this publication 
+rests with the publisher.
+O N L I N E  V E R S I O N
