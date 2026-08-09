@@ -16,7 +16,83 @@ CORPUS_RAW_DIR = os.path.join(CORPUS_DIR, "raw")     # downloaded PDFs
 CORPUS_TEXT_DIR = os.path.join(CORPUS_DIR, "text")   # extracted text corpus
 
 # ─── Sentence-Transformer Model ─────────────────────────────────────
-MODEL_NAME = "all-MiniLM-L6-v2"
+# Set FIRE_SAFETY_MODEL to any of these keys (or a HuggingFace model id) to
+# switch. Window is what the encoder reads before truncating; clauses longer
+# than that are chunked and pooled rather than cut off (see CHUNK_* below).
+MODEL_REGISTRY = {
+    # Fast, small, and the weakest — kept so results in earlier reports can
+    # still be reproduced.
+    "mini":   {"id": "all-MiniLM-L6-v2",        "dim": 384,  "window": 256,  "size_mb": 90},
+    # Strong general-purpose sentence encoder.
+    "mpnet":  {"id": "all-mpnet-base-v2",       "dim": 768,  "window": 384,  "size_mb": 420},
+    # Default: better retrieval quality than mpnet and twice MiniLM's window,
+    # which matters because 16.8% of corpus clauses overflow 256 tokens.
+    "bge":    {"id": "BAAI/bge-base-en-v1.5",   "dim": 768,  "window": 512,  "size_mb": 440},
+    # Highest quality, noticeably slower and much larger.
+    "bge-lg": {"id": "BAAI/bge-large-en-v1.5",  "dim": 1024, "window": 512,  "size_mb": 1340},
+}
+
+DEFAULT_MODEL_KEY = "bge"
+
+_requested = os.environ.get("FIRE_SAFETY_MODEL", DEFAULT_MODEL_KEY)
+MODEL_NAME = MODEL_REGISTRY.get(_requested, {}).get("id", _requested)
+
+# How many encoders may be resident at once. Each is hundreds of megabytes, so
+# switching models freely in the UI would otherwise exhaust memory.
+MAX_LOADED_MODELS = 2
+
+
+def resolve_model(requested: str | None) -> str:
+    """
+    Turn a registry key, a HuggingFace id, or nothing into a model id.
+
+    Unknown values pass through unchanged so any Sentence-Transformer model can
+    be named directly without being registered first.
+    """
+    if not requested:
+        return MODEL_NAME
+    return MODEL_REGISTRY.get(requested, {}).get("id", requested)
+
+
+def model_key_for(model_id: str) -> str | None:
+    """The registry key a model id belongs to, if it is a registered one."""
+    for key, entry in MODEL_REGISTRY.items():
+        if entry["id"] == model_id:
+            return key
+    return None
+
+
+def model_is_downloaded(model_id: str) -> bool:
+    """
+    Whether the weights are already on disk.
+
+    Lets the interface distinguish "switch to this" from "download 1.3 GB
+    first", rather than appearing to hang on the first comparison.
+    """
+    try:
+        from huggingface_hub.constants import HF_HUB_CACHE
+    except ImportError:
+        return False
+
+    # Sentence-Transformers publishes bare names under its own org, so a model
+    # given as "all-MiniLM-L6-v2" caches as "sentence-transformers/all-...".
+    candidates = [model_id]
+    if "/" not in model_id:
+        candidates.append(f"sentence-transformers/{model_id}")
+
+    return any(
+        os.path.isdir(os.path.join(HF_HUB_CACHE, "models--" + name.replace("/", "--")))
+        for name in candidates
+    )
+
+# ─── Long-Clause Chunking ───────────────────────────────────────────
+# No encoder window covers this corpus: the longest clause is 16,910 word
+# pieces. Rather than truncate, a clause that overflows is split into
+# overlapping windows, each encoded, and the results averaged — so the whole
+# clause contributes to its embedding instead of only the opening.
+CHUNK_WORDS = 220           # words per window, comfortably inside 512 pieces
+CHUNK_OVERLAP_WORDS = 40    # carried between windows so edges are not orphaned
+CHUNK_MAX_PER_CLAUSE = 24   # ceiling on work for pathological clauses
 
 # ─── Similarity Thresholds ──────────────────────────────────────────
 UNCHANGED_THRESHOLD = 0.95      # >= 0.95 → Unchanged
@@ -30,12 +106,22 @@ MINOR_EDIT_THRESHOLD = 0.80     # 0.80 – 0.94 → Minor Edit
 # corpus, with real cases scoring 1.0000 similarity across a 1,077-word
 # addition. The redline is not truncated and counts those words correctly.
 #
-# So where the two disagree, the words win: a clause whose text demonstrably
-# differs by more than this is never reported Unchanged, whatever the
-# embedding says. The thresholds are set above typographic noise
-# (hyphenation, spacing) and below any edit of substance.
-MAX_UNCHANGED_WORD_RATIO = 0.05   # share of words touched
-MAX_UNCHANGED_WORD_DELTA = 20     # absolute words added or removed
+# So where the two disagree, the words win. The guard works in both
+# directions, because the embedding errs both ways:
+#
+#   too mild  — a clause reported Unchanged while its text demonstrably
+#               differs, which is the truncation case above.
+#   too mild  — a clause reported a Minor Edit while most of it was rewritten.
+#               Measured at 44 of 617 rows before this guard existed, the worst
+#               being a clause with 92% of its words changed (+2,020 / -628).
+#
+# Thresholds sit above typographic noise (hyphenation, spacing) and below any
+# edit of substance.
+MAX_UNCHANGED_WORD_RATIO = 0.05   # above this, no longer "Unchanged"
+MAX_UNCHANGED_WORD_DELTA = 20     # or this many words, whichever trips first
+
+MIN_SIGNIFICANT_WORD_RATIO = 0.35  # above this, no longer a "Minor Edit"
+MIN_SIGNIFICANT_WORD_DELTA = 200   # or this many words rewritten outright
 
 # ─── Jurisdictions ──────────────────────────────────────────────────
 # `parser_profile` selects the clause-numbering grammar used at ingest time.

@@ -288,14 +288,55 @@ uploaded PDFs, so both gates have to fail for markup to reach the page.
 `config.py` holds everything worth changing:
 
 ```python
-MODEL_NAME = "all-MiniLM-L6-v2"     # or "all-mpnet-base-v2" for accuracy over speed
+DEFAULT_MODEL_KEY = "bge"           # BAAI/bge-base-en-v1.5, 512-token window
 
 UNCHANGED_THRESHOLD = 0.95          # at or above this → Unchanged
 MINOR_EDIT_THRESHOLD = 0.80         # 0.80–0.94 → Minor Edit, below → Significant
 
+# The redline overrides the embedding when they disagree, in both directions.
+MAX_UNCHANGED_WORD_RATIO = 0.05     # above this, never "Unchanged"
+MIN_SIGNIFICANT_WORD_RATIO = 0.35   # above this, never a "Minor Edit"
+
+CHUNK_WORDS = 220                   # long clauses are chunked, not truncated
 MIN_CLAUSE_CHARS = 60               # shorter fragments fold into the clause above
 ALIGN_ACCEPT_THRESHOLD = 0.42       # below this, clauses stay unmatched
 ```
+
+### Choosing the embedding model
+
+**In the dashboard**, pick one from **Comparison model** in the compare bar.
+The choice applies to that comparison and to its CSV export, and the report
+records which model produced it — scores from different encoders are not
+comparable, so changing the model after a comparison shows a notice rather than
+silently mixing them.
+
+| Key | Model | Window | Dim | Download |
+| :--- | :--- | ---: | ---: | ---: |
+| `mini` | all-MiniLM-L6-v2 | 256 | 384 | 90 MB |
+| `mpnet` | all-mpnet-base-v2 | 384 | 768 | 420 MB |
+| **`bge`** *(default)* | **BAAI/bge-base-en-v1.5** | **512** | **768** | **440 MB** |
+| `bge-lg` | BAAI/bge-large-en-v1.5 | 512 | 1024 | 1.34 GB |
+
+A model that is not on disk is downloaded on first use; the picker says so and
+shows the size, so a first comparison on a new model does not look like a hang.
+Encoders are cached and at most `MAX_LOADED_MODELS` (2) stay resident, so
+switching back and forth does not reload or exhaust memory.
+
+**Elsewhere**, set `FIRE_SAFETY_MODEL` to a key or any Sentence-Transformer id:
+
+```bash
+FIRE_SAFETY_MODEL=mini uvicorn api.main:app --port 8000     # default for the API
+FIRE_SAFETY_MODEL=mini python -m evaluation.run accuracy    # reproduce older figures
+```
+
+Window size matters more than raw quality here: regulation clauses are long,
+and a clause the encoder cannot read whole is a clause whose later half is
+invisible to it. Clauses longer than the window are chunked and pooled
+regardless of model, so the window governs how much pooling is needed rather
+than whether text is read at all.
+
+Relevant endpoints: `GET /api/models` (registry with download and residency
+status), `POST /api/models/warm?model=<key>` (load one ahead of time).
 
 Adding a jurisdiction means adding an entry to `JURISDICTIONS` and a
 `ParserProfile` in `ingestion/profiles.py`. Nothing else needs to know.

@@ -47,8 +47,8 @@ against the 2025 amendment register.
 | :--- | :--- |
 | **Amendment-level recall** | **8 / 8 = 1.000** |
 | Clause-level recall | 0.947 |
-| Clauses flagged for review | 153 of 492 |
-| Precision | 0.118 |
+| Clauses flagged for review | 150 of 492 |
+| Precision | 0.120 |
 
 **Recall is the accuracy figure.** An amendment the system fails to surface is
 one an auditor will not see. Every published amendment was surfaced.
@@ -56,7 +56,7 @@ one an auditor will not see. Every published amendment was surfaced.
 **Precision is not an error rate here.** The register lists *substantive*
 amendments; the system reports *every textual difference* between two
 separately typeset PDFs. Precision therefore measures review burden: an
-auditor reads 153 clauses instead of 492, a 69% reduction, and finds all 8
+auditor reads 150 clauses instead of 492, a 70% reduction, and finds all 8
 amendments among them.
 
 ### 1.2 Which amendments a consolidation actually contains
@@ -92,15 +92,20 @@ ADB Volume 1, 2019 → 2025:
 | Measure | Result |
 | :--- | ---: |
 | Correct pairs available (by clause number) | 524 |
-| Pairs proposed by semantic matching | 536 |
-| Correctly recovered | 455 |
-| Paired with the wrong clause | 66 |
-| Left unpaired | 3 |
-| **Precision / Recall / F1** | **0.849 / 0.868 / 0.859** |
+| Pairs proposed by semantic matching | 541 |
+| Correctly recovered | 456 |
+| Paired with the wrong clause | 68 |
+| Left unpaired | 0 |
+| **Precision / Recall / F1** | **0.843 / 0.870 / 0.856** |
 
 The match score separates right from wrong: **0.996 median when correct, 0.919
 when wrong**. The UI shows this score on every cross-country row, so a weak
 pairing is visible rather than implied.
+
+Alignment F1 is essentially unchanged by the encoder upgrade (0.859 → 0.856):
+matching clauses to their counterparts is decided by the opening of a clause,
+which even the small model read. The upgrade pays off in *classification*,
+where the tail of a long clause is what determines how much changed.
 
 ### 1.4 Two blind spots, one of them fixed
 
@@ -126,33 +131,52 @@ Numeric edits are small textual edits, so the guard does not rescue them
 either — it addresses truncation, not numeric blindness.)*
 
 **Truncation blindness — found, quantified, fixed.**
-`all-MiniLM-L6-v2` reads at most 256 word pieces, roughly 190 words.
+The original encoder (`all-MiniLM-L6-v2`) read at most 256 word pieces, about
+190 words. Anything past that was discarded silently.
 
-| | Result |
-| :--- | ---: |
-| Encoder window | 256 word pieces |
-| Corpus clauses exceeding it | **1,517 / 9,050 = 16.8%** |
-| Similarity after appending 800 words to a long clause | **1.000000** |
+| | Original | Now |
+| :--- | ---: | ---: |
+| Encoder | MiniLM-L6 | **BGE-base-en-v1.5** |
+| Window | 256 pieces | **512 pieces** |
+| Long clauses | truncated | **chunked and pooled** |
+| Corpus clauses exceeding the window | 1,517 / 9,050 = **16.8%** | 525 / 9,050 = **5.8%** |
+| Similarity after appending 800 words | **1.000000** | **0.962984** |
 
-Appending 800 words of unrelated regulatory text to a 2,350-token clause moves
-the similarity by *exactly zero*. Anything past the window is not read at all.
-Real cases were found in the corpus: clause B5 scored **1.0000 similarity across
-a 1,077-word addition**.
+Appending 800 words of unrelated regulatory text to a 2,350-token clause
+originally moved the similarity by *exactly zero* — the words were never read.
+Real corpus cases followed: clause B5 scored **1.0000 similarity across a
+1,077-word addition**.
 
-The redline is not truncated and counted those words correctly, so the fix was
-to let the word evidence override the embedding when they disagree
-(`MAX_UNCHANGED_WORD_RATIO`, `MAX_UNCHANGED_WORD_DELTA` in `config.py`): a
-clause whose text demonstrably differs is never reported Unchanged.
+Two changes fixed it.
+
+*At the encoder.* A clause longer than the window is now split into
+overlapping 220-word chunks, each encoded, and the results averaged, so the
+whole clause reaches its embedding instead of only the opening (`CHUNK_*` in
+`config.py`). Similarity now **falls as text is appended** rather than staying
+pinned at 1.0.
+
+*At the classifier.* The redline is exact where the embedding is a lossy
+reading, so where they disagree the words win — in both directions
+(`MAX_UNCHANGED_WORD_*`, `MIN_SIGNIFICANT_WORD_*`):
+
+- a clause whose text demonstrably differs is never **Unchanged**;
+- a clause that has been largely rewritten is never a **Minor Edit**.
 
 | | Before | After |
 | :--- | ---: | ---: |
 | Silent misses (amended, text differs, called Unchanged) | 15 | **5** |
+| Large rewrites (>35% of words) called Unchanged or Minor Edit | 44 of 617 | **0** |
 | Clause-level recall | 0.789 | **0.947** |
-| Clauses flagged for review | 102 | 153 |
+| Clauses flagged for review | 102 | 150 |
 
-The five remaining are one- and two-word edits below the guard threshold. The
-guard trades review burden for missed amendments, which is the correct
-direction for a safety tool.
+The second row was the visible symptom: a clause with **92% of its words
+changed (+2,020 / −628)** was being reported as a *Minor Edit*, because both
+versions opened identically and the encoder never read far enough to notice.
+It is now correctly a Significant Change.
+
+The five remaining silent misses are one- and two-word edits below the guard
+threshold. The guard trades review burden for missed amendments, which is the
+correct direction for a safety tool.
 
 ### 1.5 Manual annotation — harness ready, labelling outstanding
 
@@ -354,6 +378,29 @@ on either alone.
 
 ---
 
+### 1.6 Choosing the encoder
+
+The model is selected with `FIRE_SAFETY_MODEL`, so a claim can be re-tested on
+a different encoder without touching code:
+
+```bash
+FIRE_SAFETY_MODEL=mini python -m evaluation.run accuracy   # reproduce earlier figures
+```
+
+| Key | Model | Dim | Window | Download |
+| :--- | :--- | ---: | ---: | ---: |
+| `mini` | all-MiniLM-L6-v2 | 384 | 256 | 90 MB |
+| `mpnet` | all-mpnet-base-v2 | 768 | 384 | 420 MB |
+| **`bge`** *(default)* | **BAAI/bge-base-en-v1.5** | **768** | **512** | **440 MB** |
+| `bge-lg` | BAAI/bge-large-en-v1.5 | 1024 | 512 | 1.34 GB |
+
+`bge-base` is the default because its 512-token window covers three times as
+many corpus clauses whole as MiniLM's 256, and window size is what this corpus
+punishes. Chunking makes any of them read a whole clause; a larger window
+simply means fewer chunks and less pooling loss.
+
+---
+
 ## Limitations
 
 - **Manual annotation is not done.** The harness, protocol, and scorer exist;
@@ -364,8 +411,10 @@ on either alone.
   Scotland, Northern Ireland, and Ireland do not publish comparable per-clause
   registers, so their change detection is unmeasured.
 - **Numeric insensitivity is unresolved.** §1.4 quantifies it; the classifier
-  still cannot see it. A domain-adapted encoder, or an explicit numeric-value
-  extractor, would be the next step.
+  still cannot see it, and upgrading the encoder did not help (median
+  similarity 0.998 → 0.997, still 47/47 classified Unchanged). This is not a
+  capacity problem — no general-purpose sentence encoder has reason to separate
+  two dimensions. An explicit numeric-value extractor is the right fix.
 - **Contents pages still leak.** A conservative filter removes headings with no
   prose (4.0% of the corpus), but ADB reprints section summaries that partially
   survive it, contributing to the unlisted flags in §1.1.

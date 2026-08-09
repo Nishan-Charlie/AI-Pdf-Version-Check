@@ -9,29 +9,29 @@
       "identifier_overlap": 0.9872,
       "clauses_left": 541,
       "clauses_right": 600,
-      "matched": 536,
-      "unmatched_left": 5,
-      "unmatched_right": 64,
-      "match_rate": 0.9908,
+      "matched": 541,
+      "unmatched_left": 0,
+      "unmatched_right": 59,
+      "match_rate": 1.0,
       "match_score": {
-        "count": 536,
-        "mean": 0.9607,
-        "min": 0.5193,
-        "p25": 0.962,
-        "median": 0.9959,
+        "count": 541,
+        "mean": 0.9667,
+        "min": 0.6181,
+        "p25": 0.964,
+        "median": 0.9958,
         "p75": 0.9989,
         "max": 1.0
       },
       "similarity": {
-        "count": 536,
-        "mean": 0.9699,
-        "min": 0.5686,
-        "p25": 0.9747,
-        "median": 0.9997,
+        "count": 541,
+        "mean": 0.9795,
+        "min": 0.722,
+        "p25": 0.9822,
+        "median": 0.9995,
         "p75": 1.0,
         "max": 1.0
       },
-      "duration_seconds": 15.0
+      "duration_seconds": 23.5
     },
     {
       "label": "England & Wales vs Scotland",
@@ -41,29 +41,29 @@
       "identifier_overlap": 0.0538,
       "clauses_left": 600,
       "clauses_right": 872,
-      "matched": 330,
-      "unmatched_left": 270,
-      "unmatched_right": 542,
-      "match_rate": 0.55,
+      "matched": 315,
+      "unmatched_left": 285,
+      "unmatched_right": 557,
+      "match_rate": 0.525,
       "match_score": {
-        "count": 330,
-        "mean": 0.5594,
-        "min": 0.4267,
-        "p25": 0.4949,
-        "median": 0.5558,
-        "p75": 0.6141,
-        "max": 0.7556
+        "count": 315,
+        "mean": 0.6606,
+        "min": 0.4569,
+        "p25": 0.621,
+        "median": 0.6629,
+        "p75": 0.6984,
+        "max": 0.8183
       },
       "similarity": {
-        "count": 330,
-        "mean": 0.6327,
-        "min": 0.4316,
-        "p25": 0.5526,
-        "median": 0.6282,
-        "p75": 0.7088,
-        "max": 0.8716
+        "count": 315,
+        "mean": 0.7703,
+        "min": 0.5493,
+        "p25": 0.7324,
+        "median": 0.7673,
+        "p75": 0.811,
+        "max": 0.939
       },
-      "duration_seconds": 13.7
+      "duration_seconds": 34.9
     },
     {
       "label": "England & Wales vs Northern Ireland",
@@ -73,29 +73,29 @@
       "identifier_overlap": 0.4035,
       "clauses_left": 600,
       "clauses_right": 379,
-      "matched": 366,
-      "unmatched_left": 234,
-      "unmatched_right": 13,
-      "match_rate": 0.9657,
+      "matched": 362,
+      "unmatched_left": 238,
+      "unmatched_right": 17,
+      "match_rate": 0.9551,
       "match_score": {
-        "count": 366,
-        "mean": 0.6412,
-        "min": 0.429,
-        "p25": 0.5899,
-        "median": 0.642,
-        "p75": 0.6988,
-        "max": 0.8903
+        "count": 362,
+        "mean": 0.7138,
+        "min": 0.4913,
+        "p25": 0.6789,
+        "median": 0.7132,
+        "p75": 0.7567,
+        "max": 0.9071
       },
       "similarity": {
-        "count": 366,
-        "mean": 0.7152,
-        "min": 0.4285,
-        "p25": 0.6592,
-        "median": 0.7218,
-        "p75": 0.7781,
-        "max": 0.9393
+        "count": 362,
+        "mean": 0.8132,
+        "min": 0.6222,
+        "p25": 0.7772,
+        "median": 0.8163,
+        "p75": 0.8591,
+        "max": 0.9562
       },
-      "duration_seconds": 8.7
+      "duration_seconds": 17.6
     },
     {
       "label": "Northern Ireland vs Republic of Ireland",
@@ -105,29 +105,29 @@
       "identifier_overlap": 0.0819,
       "clauses_left": 379,
       "clauses_right": 708,
-      "matched": 369,
-      "unmatched_left": 10,
-      "unmatched_right": 339,
-      "match_rate": 0.9736,
+      "matched": 358,
+      "unmatched_left": 21,
+      "unmatched_right": 350,
+      "match_rate": 0.9446,
       "match_score": {
-        "count": 369,
-        "mean": 0.6586,
-        "min": 0.441,
-        "p25": 0.5924,
-        "median": 0.665,
-        "p75": 0.7266,
-        "max": 0.8435
+        "count": 358,
+        "mean": 0.7318,
+        "min": 0.5166,
+        "p25": 0.6885,
+        "median": 0.7328,
+        "p75": 0.7825,
+        "max": 0.8722
       },
       "similarity": {
-        "count": 369,
-        "mean": 0.7317,
-        "min": 0.4619,
-        "p25": 0.6624,
-        "median": 0.7433,
-        "p75": 0.8079,
-        "max": 0.9248
+        "count": 358,
+        "mean": 0.8292,
+        "min": 0.6085,
+        "p25": 0.7885,
+        "median": 0.8324,
+        "p75": 0.8768,
+        "max": 0.9564
       },
-      "duration_seconds": 10.3
+      "duration_seconds": 23.1
     }
   ],
   "numbering": [

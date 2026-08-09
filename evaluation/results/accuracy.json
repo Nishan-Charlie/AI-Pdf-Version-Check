@@ -68,35 +68,35 @@
       "silent_misses": [
         {
           "clause": "Requirement B2",
-          "similarity": 0.9981,
+          "similarity": 0.9956,
           "word_change_ratio": 0.01,
           "words_added": 1,
           "words_removed": 1
         },
         {
           "clause": "Requirement B2",
-          "similarity": 0.9966,
+          "similarity": 0.9989,
           "word_change_ratio": 0.0417,
           "words_added": 0,
           "words_removed": 2
         },
         {
           "clause": "Requirement B2",
-          "similarity": 0.9981,
+          "similarity": 0.9956,
           "word_change_ratio": 0.01,
           "words_added": 1,
           "words_removed": 1
         },
         {
           "clause": "Requirement B4",
-          "similarity": 0.9968,
+          "similarity": 0.9997,
           "word_change_ratio": 0.002,
           "words_added": 1,
           "words_removed": 1
         },
         {
           "clause": "Requirement B5",
-          "similarity": 0.9927,
+          "similarity": 0.9937,
           "word_change_ratio": 0.0354,
           "words_added": 10,
           "words_removed": 1
@@ -105,36 +105,36 @@
       "sweep": [
         {
           "min_word_change_ratio": 0.0,
-          "flagged": 153,
+          "flagged": 150,
           "true_positives": 18,
-          "false_positives": 135,
+          "false_positives": 132,
           "false_negatives": 1,
-          "true_negatives": 338,
-          "precision": 0.1176,
+          "true_negatives": 341,
+          "precision": 0.12,
           "recall": 0.9474,
-          "f1": 0.2093
+          "f1": 0.213
         },
         {
           "min_word_change_ratio": 0.01,
-          "flagged": 153,
+          "flagged": 150,
           "true_positives": 18,
-          "false_positives": 135,
+          "false_positives": 132,
           "false_negatives": 1,
-          "true_negatives": 338,
-          "precision": 0.1176,
+          "true_negatives": 341,
+          "precision": 0.12,
           "recall": 0.9474,
-          "f1": 0.2093
+          "f1": 0.213
         },
         {
           "min_word_change_ratio": 0.02,
-          "flagged": 152,
+          "flagged": 150,
           "true_positives": 18,
-          "false_positives": 134,
+          "false_positives": 132,
           "false_negatives": 1,
-          "true_negatives": 339,
-          "precision": 0.1184,
+          "true_negatives": 341,
+          "precision": 0.12,
           "recall": 0.9474,
-          "f1": 0.2105
+          "f1": 0.213
         },
         {
           "min_word_change_ratio": 0.05,
@@ -194,14 +194,14 @@
       ],
       "best_recall": {
         "min_word_change_ratio": 0.0,
-        "flagged": 153,
+        "flagged": 150,
         "true_positives": 18,
-        "false_positives": 135,
+        "false_positives": 132,
         "false_negatives": 1,
-        "true_negatives": 338,
-        "precision": 0.1176,
+        "true_negatives": 341,
+        "precision": 0.12,
         "recall": 0.9474,
-        "f1": 0.2093
+        "f1": 0.213
       },
       "references_absent_from_corpus": [
         "38",
@@ -213,19 +213,19 @@
         "17.0"
       ],
       "unlisted_differences": {
-        "count": 204,
-        "edited_both_sides": 142,
+        "count": 201,
+        "edited_both_sides": 139,
         "one_sided_added_or_removed": 62,
         "word_change_ratio_of_edited": {
-          "count": 142,
-          "mean": 0.4048,
-          "min": 0.0169,
-          "p25": 0.095,
-          "median": 0.2642,
-          "p75": 0.7139,
+          "count": 139,
+          "mean": 0.4128,
+          "min": 0.0272,
+          "p25": 0.1002,
+          "median": 0.2727,
+          "p75": 0.7441,
           "max": 0.9828
         },
-        "edited_under_2_percent_of_words": 1,
+        "edited_under_2_percent_of_words": 0,
         "edited_over_20_percent_of_words": 80,
         "reading": "One-sided rows have a word-change ratio of 1.0 by construction and are counted separately; they mostly reflect clause-boundary differences between two parses rather than amendments."
       },
@@ -390,49 +390,49 @@
       "silent_misses": [
         {
           "clause": "Requirement B2",
-          "similarity": 0.9981,
+          "similarity": 0.9956,
           "word_change_ratio": 0.01,
           "words_added": 1,
           "words_removed": 1
         },
         {
           "clause": "Requirement B2",
-          "similarity": 0.9966,
+          "similarity": 0.9989,
           "word_change_ratio": 0.0417,
           "words_added": 0,
           "words_removed": 2
         },
         {
           "clause": "Table 3.1",
-          "similarity": 0.9695,
+          "similarity": 0.9925,
           "word_change_ratio": 0.0365,
           "words_added": 12,
           "words_removed": 0
         },
         {
           "clause": "3.49",
-          "similarity": 0.9994,
+          "similarity": 0.9974,
           "word_change_ratio": 0.0089,
           "words_added": 0,
           "words_removed": 1
         },
         {
           "clause": "Requirement B2",
-          "similarity": 0.9981,
+          "similarity": 0.9956,
           "word_change_ratio": 0.01,
           "words_added": 1,
           "words_removed": 1
         },
         {
           "clause": "Requirement B4",
-          "similarity": 0.9968,
+          "similarity": 0.9997,
           "word_change_ratio": 0.002,
           "words_added": 1,
           "words_removed": 1
         },
         {
           "clause": "Requirement B5",
-          "similarity": 0.9927,
+          "similarity": 0.9937,
           "word_change_ratio": 0.0354,
           "words_added": 10,
           "words_removed": 1
@@ -441,36 +441,36 @@
       "sweep": [
         {
           "min_word_change_ratio": 0.0,
-          "flagged": 153,
+          "flagged": 150,
           "true_positives": 28,
-          "false_positives": 125,
+          "false_positives": 122,
           "false_negatives": 9,
-          "true_negatives": 330,
-          "precision": 0.183,
+          "true_negatives": 333,
+          "precision": 0.1867,
           "recall": 0.7568,
-          "f1": 0.2947
+          "f1": 0.2995
         },
         {
           "min_word_change_ratio": 0.01,
-          "flagged": 153,
+          "flagged": 150,
           "true_positives": 28,
-          "false_positives": 125,
+          "false_positives": 122,
           "false_negatives": 9,
-          "true_negatives": 330,
-          "precision": 0.183,
+          "true_negatives": 333,
+          "precision": 0.1867,
           "recall": 0.7568,
-          "f1": 0.2947
+          "f1": 0.2995
         },
         {
           "min_word_change_ratio": 0.02,
-          "flagged": 152,
+          "flagged": 150,
           "true_positives": 28,
-          "false_positives": 124,
+          "false_positives": 122,
           "false_negatives": 9,
-          "true_negatives": 331,
-          "precision": 0.1842,
+          "true_negatives": 333,
+          "precision": 0.1867,
           "recall": 0.7568,
-          "f1": 0.2963
+          "f1": 0.2995
         },
         {
           "min_word_change_ratio": 0.05,
@@ -530,14 +530,14 @@
       ],
       "best_recall": {
         "min_word_change_ratio": 0.0,
-        "flagged": 153,
+        "flagged": 150,
         "true_positives": 28,
-        "false_positives": 125,
+        "false_positives": 122,
         "false_negatives": 9,
-        "true_negatives": 330,
-        "precision": 0.183,
+        "true_negatives": 333,
+        "precision": 0.1867,
         "recall": 0.7568,
-        "f1": 0.2947
+        "f1": 0.2995
       },
       "references_absent_from_corpus": [
         "38",
@@ -557,19 +557,19 @@
         "Diagram 3.9"
       ],
       "unlisted_differences": {
-        "count": 186,
-        "edited_both_sides": 131,
+        "count": 183,
+        "edited_both_sides": 128,
         "one_sided_added_or_removed": 55,
         "word_change_ratio_of_edited": {
-          "count": 131,
-          "mean": 0.4111,
-          "min": 0.0169,
-          "p25": 0.0907,
-          "median": 0.2727,
-          "p75": 0.7841,
+          "count": 128,
+          "mean": 0.42,
+          "min": 0.0272,
+          "p25": 0.0951,
+          "median": 0.2834,
+          "p75": 0.8114,
           "max": 0.9828
         },
-        "edited_under_2_percent_of_words": 1,
+        "edited_under_2_percent_of_words": 0,
         "edited_over_20_percent_of_words": 75,
         "reading": "One-sided rows have a word-change ratio of 1.0 by construction and are counted separately; they mostly reflect clause-boundary differences between two parses rather than amendments."
       },
@@ -741,63 +741,63 @@
       "silent_misses": [
         {
           "clause": "Requirement B2",
-          "similarity": 0.9981,
+          "similarity": 0.9956,
           "word_change_ratio": 0.01,
           "words_added": 1,
           "words_removed": 1
         },
         {
           "clause": "Requirement B2",
-          "similarity": 0.9966,
+          "similarity": 0.9989,
           "word_change_ratio": 0.0417,
           "words_added": 0,
           "words_removed": 2
         },
         {
           "clause": "Table 3.1",
-          "similarity": 0.9695,
+          "similarity": 0.9925,
           "word_change_ratio": 0.0365,
           "words_added": 12,
           "words_removed": 0
         },
         {
           "clause": "3.49",
-          "similarity": 0.9994,
+          "similarity": 0.9974,
           "word_change_ratio": 0.0089,
           "words_added": 0,
           "words_removed": 1
         },
         {
           "clause": "Requirement B2",
-          "similarity": 0.9981,
+          "similarity": 0.9956,
           "word_change_ratio": 0.01,
           "words_added": 1,
           "words_removed": 1
         },
         {
           "clause": "Appendix C",
-          "similarity": 0.9936,
+          "similarity": 0.9946,
           "word_change_ratio": 0.0222,
           "words_added": 0,
           "words_removed": 2
         },
         {
           "clause": "Requirement B4",
-          "similarity": 0.9968,
+          "similarity": 0.9997,
           "word_change_ratio": 0.002,
           "words_added": 1,
           "words_removed": 1
         },
         {
           "clause": "Requirement B5",
-          "similarity": 0.9927,
+          "similarity": 0.9937,
           "word_change_ratio": 0.0354,
           "words_added": 10,
           "words_removed": 1
         },
         {
           "clause": "Appendix B",
-          "similarity": 0.9962,
+          "similarity": 0.9988,
           "word_change_ratio": 0.0204,
           "words_added": 3,
           "words_removed": 1
@@ -806,36 +806,36 @@
       "sweep": [
         {
           "min_word_change_ratio": 0.0,
-          "flagged": 153,
+          "flagged": 150,
           "true_positives": 34,
-          "false_positives": 119,
+          "false_positives": 116,
           "false_negatives": 9,
-          "true_negatives": 330,
-          "precision": 0.2222,
+          "true_negatives": 333,
+          "precision": 0.2267,
           "recall": 0.7907,
-          "f1": 0.3469
+          "f1": 0.3523
         },
         {
           "min_word_change_ratio": 0.01,
-          "flagged": 153,
+          "flagged": 150,
           "true_positives": 34,
-          "false_positives": 119,
+          "false_positives": 116,
           "false_negatives": 9,
-          "true_negatives": 330,
-          "precision": 0.2222,
+          "true_negatives": 333,
+          "precision": 0.2267,
           "recall": 0.7907,
-          "f1": 0.3469
+          "f1": 0.3523
         },
         {
           "min_word_change_ratio": 0.02,
-          "flagged": 152,
+          "flagged": 150,
           "true_positives": 34,
-          "false_positives": 118,
+          "false_positives": 116,
           "false_negatives": 9,
-          "true_negatives": 331,
-          "precision": 0.2237,
+          "true_negatives": 333,
+          "precision": 0.2267,
           "recall": 0.7907,
-          "f1": 0.3487
+          "f1": 0.3523
         },
         {
           "min_word_change_ratio": 0.05,
@@ -895,14 +895,14 @@
       ],
       "best_recall": {
         "min_word_change_ratio": 0.0,
-        "flagged": 153,
+        "flagged": 150,
         "true_positives": 34,
-        "false_positives": 119,
+        "false_positives": 116,
         "false_negatives": 9,
-        "true_negatives": 330,
-        "precision": 0.2222,
+        "true_negatives": 333,
+        "precision": 0.2267,
         "recall": 0.7907,
-        "f1": 0.3469
+        "f1": 0.3523
       },
       "references_absent_from_corpus": [
         "38",
@@ -922,19 +922,19 @@
         "Diagram 3.9"
       ],
       "unlisted_differences": {
-        "count": 154,
-        "edited_both_sides": 119,
+        "count": 151,
+        "edited_both_sides": 116,
         "one_sided_added_or_removed": 35,
         "word_change_ratio_of_edited": {
-          "count": 119,
-          "mean": 0.3793,
-          "min": 0.0169,
-          "p25": 0.0855,
-          "median": 0.25,
-          "p75": 0.6138,
+          "count": 116,
+          "mean": 0.3884,
+          "min": 0.0317,
+          "p25": 0.0914,
+          "median": 0.2596,
+          "p75": 0.6361,
           "max": 0.9828
         },
-        "edited_under_2_percent_of_words": 1,
+        "edited_under_2_percent_of_words": 0,
         "edited_over_20_percent_of_words": 65,
         "reading": "One-sided rows have a word-change ratio of 1.0 by construction and are counted separately; they mostly reflect clause-boundary differences between two parses rather than amendments."
       },
@@ -943,12 +943,13 @@
   ],
   "truncation": {
     "experiment": "E3b encoder truncation",
-    "model": "all-MiniLM-L6-v2",
-    "window_word_pieces": 256,
+    "model": "BAAI/bge-base-en-v1.5",
+    "window_word_pieces": 512,
+    "chunking_enabled": true,
     "base_clause_word_pieces": 2350,
-    "clauses_exceeding_window": 1517,
+    "clauses_exceeding_window": 525,
     "clauses_total": 9050,
-    "share_exceeding_window": 0.1676,
+    "share_exceeding_window": 0.058,
     "append_curve": [
       {
         "words_appended": 0,
@@ -956,30 +957,32 @@
       },
       {
         "words_appended": 20,
-        "similarity": 1.0
+        "similarity": 0.996394
       },
       {
         "words_appended": 40,
-        "similarity": 1.0
+        "similarity": 0.995501
       },
       {
         "words_appended": 100,
-        "similarity": 1.0
+        "similarity": 0.995558
       },
       {
         "words_appended": 200,
-        "similarity": 1.0
+        "similarity": 0.990233
       },
       {
         "words_appended": 400,
-        "similarity": 1.0
+        "similarity": 0.980634
       },
       {
         "words_appended": 800,
-        "similarity": 1.0
+        "similarity": 0.962984
       }
     ],
-    "reading": "Similarity does not move as text is appended past the window. Any amendment beyond the first ~180 words of a clause is invisible to the embedding. The word-level redline is not truncated and does count those words, which is why classification takes the redline into account (see MAX_UNCHANGED_WORD_* in config)."
+    "similarity_drop_at_max_append": 0.037016,
+    "blind_to_appended_text": false,
+    "reading": "Similarity falls as text is appended, so the whole clause reaches the embedding. Clauses longer than the window are split into overlapping chunks and pooled rather than truncated (CHUNK_* in config), which is what removes the blind spot. The word-level redline remains the authority on how much text changed, and classification still defers to it (MAX_UNCHANGED_WORD_* and MIN_SIGNIFICANT_WORD_* in config)."
   },
   "localisation": {
     "experiment": "E1 change localisation vs published amendment register",
@@ -1049,35 +1052,35 @@
     "silent_misses": [
       {
         "clause": "Requirement B2",
-        "similarity": 0.9981,
+        "similarity": 0.9956,
         "word_change_ratio": 0.01,
         "words_added": 1,
         "words_removed": 1
       },
       {
         "clause": "Requirement B2",
-        "similarity": 0.9966,
+        "similarity": 0.9989,
         "word_change_ratio": 0.0417,
         "words_added": 0,
         "words_removed": 2
       },
       {
         "clause": "Requirement B2",
-        "similarity": 0.9981,
+        "similarity": 0.9956,
         "word_change_ratio": 0.01,
         "words_added": 1,
         "words_removed": 1
       },
       {
         "clause": "Requirement B4",
-        "similarity": 0.9968,
+        "similarity": 0.9997,
         "word_change_ratio": 0.002,
         "words_added": 1,
         "words_removed": 1
       },
       {
         "clause": "Requirement B5",
-        "similarity": 0.9927,
+        "similarity": 0.9937,
         "word_change_ratio": 0.0354,
         "words_added": 10,
         "words_removed": 1
@@ -1086,36 +1089,36 @@
     "sweep": [
       {
         "min_word_change_ratio": 0.0,
-        "flagged": 153,
+        "flagged": 150,
         "true_positives": 18,
-        "false_positives": 135,
+        "false_positives": 132,
         "false_negatives": 1,
-        "true_negatives": 338,
-        "precision": 0.1176,
+        "true_negatives": 341,
+        "precision": 0.12,
         "recall": 0.9474,
-        "f1": 0.2093
+        "f1": 0.213
       },
       {
         "min_word_change_ratio": 0.01,
-        "flagged": 153,
+        "flagged": 150,
         "true_positives": 18,
-        "false_positives": 135,
+        "false_positives": 132,
         "false_negatives": 1,
-        "true_negatives": 338,
-        "precision": 0.1176,
+        "true_negatives": 341,
+        "precision": 0.12,
         "recall": 0.9474,
-        "f1": 0.2093
+        "f1": 0.213
       },
       {
         "min_word_change_ratio": 0.02,
-        "flagged": 152,
+        "flagged": 150,
         "true_positives": 18,
-        "false_positives": 134,
+        "false_positives": 132,
         "false_negatives": 1,
-        "true_negatives": 339,
-        "precision": 0.1184,
+        "true_negatives": 341,
+        "precision": 0.12,
         "recall": 0.9474,
-        "f1": 0.2105
+        "f1": 0.213
       },
       {
         "min_word_change_ratio": 0.05,
@@ -1175,14 +1178,14 @@
     ],
     "best_recall": {
       "min_word_change_ratio": 0.0,
-      "flagged": 153,
+      "flagged": 150,
       "true_positives": 18,
-      "false_positives": 135,
+      "false_positives": 132,
       "false_negatives": 1,
-      "true_negatives": 338,
-      "precision": 0.1176,
+      "true_negatives": 341,
+      "precision": 0.12,
       "recall": 0.9474,
-      "f1": 0.2093
+      "f1": 0.213
     },
     "references_absent_from_corpus": [
       "38",
@@ -1194,19 +1197,19 @@
       "17.0"
     ],
     "unlisted_differences": {
-      "count": 204,
-      "edited_both_sides": 142,
+      "count": 201,
+      "edited_both_sides": 139,
       "one_sided_added_or_removed": 62,
       "word_change_ratio_of_edited": {
-        "count": 142,
-        "mean": 0.4048,
-        "min": 0.0169,
-        "p25": 0.095,
-        "median": 0.2642,
-        "p75": 0.7139,
+        "count": 139,
+        "mean": 0.4128,
+        "min": 0.0272,
+        "p25": 0.1002,
+        "median": 0.2727,
+        "p75": 0.7441,
         "max": 0.9828
       },
-      "edited_under_2_percent_of_words": 1,
+      "edited_under_2_percent_of_words": 0,
       "edited_over_20_percent_of_words": 80,
       "reading": "One-sided rows have a word-change ratio of 1.0 by construction and are counted separately; they mostly reflect clause-boundary differences between two parses rather than amendments."
     },
@@ -1217,35 +1220,35 @@
     "baseline": "Approved Document B — Volume 1: Dwellings — 2019 edition",
     "revision": "Approved Document B — Volume 1: Dwellings — 2025 amendments",
     "identifier_pairs": 524,
-    "semantic_pairs": 536,
-    "recovered": 455,
-    "disagreed": 66,
-    "missed": 3,
+    "semantic_pairs": 541,
+    "recovered": 456,
+    "disagreed": 68,
+    "missed": 0,
     "score": {
-      "true_positives": 455,
-      "false_positives": 81,
-      "false_negatives": 69,
+      "true_positives": 456,
+      "false_positives": 85,
+      "false_negatives": 68,
       "true_negatives": 0,
-      "precision": 0.8489,
-      "recall": 0.8683,
-      "f1": 0.8585
+      "precision": 0.8429,
+      "recall": 0.8702,
+      "f1": 0.8563
     },
     "match_score_when_correct": {
-      "count": 455,
-      "mean": 0.9768,
-      "min": 0.6878,
-      "p25": 0.9793,
+      "count": 456,
+      "mean": 0.981,
+      "min": 0.772,
+      "p25": 0.9822,
       "median": 0.9964,
       "p75": 0.999,
       "max": 1.0
     },
     "match_score_when_wrong": {
-      "count": 81,
-      "mean": 0.8699,
-      "min": 0.5193,
-      "p25": 0.7915,
-      "median": 0.9185,
-      "p75": 0.9741,
+      "count": 85,
+      "mean": 0.8903,
+      "min": 0.6181,
+      "p25": 0.8068,
+      "median": 0.9315,
+      "p75": 0.9792,
       "max": 0.9999
     }
   },
@@ -1287,11 +1290,11 @@
         "truth_unambiguous": false,
         "similarity": {
           "count": 47,
-          "mean": 0.9967,
-          "min": 0.9811,
-          "p25": 0.9963,
-          "median": 0.9978,
-          "p75": 0.9992,
+          "mean": 0.9963,
+          "min": 0.9725,
+          "p25": 0.9952,
+          "median": 0.997,
+          "p75": 0.9993,
           "max": 1.0
         },
         "word_change_ratio": {
@@ -1314,11 +1317,11 @@
         "truth_unambiguous": false,
         "similarity": {
           "count": 101,
-          "mean": 0.9742,
-          "min": 0.7847,
-          "p25": 0.9694,
-          "median": 0.9852,
-          "p75": 0.9979,
+          "mean": 0.9825,
+          "min": 0.8663,
+          "p25": 0.9807,
+          "median": 0.991,
+          "p75": 0.9959,
           "max": 1.0
         },
         "word_change_ratio": {
@@ -1331,9 +1334,8 @@
           "max": 0.6923
         },
         "classified_as": {
-          "Unchanged": 86,
-          "Minor Edit": 14,
-          "Significant Change": 1
+          "Unchanged": 92,
+          "Minor Edit": 9
         }
       },
       {
@@ -1343,12 +1345,12 @@
         "truth_unambiguous": false,
         "similarity": {
           "count": 101,
-          "mean": 0.9431,
-          "min": 0.6332,
-          "p25": 0.9292,
-          "median": 0.9555,
-          "p75": 0.9722,
-          "max": 0.9936
+          "mean": 0.9649,
+          "min": 0.9016,
+          "p25": 0.9572,
+          "median": 0.9663,
+          "p75": 0.9764,
+          "max": 0.9955
         },
         "word_change_ratio": {
           "count": 101,
@@ -1360,9 +1362,8 @@
           "max": 0.8
         },
         "classified_as": {
-          "Unchanged": 58,
-          "Minor Edit": 42,
-          "Significant Change": 1
+          "Unchanged": 85,
+          "Minor Edit": 16
         }
       }
     ],
@@ -1375,37 +1376,36 @@
         "Removed"
       ],
       "matrix": {
-        "Unchanged|Minor Edit": 42,
-        "Unchanged|Significant Change": 1,
-        "Unchanged|Unchanged": 178
+        "Unchanged|Minor Edit": 16,
+        "Unchanged|Unchanged": 205
       },
-      "accuracy": 0.8054,
-      "macro_f1": 0.8922,
-      "weighted_f1": 0.8922,
+      "accuracy": 0.9276,
+      "macro_f1": 0.9624,
+      "weighted_f1": 0.9624,
       "per_label": {
         "Unchanged": {
-          "true_positives": 178,
+          "true_positives": 205,
           "false_positives": 0,
-          "false_negatives": 43,
+          "false_negatives": 16,
           "true_negatives": 0,
           "precision": 1.0,
-          "recall": 0.8054,
-          "f1": 0.8922
+          "recall": 0.9276,
+          "f1": 0.9624
         },
         "Minor Edit": {
           "true_positives": 0,
-          "false_positives": 42,
+          "false_positives": 16,
           "false_negatives": 0,
-          "true_negatives": 179,
+          "true_negatives": 205,
           "precision": 0.0,
           "recall": 0.0,
           "f1": 0.0
         },
         "Significant Change": {
           "true_positives": 0,
-          "false_positives": 1,
+          "false_positives": 0,
           "false_negatives": 0,
-          "true_negatives": 220,
+          "true_negatives": 221,
           "precision": 0.0,
           "recall": 0.0,
           "f1": 0.0
@@ -1434,11 +1434,11 @@
       "pairs": 47,
       "similarity": {
         "count": 47,
-        "mean": 0.9967,
-        "min": 0.9811,
-        "p25": 0.9963,
-        "median": 0.9978,
-        "p75": 0.9992,
+        "mean": 0.9963,
+        "min": 0.9725,
+        "p25": 0.9952,
+        "median": 0.997,
+        "p75": 0.9993,
         "max": 1.0
       },
       "word_change_ratio": {

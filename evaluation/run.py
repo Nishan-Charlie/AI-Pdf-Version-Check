@@ -170,7 +170,11 @@ def command_accuracy(args: argparse.Namespace) -> int:
     print(f"  {'words appended':>15} {'similarity':>12}")
     for point in truncation["append_curve"]:
         print(f"  {point['words_appended']:>15} {point['similarity']:>12.6f}")
-    print("\n  Similarity does not move: text past the window is not read.")
+    if truncation["blind_to_appended_text"]:
+        print("\n  Similarity does not move: text past the window is not read.")
+    else:
+        print(f"\n  Similarity falls by {truncation['similarity_drop_at_max_append']:.4f} "
+              f"across the appended text — the whole clause is read (chunked and pooled).")
 
     payload = {
         "register_scan": register_scan,

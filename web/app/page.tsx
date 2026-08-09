@@ -12,6 +12,7 @@ import { ChangeSpine } from "@/components/ChangeSpine";
 import { ClauseRecord } from "@/components/ClauseRecord";
 import { CorpusPanel } from "@/components/CorpusPanel";
 import { Masthead, type Tab } from "@/components/Masthead";
+import { ModelPicker } from "@/components/ModelPicker";
 import { UploadPanel } from "@/components/UploadPanel";
 import { VersionPicker } from "@/components/VersionPicker";
 import { ApiError, api } from "@/lib/api";
@@ -22,6 +23,7 @@ import type {
   ComparisonReport,
   CorpusStatus,
   Meta,
+  ModelInfo,
   SearchHit,
   VersionRecord,
 } from "@/lib/types";
@@ -41,6 +43,8 @@ export default function Page() {
   const [baselineId, setBaselineId] = useState<number | null>(null);
   const [revisionId, setRevisionId] = useState<number | null>(null);
   const [strategy, setStrategy] = useState("auto");
+  const [models, setModels] = useState<ModelInfo[]>([]);
+  const [modelKey, setModelKey] = useState("");
 
   const [report, setReport] = useState<ComparisonReport | null>(null);
   const [comparing, setComparing] = useState(false);
@@ -80,10 +84,24 @@ export default function Page() {
     }
   }, []);
 
+  const loadModels = useCallback(async () => {
+    try {
+      const { models: available } = await api.models();
+      setModels(available);
+      setModelKey((current) => {
+        if (current && available.some((m) => m.key === current)) return current;
+        return (available.find((m) => m.is_default) ?? available[0])?.key ?? "";
+      });
+    } catch {
+      setModels([]);
+    }
+  }, []);
+
   useEffect(() => {
     void loadLibrary();
+    void loadModels();
     api.corpus().then(setCorpus).catch(() => setCorpus(null));
-  }, [loadLibrary]);
+  }, [loadLibrary, loadModels]);
 
   // Open on a comparison worth looking at: the largest instrument that has
   // more than one edition, oldest against newest.
@@ -123,12 +141,14 @@ export default function Page() {
     setCompareError(null);
 
     try {
-      const next = await api.compare(baselineId, revisionId, strategy);
+      const next = await api.compare(baselineId, revisionId, strategy, modelKey);
       setReport(next);
       setExcluded(new Set());
       setVisibleCount(PAGE_SIZE);
       setActiveIndex(null);
       window.scrollTo({ top: 0, behavior: "smooth" });
+      // The chosen model is now downloaded and resident; refresh the labels.
+      void loadModels();
     } catch (caught) {
       setCompareError(
         caught instanceof ApiError ? caught.message : "The comparison failed.",
@@ -137,7 +157,7 @@ export default function Page() {
     } finally {
       setComparing(false);
     }
-  }, [baselineId, revisionId, strategy]);
+  }, [baselineId, revisionId, strategy, modelKey, loadModels]);
 
   function swapSides() {
     setBaselineId(revisionId);
@@ -301,6 +321,13 @@ export default function Page() {
 
   const filtering = deferredTerm.trim().length >= 2 || excluded.size > 0;
 
+  const selectedModel = models.find((m) => m.key === modelKey) ?? null;
+  // Scores from different encoders are not comparable, so a report produced by
+  // one must not be read as if it came from another.
+  const modelChanged = Boolean(
+    report && selectedModel && report.model !== selectedModel.id,
+  );
+
   return (
     <>
       <Masthead stats={meta?.stats ?? null} tab={tab} onTab={setTab} />
@@ -412,6 +439,13 @@ export default function Page() {
                   </select>
                 </div>
 
+                <ModelPicker
+                  models={models}
+                  value={modelKey}
+                  onChange={setModelKey}
+                  disabled={comparing}
+                />
+
                 <button
                   type="button"
                   className="btn btn-primary"
@@ -424,7 +458,12 @@ export default function Page() {
                 {report && (
                   <a
                     className="btn"
-                    href={api.exportUrl(report.v1.version_id!, report.v2.version_id!, strategy)}
+                    href={api.exportUrl(
+                      report.v1.version_id!,
+                      report.v2.version_id!,
+                      strategy,
+                      modelKey,
+                    )}
                   >
                     Export CSV
                   </a>
@@ -432,7 +471,34 @@ export default function Page() {
               </div>
             </section>
 
-            {comparing && <div className="bar bar-indeterminate" role="status" aria-label="Comparing" />}
+            {comparing && (
+              <>
+                <div className="bar bar-indeterminate" role="status" aria-label="Comparing" />
+                {selectedModel && !selectedModel.downloaded && (
+                  <div
+                    className="notice"
+                    style={{ ["--notice-color" as string]: "var(--sand)", marginTop: "1rem" }}
+                  >
+                    Downloading {selectedModel.key} ({selectedModel.size_mb} MB) before
+                    comparing. This happens once; later comparisons on this model start
+                    immediately.
+                  </div>
+                )}
+              </>
+            )}
+
+            {report && modelChanged && !comparing && (
+              <div
+                className="notice"
+                style={{ ["--notice-color" as string]: "var(--sand)", marginTop: "1rem" }}
+              >
+                <span>
+                  These results came from <b>{report.model}</b>. Similarity scores are
+                  not comparable across models — run the comparison again to see them
+                  under {modelKey}.
+                </span>
+              </div>
+            )}
 
             {compareError && (
               <div
@@ -555,7 +621,11 @@ export default function Page() {
 
       <footer className="shell" style={{ padding: "3rem 0 2.5rem", color: "var(--graphite)", fontSize: 12 }}>
         <span className="eyebrow">
-          {meta ? `Embedding model ${meta.model}` : ""}
+          {selectedModel
+            ? `Embedding model ${selectedModel.id} · ${selectedModel.window}-token window`
+            : meta
+              ? `Embedding model ${meta.model}`
+              : ""}
         </span>
       </footer>
     </>
@@ -614,15 +684,16 @@ function Summary({
         </span>
         <span>
           {report.is_cross_country ? (
-            <>
-              Cross-jurisdiction · clauses matched by meaning
-            </>
+            <>Cross-jurisdiction · clauses matched by meaning</>
           ) : (
             <>
               {report.summary.change_rate.toFixed(1)}% of clauses changed · matched by{" "}
               {report.alignment_method === "identifier" ? "clause number" : "meaning"}
             </>
           )}
+        </span>
+        <span className="mono" style={{ fontSize: 11, color: "var(--graphite-light)" }}>
+          {report.model}
         </span>
       </div>
     </section>

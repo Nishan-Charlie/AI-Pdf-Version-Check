@@ -630,20 +630,34 @@ def run_truncation(
             "similarity": round(comparator.compare_texts(base, altered), 6),
         })
 
+    # Did appending text actually move the score? A flat curve means the
+    # appended words were never read.
+    drop = curve[0]["similarity"] - curve[-1]["similarity"]
+    blind = drop < 0.005
+
     return {
         "experiment": "E3b encoder truncation",
         "model": comparator._model_name,
         "window_word_pieces": window,
+        "chunking_enabled": True,
         "base_clause_word_pieces": len(tokenizer.tokenize(base)),
         "clauses_exceeding_window": exposed,
         "clauses_total": total,
         "share_exceeding_window": round(exposed / total, 4) if total else 0.0,
         "append_curve": curve,
+        "similarity_drop_at_max_append": round(drop, 6),
+        "blind_to_appended_text": blind,
         "reading": (
-            "Similarity does not move as text is appended past the window. "
-            "Any amendment beyond the first ~180 words of a clause is invisible "
-            "to the embedding. The word-level redline is not truncated and does "
-            "count those words, which is why classification takes the redline "
-            "into account (see MAX_UNCHANGED_WORD_* in config)."
+            "Similarity does not move as text is appended: the appended words "
+            "are never read, so any amendment past the window is invisible to "
+            "the embedding."
+            if blind else
+            "Similarity falls as text is appended, so the whole clause reaches "
+            "the embedding. Clauses longer than the window are split into "
+            "overlapping chunks and pooled rather than truncated (CHUNK_* in "
+            "config), which is what removes the blind spot. The word-level "
+            "redline remains the authority on how much text changed, and "
+            "classification still defers to it (MAX_UNCHANGED_WORD_* and "
+            "MIN_SIGNIFICANT_WORD_* in config)."
         ),
     }

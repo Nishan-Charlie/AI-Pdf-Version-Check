@@ -22,7 +22,7 @@ from fastapi.responses import StreamingResponse
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from api.schemas import CompareRequest
-from comparison.engine import SemanticComparator
+from comparison.engine import get_comparator, loaded_models
 from comparison.report import ChangeType, VersionRef
 from config import (
     ALIGNMENT_AUTO,
@@ -31,7 +31,10 @@ from config import (
     JURISDICTIONS,
     MINOR_EDIT_THRESHOLD,
     MODEL_NAME,
+    MODEL_REGISTRY,
     UNCHANGED_THRESHOLD,
+    model_is_downloaded,
+    resolve_model,
 )
 from corpus import registry
 from database.db import init_db
@@ -67,7 +70,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-_comparator = SemanticComparator()
 _MAX_UPLOAD_BYTES = 120 * 1024 * 1024
 
 
@@ -92,6 +94,57 @@ def meta() -> dict:
         },
         "model": MODEL_NAME,
         "stats": library_stats(),
+    }
+
+
+@app.get("/api/models")
+def models() -> dict:
+    """
+    Encoders the comparison can run on, and whether each is ready to use.
+
+    `downloaded` lets the interface distinguish an instant switch from one that
+    fetches hundreds of megabytes first, so a first comparison on a new model
+    does not look like a hang.
+    """
+    resident = set(loaded_models())
+
+    entries = []
+    for key, meta in MODEL_REGISTRY.items():
+        entries.append({
+            "key": key,
+            "id": meta["id"],
+            "dimensions": meta["dim"],
+            "window": meta["window"],
+            "size_mb": meta["size_mb"],
+            "downloaded": model_is_downloaded(meta["id"]),
+            "loaded": meta["id"] in resident,
+            "is_default": meta["id"] == MODEL_NAME,
+        })
+
+    return {"default": MODEL_NAME, "models": entries}
+
+
+@app.post("/api/models/warm")
+def warm_model(model: Optional[str] = Query(None)) -> dict:
+    """
+    Load a model now rather than during a comparison.
+
+    Downloads it first if necessary, so the wait happens where the user asked
+    for it instead of in the middle of a comparison.
+    """
+    model_id = resolve_model(model)
+    try:
+        comparator = get_comparator(model_id)
+        dimensions = comparator.dimension          # touching it forces the load
+        window = comparator.model.max_seq_length
+    except Exception as exc:  # noqa: BLE001 — surface the loader's own message
+        raise HTTPException(502, f"Could not load '{model_id}': {exc}") from exc
+
+    return {
+        "model": model_id,
+        "dimensions": dimensions,
+        "window": window,
+        "loaded": True,
     }
 
 
@@ -214,7 +267,7 @@ def compare(request: CompareRequest) -> dict:
         raise HTTPException(422, "Pick two different versions to compare.")
 
     report = _run_comparison(
-        request.version_v1, request.version_v2, request.strategy
+        request.version_v1, request.version_v2, request.strategy, request.model
     )
     return report.as_dict()
 
@@ -224,12 +277,13 @@ def compare_export(
     version_v1: int = Query(...),
     version_v2: int = Query(...),
     strategy: str = Query(ALIGNMENT_AUTO),
+    model: Optional[str] = Query(None),
 ) -> StreamingResponse:
     """The same comparison as a CSV download."""
     if version_v1 == version_v2:
         raise HTTPException(422, "Pick two different versions to compare.")
 
-    report = _run_comparison(version_v1, version_v2, strategy)
+    report = _run_comparison(version_v1, version_v2, strategy, model)
     rows = report.to_rows()
 
     buffer = io.StringIO()
@@ -250,7 +304,12 @@ def compare_export(
     )
 
 
-def _run_comparison(version_v1: int, version_v2: int, strategy: str):
+def _run_comparison(
+    version_v1: int,
+    version_v2: int,
+    strategy: str,
+    model: Optional[str] = None,
+):
     left = get_version(version_v1)
     right = get_version(version_v2)
 
@@ -265,7 +324,12 @@ def _run_comparison(version_v1: int, version_v2: int, strategy: str):
     if not clauses_v1 or not clauses_v2:
         raise HTTPException(422, "One of these versions has no stored clauses.")
 
-    return _comparator.compare(
+    try:
+        comparator = get_comparator(model)
+    except Exception as exc:  # noqa: BLE001 — surface the loader's own message
+        raise HTTPException(502, f"Could not load model '{model}': {exc}") from exc
+
+    return comparator.compare(
         clauses_v1,
         clauses_v2,
         ref_v1=_ref(left),
@@ -303,4 +367,4 @@ def search(
 
 @app.get("/api/health")
 def health() -> dict:
-    return {"status": "ok", "model": MODEL_NAME}
+    return {"status": "ok", "model": MODEL_NAME, "loaded": loaded_models()}

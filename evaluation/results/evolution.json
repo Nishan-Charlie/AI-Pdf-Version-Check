@@ -4,7 +4,7 @@
     {
       "edition": "2019 edition",
       "clauses": 541,
-      "words": 52581,
+      "words": 52580,
       "mean_clause_words": 97.2,
       "clauses_over_180_words": 62
     },
@@ -28,15 +28,15 @@
       "from": "2019 edition",
       "to": "2022 amendments",
       "clauses_compared": 566,
-      "unchanged": 429,
-      "minor_edits": 76,
-      "significant_changes": 32,
+      "unchanged": 430,
+      "minor_edits": 51,
+      "significant_changes": 56,
       "added": 25,
       "removed": 4,
-      "change_rate_percent": 24.2,
-      "words_added": 13351,
-      "words_removed": 10176,
-      "net_words": 3175,
+      "change_rate_percent": 24.0,
+      "words_added": 13350,
+      "words_removed": 10174,
+      "net_words": 3176,
       "most_changed_sections": [
         {
           "section": "Diagram",
@@ -68,7 +68,7 @@
         },
         {
           "section": "Section 7",
-          "changed_clauses": 7
+          "changed_clauses": 6
         }
       ]
     },
@@ -76,12 +76,12 @@
       "from": "2022 amendments",
       "to": "2025 amendments",
       "clauses_compared": 618,
-      "unchanged": 383,
-      "minor_edits": 116,
-      "significant_changes": 45,
+      "unchanged": 386,
+      "minor_edits": 84,
+      "significant_changes": 74,
       "added": 56,
       "removed": 18,
-      "change_rate_percent": 38.0,
+      "change_rate_percent": 37.5,
       "words_added": 26899,
       "words_removed": 15679,
       "net_words": 11220,
@@ -96,7 +96,7 @@
         },
         {
           "section": "Section 3",
-          "changed_clauses": 49
+          "changed_clauses": 48
         },
         {
           "section": "Requirements",
@@ -104,7 +104,7 @@
         },
         {
           "section": "Section 10",
-          "changed_clauses": 12
+          "changed_clauses": 11
         },
         {
           "section": "Appendix",
@@ -295,11 +295,11 @@
     },
     "clauses_amended_in_multiple_rounds": [
       {
-        "reference": "Diagram 3.7",
+        "reference": "Diagram 3.8",
         "rounds": 3
       },
       {
-        "reference": "Diagram 3.8",
+        "reference": "Diagram 3.7",
         "rounds": 3
       },
       {
@@ -319,7 +319,7 @@
         "rounds": 2
       },
       {
-        "reference": "3.60",
+        "reference": "Table 3.1",
         "rounds": 2
       },
       {
@@ -327,7 +327,11 @@
         "rounds": 2
       },
       {
-        "reference": "3.33",
+        "reference": "3.60",
+        "rounds": 2
+      },
+      {
+        "reference": "3.35",
         "rounds": 2
       },
       {
@@ -335,11 +339,7 @@
         "rounds": 2
       },
       {
-        "reference": "Table 3.1",
-        "rounds": 2
-      },
-      {
-        "reference": "3.49",
+        "reference": "3.101",
         "rounds": 2
       }
     ]
@@ -357,7 +357,7 @@
       "country_name": "England & Wales",
       "editions": 11,
       "clauses": 3235,
-      "words": 346385
+      "words": 346384
     },
     {
       "country_code": "IE",

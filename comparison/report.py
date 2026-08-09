@@ -161,6 +161,9 @@ class ComparisonReport:
     summary: ComparisonSummary = field(default_factory=ComparisonSummary)
     identifier_overlap: float = 0.0
     duration_seconds: float = 0.0
+    # Which encoder produced the similarity scores. Results are not comparable
+    # across models, so a report has to say which one it came from.
+    model: str = ""
 
     @property
     def is_cross_country(self) -> bool:
@@ -191,6 +194,7 @@ class ComparisonReport:
             "v1": self.v1.as_dict(),
             "v2": self.v2.as_dict(),
             "alignment_method": self.alignment_method,
+            "model": self.model,
             "identifier_overlap": round(self.identifier_overlap, 3),
             "is_cross_country": self.is_cross_country,
             "duration_seconds": round(self.duration_seconds, 2),

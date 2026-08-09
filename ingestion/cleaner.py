@@ -68,10 +68,19 @@ def clean_text(raw_text: str) -> str:
     return _collapse_whitespace("\n".join(lines)).strip()
 
 
+# A ligature that arrived as separate glyphs with a gap between them, so that
+# "fire" extracts as "fi re". NFKD fixes the composed character (U+FB01), but
+# not a PDF that positioned the pair as two runs. Matched case-sensitively and
+# only before a lowercase letter: "fi", "fl", and "ff" are never words on their
+# own, so joining them cannot damage real text, while "FL as" and "Fi is" —
+# which do occur — are left alone.
+_SPLIT_LIGATURE = re.compile(r"\b(ffi|ffl|fi|fl|ff) (?=[a-z])")
+
+
 def _standardize_characters(text: str) -> str:
     for old, new in _REPLACEMENTS.items():
         text = text.replace(old, new)
-    return text
+    return _SPLIT_LIGATURE.sub(r"\1", text)
 
 
 def _is_furniture(line: str) -> bool:
