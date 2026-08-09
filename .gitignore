@@ -7,21 +7,28 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+#
+# Anchored to the repository root with a leading slash. Without it, a bare
+# pattern like "lib/" matches a directory of that name at ANY depth, which
+# silently excluded web/lib/ — the dashboard's api.ts, types.ts, change.ts and
+# highlight.ts — and broke the build on a fresh clone with
+# "Module not found: Can't resolve '@/lib/api'". These are Python build
+# artefacts and only ever appear at the root.
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
+/build/
+/develop-eggs/
+/dist/
+/downloads/
+/eggs/
+/.eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/var/
+/wheels/
+/pip-wheel-metadata/
+/share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -38,7 +45,7 @@ pip-log.txt
 pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-htmlcov/
+/htmlcov/
 .tox/
 .nox/
 .coverage
@@ -65,7 +72,7 @@ db.sqlite3-journal
 docs/_build/
 
 # PyBuilder
-target/
+/target/
 
 # Jupyter Notebook
 .ipynb_checkouts
