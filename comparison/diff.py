@@ -58,16 +58,26 @@ class Redline:
     def has_changes(self) -> bool:
         return bool(self.words_removed or self.words_added)
 
-    def as_dict(self) -> dict:
-        return {
+    def as_dict(self, include_unified: bool = False) -> dict:
+        """
+        The wire form of a redline.
+
+        `html_unified` is left out by default. It is a third rendering of text
+        already present in `html_v1` and `html_v2`, and the dashboard shows the
+        two panes rather than a merged stream — including it added a quarter to
+        the size of every comparison response for a field nothing read.
+        """
+        payload = {
             "html_v1": self.html_v1,
             "html_v2": self.html_v2,
-            "html_unified": self.html_unified,
             "words_removed": self.words_removed,
             "words_added": self.words_added,
             "words_unchanged": self.words_unchanged,
             "word_change_ratio": round(self.word_change_ratio, 4),
         }
+        if include_unified:
+            payload["html_unified"] = self.html_unified
+        return payload
 
 
 def tokenize(text: str) -> list[str]:

@@ -12,6 +12,7 @@ from the start and the bar does not jump as each new file begins.
 
 from __future__ import annotations
 
+import os
 import threading
 import time
 from dataclasses import dataclass, field
@@ -190,50 +191,65 @@ def _download(repo: str, job: DownloadJob, patterns: list[str]) -> None:
     """
     Pull the repository, reporting bytes as they arrive.
 
-    huggingface_hub draws its own progress bars with tqdm; substituting a class
-    that also records into the job turns those bars into an API response
-    without reimplementing the transfer.
+    Progress is read from the cache directory rather than from the transfer.
+    huggingface_hub's `tqdm_class` hook counts *files* completed, not bytes, so
+    a repository whose weight file is 400 MB reports nothing at all until that
+    file lands — a bar that sits at zero and then jumps to done. Watching the
+    directory grow works however the hub moves the bytes, including under the
+    accelerated downloader.
     """
     from huggingface_hub import snapshot_download
 
-    tracker = _ByteTracker(job)
-
-    snapshot_download(
-        repo_id=repo,
-        ignore_patterns=patterns,
-        tqdm_class=tracker.tqdm_class(),
-        max_workers=4,
+    stop = threading.Event()
+    watcher = threading.Thread(
+        target=_watch_cache, args=(repo, job, stop), daemon=True,
+        name=f"progress:{job.model_id}",
     )
+    watcher.start()
+
+    try:
+        snapshot_download(
+            repo_id=repo,
+            ignore_patterns=patterns,
+            max_workers=4,
+        )
+    finally:
+        stop.set()
+        watcher.join(timeout=2)
 
 
-class _ByteTracker:
-    """Accumulates progress across the per-file bars huggingface_hub creates."""
+def _watch_cache(repo: str, job: DownloadJob, stop: threading.Event) -> None:
+    """Poll the model's cache folder and report how much of it has arrived."""
+    try:
+        from huggingface_hub.constants import HF_HUB_CACHE
+    except ImportError:
+        return
 
-    def __init__(self, job: DownloadJob):
-        self.job = job
-        self._lock = threading.Lock()
+    folder = os.path.join(HF_HUB_CACHE, "models--" + repo.replace("/", "--"))
 
-    def tqdm_class(self):
-        from tqdm.auto import tqdm as base_tqdm
+    while not stop.wait(0.4):
+        size = _folder_size(folder)
+        # Never report more than was promised: a cache layout that keeps both a
+        # blob and a copy of it would otherwise overshoot the total.
+        if job.total_bytes:
+            size = min(size, job.total_bytes)
+        if size > job.done_bytes:
+            job.done_bytes = size
 
-        tracker = self
 
-        class TrackingTqdm(base_tqdm):
-            def __init__(self, *args, **kwargs):
-                # The bars still render server-side by default; silence them so
-                # the API's own output stays readable.
-                kwargs.setdefault("disable", True)
-                super().__init__(*args, **kwargs)
+def _folder_size(path: str) -> int:
+    """
+    Bytes held under a directory, including partial downloads.
 
-            def update(self, n=1):
-                result = super().update(n)
-                tracker.add(n or 0)
-                return result
-
-        return TrackingTqdm
-
-    def add(self, count: int) -> None:
-        with self._lock:
-            self.job.done_bytes += int(count)
-            if self.job.total_bytes:
-                self.job.done_bytes = min(self.job.done_bytes, self.job.total_bytes)
+    Symlinks are measured as links rather than followed, so a cache that keeps
+    the real file in blobs/ and links to it from snapshots/ counts it once.
+    """
+    total = 0
+    for root, _, files in os.walk(path):
+        for name in files:
+            try:
+                total += os.stat(os.path.join(root, name),
+                                 follow_symlinks=False).st_size
+            except OSError:
+                continue  # vanished mid-walk; it will be counted next tick
+    return total

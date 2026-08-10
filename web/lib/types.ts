@@ -56,7 +56,8 @@ export interface ClauseSide {
 export interface Redline {
   html_v1: string;
   html_v2: string;
-  html_unified: string;
+  /** Merged single-stream view. Not sent by default; the panes are shown instead. */
+  html_unified?: string;
   words_removed: number;
   words_added: number;
   words_unchanged: number;

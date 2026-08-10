@@ -2,11 +2,17 @@
   "name": "fire-safety-comparison-ui",
   "version": "2.0.0",
   "private": true,
+  "engines": {
+    "node": "^18.18.0 || ^19.8.0 || >=20.0.0"
+  },
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start -p 3000",
-    "lint": "next lint"
+    "lint": "next lint",
+    "//dev:roomy": "Same dev server with a larger V8 heap. Use on machines where `npm run dev` dies with ERR_MEMORY_ALLOCATION_FAILED.",
+    "dev:roomy": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next dev -p 3000",
+    "build:roomy": "node --max-old-space-size=4096 ./node_modules/next/dist/bin/next build"
   },
   "dependencies": {
     "next": "15.1.6",

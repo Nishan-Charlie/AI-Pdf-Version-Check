@@ -348,12 +348,44 @@ Adding a jurisdiction means adding an entry to `JURISDICTIONS` and a
 | Problem | Fix |
 | :--- | :--- |
 | Dashboard says it can't reach the service | Start the API: `uvicorn api.main:app --port 8000`. |
+| `Module not found: Can't resolve '@/lib/...'` | `web/lib/` is missing. It was excluded by an unanchored `lib/` rule in `.gitignore` (fixed); pull the latest commit. |
+| `RangeError: Failed to allocate memory` / `ERR_MEMORY_ALLOCATION_FAILED` when starting the dashboard | Node has run out of heap compiling the app — see below. |
 | `ModuleNotFoundError: No module named 'fitz'` | `pip install PyMuPDF` — the import name differs from the package name. |
 | "No text could be read from …" | The PDF is a scan. Run OCR over it first; the extractor reads text layers, not images. |
 | Very few clauses parsed | The document may not use numbered clauses, or the wrong jurisdiction was selected. Re-upload with the jurisdiction set explicitly, or leave it on *Detect*. |
 | First comparison is slow | The embedding model downloads and loads once. Later comparisons reuse it. |
 | Cross-country comparison shows nothing unchanged | Expected. No two national regulations are word-identical; read the *aligned* and *diverging* counts instead. |
 | A downloaded standard fails to fetch | Regulators move files. `corpus/registry.py` holds the URL for each one — update it there. |
+
+---
+
+### The dashboard runs out of memory
+
+`RangeError: Failed to allocate memory` comes from Node while it compiles the
+app, not from the comparison data — a full comparison response is under 2 MB.
+Work through these in order:
+
+```bash
+node --version                 # must satisfy ^18.18 || ^19.8 || >=20
+node -p "process.arch"         # ia32 caps the heap around 2 GB; use x64/arm64
+
+cd web
+rm -rf .next node_modules      # a cache from another machine or Node version
+npm ci                         #   is a common cause of strange allocations
+npm run dev
+```
+
+If it still dies, the machine is simply short of headroom. A larger heap is
+already wired up:
+
+```bash
+npm run dev:roomy              # dev server with --max-old-space-size=4096
+npm run build:roomy
+```
+
+Under WSL2 or a container, the limit is often the sandbox rather than the host:
+check `.wslconfig` or the container's memory cap, since Next's dev compiler
+wants roughly 1.5–2 GB on its own.
 
 ---
 
