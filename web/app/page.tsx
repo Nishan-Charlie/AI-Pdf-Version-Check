@@ -511,7 +511,11 @@ export default function Page() {
                   onClick={runComparison}
                   disabled={comparing || !baselineId || !revisionId || baselineId === revisionId}
                 >
-                  {comparing ? "Comparing…" : "Compare"}
+                  {download
+                    ? "Preparing model…"
+                    : comparing
+                      ? "Comparing…"
+                      : "Compare"}
                 </button>
 
                 {report && (
