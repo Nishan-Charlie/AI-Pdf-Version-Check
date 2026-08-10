@@ -21,6 +21,7 @@ from fastapi.responses import StreamingResponse
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
+from api import downloads
 from api.schemas import CompareRequest
 from comparison.engine import get_comparator, loaded_models
 from comparison.report import ChangeType, VersionRef
@@ -124,13 +125,61 @@ def models() -> dict:
     return {"default": MODEL_NAME, "models": entries}
 
 
+@app.post("/api/models/download")
+def start_model_download(model: Optional[str] = Query(None)) -> dict:
+    """
+    Begin fetching a model in the background.
+
+    Returns immediately with a job to poll, so the interface can show what is
+    happening instead of holding a request open for several minutes. Calling
+    this for a model already held returns a finished job straight away.
+    """
+    model_id = resolve_model(model)
+
+    if model_is_downloaded(model_id) and model_id in loaded_models():
+        return {
+            "model": model_id,
+            "state": downloads.READY,
+            "percent": 100.0,
+            "done_bytes": 0,
+            "total_bytes": 0,
+            "message": "Ready",
+            "error": "",
+            "elapsed_seconds": 0.0,
+        }
+
+    return downloads.start(model_id).as_dict()
+
+
+@app.get("/api/models/status")
+def model_download_status(model: Optional[str] = Query(None)) -> dict:
+    """Progress of a model fetch, for polling while the bar is on screen."""
+    model_id = resolve_model(model)
+    job = downloads.get_job(model_id)
+
+    if job is None:
+        held = model_is_downloaded(model_id)
+        return {
+            "model": model_id,
+            "state": downloads.READY if held and model_id in loaded_models() else downloads.IDLE,
+            "percent": 100.0 if held else 0.0,
+            "done_bytes": 0,
+            "total_bytes": 0,
+            "message": "On disk" if held else "Not downloaded",
+            "error": "",
+            "elapsed_seconds": 0.0,
+        }
+
+    return job.as_dict()
+
+
 @app.post("/api/models/warm")
 def warm_model(model: Optional[str] = Query(None)) -> dict:
     """
-    Load a model now rather than during a comparison.
+    Load a model now and wait for it.
 
-    Downloads it first if necessary, so the wait happens where the user asked
-    for it instead of in the middle of a comparison.
+    The blocking counterpart to /api/models/download, for scripts that would
+    rather wait than poll.
     """
     model_id = resolve_model(model)
     try:

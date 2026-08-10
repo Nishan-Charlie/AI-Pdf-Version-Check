@@ -12,6 +12,7 @@ import { ChangeSpine } from "@/components/ChangeSpine";
 import { ClauseRecord } from "@/components/ClauseRecord";
 import { CorpusPanel } from "@/components/CorpusPanel";
 import { Masthead, type Tab } from "@/components/Masthead";
+import { ModelDownload } from "@/components/ModelDownload";
 import { ModelPicker } from "@/components/ModelPicker";
 import { UploadPanel } from "@/components/UploadPanel";
 import { VersionPicker } from "@/components/VersionPicker";
@@ -22,6 +23,7 @@ import type {
   ChangeType,
   ComparisonReport,
   CorpusStatus,
+  DownloadStatus,
   Meta,
   ModelInfo,
   SearchHit,
@@ -45,6 +47,7 @@ export default function Page() {
   const [strategy, setStrategy] = useState("auto");
   const [models, setModels] = useState<ModelInfo[]>([]);
   const [modelKey, setModelKey] = useState("");
+  const [download, setDownload] = useState<DownloadStatus | null>(null);
 
   const [report, setReport] = useState<ComparisonReport | null>(null);
   const [comparing, setComparing] = useState(false);
@@ -134,11 +137,67 @@ export default function Page() {
 
   // ── Comparison ───────────────────────────────────────────────────
 
+  /**
+   * Make sure the chosen model is on disk and loaded before comparing.
+   *
+   * Downloading inside the comparison request would give one long silence, so
+   * it runs as its own tracked job and the progress is shown while it works.
+   * Resolves true when the model is ready to use.
+   */
+  const ensureModelReady = useCallback(async (): Promise<boolean> => {
+    const chosen = models.find((m) => m.key === modelKey);
+    if (!chosen || (chosen.downloaded && chosen.loaded)) return true;
+
+    setDownload({
+      model: chosen.id,
+      state: "resolving",
+      percent: 0,
+      done_bytes: 0,
+      total_bytes: 0,
+      message: "Checking what needs downloading…",
+      error: "",
+      elapsed_seconds: 0,
+    });
+
+    try {
+      let status = await api.startModelDownload(modelKey);
+      setDownload(status);
+
+      while (status.state !== "ready" && status.state !== "error") {
+        await new Promise((resolve) => setTimeout(resolve, 600));
+        status = await api.modelStatus(modelKey);
+        setDownload(status);
+      }
+
+      if (status.state === "error") {
+        setCompareError(`Could not prepare ${chosen.key}: ${status.error}`);
+        return false;
+      }
+
+      await loadModels();
+      return true;
+    } catch (caught) {
+      setCompareError(
+        caught instanceof ApiError ? caught.message : "The model download failed.",
+      );
+      return false;
+    } finally {
+      // Leave the panel up briefly on success so the finished state is seen.
+      setTimeout(() => setDownload(null), 900);
+    }
+  }, [models, modelKey, loadModels]);
+
   const runComparison = useCallback(async () => {
     if (!baselineId || !revisionId || baselineId === revisionId) return;
 
     setComparing(true);
     setCompareError(null);
+
+    const ready = await ensureModelReady();
+    if (!ready) {
+      setComparing(false);
+      return;
+    }
 
     try {
       const next = await api.compare(baselineId, revisionId, strategy, modelKey);
@@ -157,7 +216,7 @@ export default function Page() {
     } finally {
       setComparing(false);
     }
-  }, [baselineId, revisionId, strategy, modelKey, loadModels]);
+  }, [baselineId, revisionId, strategy, modelKey, loadModels, ensureModelReady]);
 
   function swapSides() {
     setBaselineId(revisionId);
@@ -471,20 +530,10 @@ export default function Page() {
               </div>
             </section>
 
-            {comparing && (
-              <>
-                <div className="bar bar-indeterminate" role="status" aria-label="Comparing" />
-                {selectedModel && !selectedModel.downloaded && (
-                  <div
-                    className="notice"
-                    style={{ ["--notice-color" as string]: "var(--sand)", marginTop: "1rem" }}
-                  >
-                    Downloading {selectedModel.key} ({selectedModel.size_mb} MB) before
-                    comparing. This happens once; later comparisons on this model start
-                    immediately.
-                  </div>
-                )}
-              </>
+            {download && <ModelDownload status={download} model={selectedModel} />}
+
+            {comparing && !download && (
+              <div className="bar bar-indeterminate" role="status" aria-label="Comparing" />
             )}
 
             {report && modelChanged && !comparing && (

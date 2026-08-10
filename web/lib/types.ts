@@ -109,6 +109,25 @@ export interface ModelInfo {
   is_default: boolean;
 }
 
+export type DownloadState =
+  | "idle"
+  | "resolving"
+  | "downloading"
+  | "loading"
+  | "ready"
+  | "error";
+
+export interface DownloadStatus {
+  model: string;
+  state: DownloadState;
+  percent: number;
+  done_bytes: number;
+  total_bytes: number;
+  message: string;
+  error: string;
+  elapsed_seconds: number;
+}
+
 export interface ComparisonReport {
   v1: VersionRef;
   v2: VersionRef;

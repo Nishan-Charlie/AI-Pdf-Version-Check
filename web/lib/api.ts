@@ -1,6 +1,7 @@
 import type {
   ComparisonReport,
   CorpusStatus,
+  DownloadStatus,
   Meta,
   ModelInfo,
   SearchHit,
@@ -46,7 +47,19 @@ export const api = {
   models: () =>
     request<{ default: string; models: ModelInfo[] }>("/api/models"),
 
-  /** Load a model now, so a comparison does not stall on the download. */
+  /** Begin fetching a model. Returns straight away; poll modelStatus. */
+  startModelDownload: (model: string) =>
+    request<DownloadStatus>(
+      `/api/models/download?model=${encodeURIComponent(model)}`,
+      { method: "POST" },
+    ),
+
+  modelStatus: (model: string) =>
+    request<DownloadStatus>(
+      `/api/models/status?model=${encodeURIComponent(model)}`,
+    ),
+
+  /** Load a model and wait for it — the blocking counterpart to the above. */
   warmModel: (model: string) =>
     request<{ model: string; window: number; dimensions: number }>(
       `/api/models/warm?model=${encodeURIComponent(model)}`,
