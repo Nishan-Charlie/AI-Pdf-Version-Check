@@ -2,6 +2,7 @@ import type {
   ComparisonReport,
   CorpusStatus,
   DownloadStatus,
+  MachineInfo,
   Meta,
   ModelInfo,
   SearchHit,
@@ -45,7 +46,9 @@ export const api = {
     ).then((r) => r.versions),
 
   models: () =>
-    request<{ default: string; models: ModelInfo[] }>("/api/models"),
+    request<{ default: string; models: ModelInfo[]; machine: MachineInfo }>(
+      "/api/models",
+    ),
 
   /** Begin fetching a model. Returns straight away; poll modelStatus. */
   startModelDownload: (model: string) =>

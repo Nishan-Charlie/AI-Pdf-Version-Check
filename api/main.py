@@ -30,12 +30,15 @@ from config import (
     AUTO_JURISDICTION,
     CORPUS_SEARCH_LIMIT,
     JURISDICTIONS,
+    LOW_MEMORY_THRESHOLD_MB,
+    MAX_LOADED_MODELS,
     MINOR_EDIT_THRESHOLD,
     MODEL_NAME,
     MODEL_REGISTRY,
     UNCHANGED_THRESHOLD,
     model_is_downloaded,
     resolve_model,
+    total_ram_mb,
 )
 from corpus import registry
 from database.db import init_db
@@ -108,6 +111,8 @@ def models() -> dict:
     does not look like a hang.
     """
     resident = set(loaded_models())
+    ram = total_ram_mb()
+    constrained = bool(ram) and ram < LOW_MEMORY_THRESHOLD_MB
 
     entries = []
     for key, meta in MODEL_REGISTRY.items():
@@ -117,12 +122,24 @@ def models() -> dict:
             "dimensions": meta["dim"],
             "window": meta["window"],
             "size_mb": meta["size_mb"],
+            "ram_mb": meta["ram_mb"],
             "downloaded": model_is_downloaded(meta["id"]),
             "loaded": meta["id"] in resident,
             "is_default": meta["id"] == MODEL_NAME,
+            # A model this service can hold without starving whatever else the
+            # machine is running — the dashboard's compiler, most of all.
+            "heavy_for_machine": constrained and meta["ram_mb"] > 1000,
         })
 
-    return {"default": MODEL_NAME, "models": entries}
+    return {
+        "default": MODEL_NAME,
+        "models": entries,
+        "machine": {
+            "total_ram_mb": ram,
+            "low_memory": constrained,
+            "max_loaded_models": MAX_LOADED_MODELS,
+        },
+    }
 
 
 @app.post("/api/models/download")

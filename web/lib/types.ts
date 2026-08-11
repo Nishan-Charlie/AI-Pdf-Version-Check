@@ -102,12 +102,23 @@ export interface ModelInfo {
   id: string;
   dimensions: number;
   window: number;
+  /** Download size. */
   size_mb: number;
+  /** What the loaded model costs the service — the figure that decides fit. */
+  ram_mb: number;
   /** Weights are on disk — switching to it is instant. */
   downloaded: boolean;
   /** Weights are resident in the service right now. */
   loaded: boolean;
   is_default: boolean;
+  /** This machine is short of memory and this model is a heavy one. */
+  heavy_for_machine: boolean;
+}
+
+export interface MachineInfo {
+  total_ram_mb: number;
+  low_memory: boolean;
+  max_loaded_models: number;
 }
 
 export type DownloadState =

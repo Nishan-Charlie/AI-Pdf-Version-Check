@@ -19,27 +19,81 @@ CORPUS_TEXT_DIR = os.path.join(CORPUS_DIR, "text")   # extracted text corpus
 # Set FIRE_SAFETY_MODEL to any of these keys (or a HuggingFace model id) to
 # switch. Window is what the encoder reads before truncating; clauses longer
 # than that are chunked and pooled rather than cut off (see CHUNK_* below).
+# `size_mb` is the download. `ram_mb` is what the loaded model costs the
+# service, which is the figure that decides whether a machine can run it:
+# PyTorch's runtime alone is most of a gigabyte before any weights are read.
 MODEL_REGISTRY = {
     # Fast, small, and the weakest — kept so results in earlier reports can
-    # still be reproduced.
-    "mini":   {"id": "all-MiniLM-L6-v2",        "dim": 384,  "window": 256,  "size_mb": 90},
+    # still be reproduced, and the only comfortable choice on a small machine.
+    "mini":   {"id": "all-MiniLM-L6-v2",        "dim": 384,  "window": 256,  "size_mb": 90,   "ram_mb": 900},
     # Strong general-purpose sentence encoder.
-    "mpnet":  {"id": "all-mpnet-base-v2",       "dim": 768,  "window": 384,  "size_mb": 420},
+    "mpnet":  {"id": "all-mpnet-base-v2",       "dim": 768,  "window": 384,  "size_mb": 420,  "ram_mb": 1500},
     # Default: better retrieval quality than mpnet and twice MiniLM's window,
     # which matters because 16.8% of corpus clauses overflow 256 tokens.
-    "bge":    {"id": "BAAI/bge-base-en-v1.5",   "dim": 768,  "window": 512,  "size_mb": 440},
+    "bge":    {"id": "BAAI/bge-base-en-v1.5",   "dim": 768,  "window": 512,  "size_mb": 440,  "ram_mb": 1600},
     # Highest quality, noticeably slower and much larger.
-    "bge-lg": {"id": "BAAI/bge-large-en-v1.5",  "dim": 1024, "window": 512,  "size_mb": 1340},
+    "bge-lg": {"id": "BAAI/bge-large-en-v1.5",  "dim": 1024, "window": 512,  "size_mb": 1340, "ram_mb": 3000},
 }
+
+# Below this much physical memory, the dashboard warns that a heavy model will
+# contend with its own compiler. Set from the failure it is meant to prevent:
+# an 8 GB machine running this service and `next dev` at once.
+LOW_MEMORY_THRESHOLD_MB = 10_000
 
 DEFAULT_MODEL_KEY = "bge"
 
 _requested = os.environ.get("FIRE_SAFETY_MODEL", DEFAULT_MODEL_KEY)
 MODEL_NAME = MODEL_REGISTRY.get(_requested, {}).get("id", _requested)
 
-# How many encoders may be resident at once. Each is hundreds of megabytes, so
-# switching models freely in the UI would otherwise exhaust memory.
-MAX_LOADED_MODELS = 2
+# How many encoders may be resident at once.
+#
+# One, by default. A loaded encoder costs far more than its download: PyTorch's
+# own footprint plus weights and activations puts bge-base near 1.5 GB, and
+# holding two was measured pushing this service past 3.6 GB resident. On an 8 GB
+# machine that leaves nothing for the dashboard's compiler, which fails with
+# ERR_MEMORY_ALLOCATION_FAILED — the dashboard dying because of a setting on
+# the Python side.
+#
+# Raise it if you have the headroom and switch models often; the cost of the
+# default is a few seconds reloading from disk when you do.
+MAX_LOADED_MODELS = max(1, int(os.environ.get("FIRE_SAFETY_MAX_MODELS", "1")))
+
+
+def total_ram_mb() -> int:
+    """
+    Physical memory on this machine, or 0 if it cannot be determined.
+
+    Used to warn before loading a model that will not fit. Deliberately
+    dependency-free — psutil is not worth requiring for one number.
+    """
+    try:
+        if hasattr(os, "sysconf") and "SC_PHYS_PAGES" in os.sysconf_names:
+            return os.sysconf("SC_PHYS_PAGES") * os.sysconf("SC_PAGE_SIZE") // (1024 ** 2)
+    except (ValueError, OSError):
+        pass
+
+    try:
+        import ctypes
+
+        class _MemoryStatus(ctypes.Structure):
+            _fields_ = [
+                ("dwLength", ctypes.c_ulong),
+                ("dwMemoryLoad", ctypes.c_ulong),
+                ("ullTotalPhys", ctypes.c_ulonglong),
+                ("ullAvailPhys", ctypes.c_ulonglong),
+                ("ullTotalPageFile", ctypes.c_ulonglong),
+                ("ullAvailPageFile", ctypes.c_ulonglong),
+                ("ullTotalVirtual", ctypes.c_ulonglong),
+                ("ullAvailVirtual", ctypes.c_ulonglong),
+                ("ullAvailExtendedVirtual", ctypes.c_ulonglong),
+            ]
+
+        status = _MemoryStatus()
+        status.dwLength = ctypes.sizeof(_MemoryStatus)
+        ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(status))
+        return int(status.ullTotalPhys // (1024 ** 2))
+    except Exception:  # noqa: BLE001 — a missing figure is not an error
+        return 0
 
 
 def resolve_model(requested: str | None) -> str:

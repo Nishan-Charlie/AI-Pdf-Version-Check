@@ -24,6 +24,7 @@ import type {
   ComparisonReport,
   CorpusStatus,
   DownloadStatus,
+  MachineInfo,
   Meta,
   ModelInfo,
   SearchHit,
@@ -48,6 +49,7 @@ export default function Page() {
   const [models, setModels] = useState<ModelInfo[]>([]);
   const [modelKey, setModelKey] = useState("");
   const [download, setDownload] = useState<DownloadStatus | null>(null);
+  const [machine, setMachine] = useState<MachineInfo | null>(null);
 
   const [report, setReport] = useState<ComparisonReport | null>(null);
   const [comparing, setComparing] = useState(false);
@@ -89,8 +91,9 @@ export default function Page() {
 
   const loadModels = useCallback(async () => {
     try {
-      const { models: available } = await api.models();
+      const { models: available, machine: host } = await api.models();
       setModels(available);
+      setMachine(host);
       setModelKey((current) => {
         if (current && available.some((m) => m.key === current)) return current;
         return (available.find((m) => m.is_default) ?? available[0])?.key ?? "";
@@ -533,6 +536,23 @@ export default function Page() {
                 )}
               </div>
             </section>
+
+            {machine?.low_memory && selectedModel?.heavy_for_machine && !download && (
+              <div
+                className="notice"
+                style={{ ["--notice-color" as string]: "var(--burnt)", marginTop: "1rem" }}
+              >
+                <span>
+                  This machine has {(machine.total_ram_mb / 1024).toFixed(0)} GB of
+                  memory and <b>{selectedModel.key}</b> needs about{" "}
+                  {(selectedModel.ram_mb / 1024).toFixed(1)} GB of it while loaded.
+                  Running it alongside the dashboard&rsquo;s dev server can exhaust
+                  memory. Choose <b>mini</b>, or serve the dashboard with{" "}
+                  <code className="mono">npm run build &amp;&amp; npm start</code>{" "}
+                  instead of <code className="mono">npm run dev</code>.
+                </span>
+              </div>
+            )}
 
             {download && <ModelDownload status={download} model={selectedModel} />}
 

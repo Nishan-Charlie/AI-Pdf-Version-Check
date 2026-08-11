@@ -45,6 +45,7 @@ export function ModelPicker({
           <option key={model.key} value={model.key}>
             {model.key} — {model.window} tokens
             {model.downloaded ? "" : ` · ${formatSize(model.size_mb)} download`}
+            {model.heavy_for_machine ? " · heavy" : ""}
           </option>
         ))}
       </select>
@@ -52,9 +53,17 @@ export function ModelPicker({
       {selected && (
         <span
           className="side-tag"
-          style={{ color: needsDownload ? "var(--sand)" : "var(--graphite)" }}
+          style={{
+            color: selected.heavy_for_machine
+              ? "var(--burnt)"
+              : needsDownload
+                ? "var(--sand)"
+                : "var(--graphite)",
+          }}
         >
-          {needsDownload ? (
+          {selected.heavy_for_machine ? (
+            <>Needs ~{formatSize(selected.ram_mb)} RAM · heavy for this machine</>
+          ) : needsDownload ? (
             <>Downloads {formatSize(selected.size_mb)} on first use</>
           ) : selected.loaded ? (
             <>Ready · {selected.dimensions}d</>
@@ -70,5 +79,5 @@ export function ModelPicker({
 function formatSize(megabytes: number): string {
   return megabytes >= 1024
     ? `${(megabytes / 1024).toFixed(1)} GB`
-    : `${megabytes} MB`;
+    : `${Math.round(megabytes)} MB`;
 }
