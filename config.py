@@ -40,7 +40,20 @@ MODEL_REGISTRY = {
 # an 8 GB machine running this service and `next dev` at once.
 LOW_MEMORY_THRESHOLD_MB = 10_000
 
-DEFAULT_MODEL_KEY = "bge"
+# Small by default, so the service fits alongside the dashboard on an ordinary
+# machine — roughly 900 MB resident against bge-base's 1.6 GB. It is the
+# weakest of the four and its 256-token window truncates more clauses, but
+# chunking means the whole clause is still read (see CHUNK_* below), and a
+# service that runs everywhere beats one that is killed under memory pressure.
+#
+# Set FIRE_SAFETY_MODEL=bge for the stronger default on a machine with room;
+# that is what the figures in RESEARCH_FINDINGS.md were measured with.
+DEFAULT_MODEL_KEY = "mini"
+
+# Load the default encoder when the service starts rather than on the first
+# comparison, so the first comparison is not several seconds slower than the
+# rest for no visible reason. Set to "0" to defer it.
+PRELOAD_DEFAULT_MODEL = os.environ.get("FIRE_SAFETY_PRELOAD", "1") != "0"
 
 _requested = os.environ.get("FIRE_SAFETY_MODEL", DEFAULT_MODEL_KEY)
 MODEL_NAME = MODEL_REGISTRY.get(_requested, {}).get("id", _requested)

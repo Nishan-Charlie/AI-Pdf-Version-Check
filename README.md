@@ -288,7 +288,7 @@ uploaded PDFs, so both gates have to fail for markup to reach the page.
 `config.py` holds everything worth changing:
 
 ```python
-DEFAULT_MODEL_KEY = "bge"           # BAAI/bge-base-en-v1.5, 512-token window
+DEFAULT_MODEL_KEY = "mini"          # smallest; set FIRE_SAFETY_MODEL=bge for the stronger one
 
 UNCHANGED_THRESHOLD = 0.95          # at or above this → Unchanged
 MINOR_EDIT_THRESHOLD = 0.80         # 0.80–0.94 → Minor Edit, below → Significant
@@ -310,12 +310,22 @@ records which model produced it — scores from different encoders are not
 comparable, so changing the model after a comparison shows a notice rather than
 silently mixing them.
 
-| Key | Model | Window | Dim | Download |
-| :--- | :--- | ---: | ---: | ---: |
-| `mini` | all-MiniLM-L6-v2 | 256 | 384 | 90 MB |
-| `mpnet` | all-mpnet-base-v2 | 384 | 768 | 420 MB |
-| **`bge`** *(default)* | **BAAI/bge-base-en-v1.5** | **512** | **768** | **440 MB** |
-| `bge-lg` | BAAI/bge-large-en-v1.5 | 512 | 1024 | 1.34 GB |
+| Key | Model | Window | Dim | Download | RAM when loaded |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| **`mini`** *(default)* | **all-MiniLM-L6-v2** | **256** | **384** | **90 MB** | **~0.9 GB** |
+| `mpnet` | all-mpnet-base-v2 | 384 | 768 | 420 MB | ~1.5 GB |
+| `bge` | BAAI/bge-base-en-v1.5 | 512 | 768 | 440 MB | ~1.6 GB |
+| `bge-lg` | BAAI/bge-large-en-v1.5 | 512 | 1024 | 1.34 GB | ~3.0 GB |
+
+`mini` is the default because it is the one that fits everywhere: the service
+peaks near 1.3 GB with it loaded and a full comparison running, against 3.6 GB
+when a larger model is held. It is the weakest of the four, so on a machine
+with headroom prefer `bge` — that is what the figures in
+[RESEARCH_FINDINGS.md](RESEARCH_FINDINGS.md) were measured with.
+
+The default model is loaded when the service starts, on a background thread, so
+the API answers immediately and the first comparison is no slower than the rest.
+Set `FIRE_SAFETY_PRELOAD=0` to defer it.
 
 A model that is not on disk is downloaded on first use; the picker says so and
 shows the size, so a first comparison on a new model does not look like a hang.
@@ -350,6 +360,7 @@ Adding a jurisdiction means adding an entry to `JURISDICTIONS` and a
 | Dashboard says it can't reach the service | Start the API: `uvicorn api.main:app --port 8000`. |
 | `Module not found: Can't resolve '@/lib/...'` | `web/lib/` is missing. It was excluded by an unanchored `lib/` rule in `.gitignore` (fixed); pull the latest commit. |
 | `RangeError: Failed to allocate memory` / `ERR_MEMORY_ALLOCATION_FAILED` when starting the dashboard | Node has run out of heap compiling the app — see below. |
+| `Failed to proxy … /api/compare [Error: socket hang up] ECONNRESET` | The Python service closed the connection: it was killed under memory pressure, or the comparison outran the proxy's request timeout. Both are covered below. |
 | `ModuleNotFoundError: No module named 'fitz'` | `pip install PyMuPDF` — the import name differs from the package name. |
 | "No text could be read from …" | The PDF is a scan. Run OCR over it first; the extractor reads text layers, not images. |
 | Very few clauses parsed | The document may not use numbered clauses, or the wrong jurisdiction was selected. Re-upload with the jurisdiction set explicitly, or leave it on *Detect*. |
@@ -386,6 +397,33 @@ npm run build:roomy
 Under WSL2 or a container, the limit is often the sandbox rather than the host:
 check `.wslconfig` or the container's memory cap, since Next's dev compiler
 wants roughly 1.5–2 GB on its own.
+
+### Running on 8 GB
+
+Both halves want memory at once. Measured on this project: the Python service
+peaks near 2 GB holding one model, and Next's dev compiler wants another
+1.5–2 GB. On 8 GB, with a browser open, that is too tight — the symptom is
+whichever process loses: `ERR_MEMORY_ALLOCATION_FAILED` from Node, or
+`ECONNRESET` from a Python process that was killed mid-comparison.
+
+Three changes, in order of effect:
+
+```bash
+# 1. Use the small model — ~900 MB resident instead of ~1.6 GB.
+#    The dashboard's model picker marks heavy models on a machine like this.
+FIRE_SAFETY_MODEL=mini uvicorn api.main:app --port 8000
+
+# 2. Serve the dashboard built, not in dev. The dev compiler is the memory
+#    hog; `next start` needs a fraction of it.
+cd web && npm run build && npm start
+
+# 3. Take Next out of the data path, so it never buffers a comparison
+#    response and cannot time the request out.
+NEXT_PUBLIC_API_ORIGIN=http://127.0.0.1:8000 npm run dev
+```
+
+Only one encoder is held in memory at a time by default. Raise it with
+`FIRE_SAFETY_MAX_MODELS=2` if you have headroom and switch models often.
 
 ---
 

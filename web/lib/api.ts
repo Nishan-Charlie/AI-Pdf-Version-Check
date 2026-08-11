@@ -12,14 +12,32 @@ import type {
 /** Raised when the API answers with an error the user needs to see. */
 export class ApiError extends Error {}
 
+/**
+ * Where the browser sends API calls.
+ *
+ * Empty by default, so requests go to the dashboard's own origin and Next
+ * forwards them — one origin, no CORS preflight on uploads.
+ *
+ * Set NEXT_PUBLIC_API_ORIGIN to talk to the Python service directly instead.
+ * That takes Next out of the data path, which matters on a machine short of
+ * memory: the dev server no longer buffers every comparison response, and a
+ * long comparison is no longer bounded by the proxy's request timeout, which
+ * surfaces as `socket hang up` / ECONNRESET. The service already allows the
+ * dashboard's origin, so no further configuration is needed.
+ */
+const API_ORIGIN = process.env.NEXT_PUBLIC_API_ORIGIN ?? "";
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   let response: Response;
 
   try {
-    response = await fetch(path, init);
+    response = await fetch(API_ORIGIN + path, init);
   } catch {
     throw new ApiError(
-      "Can't reach the comparison service. Start it with `uvicorn api.main:app --port 8000`.",
+      API_ORIGIN
+        ? `Can't reach the comparison service at ${API_ORIGIN}. Start it with ` +
+          "`uvicorn api.main:app --port 8000`."
+        : "Can't reach the comparison service. Start it with `uvicorn api.main:app --port 8000`.",
     );
   }
 
@@ -115,6 +133,6 @@ export const api = {
       strategy,
     });
     if (model) params.set("model", model);
-    return `/api/compare/export?${params}`;
+    return `${API_ORIGIN}/api/compare/export?${params}`;
   },
 };

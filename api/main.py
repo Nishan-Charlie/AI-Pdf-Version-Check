@@ -13,6 +13,8 @@ import csv
 import io
 import os
 import sys
+import threading
+import time
 from typing import Optional
 
 from fastapi import FastAPI, File, Form, HTTPException, Query, UploadFile
@@ -35,6 +37,7 @@ from config import (
     MINOR_EDIT_THRESHOLD,
     MODEL_NAME,
     MODEL_REGISTRY,
+    PRELOAD_DEFAULT_MODEL,
     UNCHANGED_THRESHOLD,
     model_is_downloaded,
     resolve_model,
@@ -82,6 +85,37 @@ def _startup() -> None:
     applied = init_db()
     for statement in applied:
         print(f"[migrate] {statement}")
+
+    if PRELOAD_DEFAULT_MODEL:
+        _preload_default_model()
+
+
+def _preload_default_model() -> None:
+    """
+    Load the default encoder in the background as the service comes up.
+
+    On a thread, so the API answers immediately: the library, corpus, and
+    version lists are all usable while the weights load, and only a comparison
+    has to wait. Loading on the first comparison instead would make that one
+    request several seconds slower than every other for no visible reason.
+
+    A model that is not yet downloaded is left alone — fetching hundreds of
+    megabytes unasked at startup is not the service's decision to make. The
+    dashboard offers that, with a progress bar.
+    """
+    if not model_is_downloaded(MODEL_NAME):
+        print(f"[model] {MODEL_NAME} is not downloaded; it will be fetched on first use")
+        return
+
+    def load() -> None:
+        started = time.perf_counter()
+        try:
+            get_comparator(MODEL_NAME)
+            print(f"[model] {MODEL_NAME} ready in {time.perf_counter() - started:.1f}s")
+        except Exception as exc:  # noqa: BLE001 — startup must not die for this
+            print(f"[model] could not preload {MODEL_NAME}: {exc}")
+
+    threading.Thread(target=load, daemon=True, name="preload-model").start()
 
 
 # ─── Reference data ──────────────────────────────────────────────────

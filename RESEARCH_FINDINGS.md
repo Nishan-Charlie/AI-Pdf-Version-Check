@@ -380,24 +380,32 @@ on either alone.
 
 ### 1.6 Choosing the encoder
 
-The model is selected with `FIRE_SAFETY_MODEL`, so a claim can be re-tested on
-a different encoder without touching code:
+**The figures above were measured with `bge`.** Reproduce them with:
 
 ```bash
-FIRE_SAFETY_MODEL=mini python -m evaluation.run accuracy   # reproduce earlier figures
+FIRE_SAFETY_MODEL=bge python -m evaluation.run accuracy
 ```
 
-| Key | Model | Dim | Window | Download |
-| :--- | :--- | ---: | ---: | ---: |
-| `mini` | all-MiniLM-L6-v2 | 384 | 256 | 90 MB |
-| `mpnet` | all-mpnet-base-v2 | 768 | 384 | 420 MB |
-| **`bge`** *(default)* | **BAAI/bge-base-en-v1.5** | **768** | **512** | **440 MB** |
-| `bge-lg` | BAAI/bge-large-en-v1.5 | 1024 | 512 | 1.34 GB |
+The model is selected with `FIRE_SAFETY_MODEL`, so any claim here can be
+re-tested on a different encoder without touching code.
 
-`bge-base` is the default because its 512-token window covers three times as
+| Key | Model | Dim | Window | Download | RAM loaded |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| `mini` *(shipped default)* | all-MiniLM-L6-v2 | 384 | 256 | 90 MB | ~0.9 GB |
+| `mpnet` | all-mpnet-base-v2 | 768 | 384 | 420 MB | ~1.5 GB |
+| **`bge`** *(used for these results)* | **BAAI/bge-base-en-v1.5** | **768** | **512** | **440 MB** | ~1.6 GB |
+| `bge-lg` | BAAI/bge-large-en-v1.5 | 1024 | 512 | 1.34 GB | ~3.0 GB |
+
+`bge` gives the best measurements: its 512-token window covers three times as
 many corpus clauses whole as MiniLM's 256, and window size is what this corpus
-punishes. Chunking makes any of them read a whole clause; a larger window
-simply means fewer chunks and less pooling loss.
+punishes. Chunking makes any of them read a whole clause, so the window governs
+how much pooling is needed rather than whether text is read at all.
+
+`mini` ships as the default for a different reason — it is the one that runs
+everywhere. Holding a larger encoder was measured pushing the service past
+3.6 GB resident, which on an 8 GB machine starves the dashboard's own compiler
+and kills one process or the other. Accuracy that only reproduces on a large
+machine is worth less than a system that starts.
 
 ---
 

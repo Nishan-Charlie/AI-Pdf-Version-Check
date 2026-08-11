@@ -11,6 +11,7 @@ regulations side by side.
 from __future__ import annotations
 
 import gc
+import threading
 import time
 from collections import OrderedDict
 from typing import Optional
@@ -55,6 +56,12 @@ _ENCODE_BATCH = 64
 # comparisons and the number resident at once is capped.
 _LOADED: "OrderedDict[str, SemanticComparator]" = OrderedDict()
 
+# Serialises loading. The service preloads its default model in a background
+# thread while requests are already being served, so without this two threads
+# can miss the cache for the same model and each build their own copy —
+# briefly doubling the memory the cap exists to bound.
+_LOAD_LOCK = threading.RLock()
+
 
 def get_comparator(model_name: Optional[str] = None) -> "SemanticComparator":
     """
@@ -66,26 +73,27 @@ def get_comparator(model_name: Optional[str] = None) -> "SemanticComparator":
     """
     model_id = resolve_model(model_name)
 
-    existing = _LOADED.get(model_id)
-    if existing is not None:
-        _LOADED.move_to_end(model_id)
-        return existing
+    with _LOAD_LOCK:
+        existing = _LOADED.get(model_id)
+        if existing is not None:
+            _LOADED.move_to_end(model_id)
+            return existing
 
-    comparator = SemanticComparator(model_id)
+        comparator = SemanticComparator(model_id)
 
-    # Load here rather than on first encode. A model id that does not exist,
-    # or a download that fails, then raises at the point the caller asked for
-    # the model — where it can be reported — instead of part-way through a
-    # comparison. Nothing broken is left in the cache either.
-    comparator.model  # noqa: B018 — the attribute access is the load
+        # Load here rather than on first encode. A model id that does not
+        # exist, or a download that fails, then raises at the point the caller
+        # asked for the model — where it can be reported — instead of part-way
+        # through a comparison. Nothing broken is left in the cache either.
+        comparator.model  # noqa: B018 — the attribute access is the load
 
-    _LOADED[model_id] = comparator
+        _LOADED[model_id] = comparator
 
-    while len(_LOADED) > MAX_LOADED_MODELS:
-        _, evicted = _LOADED.popitem(last=False)
-        evicted.unload()
+        while len(_LOADED) > MAX_LOADED_MODELS:
+            _, evicted = _LOADED.popitem(last=False)
+            evicted.unload()
 
-    return comparator
+        return comparator
 
 
 def loaded_models() -> list[str]:
