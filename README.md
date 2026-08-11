@@ -361,6 +361,7 @@ Adding a jurisdiction means adding an entry to `JURISDICTIONS` and a
 | `Module not found: Can't resolve '@/lib/...'` | `web/lib/` is missing. It was excluded by an unanchored `lib/` rule in `.gitignore` (fixed); pull the latest commit. |
 | `RangeError: Failed to allocate memory` / `ERR_MEMORY_ALLOCATION_FAILED` when starting the dashboard | Node has run out of heap compiling the app — see below. |
 | `Failed to proxy … /api/compare [Error: socket hang up] ECONNRESET` | The Python service closed the connection: it was killed under memory pressure, or the comparison outran the proxy's request timeout. Both are covered below. |
+| `[model] could not preload …` at startup | The cached copy is incomplete. Run `python scripts/check_model.py` for the full reason, then `python scripts/check_model.py --fix` to re-download. The service still works meanwhile — the model is fetched on first use. |
 | `ModuleNotFoundError: No module named 'fitz'` | `pip install PyMuPDF` — the import name differs from the package name. |
 | "No text could be read from …" | The PDF is a scan. Run OCR over it first; the extractor reads text layers, not images. |
 | Very few clauses parsed | The document may not use numbered clauses, or the wrong jurisdiction was selected. Re-upload with the jurisdiction set explicitly, or leave it on *Detect*. |
@@ -397,6 +398,24 @@ npm run build:roomy
 Under WSL2 or a container, the limit is often the sandbox rather than the host:
 check `.wslconfig` or the container's memory cap, since Next's dev compiler
 wants roughly 1.5–2 GB on its own.
+
+### Checking a model
+
+`scripts/check_model.py` runs the same steps the service does — inspect the
+cache, load the weights, encode a pair of clauses — and prints the whole error
+if any of them fails, rather than the single truncated line that appears in the
+API log.
+
+```bash
+python scripts/check_model.py            # the configured default
+python scripts/check_model.py bge        # a specific one
+python scripts/check_model.py --all      # every registered model
+python scripts/check_model.py --fix      # delete the cached copy and re-download
+```
+
+It reports what is expected, what is actually on disk (per snapshot, file by
+file), whether the load succeeds, and whether the service's own
+"is it downloaded" check agrees with reality.
 
 ### Running on 8 GB
 

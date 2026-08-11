@@ -129,28 +129,57 @@ def model_key_for(model_id: str) -> str | None:
     return None
 
 
+def hf_repo_id(model_id: str) -> str:
+    """
+    The HuggingFace repository a model id refers to.
+
+    Sentence-Transformers publishes its own models under an org, so a bare name
+    like "all-MiniLM-L6-v2" lives at "sentence-transformers/all-MiniLM-L6-v2".
+    """
+    return model_id if "/" in model_id else f"sentence-transformers/{model_id}"
+
+
+# What a snapshot must contain to be loadable. A repository can be present on
+# disk without being usable — an interrupted download leaves the folder, and
+# sometimes a refs entry, with no weights beneath it.
+_REQUIRED_FILES = ("config.json", "modules.json")
+_WEIGHT_FILES = ("model.safetensors", "pytorch_model.bin")
+
+
 def model_is_downloaded(model_id: str) -> bool:
     """
-    Whether the weights are already on disk.
+    Whether a *usable* copy of the model is on disk.
 
-    Lets the interface distinguish "switch to this" from "download 1.3 GB
-    first", rather than appearing to hang on the first comparison.
+    Checks for the files a load actually needs rather than for the cache
+    folder. Testing only the folder reports a half-finished download as ready,
+    after which loading fails with a confusing error — the service says the
+    model is available, then cannot open it.
     """
     try:
         from huggingface_hub.constants import HF_HUB_CACHE
     except ImportError:
         return False
 
-    # Sentence-Transformers publishes bare names under its own org, so a model
-    # given as "all-MiniLM-L6-v2" caches as "sentence-transformers/all-...".
-    candidates = [model_id]
-    if "/" not in model_id:
-        candidates.append(f"sentence-transformers/{model_id}")
+    candidates = {model_id, hf_repo_id(model_id)}
 
-    return any(
-        os.path.isdir(os.path.join(HF_HUB_CACHE, "models--" + name.replace("/", "--")))
-        for name in candidates
-    )
+    for name in candidates:
+        snapshots = os.path.join(
+            HF_HUB_CACHE, "models--" + name.replace("/", "--"), "snapshots"
+        )
+        if not os.path.isdir(snapshots):
+            continue
+
+        for revision in os.listdir(snapshots):
+            path = os.path.join(snapshots, revision)
+            if not os.path.isdir(path):
+                continue
+            present = set(os.listdir(path))
+            if all(f in present for f in _REQUIRED_FILES) and any(
+                f in present for f in _WEIGHT_FILES
+            ):
+                return True
+
+    return False
 
 # ─── Long-Clause Chunking ───────────────────────────────────────────
 # No encoder window covers this corpus: the longest clause is 16,910 word

@@ -39,6 +39,7 @@ from config import (
     MODEL_REGISTRY,
     PRELOAD_DEFAULT_MODEL,
     UNCHANGED_THRESHOLD,
+    hf_repo_id,
     model_is_downloaded,
     resolve_model,
     total_ram_mb,
@@ -104,7 +105,8 @@ def _preload_default_model() -> None:
     dashboard offers that, with a progress bar.
     """
     if not model_is_downloaded(MODEL_NAME):
-        print(f"[model] {MODEL_NAME} is not downloaded; it will be fetched on first use")
+        print(f"[model] {MODEL_NAME} is not on disk yet; "
+              f"it will be fetched when you first compare")
         return
 
     def load() -> None:
@@ -113,7 +115,19 @@ def _preload_default_model() -> None:
             get_comparator(MODEL_NAME)
             print(f"[model] {MODEL_NAME} ready in {time.perf_counter() - started:.1f}s")
         except Exception as exc:  # noqa: BLE001 — startup must not die for this
-            print(f"[model] could not preload {MODEL_NAME}: {exc}")
+            # Say what failed and what happens next. A bare message here reads
+            # as though the service is broken, when in fact the model is simply
+            # fetched on demand instead.
+            print(f"[model] could not preload {MODEL_NAME}")
+            print(f"[model]   {type(exc).__name__}: {exc}")
+            print(f"[model]   the service is still usable — the model will be "
+                  f"downloaded when you first compare")
+            print(f"[model]   if this repeats, clear the cached copy and let it "
+                  f"download again:")
+            print(f"[model]   python -c \"import shutil,os;"
+                  f"from huggingface_hub.constants import HF_HUB_CACHE;"
+                  f"shutil.rmtree(os.path.join(HF_HUB_CACHE,'models--"
+                  f"{hf_repo_id(MODEL_NAME).replace('/', '--')}'),ignore_errors=True)\"")
 
     threading.Thread(target=load, daemon=True, name="preload-model").start()
 

@@ -11,7 +11,12 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 
-import fitz  # PyMuPDF
+# PyMuPDF renamed its import from `fitz` to `pymupdf`; the old name still works
+# but warns on every start. Prefer the new one and fall back for older installs.
+try:
+    import pymupdf as fitz
+except ImportError:  # PyMuPDF < 1.24
+    import fitz
 
 # Blocks within this many points of each other vertically are treated as the
 # same visual line, so columns sort left-to-right within a row band.
