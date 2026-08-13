@@ -1,0 +1,26 @@
+# Exact versions the reported results were produced on.
+#
+#     pip install -r requirements-lock.txt
+#
+# Tested on Python 3.12.3, Windows 11. Use this to reproduce a figure from
+# RESEARCH_FINDINGS.md precisely; use requirements.txt for ordinary installs,
+# which allows newer compatible releases.
+#
+# torch is pinned to a CUDA build here because that is what was installed. The
+# project only ever runs on CPU, so a CPU-only build is equivalent and about
+# 2 GB smaller — recommended on a constrained machine:
+#
+#     pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+
+PyMuPDF==1.27.2
+SQLAlchemy==2.0.48
+sentence-transformers==5.3.0
+transformers==5.2.0
+torch==2.6.0
+numpy==2.3.5
+scipy==1.16.0
+huggingface-hub==1.17.0
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+python-multipart==0.0.20
+pydantic==2.10.3

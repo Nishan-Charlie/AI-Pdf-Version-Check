@@ -13,15 +13,15 @@ jurisdiction is a data change, not a code change.
 
 ## What it does
 
-| | |
-| :--- | :--- |
-| **Word-level redline** | Every clause pair is diffed word by word. Text the new edition removed is struck through in red; text it added is underlined in green — the way an amendment is marked up on paper. |
-| **Multi-jurisdiction** | Documents are scoped to a jurisdiction, and the clause parser switches grammar to match: `2.14` in an Approved Document, `Standard 2.9` in a Scottish handbook, `E1` in a Technical Booklet, `Annex A` in a British Standard. The jurisdiction is detected from the document's own text when the uploader does not state it. |
-| **Cross-country comparison** | Compare an English Approved Document against a Scottish Technical Handbook. Where the numbering schemes are unrelated, clauses are matched on meaning, technical vocabulary, and reading position instead of on their numbers. |
-| **Instant keyword search** | Type `door` and the comparison filters to the clause pairs that mention it, with every hit highlighted in both panes. A second scope searches every stored edition at once. |
-| **The change spine** | A minimap of the whole comparison down the left edge, coloured by what happened where. Click any segment to jump to it. |
-| **Reference collection** | A checklist of the official standards this project validates against, with a fetcher that downloads every openly published one. |
-| **CSV export** | The full comparison as a spreadsheet, including word counts and match confidence. |
+|                              |                                                                                                                                                                                                                                                                                                                             |
+| :--------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Word-level redline**       | Every clause pair is diffed word by word. Text the new edition removed is struck through in red; text it added is underlined in green — the way an amendment is marked up on paper.                                                                                                                                         |
+| **Multi-jurisdiction**       | Documents are scoped to a jurisdiction, and the clause parser switches grammar to match:`2.14` in an Approved Document, `Standard 2.9` in a Scottish handbook, `E1` in a Technical Booklet, `Annex A` in a British Standard. The jurisdiction is detected from the document's own text when the uploader does not state it. |
+| **Cross-country comparison** | Compare an English Approved Document against a Scottish Technical Handbook. Where the numbering schemes are unrelated, clauses are matched on meaning, technical vocabulary, and reading position instead of on their numbers.                                                                                              |
+| **Instant keyword search**   | Type`door` and the comparison filters to the clause pairs that mention it, with every hit highlighted in both panes. A second scope searches every stored edition at once.                                                                                                                                                  |
+| **The change spine**         | A minimap of the whole comparison down the left edge, coloured by what happened where. Click any segment to jump to it.                                                                                                                                                                                                     |
+| **Reference collection**     | A checklist of the official standards this project validates against, with a fetcher that downloads every openly published one.                                                                                                                                                                                             |
+| **CSV export**               | The full comparison as a spreadsheet, including word counts and match confidence.                                                                                                                                                                                                                                           |
 
 ---
 
@@ -100,8 +100,8 @@ category.
 ### Comparing two countries
 
 Pick editions from different jurisdictions. The engine switches to semantic
-alignment automatically, and the summary reframes itself: *aligned*, *diverging*,
-and *only in EW* / *only in SC*, because "unchanged" is not a meaningful reading
+alignment automatically, and the summary reframes itself: _aligned_, _diverging_,
+and _only in EW_ / _only in SC_, because "unchanged" is not a meaningful reading
 when the two documents were never the same text.
 
 Each matched row shows both clause numbers (`Requirement B5 → 2.0.5`) plus a
@@ -121,8 +121,8 @@ Press <kbd>/</kbd> or click the search box.
 
 ### Adding documents
 
-**Add documents** takes any PDF. Leave the jurisdiction on *Detect from the
-document* unless you know better. Give two uploads the same document name to
+**Add documents** takes any PDF. Leave the jurisdiction on _Detect from the
+document_ unless you know better. Give two uploads the same document name to
 group them as editions of one instrument — though any two stored editions can be
 compared regardless.
 
@@ -169,7 +169,7 @@ Results land in `evaluation/results/*.json`; the write-up is in
 
 **Where the ground truth comes from.** MHCLG publishes an amendment booklet for
 every revision of Approved Document B, naming the paragraphs it changed
-(*"Paragraph 10.14, delete the second note"*). `evaluation/amendment_key.py`
+(_"Paragraph 10.14, delete the second note"_). `evaluation/amendment_key.py`
 parses those registers into clause references, giving an authoritative record
 of what changed, written by the body that changed it. Within one instrument,
 clause numbers give a second reference: a correct pairing, free. Constructed
@@ -257,8 +257,8 @@ score = 0.72 * embedding_similarity     # what the clause means
       + 0.10 * relative_position        # regulations follow similar order
 ```
 
-Vocabulary overlap is there because an encoder will happily rate *600mm* and
-*750mm* as near-identical; position is there because both documents work through
+Vocabulary overlap is there because an encoder will happily rate _600mm_ and
+_750mm_ as near-identical; position is there because both documents work through
 escape, then spread, then access, in roughly that order.
 
 Only the top 12 candidates per clause are scored, then resolved into a one-to-one
@@ -310,12 +310,12 @@ records which model produced it — scores from different encoders are not
 comparable, so changing the model after a comparison shows a notice rather than
 silently mixing them.
 
-| Key | Model | Window | Dim | Download | RAM when loaded |
-| :--- | :--- | ---: | ---: | ---: | ---: |
-| **`mini`** *(default)* | **all-MiniLM-L6-v2** | **256** | **384** | **90 MB** | **~0.9 GB** |
-| `mpnet` | all-mpnet-base-v2 | 384 | 768 | 420 MB | ~1.5 GB |
-| `bge` | BAAI/bge-base-en-v1.5 | 512 | 768 | 440 MB | ~1.6 GB |
-| `bge-lg` | BAAI/bge-large-en-v1.5 | 512 | 1024 | 1.34 GB | ~3.0 GB |
+| Key                    | Model                  |  Window |     Dim |  Download | RAM when loaded |
+| :--------------------- | :--------------------- | ------: | ------: | --------: | --------------: |
+| **`mini`** _(default)_ | **all-MiniLM-L6-v2**   | **256** | **384** | **90 MB** |     **~0.9 GB** |
+| `mpnet`                | all-mpnet-base-v2      |     384 |     768 |    420 MB |         ~1.5 GB |
+| `bge`                  | BAAI/bge-base-en-v1.5  |     512 |     768 |    440 MB |         ~1.6 GB |
+| `bge-lg`               | BAAI/bge-large-en-v1.5 |     512 |    1024 |   1.34 GB |         ~3.0 GB |
 
 `mini` is the default because it is the one that fits everywhere: the service
 peaks near 1.3 GB with it loaded and a full comparison running, against 3.6 GB
@@ -355,19 +355,19 @@ Adding a jurisdiction means adding an entry to `JURISDICTIONS` and a
 
 ## Troubleshooting
 
-| Problem | Fix |
-| :--- | :--- |
-| Dashboard says it can't reach the service | Start the API: `uvicorn api.main:app --port 8000`. |
-| `Module not found: Can't resolve '@/lib/...'` | `web/lib/` is missing. It was excluded by an unanchored `lib/` rule in `.gitignore` (fixed); pull the latest commit. |
-| `RangeError: Failed to allocate memory` / `ERR_MEMORY_ALLOCATION_FAILED` when starting the dashboard | Node has run out of heap compiling the app — see below. |
-| `Failed to proxy … /api/compare [Error: socket hang up] ECONNRESET` | The Python service closed the connection: it was killed under memory pressure, or the comparison outran the proxy's request timeout. Both are covered below. |
-| `[model] could not preload …` at startup | The cached copy is incomplete. Run `python scripts/check_model.py` for the full reason, then `python scripts/check_model.py --fix` to re-download. The service still works meanwhile — the model is fetched on first use. |
-| `ModuleNotFoundError: No module named 'fitz'` | `pip install PyMuPDF` — the import name differs from the package name. |
-| "No text could be read from …" | The PDF is a scan. Run OCR over it first; the extractor reads text layers, not images. |
-| Very few clauses parsed | The document may not use numbered clauses, or the wrong jurisdiction was selected. Re-upload with the jurisdiction set explicitly, or leave it on *Detect*. |
-| First comparison is slow | The embedding model downloads and loads once. Later comparisons reuse it. |
-| Cross-country comparison shows nothing unchanged | Expected. No two national regulations are word-identical; read the *aligned* and *diverging* counts instead. |
-| A downloaded standard fails to fetch | Regulators move files. `corpus/registry.py` holds the URL for each one — update it there. |
+| Problem                                                                                              | Fix                                                                                                                                                                                                                      |
+| :--------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dashboard says it can't reach the service                                                            | Start the API:`uvicorn api.main:app --port 8000`.                                                                                                                                                                        |
+| `Module not found: Can't resolve '@/lib/...'`                                                        | `web/lib/` is missing. It was excluded by an unanchored `lib/` rule in `.gitignore` (fixed); pull the latest commit.                                                                                                     |
+| `RangeError: Failed to allocate memory` / `ERR_MEMORY_ALLOCATION_FAILED` when starting the dashboard | Node has run out of heap compiling the app — see below.                                                                                                                                                                  |
+| `Failed to proxy … /api/compare [Error: socket hang up] ECONNRESET`                                  | The Python service closed the connection: it was killed under memory pressure, or the comparison outran the proxy's request timeout. Both are covered below.                                                             |
+| `[model] could not preload …` at startup                                                             | The cached copy is incomplete. Run`python scripts/check_model.py` for the full reason, then `python scripts/check_model.py --fix` to re-download. The service still works meanwhile — the model is fetched on first use. |
+| `ModuleNotFoundError: No module named 'fitz'`                                                        | `pip install PyMuPDF` — the import name differs from the package name.                                                                                                                                                   |
+| "No text could be read from …"                                                                       | The PDF is a scan. Run OCR over it first; the extractor reads text layers, not images.                                                                                                                                   |
+| Very few clauses parsed                                                                              | The document may not use numbered clauses, or the wrong jurisdiction was selected. Re-upload with the jurisdiction set explicitly, or leave it on*Detect*.                                                               |
+| First comparison is slow                                                                             | The embedding model downloads and loads once. Later comparisons reuse it.                                                                                                                                                |
+| Cross-country comparison shows nothing unchanged                                                     | Expected. No two national regulations are word-identical; read the*aligned* and _diverging_ counts instead.                                                                                                              |
+| A downloaded standard fails to fetch                                                                 | Regulators move files.`corpus/registry.py` holds the URL for each one — update it there.                                                                                                                                 |
 
 ---
 

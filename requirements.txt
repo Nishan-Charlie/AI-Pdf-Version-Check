@@ -1,7 +1,24 @@
+# Fire Safety Regulation Comparison — Python service
+#
+#     pip install -r requirements.txt
+#
+# Floors are the versions whose APIs this project actually uses. The exact
+# versions the reported results were produced on are listed at the bottom;
+# install those if you need to reproduce a figure precisely.
+#
+# On a machine short of memory or disk, install the CPU-only build of PyTorch
+# first — it omits the bundled CUDA libraries and saves roughly 2 GB:
+#
+#     pip install torch --index-url https://download.pytorch.org/whl/cpu
+#     pip install -r requirements.txt
+
 # ─── Ingestion ───────────────────────────────────────────────────────
+# 1.24.3 renamed the import from `fitz` to `pymupdf`; the extractor prefers the
+# new name and falls back, so older builds still work.
 PyMuPDF>=1.23.0
 
 # ─── Storage ─────────────────────────────────────────────────────────
+# 2.0 for the modern declarative API and `Session.get`.
 SQLAlchemy>=2.0.0
 
 # ─── Semantic comparison ─────────────────────────────────────────────
@@ -9,12 +26,28 @@ sentence-transformers>=2.2.0
 transformers>=4.36.0
 torch>=2.0.0
 numpy>=1.24.0
+
 # Supplies the optimal assignment solver used to align clauses across
 # jurisdictions. Without it, alignment falls back to greedy matching.
 scipy>=1.10.0
+
+# Used directly, not just through sentence-transformers: the service reads the
+# model cache to report what is downloaded, and drives `snapshot_download` to
+# fetch a model with progress. 0.20 for `constants.HF_HUB_CACHE`.
+huggingface-hub>=0.20.0
 
 # ─── API ─────────────────────────────────────────────────────────────
 fastapi>=0.110.0
 uvicorn[standard]>=0.27.0
 python-multipart>=0.0.9   # multipart form parsing for PDF uploads
-pydantic>=2.6.0
+pydantic>=2.6.0           # v2 for `pattern=` on Field
+
+# ─── Not required ────────────────────────────────────────────────────
+# scikit-learn was dropped: every similarity here is a dot product between
+# unit-normalised vectors, which NumPy does directly.
+
+# ─── Reproducing the reported results ────────────────────────────────
+# The exact versions the figures in RESEARCH_FINDINGS.md were produced on are
+# pinned in requirements-lock.txt:
+#
+#     pip install -r requirements-lock.txt
