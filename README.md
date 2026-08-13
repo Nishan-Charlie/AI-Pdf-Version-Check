@@ -59,7 +59,24 @@ venv\Scripts\activate          # macOS/Linux: source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-The sentence-transformer model (~90 MB) downloads on the first comparison.
+The default encoder (~90 MB) downloads on first use and is loaded when the
+service starts.
+
+On a machine short of memory or disk, install the CPU-only PyTorch first — the
+project never uses a GPU, and this omits the bundled CUDA libraries, saving
+roughly 2 GB:
+
+```bash
+pip install torch --index-url https://download.pytorch.org/whl/cpu
+pip install -r requirements.txt
+```
+
+To reproduce the figures in [RESEARCH_FINDINGS.md](RESEARCH_FINDINGS.md)
+exactly, install the pinned versions instead:
+
+```bash
+pip install -r requirements-lock.txt
+```
 
 ### 2. Reference corpus (optional but recommended)
 
