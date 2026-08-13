@@ -20,9 +20,16 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
+# Where /api/* is forwarded. This has to be set for the *build*, not just the
+# runtime: Next resolves rewrite destinations into .next/routes-manifest.json
+# when it builds, so a value supplied only to the running container is ignored
+# and the proxy keeps pointing at whatever was baked in.
+ARG API_ORIGIN=http://api:8000
+
 # Switches next.config.ts to standalone output.
 ENV DOCKER_BUILD=1 \
-    NEXT_TELEMETRY_DISABLED=1
+    NEXT_TELEMETRY_DISABLED=1 \
+    API_ORIGIN=${API_ORIGIN}
 
 RUN npm run build
 
@@ -35,9 +42,8 @@ ENV NODE_ENV=production \
     PORT=3000 \
     HOSTNAME=0.0.0.0
 
-# Where the browser's /api/* calls are forwarded. Compose points this at the
-# API container; the browser itself only ever talks to this service, so it
-# needs no address of its own for the API and there is no CORS to configure.
+# Kept for reference and for anything that reads it at runtime. The rewrite
+# itself was fixed at build time by the ARG above.
 ENV API_ORIGIN=http://api:8000
 
 RUN addgroup --system --gid 10001 nodejs \

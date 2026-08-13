@@ -38,6 +38,7 @@ from config import (
     MODEL_NAME,
     MODEL_REGISTRY,
     PRELOAD_DEFAULT_MODEL,
+    PRELOAD_MAY_DOWNLOAD,
     UNCHANGED_THRESHOLD,
     hf_repo_id,
     model_is_downloaded,
@@ -100,17 +101,24 @@ def _preload_default_model() -> None:
     has to wait. Loading on the first comparison instead would make that one
     request several seconds slower than every other for no visible reason.
 
-    A model that is not yet downloaded is left alone — fetching hundreds of
-    megabytes unasked at startup is not the service's decision to make. The
-    dashboard offers that, with a progress bar.
+    A model that is not yet downloaded is normally left alone — fetching
+    hundreds of megabytes unasked at startup is not the service's decision to
+    make, and the dashboard offers it with a progress bar instead. Setting
+    FIRE_SAFETY_PRELOAD_DOWNLOAD reverses that, which is right in a container:
+    with a fresh model volume, the alternative is that the user's first
+    comparison downloads the encoder inside the request and outlasts the
+    dashboard's proxy timeout.
     """
-    if not model_is_downloaded(MODEL_NAME):
+    if not model_is_downloaded(MODEL_NAME) and not PRELOAD_MAY_DOWNLOAD:
         print(f"[model] {MODEL_NAME} is not on disk yet; "
               f"it will be fetched when you first compare")
         return
 
     def load() -> None:
         started = time.perf_counter()
+        if not model_is_downloaded(MODEL_NAME):
+            print(f"[model] downloading {MODEL_NAME} — the service is already "
+                  f"answering, but comparisons wait for this")
         try:
             get_comparator(MODEL_NAME)
             print(f"[model] {MODEL_NAME} ready in {time.perf_counter() - started:.1f}s")

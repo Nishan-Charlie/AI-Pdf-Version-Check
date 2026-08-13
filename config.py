@@ -72,6 +72,18 @@ DEFAULT_MODEL_KEY = "mini"
 # rest for no visible reason. Set to "0" to defer it.
 PRELOAD_DEFAULT_MODEL = os.environ.get("FIRE_SAFETY_PRELOAD", "1") != "0"
 
+# Whether that preload may also *download* a model it does not have.
+#
+# Off by default: fetching hundreds of megabytes unasked, on a developer's
+# machine, is not the service's decision — the dashboard offers it with a
+# progress bar instead.
+#
+# On in the container, where it is the right default. A fresh model volume
+# otherwise leaves the first comparison to download the encoder inside the
+# request, which takes long enough to exceed the dashboard's proxy timeout and
+# surfaces as a 500 or `socket hang up` on the user's first click.
+PRELOAD_MAY_DOWNLOAD = os.environ.get("FIRE_SAFETY_PRELOAD_DOWNLOAD", "0") != "0"
+
 _requested = os.environ.get("FIRE_SAFETY_MODEL", DEFAULT_MODEL_KEY)
 MODEL_NAME = MODEL_REGISTRY.get(_requested, {}).get("id", _requested)
 

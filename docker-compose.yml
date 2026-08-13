@@ -23,9 +23,12 @@ services:
       # bge / mpnet / bge-lg on a machine with room; see README.
       FIRE_SAFETY_MODEL: "${FIRE_SAFETY_MODEL:-mini}"
       FIRE_SAFETY_MAX_MODELS: "${FIRE_SAFETY_MAX_MODELS:-1}"
-      # Load the encoder as the container starts, so the first comparison is
-      # not slower than the rest.
+      # Load the encoder as the container starts, downloading it if the models
+      # volume is empty. Without the download, the first comparison fetches it
+      # inside the request and outlasts the dashboard's proxy timeout — which
+      # the user sees as a failed first click.
       FIRE_SAFETY_PRELOAD: "1"
+      FIRE_SAFETY_PRELOAD_DOWNLOAD: "1"
       HF_HOME: /models
     volumes:
       # Model weights. Without this every `compose up` re-downloads them.
@@ -46,6 +49,10 @@ services:
     build:
       context: ./web
       dockerfile: Dockerfile
+      args:
+        # Baked into the build: Next resolves rewrite destinations when it
+        # builds, not when it starts.
+        API_ORIGIN: http://api:8000
     image: fire-safety-web
     ports:
       - "3000:3000"

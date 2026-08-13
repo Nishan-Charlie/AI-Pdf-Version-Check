@@ -1,5 +1,8 @@
 import type { NextConfig } from "next";
 
+// Read when the app is *built*, not when the server starts: Next resolves
+// rewrite destinations into .next/routes-manifest.json at build time. In
+// Docker it is supplied as a build argument for that reason.
 const API_ORIGIN = process.env.API_ORIGIN ?? "http://127.0.0.1:8000";
 
 const config: NextConfig = {
