@@ -1,0 +1,64 @@
+# Fire Safety Regulation Comparison
+#
+#     docker compose up --build
+#     open http://localhost:3000
+#
+# Both halves run pinned: same Python, same PyTorch, same Node, same Next, on
+# every machine. The differences that caused trouble outside a container —
+# Node versions, Windows symlink privileges, whichever PyTorch a laptop had —
+# cannot occur here.
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fire-safety-api
+    ports:
+      # Bound to localhost. The dashboard reaches the service over the compose
+      # network, so this is only for curl and the diagnostic scripts.
+      - "127.0.0.1:8000:8000"
+    environment:
+      # Small by default so the service fits alongside everything else. Set to
+      # bge / mpnet / bge-lg on a machine with room; see README.
+      FIRE_SAFETY_MODEL: "${FIRE_SAFETY_MODEL:-mini}"
+      FIRE_SAFETY_MAX_MODELS: "${FIRE_SAFETY_MAX_MODELS:-1}"
+      # Load the encoder as the container starts, so the first comparison is
+      # not slower than the rest.
+      FIRE_SAFETY_PRELOAD: "1"
+      HF_HOME: /models
+    volumes:
+      # Model weights. Without this every `compose up` re-downloads them.
+      - models:/models
+      # The clause database, kept on the host so ingested documents survive a
+      # rebuild.
+      - ./fire_safety.db:/app/fire_safety.db
+      # Downloaded standards and extracted text — large, and not image content.
+      - ./corpus/raw:/app/corpus/raw
+      - ./corpus/text:/app/corpus/text
+      # Evaluation output, so results written inside the container are readable
+      # on the host.
+      - ./evaluation/results:/app/evaluation/results
+      - ./evaluation/annotations:/app/evaluation/annotations
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+    image: fire-safety-web
+    ports:
+      - "3000:3000"
+    environment:
+      # Service name on the compose network, not localhost: inside the web
+      # container, localhost is the web container.
+      API_ORIGIN: http://api:8000
+    depends_on:
+      api:
+        # Wait for the API to answer, so the dashboard never loads against a
+        # service that is still importing PyTorch.
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  models:

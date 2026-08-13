@@ -49,7 +49,53 @@ the browser sees one origin.
 
 ---
 
-## Setup
+## Setup with Docker (recommended)
+
+One command, and the same versions on every machine:
+
+```bash
+docker compose up --build
+```
+
+Then open **http://localhost:3000**.
+
+This removes the whole class of problems that come from a machine's own setup —
+Node and Python versions, which PyTorch build is installed, whether Windows
+allows the model cache to create symbolic links, how much memory the dev
+compiler wants. The API runs pinned dependencies from `requirements-lock.txt`
+on CPU-only PyTorch; the dashboard is built once and served, rather than
+compiled on demand.
+
+Four things persist outside the containers, so a rebuild costs nothing:
+
+| Mounted | Why |
+| :--- | :--- |
+| `models` volume | Encoder weights, so `compose up` does not re-download them |
+| `fire_safety.db` | The clause database |
+| `corpus/raw`, `corpus/text` | Downloaded standards (~110 MB) and extracted text |
+| `evaluation/results` | Study output, readable on the host |
+
+Choose the encoder at start:
+
+```bash
+FIRE_SAFETY_MODEL=bge docker compose up
+```
+
+Populate the corpus inside the container if the database is empty:
+
+```bash
+docker compose exec api python -m corpus.fetch --extract
+docker compose exec api python -m corpus.load
+docker compose exec api python -m evaluation.run all
+```
+
+The dashboard reaches the service at `http://api:8000` over the compose
+network, and Compose waits for the API's health check before starting it — so
+the dashboard never loads against a service that is still importing PyTorch.
+
+---
+
+## Setup without Docker
 
 ### 1. Python service
 
@@ -454,6 +500,20 @@ python scripts/check_model.py --fix      # delete the cached copy and re-downloa
 It reports what is expected, what is actually on disk (per snapshot, file by
 file), whether the load succeeds, and whether the service's own
 "is it downloaded" check agrees with reality.
+
+### Comparing two machines
+
+When something works on one machine and not another:
+
+```bash
+python scripts/env_report.py > this-machine.txt
+# run the same on the other machine, then diff the two files
+```
+
+It prints platform, memory, Python and package versions, Node and Next
+versions, which models are cached, every environment variable this project
+reads, and the state of the database and corpus. The lines that differ are the
+candidates. Docker makes the question moot, since none of them can differ.
 
 ### Finding where a comparison fails
 
