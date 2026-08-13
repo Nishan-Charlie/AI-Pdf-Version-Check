@@ -1,0 +1,34 @@
+# Keep the build context small and the image reproducible.
+
+.git
+.gitignore
+.venv
+venv
+env
+__pycache__
+**/__pycache__
+*.pyc
+*.pyo
+
+# The dashboard is built in its own image.
+web/node_modules
+web/.next
+web/out
+
+# Downloaded standards (~110 MB) and the extracted text. Mounted as volumes at
+# run time instead, so the image does not carry third-party PDFs and a rebuild
+# does not re-download them.
+corpus/raw
+corpus/text
+
+# The database is a mounted volume, not image content.
+fire_safety.db
+
+# Model weights live in a named volume; never bake them into a layer.
+.cache
+
+# Local scratch and reports
+evaluation/results
+evaluation/annotations
+*.pdf
+*.log

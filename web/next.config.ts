@@ -3,6 +3,12 @@ import type { NextConfig } from "next";
 const API_ORIGIN = process.env.API_ORIGIN ?? "http://127.0.0.1:8000";
 
 const config: NextConfig = {
+  // Inside the container, emit a self-contained server with only the modules
+  // actually reached — a few hundred megabytes of node_modules do not ship.
+  // Gated on the build flag so a local `npm run build && npm start` keeps
+  // working the way it always has.
+  output: process.env.DOCKER_BUILD ? "standalone" : undefined,
+
   // The dashboard calls /api/* on its own origin; Next forwards those to the
   // Python service. One origin in the browser means no CORS preflight on
   // uploads and no API URL baked into the client bundle.
