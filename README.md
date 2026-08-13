@@ -379,6 +379,7 @@ Adding a jurisdiction means adding an entry to `JURISDICTIONS` and a
 | `RangeError: Failed to allocate memory` / `ERR_MEMORY_ALLOCATION_FAILED` when starting the dashboard | Node has run out of heap compiling the app — see below.                                                                                                                                                                  |
 | `Failed to proxy … /api/compare [Error: socket hang up] ECONNRESET`                                  | The Python service closed the connection: it was killed under memory pressure, or the comparison outran the proxy's request timeout. Both are covered below.                                                             |
 | `[model] could not preload …` at startup                                                             | The cached copy is incomplete. Run`python scripts/check_model.py` for the full reason, then `python scripts/check_model.py --fix` to re-download. The service still works meanwhile — the model is fetched on first use. |
+| `[WinError 1314] A required privilege is not held by the client`                                     | Windows blocked a symbolic link in the model cache. The service now copies instead — restart it, then run `python scripts/check_model.py --fix` to clear the half-written cache. |
 | `ModuleNotFoundError: No module named 'fitz'`                                                        | `pip install PyMuPDF` — the import name differs from the package name.                                                                                                                                                   |
 | "No text could be read from …"                                                                       | The PDF is a scan. Run OCR over it first; the extractor reads text layers, not images.                                                                                                                                   |
 | Very few clauses parsed                                                                              | The document may not use numbered clauses, or the wrong jurisdiction was selected. Re-upload with the jurisdiction set explicitly, or leave it on*Detect*.                                                               |
@@ -416,6 +417,26 @@ Under WSL2 or a container, the limit is often the sandbox rather than the host:
 check `.wslconfig` or the container's memory cap, since Next's dev compiler
 wants roughly 1.5–2 GB on its own.
 
+### Windows: `WinError 1314` when downloading a model
+
+HuggingFace stores each file once as a blob and symlinks it into the snapshot
+directory. Creating a symbolic link on Windows requires
+`SeCreateSymbolicLinkPrivilege`, which ordinary accounts do not hold, so the
+download fails part-way and leaves a broken cache.
+
+The service now sets `HF_HUB_DISABLE_SYMLINKS=1` on Windows, which copies files
+instead — no privilege needed, at the cost of some duplicated disk. If you hit
+this on an older checkout:
+
+```bash
+python scripts/check_model.py --fix     # clear the half-written cache
+# restart the API; the download will copy rather than link
+```
+
+To keep symlinks instead (they save disk when models share files), enable
+**Developer Mode** — Settings → System → For developers → Developer Mode — and
+set `HF_HUB_DISABLE_SYMLINKS=0`.
+
 ### Checking a model
 
 `scripts/check_model.py` runs the same steps the service does — inspect the
@@ -433,6 +454,28 @@ python scripts/check_model.py --fix      # delete the cached copy and re-downloa
 It reports what is expected, what is actually on disk (per snapshot, file by
 file), whether the load succeeds, and whether the service's own
 "is it downloaded" check agrees with reality.
+
+### Finding where a comparison fails
+
+`ECONNRESET` / `socket hang up` from the dashboard means the **Python service**
+closed the connection — the dashboard is only reporting it. To find out which
+layer is actually at fault:
+
+```bash
+python scripts/check_compare.py            # full editions
+python scripts/check_compare.py --small    # two tiny documents
+```
+
+It runs the same comparison three ways — in-process with no server, against the
+API directly, then through the dashboard's proxy — printing resident memory at
+each step. The first level that fails is the layer to fix:
+
+| Fails at | Meaning |
+| :--- | :--- |
+| In-process | The comparison itself is too heavy for this machine. Use `mini`, or compare smaller documents. |
+| Direct API | The service dies or rejects the request. The script reports whether it is still alive afterwards; if not, the OS killed it for memory. |
+| Only through the proxy | The dashboard is the problem — bypass it with `NEXT_PUBLIC_API_ORIGIN`. |
+| Nothing | The problem is in the browser. Check its console (F12). |
 
 ### Running on 8 GB
 

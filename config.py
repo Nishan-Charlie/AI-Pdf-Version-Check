@@ -5,6 +5,23 @@ Everything that is jurisdiction-specific lives here so that adding a new
 country is a data change rather than a code change.
 """
 import os
+import sys
+
+# ─── Windows: model cache without symlinks ──────────────────────────
+# HuggingFace stores each file once as a blob and symlinks it into the
+# snapshot. Creating a symlink on Windows needs SeCreateSymbolicLinkPrivilege,
+# which ordinary accounts do not hold, so the download fails part-way with
+#
+#     [WinError 1314] A required privilege is not held by the client
+#
+# leaving a half-written cache behind. Copying instead costs some duplicated
+# disk — a few hundred megabytes across the four models — and always works.
+#
+# Set before huggingface_hub is imported anywhere, because it reads this into a
+# constant at import time. An explicit setting from the environment wins, so
+# anyone running with Developer Mode on can keep symlinks.
+if sys.platform == "win32":
+    os.environ.setdefault("HF_HUB_DISABLE_SYMLINKS", "1")
 
 # ─── Paths ───────────────────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

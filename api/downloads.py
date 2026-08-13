@@ -137,10 +137,43 @@ def _run(job: DownloadJob) -> None:
         job.message = "Ready"
     except Exception as exc:  # noqa: BLE001 — the message is the whole point
         job.state = ERROR
-        job.error = str(exc)
+        job.error = _explain(exc)
         job.message = "Download failed"
     finally:
         job.finished_at = time.time()
+
+
+def _explain(exc: Exception) -> str:
+    """
+    Turn a download failure into something the reader can act on.
+
+    Raw errors here name a Windows error number and two cache paths, which
+    says nothing about what to do next.
+    """
+    winerror = getattr(exc, "winerror", None)
+
+    # SeCreateSymbolicLinkPrivilege. HuggingFace symlinks blobs into snapshots,
+    # which ordinary Windows accounts may not do.
+    if winerror == 1314:
+        return (
+            "Windows would not let the cache create a symbolic link "
+            "(WinError 1314). Restart the API service — it now copies files "
+            "instead of linking them, which needs no special privilege. If it "
+            "persists, clear the part-downloaded cache with "
+            "`python scripts/check_model.py --fix`."
+        )
+
+    # Out of disk, or the cache path is not writable.
+    if winerror in (112, 39) or isinstance(exc, OSError) and exc.errno == 28:
+        return f"Not enough disk space to download the model. ({exc})"
+
+    if isinstance(exc, PermissionError):
+        return (
+            f"No permission to write to the model cache. Check that your user "
+            f"owns ~/.cache/huggingface, or set HF_HOME to a writable folder. ({exc})"
+        )
+
+    return str(exc)
 
 
 def _plan(repo: str, model_id: str) -> tuple[int, list[str]]:
