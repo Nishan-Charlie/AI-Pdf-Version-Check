@@ -10,6 +10,30 @@ const TABS: { id: Tab; label: string }[] = [
   { id: "collection", label: "Reference collection" },
 ];
 
+/**
+ * The app mark — the same drawing as app/icon.svg.
+ *
+ * Inlined rather than loaded, so it takes its colour from the theme. The
+ * favicon keeps the charcoal tile because a browser tab can be any colour; on
+ * the page the tile is redundant and the flame stands on its own.
+ */
+function Logo() {
+  return (
+    <svg
+      className="wordmark-logo"
+      viewBox="0 0 32 32"
+      width="24"
+      height="24"
+      aria-hidden="true"
+      focusable="false"
+      fill="var(--accent)"
+    >
+      <path d="M16 5.2c4.6 4.2 7 8 7 11.4a7 7 0 0 1-14 0c0-2.4 1-4.4 2.7-6.1 0 2 .8 3.4 2.3 4.1.6-3.4-.6-6.3 2-9.4z" />
+      <path d="M6 25.5h4.2l2.2-3.2H8.2zM13.4 25.5h4.2l2.2-3.2h-4.2zM20.8 25.5H25l2.2-3.2H23z" />
+    </svg>
+  );
+}
+
 export function Masthead({
   stats,
   tab,
@@ -23,6 +47,7 @@ export function Masthead({
     <header className="masthead">
       <div className="shell masthead-inner">
         <div className="wordmark">
+          <Logo />
           <span className="wordmark-name">Regulation Diff</span>
           <span className="wordmark-rule" aria-hidden="true" />
           <span className="wordmark-sub">Fire safety standards</span>

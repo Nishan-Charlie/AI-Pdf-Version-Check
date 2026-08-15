@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Regulation Diff">
+  <!--
+    The app mark, and the favicon Next serves from this file.
+
+    A flame carried inside a charcoal tile with the amber livery stripe along
+    its foot — the same two materials as the interface, so the tab and the
+    masthead read as one product. Kept to two shapes because at 16 pixels
+    anything finer turns to mud.
+  -->
+  <rect width="32" height="32" rx="7" fill="#17181A"/>
+
+  <path
+    fill="#F0A63A"
+    d="M16 5.2c4.6 4.2 7 8 7 11.4a7 7 0 0 1-14 0c0-2.4 1-4.4 2.7-6.1 0 2 .8 3.4 2.3 4.1.6-3.4-.6-6.3 2-9.4z"/>
+
+  <!-- Livery stripe: the same diagonal band that sits under the masthead. -->
+  <path fill="#F0A63A" d="M6 25.5h4.2l2.2-3.2H8.2zM13.4 25.5h4.2l2.2-3.2h-4.2zM20.8 25.5H25l2.2-3.2H23z"/>
+</svg>

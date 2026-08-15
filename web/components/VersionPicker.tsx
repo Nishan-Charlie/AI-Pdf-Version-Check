@@ -40,7 +40,7 @@ export function VersionPicker({
   return (
     <div className="field">
       <span className="field-label">
-        {side === "baseline" ? "Version 1 · baseline" : "Version 2 · compared against"}
+        {side === "baseline" ? "Version 1 · baseline" : "Version 2 · revision"}
       </span>
 
       <select

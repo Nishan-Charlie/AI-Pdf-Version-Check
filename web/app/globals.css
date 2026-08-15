@@ -229,10 +229,12 @@ a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset:
 
 .wordmark {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.6rem;
   margin-right: auto;
 }
+
+.wordmark-logo { flex: none; display: block; }
 
 .wordmark-name {
   font-family: var(--font-display), system-ui, sans-serif;
@@ -281,7 +283,13 @@ a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset:
 
 /* ── Controls ─────────────────────────────────────────────────────── */
 
-.field { display: flex; flex-direction: column; gap: 0.35rem; min-width: 0; }
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+  position: relative;
+}
 
 .field-label {
   font-family: var(--font-mono), monospace;
@@ -290,6 +298,11 @@ a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset:
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--graphite);
+  /* One line always: a label that wraps pushes its own control down and
+     breaks the row. */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .control,
@@ -370,8 +383,12 @@ select.control {
   display: grid;
   grid-template-columns: 1fr auto 1fr auto;
   gap: 1rem;
-  align-items: flex-end;
-  padding: 1.1rem 0 1.25rem;
+  /* Top-aligned, not bottom-aligned. Only some fields carry a hint beneath
+     their control, and aligning bottoms made those controls ride higher than
+     the rest — the dropdowns ended up on two different lines. Hints are lifted
+     out of the flow below, so every control now starts at the same height. */
+  align-items: start;
+  padding: 1.1rem 0 2.4rem;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -381,7 +398,10 @@ select.control {
   justify-content: center;
   width: 30px;
   height: 30px;
-  margin-bottom: 0.3rem;
+  /* Drop it onto the control row rather than the label row, and centre it
+     against a control 4px taller than itself: label line + field gap + 2px. */
+  margin-top: 1.4rem;
+  flex: none;
   border: 1px solid var(--rule-strong);
   border-radius: 50%;
   background: var(--paper-raised);
@@ -400,11 +420,24 @@ select.control {
 
 .compare-actions .field { flex: 1 1 9rem; }
 
+/*
+  The hint under a control — jurisdiction, model readiness.
+  Taken out of the flow so a field that has one is exactly as tall as a field
+  that does not, which is what keeps the controls on a single line.
+*/
 .side-tag {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin-top: 0.35rem;
   display: flex;
   align-items: center;
   gap: 0.4rem;
   min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-family: var(--font-mono), monospace;
   font-size: 10px;
   letter-spacing: 0.12em;
@@ -1061,7 +1094,14 @@ select.control {
 /* ── Responsive ───────────────────────────────────────────────────── */
 
 @media (max-width: 1100px) {
-  .compare-bar { grid-template-columns: 1fr; gap: 0.85rem; }
+  .compare-bar { grid-template-columns: 1fr; gap: 0.85rem; padding-bottom: 1.25rem; }
+
+  /* Stacked, there is no row to align to, and a hint lifted out of the flow
+     would land on top of the next field. Put it back. */
+  .side-tag {
+    position: static;
+    margin-top: 0;
+  }
   .compare-swap { justify-self: start; margin: 0; }
   .compare-actions { justify-content: flex-start; }
 }
