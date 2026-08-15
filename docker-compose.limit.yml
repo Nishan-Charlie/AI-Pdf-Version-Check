@@ -1,0 +1,14 @@
+# Reproduces a memory-constrained Docker Desktop.
+#
+#     docker compose -f docker-compose.yml -f docker-compose.limit.yml up -d
+#
+# Docker Desktop gives its VM a fraction of the host, and a container can be
+# capped tighter still. When the comparison exceeds the cap the kernel kills
+# the process; Docker restarts the container, and the request in flight dies as
+# `socket hang up` / ECONNRESET at the dashboard — with no completed-request
+# line in the API log, because it never completed.
+
+services:
+  api:
+    mem_limit: 1g
+    memswap_limit: 1g

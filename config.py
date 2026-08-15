@@ -101,13 +101,68 @@ MODEL_NAME = MODEL_REGISTRY.get(_requested, {}).get("id", _requested)
 MAX_LOADED_MODELS = max(1, int(os.environ.get("FIRE_SAFETY_MAX_MODELS", "1")))
 
 
+def _cgroup_limit_mb() -> int:
+    """
+    Memory this process is actually allowed, when it runs under a cgroup.
+
+    A container sees the host's physical memory through the ordinary
+    interfaces, so asking the machine how much RAM it has reports the whole
+    host — or the whole Docker VM — while the kernel will kill this process for
+    exceeding a far smaller cap. The cap is what matters, and only the cgroup
+    knows it.
+
+    Returns 0 when there is no limit, or none can be read.
+    """
+    candidates = (
+        "/sys/fs/cgroup/memory.max",                   # cgroup v2
+        "/sys/fs/cgroup/memory/memory.limit_in_bytes",  # cgroup v1
+    )
+
+    for path in candidates:
+        try:
+            with open(path, encoding="utf-8") as handle:
+                raw = handle.read().strip()
+        except OSError:
+            continue
+
+        if raw == "max":
+            return 0
+        try:
+            value = int(raw)
+        except ValueError:
+            continue
+
+        # "Unlimited" is expressed as a number near the word size rather than a
+        # sentinel, so anything absurd means no cap.
+        if value <= 0 or value >= 1 << 62:
+            return 0
+        return value // (1024 ** 2)
+
+    return 0
+
+
 def total_ram_mb() -> int:
     """
-    Physical memory on this machine, or 0 if it cannot be determined.
+    Memory this process may actually use, or 0 if it cannot be determined.
+
+    Under a container this is the cgroup cap rather than the machine's RAM:
+    reporting the host's 16 GB while the container may use 1 GB made every
+    model look like it would fit, so nothing warned before the kernel killed
+    the service mid-comparison.
 
     Used to warn before loading a model that will not fit. Deliberately
     dependency-free — psutil is not worth requiring for one number.
     """
+    capped = _cgroup_limit_mb()
+    physical = _physical_ram_mb()
+
+    if capped and physical:
+        return min(capped, physical)
+    return capped or physical
+
+
+def _physical_ram_mb() -> int:
+    """Memory installed in the machine, ignoring any cgroup cap."""
     try:
         if hasattr(os, "sysconf") and "SC_PHYS_PAGES" in os.sysconf_names:
             return os.sysconf("SC_PHYS_PAGES") * os.sysconf("SC_PAGE_SIZE") // (1024 ** 2)

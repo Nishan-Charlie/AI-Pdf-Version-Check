@@ -42,6 +42,7 @@ from config import (
     UNCHANGED_THRESHOLD,
     hf_repo_id,
     model_is_downloaded,
+    model_key_for,
     resolve_model,
     total_ram_mb,
 )
@@ -255,6 +256,7 @@ def warm_model(model: Optional[str] = Query(None)) -> dict:
     rather wait than poll.
     """
     model_id = resolve_model(model)
+    _ensure_model_fits(model_id)
     try:
         comparator = get_comparator(model_id)
         dimensions = comparator.dimension          # touching it forces the load
@@ -446,6 +448,7 @@ def _run_comparison(
     if not clauses_v1 or not clauses_v2:
         raise HTTPException(422, "One of these versions has no stored clauses.")
 
+    _ensure_model_fits(resolve_model(model))
     try:
         comparator = get_comparator(model)
     except Exception as exc:  # noqa: BLE001 — surface the loader's own message
@@ -457,6 +460,47 @@ def _run_comparison(
         ref_v1=_ref(left),
         ref_v2=_ref(right),
         strategy=strategy,
+    )
+
+
+def _ensure_model_fits(model_id: str) -> None:
+    """
+    Refuse a model this process has no room for, before trying to load it.
+
+    Loading one that does not fit does not raise — the kernel kills the process
+    part-way through, the container restarts, and the request in flight dies
+    with no explanation. The dashboard sees `socket hang up`, the API log shows
+    no completed request, and nothing anywhere says "out of memory".
+
+    Better to decline with a reason. The budget is the cgroup cap under a
+    container and physical memory otherwise, so this is meaningful in both.
+    """
+    budget = total_ram_mb()
+    if not budget:
+        return  # unknown; do not stand in the way
+
+    entry = next((e for e in MODEL_REGISTRY.values() if e["id"] == model_id), None)
+    if entry is None or entry["ram_mb"] <= budget:
+        return
+
+    smaller = sorted(
+        (e for e in MODEL_REGISTRY.values() if e["ram_mb"] <= budget),
+        key=lambda e: -e["ram_mb"],
+    )
+    key = model_key_for(model_id) or model_id
+    alternative = model_key_for(smaller[0]["id"]) if smaller else None
+
+    raise HTTPException(
+        507,
+        f"'{key}' needs about {entry['ram_mb']} MB and this service may use "
+        f"{budget} MB. Loading it would kill the service part-way through the "
+        f"comparison. "
+        + (
+            f"Use '{alternative}' instead, or give the container more memory "
+            f"(Docker Desktop → Settings → Resources)."
+            if alternative else
+            "Give the container more memory (Docker Desktop → Settings → Resources)."
+        ),
     )
 
 
