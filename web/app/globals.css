@@ -339,14 +339,27 @@ select.control {
 .btn:hover:not(:disabled) { background: var(--paper-sunken); border-color: var(--graphite-light); }
 .btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
+/*
+  Charcoal, not amber.
+
+  The amber is close in hue to --sand and --burnt, which mean "minor edit" and
+  "significant change". A large amber button put the brand colour into the same
+  family as two data colours, and colour here is supposed to mean exactly one
+  thing. So the accent stays small — the livery band, focus rings, links — and
+  the primary action is the charcoal of turnout gear, which is the other half
+  of the same reference and collides with nothing.
+*/
 .btn-primary {
-  background: var(--accent);
-  border-color: var(--accent);
-  /* The accent flips light/dark between themes, so the label tracks it
-     rather than being pinned to white. */
+  background: var(--ink);
+  border-color: var(--ink);
   color: var(--paper);
 }
-.btn-primary:hover:not(:disabled) { background: var(--accent-bright); border-color: var(--accent-bright); }
+.btn-primary:hover:not(:disabled) {
+  background: var(--ink-soft);
+  border-color: var(--ink-soft);
+}
+/* The amber returns on focus, where it is unambiguous and useful. */
+.btn-primary:focus-visible { outline-color: var(--accent-bright); }
 
 .btn-ghost { background: transparent; border-color: transparent; color: var(--graphite); }
 .btn-ghost:hover:not(:disabled) { background: var(--paper-sunken); color: var(--ink); }
