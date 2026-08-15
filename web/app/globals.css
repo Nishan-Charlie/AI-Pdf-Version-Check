@@ -1,28 +1,38 @@
 /*
   Fire Safety Regulation Comparison — design system
   ─────────────────────────────────────────────────
-  Colour carries one meaning in this interface: change. Red is text the new
-  edition removed, green is text it added, and the ochre scale between them is
-  how far a clause has moved. Nothing decorative is allowed to use those hues,
-  which is why the one brand accent is an ink blue.
+  Colour carries one meaning here: change. Red is text the new edition removed,
+  green is text it added, and the ochre scale between them is how far a clause
+  has moved. Nothing decorative may use those hues.
+
+  That constraint decides the fire-service theme. The obvious move — engine red
+  — is the one colour this interface cannot spend, because red already means
+  "deleted" inside the clause text and a red chrome would compete with the only
+  thing on screen that must never be ambiguous.
+
+  So the reference is turnout gear and appliance livery rather than flame: a
+  charcoal ground, and the retroreflective amber of the striping on a fire
+  coat as the single accent. Unmistakably of the fire service, and it leaves
+  the data palette alone.
 */
 
 :root {
-  /* Ground and ink */
-  --paper: #fbfaf8;
+  /* Ground and ink — station concrete and printed paper */
+  --paper: #f7f6f2;
   --paper-raised: #ffffff;
-  --paper-sunken: #f3f1ec;
-  --ink: #16181c;
-  --ink-soft: #3c4048;
-  --graphite: #6a6f78;
-  --graphite-light: #9a9ea6;
-  --rule: #e4e1d9;
-  --rule-strong: #cfcbc1;
+  --paper-sunken: #efece4;
+  --ink: #16181b;
+  --ink-soft: #3a3e45;
+  --graphite: #62666e;
+  --graphite-light: #979aa2;
+  --rule: #e2ded4;
+  --rule-strong: #cac5b8;
 
-  /* The single accent: the blue of a bound statute */
-  --indigo: #2c3a64;
-  --indigo-bright: #3b4e85;
-  --indigo-wash: #ecedf4;
+  /* The single accent: retroreflective amber, darkened enough to set text on
+     paper at accessible contrast. */
+  --accent: #a3620a;
+  --accent-bright: #c87a12;
+  --accent-wash: #fbf1de;
 
   /* Diff semantics — these five are the data palette */
   --del: #a81e27;
@@ -48,19 +58,22 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #121417;
-    --paper-raised: #191c20;
-    --paper-sunken: #0e1013;
-    --ink: #e8e6e1;
-    --ink-soft: #c2c0ba;
-    --graphite: #8e939b;
-    --graphite-light: #6a6f78;
-    --rule: #2a2e34;
-    --rule-strong: #3a3f47;
+    /* Turnout gear: a warm charcoal shell, not a blue-black screen. */
+    --paper: #17181a;
+    --paper-raised: #1e2023;
+    --paper-sunken: #101113;
+    --ink: #eae7e0;
+    --ink-soft: #c3bfb6;
+    --graphite: #918d85;
+    --graphite-light: #6b6862;
+    --rule: #2d2f32;
+    --rule-strong: #3e4145;
 
-    --indigo: #93a4d8;
-    --indigo-bright: #aab8e4;
-    --indigo-wash: #1c2130;
+    /* The reflective stripe, which is what it is for: it should catch the eye
+       against the dark the way the real thing does. */
+    --accent: #f0a63a;
+    --accent-bright: #ffbe5c;
+    --accent-wash: #2a2013;
 
     --del: #f08a90;
     --del-wash: #341a1d;
@@ -81,11 +94,11 @@
 
 /* The viewer's theme toggle stamps data-theme on the root and must win. */
 :root[data-theme="light"] {
-  --paper: #fbfaf8; --paper-raised: #ffffff; --paper-sunken: #f3f1ec;
-  --ink: #16181c; --ink-soft: #3c4048;
-  --graphite: #6a6f78; --graphite-light: #9a9ea6;
-  --rule: #e4e1d9; --rule-strong: #cfcbc1;
-  --indigo: #2c3a64; --indigo-bright: #3b4e85; --indigo-wash: #ecedf4;
+  --paper: #f7f6f2; --paper-raised: #ffffff; --paper-sunken: #efece4;
+  --ink: #16181b; --ink-soft: #3a3e45;
+  --graphite: #62666e; --graphite-light: #979aa2;
+  --rule: #e2ded4; --rule-strong: #cac5b8;
+  --accent: #a3620a; --accent-bright: #c87a12; --accent-wash: #fbf1de;
   --del: #a81e27; --del-wash: #fbe9e9;
   --ins: #14663f; --ins-wash: #e3f1e9;
   --sand: #8a6d18; --sand-wash: #f7f0dc;
@@ -94,11 +107,11 @@
 }
 
 :root[data-theme="dark"] {
-  --paper: #121417; --paper-raised: #191c20; --paper-sunken: #0e1013;
-  --ink: #e8e6e1; --ink-soft: #c2c0ba;
-  --graphite: #8e939b; --graphite-light: #6a6f78;
-  --rule: #2a2e34; --rule-strong: #3a3f47;
-  --indigo: #93a4d8; --indigo-bright: #aab8e4; --indigo-wash: #1c2130;
+  --paper: #17181a; --paper-raised: #1e2023; --paper-sunken: #101113;
+  --ink: #eae7e0; --ink-soft: #c3bfb6;
+  --graphite: #918d85; --graphite-light: #6b6862;
+  --rule: #2d2f32; --rule-strong: #3e4145;
+  --accent: #f0a63a; --accent-bright: #ffbe5c; --accent-wash: #2a2013;
   --del: #f08a90; --del-wash: #341a1d;
   --ins: #6fce9f; --ins-wash: #12291f;
   --sand: #d8b552; --sand-wash: #2a2415;
@@ -116,7 +129,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: var(--font-ui), system-ui, sans-serif;
+  font-family: var(--font-display), system-ui, sans-serif;
   font-size: 15px;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -127,10 +140,10 @@ h1, h2, h3, h4 { margin: 0; font-weight: 500; letter-spacing: -0.01em; }
 
 button, input, select, textarea { font: inherit; color: inherit; }
 
-a { color: var(--indigo); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 
 :focus-visible {
-  outline: 2px solid var(--indigo-bright);
+  outline: 2px solid var(--accent-bright);
   outline-offset: 2px;
   border-radius: 2px;
 }
@@ -160,7 +173,7 @@ a { color: var(--indigo); text-decoration-thickness: 1px; text-underline-offset:
   color: var(--graphite);
 }
 
-.serif { font-family: var(--font-display), Georgia, serif; }
+.serif { font-family: var(--font-body), Georgia, serif; }
 
 /* ── Shell ────────────────────────────────────────────────────────── */
 
@@ -181,6 +194,30 @@ a { color: var(--indigo); text-decoration-thickness: 1px; text-underline-offset:
   border-bottom: 1px solid var(--rule);
 }
 
+/*
+  The one piece of livery: the diagonal reflective striping from the back of a
+  fire appliance, as a 4px band under the masthead.
+
+  It earns its place by being the only decorative mark in the interface, and by
+  being small — a full chevron panel would be costume. Everything below this
+  line is instrument.
+*/
+.masthead::after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: repeating-linear-gradient(
+    114deg,
+    var(--accent) 0 10px,
+    transparent 10px 22px
+  );
+  opacity: 0.7;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .masthead { background: var(--paper); backdrop-filter: none; }
+}
+
 .masthead-inner {
   display: flex;
   align-items: center;
@@ -198,10 +235,13 @@ a { color: var(--indigo); text-decoration-thickness: 1px; text-underline-offset:
 }
 
 .wordmark-name {
-  font-family: var(--font-display), Georgia, serif;
-  font-size: 19px;
-  font-weight: 500;
-  letter-spacing: -0.015em;
+  font-family: var(--font-display), system-ui, sans-serif;
+  /* Set like the lettering on an appliance door: uppercase, heavy, and small
+     enough that it reads as a mark rather than a headline. */
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .wordmark-rule {
@@ -300,13 +340,13 @@ select.control {
 .btn:disabled { opacity: 0.45; cursor: not-allowed; }
 
 .btn-primary {
-  background: var(--indigo);
-  border-color: var(--indigo);
+  background: var(--accent);
+  border-color: var(--accent);
   /* The accent flips light/dark between themes, so the label tracks it
      rather than being pinned to white. */
   color: var(--paper);
 }
-.btn-primary:hover:not(:disabled) { background: var(--indigo-bright); border-color: var(--indigo-bright); }
+.btn-primary:hover:not(:disabled) { background: var(--accent-bright); border-color: var(--accent-bright); }
 
 .btn-ghost { background: transparent; border-color: transparent; color: var(--graphite); }
 .btn-ghost:hover:not(:disabled) { background: var(--paper-sunken); color: var(--ink); }
@@ -380,7 +420,7 @@ select.control {
   font-size: 9.5px;
   font-weight: 500;
   letter-spacing: 0.06em;
-  color: var(--indigo);
+  color: var(--accent);
 }
 
 /* ── Summary strip ────────────────────────────────────────────────── */
@@ -613,7 +653,7 @@ select.control {
 .record-section {
   font-size: 12.5px;
   color: var(--graphite);
-  font-family: var(--font-display), Georgia, serif;
+  font-family: var(--font-body), Georgia, serif;
   font-style: italic;
 }
 
@@ -679,7 +719,7 @@ select.control {
 }
 
 .clause-title {
-  font-family: var(--font-display), Georgia, serif;
+  font-family: var(--font-body), Georgia, serif;
   font-size: 15px;
   font-weight: 500;
   margin-bottom: 0.3rem;
@@ -687,7 +727,7 @@ select.control {
 
 /* Clause text is set as a document, not as UI. */
 .clause-text {
-  font-family: var(--font-display), Georgia, serif;
+  font-family: var(--font-body), Georgia, serif;
   font-size: 14.5px;
   line-height: 1.62;
   color: var(--ink-soft);
@@ -696,7 +736,7 @@ select.control {
 }
 
 .pane-absent {
-  font-family: var(--font-ui), sans-serif;
+  font-family: var(--font-display), sans-serif;
   font-size: 12.5px;
   font-style: normal;
   color: var(--graphite-light);
@@ -779,8 +819,8 @@ select.control {
   transition: border-color 0.12s ease, background 0.12s ease;
 }
 .dropzone:hover, .dropzone[data-over="true"] {
-  border-color: var(--indigo);
-  background: var(--indigo-wash);
+  border-color: var(--accent);
+  background: var(--accent-wash);
   color: var(--ink);
 }
 .dropzone strong { color: var(--ink); font-weight: 500; }
@@ -819,7 +859,7 @@ select.control {
   gap: 0.6rem;
   padding: 0.7rem 0.9rem;
   border: 1px solid var(--rule-strong);
-  border-left: 2px solid var(--notice-color, var(--indigo));
+  border-left: 2px solid var(--notice-color, var(--accent));
   border-radius: var(--radius);
   background: var(--notice-wash, var(--paper-sunken));
   font-size: 13px;
@@ -837,7 +877,7 @@ select.control {
 }
 
 .empty-title {
-  font-family: var(--font-display), Georgia, serif;
+  font-family: var(--font-body), Georgia, serif;
   font-size: 20px;
   color: var(--ink);
 }
@@ -854,14 +894,14 @@ select.control {
   overflow: hidden;
 }
 
-.bar-fill { position: absolute; inset: 0 auto 0 0; background: var(--indigo); }
+.bar-fill { position: absolute; inset: 0 auto 0 0; background: var(--accent); }
 
 .bar-indeterminate::after {
   content: "";
   position: absolute;
   inset: 0;
   width: 35%;
-  background: var(--indigo);
+  background: var(--accent);
   animation: slide 1.1s ease-in-out infinite;
 }
 
@@ -876,7 +916,7 @@ select.control {
   margin-top: 1.1rem;
   padding: 0.9rem 1.1rem 1rem;
   border: 1px solid var(--rule-strong);
-  border-left: 2px solid var(--indigo);
+  border-left: 2px solid var(--accent);
   border-radius: var(--radius);
   background: var(--paper-raised);
   box-shadow: var(--shadow-raised);
@@ -906,8 +946,8 @@ select.control {
   height: 13px;
   flex: none;
   border-radius: 50%;
-  border: 1.5px solid color-mix(in srgb, var(--indigo) 25%, transparent);
-  border-top-color: var(--indigo);
+  border: 1.5px solid color-mix(in srgb, var(--accent) 25%, transparent);
+  border-top-color: var(--accent);
   animation: spin 0.7s linear infinite;
 }
 
@@ -933,7 +973,7 @@ select.control {
   position: relative;
   height: 100%;
   border-radius: 3px;
-  background: var(--indigo);
+  background: var(--accent);
   /* Bytes arrive in bursts; easing the width stops the bar from twitching. */
   transition: width 0.35s ease;
 }
@@ -1003,7 +1043,7 @@ select.control {
   transition: color 0.12s ease, border-color 0.12s ease;
 }
 .tab:hover { color: var(--ink); }
-.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--indigo); }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
 
 /* ── Responsive ───────────────────────────────────────────────────── */
 

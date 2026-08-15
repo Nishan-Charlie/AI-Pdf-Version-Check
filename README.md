@@ -139,7 +139,9 @@ run. See [Reference collection](#reference-collection) for what is included.
 
 ```bash
 # Terminal 1 — API on :8000
-uvicorn api.main:app --reload --port 8000
+# No --reload: it runs a second process, doubling memory, and restarts the
+# worker mid-request, which the dashboard reports as `socket hang up`.
+uvicorn api.main:app --port 8000
 
 # Terminal 2 — dashboard on :3000
 cd web
