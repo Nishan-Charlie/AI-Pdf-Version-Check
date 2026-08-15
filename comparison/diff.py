@@ -16,7 +16,7 @@ angle brackets in the output are the ones this module writes.
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from difflib import SequenceMatcher
 from html import escape
 from typing import Optional
@@ -25,6 +25,18 @@ from typing import Optional
 # each their own token. Splitting punctuation off means "750mm." vs "600mm."
 # highlights the measurement, not the sentence.
 _TOKEN = re.compile(r"\s+|[^\W_]+(?:['’][^\W_]+)*|[^\s\w]|_")
+
+# Sentence ends and line breaks. Both alternatives are zero-width look-arounds
+# on purpose: re.split discards whatever the pattern consumes, so matching the
+# whitespace between sentences would silently drop it and the panes would no
+# longer reproduce the clause they quote.
+_SEGMENT_BOUNDARY = re.compile(r"(?<=[.;:!?])(?=\s)|(?<=\n)")
+
+# Longest combined token count still diffed word by word in one pass. Above
+# this the quadratic matcher is too slow to run inside a request, so the text
+# is matched sentence by sentence first. Sized above the 95th percentile clause
+# in the corpus, so ordinary clauses take the exact path.
+WORD_DIFF_MAX_TOKENS = 1500
 
 DEL_OPEN = '<del class="rl-del">'
 DEL_CLOSE = "</del>"
@@ -130,16 +142,66 @@ def redline(text_v1: Optional[str], text_v2: Optional[str]) -> Redline:
     tokens_v1 = tokenize(text_v1)
     tokens_v2 = tokenize(text_v2)
 
+    # SequenceMatcher is quadratic in the length of its inputs. Regulation
+    # clauses reach twelve thousand tokens, and a single pair that size was
+    # measured taking eleven seconds — enough, over a few hundred such rows, to
+    # outlast any request. Long pairs are therefore diffed in two passes; short
+    # ones, which are the overwhelming majority, go straight through.
+    if len(tokens_v1) + len(tokens_v2) <= WORD_DIFF_MAX_TOKENS:
+        pieces = _diff_tokens(tokens_v1, tokens_v2)
+    else:
+        pieces = _diff_segments(text_v1, text_v2)
+
+    return Redline(
+        html_v1="".join(pieces.parts_v1),
+        html_v2="".join(pieces.parts_v2),
+        html_unified="".join(pieces.parts_unified),
+        words_removed=pieces.removed,
+        words_added=pieces.added,
+        words_unchanged=pieces.unchanged,
+    )
+
+
+@dataclass
+class _Pieces:
+    """Rendered fragments and word counts, so the two passes compose."""
+
+    parts_v1: list[str] = field(default_factory=list)
+    parts_v2: list[str] = field(default_factory=list)
+    parts_unified: list[str] = field(default_factory=list)
+    removed: int = 0
+    added: int = 0
+    unchanged: int = 0
+
+    def extend(self, other: "_Pieces") -> None:
+        self.parts_v1.extend(other.parts_v1)
+        self.parts_v2.extend(other.parts_v2)
+        self.parts_unified.extend(other.parts_unified)
+        self.removed += other.removed
+        self.added += other.added
+        self.unchanged += other.unchanged
+
+    def mark(self, tokens_v1: list[str], tokens_v2: list[str]) -> None:
+        """Record one side as deleted and the other as inserted, wholesale."""
+        if tokens_v1:
+            marked = _render(tokens_v1, DEL_OPEN, DEL_CLOSE)
+            self.parts_v1.append(marked)
+            self.parts_unified.append(marked)
+            self.removed += _count_words(tokens_v1)
+        if tokens_v2:
+            marked = _render(tokens_v2, INS_OPEN, INS_CLOSE)
+            self.parts_v2.append(marked)
+            self.parts_unified.append(marked)
+            self.added += _count_words(tokens_v2)
+
+
+def _diff_tokens(tokens_v1: list[str], tokens_v2: list[str]) -> _Pieces:
+    """Exact word-level diff. Quadratic, so only used on bounded input."""
     # autojunk drops tokens that appear in more than 1% of a long sequence,
     # which in regulation text means "the", "shall", "fire" — exactly the
     # words that anchor a correct alignment. It has to be off.
     matcher = SequenceMatcher(a=tokens_v1, b=tokens_v2, autojunk=False)
-
-    parts_v1: list[str] = []
-    parts_v2: list[str] = []
-    parts_unified: list[str] = []
-
-    removed = added = unchanged = 0
+    pieces = _Pieces()
 
     for op, i1, i2, j1, j2 in matcher.get_opcodes():
         run_v1 = tokens_v1[i1:i2]
@@ -147,32 +209,80 @@ def redline(text_v1: Optional[str], text_v2: Optional[str]) -> Redline:
 
         if op == "equal":
             plain = _render(run_v1)
-            parts_v1.append(plain)
-            parts_v2.append(plain)
-            parts_unified.append(plain)
-            unchanged += _count_words(run_v1)
+            pieces.parts_v1.append(plain)
+            pieces.parts_v2.append(plain)
+            pieces.parts_unified.append(plain)
+            pieces.unchanged += _count_words(run_v1)
             continue
 
-        if op in ("delete", "replace"):
-            marked = _render(run_v1, DEL_OPEN, DEL_CLOSE)
-            parts_v1.append(marked)
-            parts_unified.append(marked)
-            removed += _count_words(run_v1)
+        pieces.mark(run_v1 if op in ("delete", "replace") else [],
+                    run_v2 if op in ("insert", "replace") else [])
 
-        if op in ("insert", "replace"):
-            marked = _render(run_v2, INS_OPEN, INS_CLOSE)
-            parts_v2.append(marked)
-            parts_unified.append(marked)
-            added += _count_words(run_v2)
+    return pieces
 
-    return Redline(
-        html_v1="".join(parts_v1),
-        html_v2="".join(parts_v2),
-        html_unified="".join(parts_unified),
-        words_removed=removed,
-        words_added=added,
-        words_unchanged=unchanged,
-    )
+
+def _diff_segments(text_v1: str, text_v2: str) -> _Pieces:
+    """
+    Two-pass diff for long clauses.
+
+    First match whole sentences against each other — a few dozen units rather
+    than thousands of tokens, so the quadratic cost collapses. Sentences that
+    survive unchanged are emitted as they are; only the regions that actually
+    differ are diffed word by word, and each of those is small.
+
+    The result is what a reader wants anyway: an unchanged paragraph is not
+    picked apart looking for coincidental word matches in a paragraph
+    elsewhere, which is what the single-pass diff does on long text.
+    """
+    segments_v1 = _segments(text_v1)
+    segments_v2 = _segments(text_v2)
+
+    matcher = SequenceMatcher(a=segments_v1, b=segments_v2, autojunk=False)
+    pieces = _Pieces()
+
+    for op, i1, i2, j1, j2 in matcher.get_opcodes():
+        run_v1 = segments_v1[i1:i2]
+        run_v2 = segments_v2[j1:j2]
+
+        if op == "equal":
+            plain = _render(run_v1)
+            pieces.parts_v1.append(plain)
+            pieces.parts_v2.append(plain)
+            pieces.parts_unified.append(plain)
+            # Count the words inside the segments, not the segments: each one
+            # is a whole sentence, so counting them directly would report a
+            # paragraph as a handful of words.
+            pieces.unchanged += _count_words(tokenize("".join(run_v1)))
+            continue
+
+        if op == "delete":
+            pieces.mark(tokenize("".join(run_v1)), [])
+            continue
+        if op == "insert":
+            pieces.mark([], tokenize("".join(run_v2)))
+            continue
+
+        # A replaced region: worth a word-level diff if it is small enough,
+        # otherwise marked whole. Rewritten wholesale reads the same either way.
+        inner_v1 = tokenize("".join(run_v1))
+        inner_v2 = tokenize("".join(run_v2))
+        if len(inner_v1) + len(inner_v2) <= WORD_DIFF_MAX_TOKENS:
+            pieces.extend(_diff_tokens(inner_v1, inner_v2))
+        else:
+            pieces.mark(inner_v1, inner_v2)
+
+    return pieces
+
+
+def _segments(text: str) -> list[str]:
+    """
+    Split into sentences, keeping every character so the text rebuilds exactly.
+
+    Sentence ends and line breaks are the boundaries a regulation is actually
+    edited at, which is what makes them the right unit for the coarse pass.
+    """
+    parts = _SEGMENT_BOUNDARY.split(text)
+    return [p for p in parts if p]
 
 
 def lexical_similarity(text_v1: str, text_v2: str) -> float:

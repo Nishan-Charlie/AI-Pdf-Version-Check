@@ -33,11 +33,25 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   try {
     response = await fetch(API_ORIGIN + path, init);
   } catch {
+    // The request never completed. Ask the service whether it is alive: if it
+    // is, it did not fall over — the connection was cut, or it restarted
+    // under memory pressure. Those need different advice, and neither is
+    // "the service is not running".
+    const alive = await fetch(`${API_ORIGIN}/api/health`)
+      .then((r) => r.ok)
+      .catch(() => false);
+
     throw new ApiError(
-      API_ORIGIN
-        ? `Can't reach the comparison service at ${API_ORIGIN}. Start it with ` +
-          "`uvicorn api.main:app --port 8000`."
-        : "Can't reach the comparison service. Start it with `uvicorn api.main:app --port 8000`.",
+      alive
+        ? "The comparison service is running but the connection dropped before " +
+          "it answered. On a machine short of memory the service can be " +
+          "restarted mid-comparison — try the smaller `mini` model, or compare " +
+          "shorter documents."
+        : API_ORIGIN
+          ? `Can't reach the comparison service at ${API_ORIGIN}. Start it with ` +
+            "`uvicorn api.main:app --port 8000`, or `docker compose up`."
+          : "Can't reach the comparison service. Start it with " +
+            "`uvicorn api.main:app --port 8000`, or `docker compose up`.",
     );
   }
 

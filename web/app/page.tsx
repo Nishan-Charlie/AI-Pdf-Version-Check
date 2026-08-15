@@ -557,7 +557,15 @@ export default function Page() {
             {download && <ModelDownload status={download} model={selectedModel} />}
 
             {comparing && !download && (
-              <div className="bar bar-indeterminate" role="status" aria-label="Comparing" />
+              <>
+                <div className="bar bar-indeterminate" role="status" aria-label="Comparing" />
+                <ComparisonProgress
+                  clauses={
+                    (visibleVersions.find((v) => v.id === baselineId)?.clause_count ?? 0) +
+                    (visibleVersions.find((v) => v.id === revisionId)?.clause_count ?? 0)
+                  }
+                />
+              </>
             )}
 
             {report && modelChanged && !comparing && (
@@ -770,6 +778,38 @@ function Summary({
         </span>
       </div>
     </section>
+  );
+}
+
+/**
+ * Elapsed time while a comparison runs.
+ *
+ * Comparing two full regulations takes a minute or more on an ordinary
+ * machine, and a bar that only pulses gives no way to tell work in progress
+ * from a hung request. A clock that keeps moving does.
+ */
+function ComparisonProgress({ clauses }: { clauses: number }) {
+  const [seconds, setSeconds] = useState(0);
+
+  useEffect(() => {
+    const started = Date.now();
+    const timer = window.setInterval(
+      () => setSeconds(Math.floor((Date.now() - started) / 1000)),
+      1000,
+    );
+    return () => window.clearInterval(timer);
+  }, []);
+
+  return (
+    <p
+      className="mono"
+      style={{ margin: "0.6rem 0 0", fontSize: 12, color: "var(--graphite)" }}
+      role="status"
+    >
+      Comparing {clauses.toLocaleString()} clauses · {seconds}s
+      {seconds > 45 && " · large documents take a few minutes"}
+      {seconds > 240 && " · still working; the service has not stopped responding"}
+    </p>
   );
 }
 

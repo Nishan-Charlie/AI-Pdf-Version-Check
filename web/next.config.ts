@@ -23,6 +23,19 @@ const config: NextConfig = {
   async rewrites() {
     return [{ source: "/api/:path*", destination: `${API_ORIGIN}/api/:path*` }];
   },
+
+  experimental: {
+    // Next gives a proxied request 30 seconds by default, which is far too
+    // little here: comparing two full regulations takes 26 seconds on a fast
+    // machine and 90+ on a slow one, so the proxy was cutting the connection
+    // while the service was still working. It surfaced as `socket hang up` /
+    // ECONNRESET at a suspiciously consistent 28 seconds, independent of how
+    // much work the comparison actually involved.
+    //
+    // Thirty minutes is generous on purpose — a comparison that exceeds it has
+    // a real problem worth surfacing, rather than a slow machine.
+    proxyTimeout: 30 * 60 * 1000,
+  },
 };
 
 export default config;

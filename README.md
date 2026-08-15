@@ -68,12 +68,12 @@ compiled on demand.
 
 Four things persist outside the containers, so a rebuild costs nothing:
 
-| Mounted | Why |
-| :--- | :--- |
-| `models` volume | Encoder weights, so `compose up` does not re-download them |
-| `fire_safety.db` | The clause database |
-| `corpus/raw`, `corpus/text` | Downloaded standards (~110 MB) and extracted text |
-| `evaluation/results` | Study output, readable on the host |
+| Mounted                     | Why                                                       |
+| :-------------------------- | :-------------------------------------------------------- |
+| `models` volume             | Encoder weights, so`compose up` does not re-download them |
+| `fire_safety.db`            | The clause database                                       |
+| `corpus/raw`, `corpus/text` | Downloaded standards (~110 MB) and extracted text         |
+| `evaluation/results`        | Study output, readable on the host                        |
 
 Choose the encoder at start:
 
@@ -425,7 +425,7 @@ Adding a jurisdiction means adding an entry to `JURISDICTIONS` and a
 | `RangeError: Failed to allocate memory` / `ERR_MEMORY_ALLOCATION_FAILED` when starting the dashboard | Node has run out of heap compiling the app — see below.                                                                                                                                                                  |
 | `Failed to proxy … /api/compare [Error: socket hang up] ECONNRESET`                                  | The Python service closed the connection: it was killed under memory pressure, or the comparison outran the proxy's request timeout. Both are covered below.                                                             |
 | `[model] could not preload …` at startup                                                             | The cached copy is incomplete. Run`python scripts/check_model.py` for the full reason, then `python scripts/check_model.py --fix` to re-download. The service still works meanwhile — the model is fetched on first use. |
-| `[WinError 1314] A required privilege is not held by the client`                                     | Windows blocked a symbolic link in the model cache. The service now copies instead — restart it, then run `python scripts/check_model.py --fix` to clear the half-written cache. |
+| `[WinError 1314] A required privilege is not held by the client`                                     | Windows blocked a symbolic link in the model cache. The service now copies instead — restart it, then run`python scripts/check_model.py --fix` to clear the half-written cache.                                          |
 | `ModuleNotFoundError: No module named 'fitz'`                                                        | `pip install PyMuPDF` — the import name differs from the package name.                                                                                                                                                   |
 | "No text could be read from …"                                                                       | The PDF is a scan. Run OCR over it first; the extractor reads text layers, not images.                                                                                                                                   |
 | Very few clauses parsed                                                                              | The document may not use numbered clauses, or the wrong jurisdiction was selected. Re-upload with the jurisdiction set explicitly, or leave it on*Detect*.                                                               |
@@ -530,12 +530,12 @@ It runs the same comparison three ways — in-process with no server, against th
 API directly, then through the dashboard's proxy — printing resident memory at
 each step. The first level that fails is the layer to fix:
 
-| Fails at | Meaning |
-| :--- | :--- |
-| In-process | The comparison itself is too heavy for this machine. Use `mini`, or compare smaller documents. |
-| Direct API | The service dies or rejects the request. The script reports whether it is still alive afterwards; if not, the OS killed it for memory. |
-| Only through the proxy | The dashboard is the problem — bypass it with `NEXT_PUBLIC_API_ORIGIN`. |
-| Nothing | The problem is in the browser. Check its console (F12). |
+| Fails at               | Meaning                                                                                                                                |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------- |
+| In-process             | The comparison itself is too heavy for this machine. Use`mini`, or compare smaller documents.                                          |
+| Direct API             | The service dies or rejects the request. The script reports whether it is still alive afterwards; if not, the OS killed it for memory. |
+| Only through the proxy | The dashboard is the problem — bypass it with`NEXT_PUBLIC_API_ORIGIN`.                                                                 |
+| Nothing                | The problem is in the browser. Check its console (F12).                                                                                |
 
 ### Running on 8 GB
 
